@@ -36,7 +36,8 @@ def InstallVimfiles(vimfilesSrc, vimfilesDest):
         assert len(subDir) == 0
         for cFile in subFiles :
             #Todo: 提示覆盖
-            shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
+            if cFile.endswith('.vim'):
+                shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
 
 if __name__ == '__main__':
     #配置vim

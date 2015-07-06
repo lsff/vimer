@@ -5,6 +5,10 @@ set guifont=Consolas:h11:cANSI "字体可以通过set guifont=* 选择适当的�
 set cursorline "高亮当前行
 colorscheme codeschool "颜色主题
 set noerrorbells "输入错误的提示声
-
 set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 set fileencoding=utf-8 "新建文件默认编码
+set tabstop=4 "tab长度
+set linebreak "独立单词不分行
+
+
+
