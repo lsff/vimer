@@ -10,5 +10,8 @@ set fileencoding=utf-8 "新建文件默认编码
 set tabstop=4 "tab长度
 set linebreak "独立单词不分行
 
+filetype plugin on
+let g:pydiction_location='$VIM/plugin/pydiction/complete-dict'
+let g:pydiction_menu_height=3
 
 

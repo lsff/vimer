@@ -39,6 +39,10 @@ def InstallVimfiles(vimfilesSrc, vimfilesDest):
             if cFile.endswith('.vim'):
                 shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
 
+def InstallPlugin(pluginSrc, pluginDest):
+    shutil.copytree(pluginSrc, pluginDest)
+    
+
 if __name__ == '__main__':
     #配置vim
     strVimPath = GetAndCheckVIMPathFromArgs(*sys.argv[1:])
@@ -51,3 +55,8 @@ if __name__ == '__main__':
     assert os.path.isdir(strVimfilesSrc)
     strVimfilesDest = strVimPath + 'vimfiles/' if strVimPath.endswith('/') else strVimPath + '/vimfiles/'
     InstallVimfiles(strVimfilesSrc, strVimfilesDest)
+    
+    strVimPluginSrc = 'plugin/'
+    assert os.path.isdir(strVimPluginSrc)
+    strVimPluginDest = strVimPath + 'plugin/' if strVimPath.endswith('/') else strVimPath + '/plugin/'
+    InstallPlugin(strVimPluginSrc, strVimPluginDest)
