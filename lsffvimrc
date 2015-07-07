@@ -9,6 +9,7 @@ set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 set fileencoding=utf-8 "新建文件默认编码
 set tabstop=4 "tab长度
 set linebreak "独立单词不分行
+let mapleader = ","
 
 "pydiction
 filetype plugin on
@@ -20,6 +21,29 @@ set cindent "c语言缩进
 set smartindent
 set shiftwidth=4
 set softtabstop=4
+
+let g:iswindows = 0
+let g:islinux = 0
+if (has('win32') || has('win64'))
+	let g:iswindows = 1
+else
+	let g:islinux = 1
+endif
+
+if g:iswindows
+	"VimTweak
+	"透明
+	map <leader>aw :call libcallnr("VimTweak//vimtweak.dll", "SetAlpha", 200)<cr>
+	map <leader>aW :call libcallnr("VimTweak//vimtweak.dll", "SetAlpha", 255)<cr>
+	"最大化
+	map <leader>mw :call libcallnr("VimTweak//vimtweak.dll", "EnableMaximize", 1)<cr>
+	map <leader>Mw :call libcallnr("VimTweak//vimtweak.dll", "EnableMaximize", 0)<cr>
+	"Top most
+	map <leader>et :call libcallnr("VimTweak//vimtweak.dll", "EnableTopMost", 1)<cr>
+	map <leader>eT :call libcallnr("VimTweak//vimtweak.dll", "EnableTopMost", 0)<cr>
+endif
+	
+
 
 
 

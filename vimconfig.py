@@ -39,11 +39,23 @@ def InstallVimfiles(vimfilesSrc, vimfilesDest):
             if cFile.endswith('.vim'):
                 shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
 
+def RecurseCopyDir(srcDir, destDir):
+    for root, subDirs, subFiles in os.walk(srcDir):
+        relRootPath = os.path.relpath(root, start=srcDir)
+        if relRootPath != '.' and not os.path.exists(os.path.join(destDir, relRootPath)):
+            shutil.copytree(root, os.path.join(destDir, relRootPath))
+            continue
+        for cFile in subFiles:
+            shutil.copyfile(os.path.join(root, cFile), os.path.join(destDir, relRootPath, cFile))
+        
+
 def InstallPlugin(pluginSrc, pluginDest):
     if not os.path.exists(pluginDest):
         shutil.copytree(pluginSrc, pluginDest, ignore=shutil.ignore_patterns("*~", "*swp"))
     else:
-        pass
+        RecurseCopyDir(pluginSrc, pluginDest) 
+
+
 
 if __name__ == '__main__':
     #配置vim
@@ -62,3 +74,9 @@ if __name__ == '__main__':
     assert os.path.isdir(strVimPluginSrc)
     strVimPluginDest = strVimPath + 'plugin/' if strVimPath.endswith('/') else strVimPath + '/plugin/'
     InstallPlugin(strVimPluginSrc, strVimPluginDest)
+
+    strVimExe = 'vimexe/'
+    assert os.path.isdir(strVimExe)
+    strVimExeDest = os.path.join(strVimPath, 'vim74')
+    if os.path.exists(strVimExeDest):
+        InstallPlugin(strVimExe, strVimExeDest)
