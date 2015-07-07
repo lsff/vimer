@@ -40,8 +40,10 @@ def InstallVimfiles(vimfilesSrc, vimfilesDest):
                 shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
 
 def InstallPlugin(pluginSrc, pluginDest):
-    shutil.copytree(pluginSrc, pluginDest)
-    
+    if not os.path.exists(pluginDest):
+        shutil.copytree(pluginSrc, pluginDest, ignore=shutil.ignore_patterns("*~", "*swp"))
+    else:
+        pass
 
 if __name__ == '__main__':
     #配置vim
