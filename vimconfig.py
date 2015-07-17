@@ -5,7 +5,22 @@ import sys
 import shutil
 
 strErrorInfo = '参数有误'
-strUsageMsg = 'Usage: vimconfig.py [vim 安装目录]'
+strUsageMsg = 'Usage: vimconfig.py vimfiles=[vimfiles目录] plugins=[plugins目录] vimbin=[vim运行文件所在目录]  ps:=1,两边不能有空格; 2,路径有空格应该用""包起来'
+
+def CheckArgus(*args):
+    if len(args) != 3:
+        return False
+    argsDict = dict.fromkeys(['vimfiles', 'plugins', 'vimbin'])
+    for curArg in args:
+        try:
+            argPair = curArg.split('=', 1)
+        except:
+            return False
+        else:
+            if len(argPair) != 2 or not argPair[0] in argsDict :
+                return False;
+            argsDict[argPair[0]] = argPair[1]
+    return argsDict
 
 def GetAndCheckVIMPathFromArgs(*args):
     strVimPath = ''
@@ -55,10 +70,11 @@ def InstallPlugin(pluginSrc, pluginDest):
     else:
         RecurseCopyDir(pluginSrc, pluginDest) 
 
-
-
 if __name__ == '__main__':
     #配置vim
+
+    argsDict = CheckArgus(*sys.argv[1:])
+
     strVimPath = GetAndCheckVIMPathFromArgs(*sys.argv[1:])
     if not len(strVimPath):
         print(strErrorInfo, strUsageMsg, sep='\n')
