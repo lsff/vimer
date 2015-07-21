@@ -5,7 +5,7 @@ import sys
 import shutil
 
 strErrorInfo = '参数有误'
-strUsageMsg = 'Usage: vimconfig.py vimfiles=[vimfiles目录] plugins=[plugins目录] vimbin=[vim运行文件所在目录]  ps:=1,两边不能有空格; 2,路径有空格应该用""包起来'
+strUsageMsg = 'Usage: vimconfig.py vimfiles=[vimfiles目录] plugins=[plugins目录] vimbin=[vim运行文件所在目录]  (ps:两边不能有空格; 路径有空格应该用""包起来)'
 
 def CheckArgus(*args):
     if len(args) != 3:
@@ -18,7 +18,7 @@ def CheckArgus(*args):
             return False
         else:
             if len(argPair) != 2 or not argPair[0] in argsDict :
-                return False;
+                return False
             argsDict[argPair[0]] = argPair[1]
     return argsDict
 
@@ -70,29 +70,35 @@ def InstallPlugin(pluginSrc, pluginDest):
     else:
         RecurseCopyDir(pluginSrc, pluginDest) 
 
+def InstallVimbin(vimbinSrc, vimbinDest):
+    InstallPlugin(vimbinSrc, vimbinDest)
+
 if __name__ == '__main__':
     #配置vim
 
     argsDict = CheckArgus(*sys.argv[1:])
-
-    strVimPath = GetAndCheckVIMPathFromArgs(*sys.argv[1:])
-    if not len(strVimPath):
+    if not argsDict:
         print(strErrorInfo, strUsageMsg, sep='\n')
         sys.exit()
-    assert len(strVimPath) and os.path.isdir(strVimPath)
-
-    strVimfilesSrc = 'vimfiles/'
-    assert os.path.isdir(strVimfilesSrc)
-    strVimfilesDest = strVimPath + 'vimfiles/' if strVimPath.endswith('/') else strVimPath + '/vimfiles/'
-    InstallVimfiles(strVimfilesSrc, strVimfilesDest)
     
-    strVimPluginSrc = 'plugin/'
-    assert os.path.isdir(strVimPluginSrc)
-    strVimPluginDest = strVimPath + 'plugin/' if strVimPath.endswith('/') else strVimPath + '/plugin/'
-    InstallPlugin(strVimPluginSrc, strVimPluginDest)
+    #1, 复制Vimfiles
+    if not os.path.isdir(argsDict['vimfiles']):
+        print(strErrorInfo, 'vimfiles目录不存在', '\n')
+        sys.exit()
+    szVimfilesSrc = 'vimfiles/'
+    InstallVimfiles(szVimfilesSrc, argsDict['vimfiles'])
 
-    strVimExe = 'vimexe/'
-    assert os.path.isdir(strVimExe)
-    strVimExeDest = os.path.join(strVimPath, 'vim74')
-    if os.path.exists(strVimExeDest):
-        InstallPlugin(strVimExe, strVimExeDest)
+    #2, 复制plugin目录
+    if not os.path.isdir(argsDict['plugins']):
+        print(strErrorInfo, 'plugins目录不存在', '\n')
+        sys.exit()
+    szPluginsSrc = 'plugin/'
+    InstallPlugin(szPluginsSrc, argsDict['plugins'])
+
+    #3, 复制vimbin目录 一些插件需要把可执行文件放在vim/gvim可执行文件所在目录
+    if not os.path.isdir(argsDict['vimbin']):
+        print(strErrorInfo, 'vimbin目录不存在', '\n')
+        sys.exit()
+    szVimbinSrc = 'vimexe/'
+    InstallVimbin(szVimbinSrc, argsDict['vimbin'])
+
