@@ -13,3 +13,5 @@ vimconfig.py vimfiles=[vimfiles目录] plugins=[plugins目录] vimbin=[vim运行
 2,linux环境
 whichis gvim 命令可以查看vim的运行文件和vimfiles目录的位置
 
+在vim配置文件,windows的_vimrc, linux的.vimrc中加入一句
+source [本目录下的lsffvimrc路径]
