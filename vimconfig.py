@@ -5,12 +5,12 @@ import sys
 import shutil
 
 strErrorInfo = '参数有误'
-strUsageMsg = 'Usage: vimconfig.py vimfiles=[vimfiles目录] plugins=[plugins目录] vimbin=[vim运行文件所在目录]  (ps:两边不能有空格; 路径有空格应该用""包起来)'
+strUsageMsg = 'Usage: vimconfig.py vimfiles=[vimfiles目录] plugins=[plugins目录] vimbin=[vim运行文件所在目录] vimrc=[vimrc文件路劲] (ps:两边不能有空格; 路径有空格应该用""包起来)'
 
 def CheckArgus(*args):
-    if len(args) != 3:
+    if len(args) != 4:
         return False
-    argsDict = dict.fromkeys(['vimfiles', 'plugins', 'vimbin'])
+    argsDict = dict.fromkeys(['vimfiles', 'plugins', 'vimbin', 'vimrc'])
     for curArg in args:
         try:
             argPair = curArg.split('=', 1)
@@ -92,7 +92,7 @@ if __name__ == '__main__':
     if not os.path.isdir(argsDict['plugins']):
         print(strErrorInfo, 'plugins目录不存在', '\n')
         sys.exit()
-    szPluginsSrc = 'plugin/'
+    szPluginsSrc = 'plugins/'
     InstallPlugin(szPluginsSrc, argsDict['plugins'])
 
     #3, 复制vimbin目录 一些插件需要把可执行文件放在vim/gvim可执行文件所在目录
@@ -101,4 +101,24 @@ if __name__ == '__main__':
         sys.exit()
     szVimbinSrc = 'vimexe/'
     InstallVimbin(szVimbinSrc, argsDict['vimbin'])
+
+    #4, 复制lsffvimrc 并修改vimrc文件
+    if not os.path.exists(argsDict['vimrc']):
+        print(strErrorInfo, 'vimrc文件路径不存在', '\n')
+        sys.exit()
+    dirVimrc = os.path.dirname(argsDict['vimrc'])
+    assert os.path.isdir(dirVimrc)
+    shutil.copy('lsffvimrc', dirVimrc)
+    lineAppend = 'source $VIM\lsffvimrc'
+    for line in open(argsDict['vimrc']):
+        if line == lineAppend :
+            break
+    else:
+        fileVimrc = open(argsDict['vimrc'], 'a')
+        print(lineAppend, file=fileVimrc)
+        close(fileVimrc)
+
+
+
+
 
