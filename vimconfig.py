@@ -116,9 +116,4 @@ if __name__ == '__main__':
     else:
         fileVimrc = open(argsDict['vimrc'], 'a')
         print(lineAppend, file=fileVimrc)
-        close(fileVimrc)
-
-
-
-
 
