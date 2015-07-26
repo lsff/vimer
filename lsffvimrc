@@ -14,7 +14,7 @@ let mapleader = ","
 
 "pydiction
 filetype plugin on
-let g:pydiction_location='$VIM/plugin/pydiction/complete-dict'
+let g:pydiction_location='$VIM/plugins/pydiction/complete-dict'
 let g:pydiction_menu_height=3
 
 set autoindent "自动缩进
@@ -44,4 +44,10 @@ if g:iswindows
 	map <leader>eT :call libcallnr("VimTweak//vimtweak.dll", "EnableTopMost", 0)<cr>
 	autocmd GUIEnter * call libcallnr("VimTweak//vimtweak.dll", "SetAlpha", 200)
 endif
+
+"默认值为"blank,buffers,curdir,folds,help,options,tabpages,winsize"
+"增加 folds折叠, resize行列数, winpos窗口位置
+set sessionoptions=blank,buffers,curdir,folds,help,options,tabpages,winsize,folds,resize,winpos
+let g:SessionSaveDir='d:/vimsession/'
+source $VIM/plugins/toolscript/sessionmanager.vim
 
