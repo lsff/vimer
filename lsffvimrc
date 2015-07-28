@@ -48,6 +48,8 @@ endif
 "默认值为"blank,buffers,curdir,folds,help,options,tabpages,winsize"
 "增加 folds折叠, resize行列数, winpos窗口位置
 set sessionoptions=blank,buffers,curdir,folds,help,options,tabpages,winsize,folds,resize,winpos
-let g:SessionSaveDir='d:/vimsession/'
+if !exists("g:SessionSaveDir")
+	let g:SessionSaveDir='d:/vimsession/'
+endif
 source $VIM/plugins/toolscript/sessionmanager.vim
 
