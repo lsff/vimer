@@ -111,7 +111,7 @@ if __name__ == '__main__':
     shutil.copy('lsffvimrc', dirVimrc)
     lineAppend = 'source $VIM\lsffvimrc'
     for line in open(argsDict['vimrc']):
-        if line == lineAppend :
+        if line.rstrip('\n ') == lineAppend :
             break
     else:
         fileVimrc = open(argsDict['vimrc'], 'a')
