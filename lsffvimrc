@@ -51,3 +51,5 @@ set sessionoptions=blank,buffers,curdir,folds,help,options,tabpages,winsize,fold
 let g:SessionSaveDir='d:/vimsession/'
 source $VIM/plugins/toolscript/sessionmanager.vim
 
+set laststatus=2 "窗口底下状态栏常在
+set hlsearch "高亮选中内容
