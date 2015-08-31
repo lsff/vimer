@@ -17,5 +17,7 @@ ps:[plugins目录]为新增目录,父目录通过运行vim,运行echo $VIM获得
 #####更新
 + 2015/8/13 增加[vmdcmd](https://code.google.com/p/cmd-dot-vim/)
 + 2015/8/31 修改guifont为[Input](http://input.fontbureau.com/download/); 修改encoding为utf-8; 修改message的语言为en_US
++ 2015/8/31 增加[vim-air-line](https://github.com/bling/vim-airline)
+
 
 
