@@ -2,12 +2,10 @@ set number "设置行号
 set guioptions-=T "gvim 减掉工具栏
 set guioptions-=r "gvim 减掉右滚动条
 set guioptions-=m "gvim 减掉菜单栏
-set guifont=Consolas:h11:cANSI "字体可以通过set guifont=* 选择适当的字体
+set guifont=InputMono:h10:cANSI "字体可以通过set guifont=* 选择适当的字体
 set cursorline "高亮当前行
 colorscheme codeschool "颜色主题
 set noerrorbells "输入错误的提示声
-set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
-set fileencoding=utf-8 "新建文件默认编码
 set tabstop=4 "tab长度
 set linebreak "独立单词不分行
 let mapleader = ","
@@ -84,3 +82,17 @@ set hlsearch "高亮选中内容
 
 colorscheme solarized
 call togglebg#map("<F5>")
+
+set nrformats="octal,hex" "控制<C-A> <C-X>行为
+set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
+
+set fileencoding=utf-8 "新建文件默认编码
+set termencoding=utf-8
+set encoding=utf-8 "vim 内部编码
+if g:iswindows
+	"菜单乱码
+	source $VIMRUNTIME/delmenu.vim
+	source $VIMRUNTIME/menu.vim
+endif
+language messages en_US.utf-8 "提示信息乱码,改成中文显示
+
