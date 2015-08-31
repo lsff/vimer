@@ -43,17 +43,6 @@ def GetAndCheckVIMPathFromArgs(*args):
                 strVimPath = args[0]
     return strVimPath
 
-def InstallVimfiles(vimfilesSrc, vimfilesDest):
-    vimfilesSub = ['colors', 'compiler', 'doc', 'ftdetect', 'ftplugin', 'indent', 'keymap', 'plugin', 'syntax']
-    for root, subDir, subFiles in os.walk(vimfilesSrc):
-        if not os.path.basename(root) in vimfilesSub:
-            continue
-        assert len(subDir) == 0
-        for cFile in subFiles :
-            #Todo: 提示覆盖
-            if cFile.endswith('.vim'):
-                shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
-
 def RecurseCopyDir(srcDir, destDir):
     for root, subDirs, subFiles in os.walk(srcDir):
         relRootPath = os.path.relpath(root, start=srcDir)
@@ -62,7 +51,18 @@ def RecurseCopyDir(srcDir, destDir):
             continue
         for cFile in subFiles:
             shutil.copyfile(os.path.join(root, cFile), os.path.join(destDir, relRootPath, cFile))
-        
+
+def InstallVimfiles(vimfilesSrc, vimfilesDest):
+    vimfilesSub = ['colors', 'compiler', 'doc', 'ftdetect', 'ftplugin', 'indent', 'keymap', 'plugin', 'syntax']
+    for root, subDirs, subFiles in os.walk(vimfilesSrc):
+        if not os.path.basename(root) in vimfilesSub:
+            continue
+        for cFile in subFiles :
+            #Todo: 提示覆盖
+            if cFile.endswith('.vim'):
+                shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
+        for subDir in subDirs:
+            InstallPlugin(os.path.join(root, subDir), os.path.join(vimfilesDest, os.path.basename(root), subDir))
 
 def InstallPlugin(pluginSrc, pluginDest):
     if not os.path.exists(pluginDest):
