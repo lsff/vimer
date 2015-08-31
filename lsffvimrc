@@ -80,7 +80,7 @@ source $VIM/plugins/toolscript/sessionmanager.vim
 set laststatus=2 "窗口底下状态栏常在
 set hlsearch "高亮选中内容
 
-colorscheme solarized
+colorscheme desert
 call togglebg#map("<F5>")
 
 set nrformats="octal,hex" "控制<C-A> <C-X>行为
