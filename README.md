@@ -19,3 +19,4 @@ ps:[plugins目录]为新增目录,父目录通过运行vim,运行echo $VIM获得
 + 2015/8/31 修改guifont为[Input](http://input.fontbureau.com/download/); 修改encoding为utf-8; 修改message的语言为en_US
 + 2015/8/31 增加[vim-air-line](https://github.com/bling/vim-airline)
 + 2015/9/01 增加[cpp stl.vim词法高亮](https://github.com/Mizuchi/STL-Syntax)
++ 2015/9/01 增加调整行列数(ps:columns lines 值)快捷方式

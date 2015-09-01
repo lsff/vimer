@@ -96,3 +96,10 @@ if g:iswindows
 endif
 language messages en_US.utf-8 "提示信息乱码,改成中文显示
 
+nmap <C-right> :let &columns=&columns+1 <CR> :echon "columns="&columns <CR>
+nmap <C-left> :let &columns=&columns-1 <CR> :echon "columns="&columns <CR>
+nmap <C-up> :let &lines=&lines-1 <CR> :echon "lines="&lines <CR>
+nmap <C-down> :let &lines=&lines+1 <CR> :echon "lines="&lines <CR>
+
+
+
