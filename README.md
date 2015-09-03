@@ -21,3 +21,4 @@ ps:[plugins目录]为新增目录,父目录通过运行vim,运行echo $VIM获得
 + 2015/9/01 增加[cpp stl.vim词法高亮](https://github.com/Mizuchi/STL-Syntax)
 + 2015/9/01 增加调整行列数(ps:columns lines 值)快捷方式
 + 2015/9/02 增加[vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight) ps: 高亮c/c++更多语法
++ 2015/9/04 增加wintype类型词法高亮

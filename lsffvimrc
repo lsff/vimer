@@ -4,6 +4,7 @@ set guioptions-=r "gvim 减掉右滚动条
 set guioptions-=m "gvim 减掉菜单栏
 set guifont=InputMono:h10:cANSI "字体可以通过set guifont=* 选择适当的字体
 set cursorline "高亮当前行
+set cursorcolumn "高亮当前列
 colorscheme codeschool "颜色主题
 set noerrorbells "输入错误的提示声
 set tabstop=4 "tab长度
