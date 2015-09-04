@@ -2,6 +2,7 @@ set number "设置行号
 set guioptions-=T "gvim 减掉工具栏
 set guioptions-=r "gvim 减掉右滚动条
 set guioptions-=m "gvim 减掉菜单栏
+set guioptions-=L "gvim 减掉菜单栏
 set guifont=InputMono:h10:cANSI "字体可以通过set guifont=* 选择适当的字体
 set cursorline "高亮当前行
 set cursorcolumn "高亮当前列
@@ -105,3 +106,9 @@ nmap <C-down> :let &lines=&lines+1 <CR> :echon "lines="&lines <CR>
 "octol/vim-cpp-enhanced-highlight
 let g:cpp_class_scope_highlight = 1
 let g:cpp_experimental_template_highlight = 1
+
+filetype indent on "智能缩进
+
+set vb t_vb = "按esc no bells
+
+source $VIM/plugin_config/vim-indent-guides.vim

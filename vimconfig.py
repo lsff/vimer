@@ -73,6 +73,9 @@ def InstallPlugin(pluginSrc, pluginDest):
 def InstallVimbin(vimruntimeSrc, vimruntimeDest):
     InstallPlugin(vimruntimeSrc, vimruntimeDest)
 
+def InstallPluginConfig(pluginconfigSrc, pluginconfigDest):
+    InstallPlugin(pluginconfigSrc, pluginconfigDest)
+
 if __name__ == '__main__':
     #配置vim
 
@@ -117,3 +120,8 @@ if __name__ == '__main__':
         fileVimrc = open(argsDict['vimrc'], 'a')
         print(lineAppend, file=fileVimrc)
 
+    #5, 复制plugin_config目录
+    szVimPluginConfig = 'plugin_config'
+    szVimPluginConfigDest = os.path.join(os.path.dirname(argsDict['vimrc']), szVimPluginConfig)
+    if os.path.exists(szVimPluginConfig):
+        InstallPluginConfig(szVimPluginConfig, szVimPluginConfigDest)
