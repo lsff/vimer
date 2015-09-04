@@ -1,0 +1,9631 @@
+syntax keyword cppWinTypes FORCEINLINE
+
+
+syntax keyword cppWinConstant FACILITY_XPS
+syntax keyword cppWinConstant FACILITY_WINRM
+syntax keyword cppWinConstant FACILITY_WINDOWSUPDATE
+syntax keyword cppWinConstant FACILITY_WINDOWS_DEFENDER
+syntax keyword cppWinConstant FACILITY_WINDOWS_CE
+syntax keyword cppWinConstant FACILITY_WINDOWS
+syntax keyword cppWinConstant FACILITY_USERMODE_VOLMGR
+syntax keyword cppWinConstant FACILITY_USERMODE_VIRTUALIZATION
+syntax keyword cppWinConstant FACILITY_USERMODE_VHD
+syntax keyword cppWinConstant FACILITY_URT
+syntax keyword cppWinConstant FACILITY_UMI
+syntax keyword cppWinConstant FACILITY_UI
+syntax keyword cppWinConstant FACILITY_TPM_SOFTWARE
+syntax keyword cppWinConstant FACILITY_TPM_SERVICES
+syntax keyword cppWinConstant FACILITY_SXS
+syntax keyword cppWinConstant FACILITY_STORAGE
+syntax keyword cppWinConstant FACILITY_STATE_MANAGEMENT
+syntax keyword cppWinConstant FACILITY_SSPI
+syntax keyword cppWinConstant FACILITY_SCARD
+syntax keyword cppWinConstant FACILITY_SHELL
+syntax keyword cppWinConstant FACILITY_SETUPAPI
+syntax keyword cppWinConstant FACILITY_SECURITY
+syntax keyword cppWinConstant FACILITY_SDIAG
+syntax keyword cppWinConstant FACILITY_RPC
+syntax keyword cppWinConstant FACILITY_RAS
+syntax keyword cppWinConstant FACILITY_PLA
+syntax keyword cppWinConstant FACILITY_OPC
+syntax keyword cppWinConstant FACILITY_WIN32
+syntax keyword cppWinConstant FACILITY_CONTROL
+syntax keyword cppWinConstant FACILITY_WEBSERVICES
+syntax keyword cppWinConstant FACILITY_NULL
+syntax keyword cppWinConstant FACILITY_NDIS
+syntax keyword cppWinConstant FACILITY_METADIRECTORY
+syntax keyword cppWinConstant FACILITY_MSMQ
+syntax keyword cppWinConstant FACILITY_MEDIASERVER
+syntax keyword cppWinConstant FACILITY_MBN
+syntax keyword cppWinConstant FACILITY_INTERNET
+syntax keyword cppWinConstant FACILITY_ITF
+syntax keyword cppWinConstant FACILITY_USERMODE_HYPERVISOR
+syntax keyword cppWinConstant FACILITY_HTTP
+syntax keyword cppWinConstant FACILITY_GRAPHICS
+syntax keyword cppWinConstant FACILITY_FWP
+syntax keyword cppWinConstant FACILITY_FVE
+syntax keyword cppWinConstant FACILITY_USERMODE_FILTER_MANAGER
+syntax keyword cppWinConstant FACILITY_DPLAY
+syntax keyword cppWinConstant FACILITY_DISPATCH
+syntax keyword cppWinConstant FACILITY_DIRECTORYSERVICE
+syntax keyword cppWinConstant FACILITY_CONFIGURATION
+syntax keyword cppWinConstant FACILITY_COMPLUS
+syntax keyword cppWinConstant FACILITY_USERMODE_COMMONLOG
+syntax keyword cppWinConstant FACILITY_CMI
+syntax keyword cppWinConstant FACILITY_CERT
+syntax keyword cppWinConstant FACILITY_BCD
+syntax keyword cppWinConstant FACILITY_BACKGROUNDCOPY
+syntax keyword cppWinConstant FACILITY_ACS
+syntax keyword cppWinConstant FACILITY_AAF
+
+
+syntax keyword cppWinConstant ERROR_SUCCESS
+
+syntax keyword cppWinConstant NO_ERROR
+syntax keyword cppWinConstant SEC_E_OK
+
+syntax keyword cppWinConstant ERROR_INVALID_FUNCTION
+
+syntax keyword cppWinConstant ERROR_FILE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_PATH_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_OPEN_FILES
+
+syntax keyword cppWinConstant ERROR_ACCESS_DENIED
+
+syntax keyword cppWinConstant ERROR_INVALID_HANDLE
+
+syntax keyword cppWinConstant ERROR_ARENA_TRASHED
+
+syntax keyword cppWinConstant ERROR_NOT_ENOUGH_MEMORY
+
+syntax keyword cppWinConstant ERROR_INVALID_BLOCK
+
+syntax keyword cppWinConstant ERROR_BAD_ENVIRONMENT
+
+syntax keyword cppWinConstant ERROR_BAD_FORMAT
+
+syntax keyword cppWinConstant ERROR_INVALID_ACCESS
+
+syntax keyword cppWinConstant ERROR_INVALID_DATA
+
+syntax keyword cppWinConstant ERROR_OUTOFMEMORY
+
+syntax keyword cppWinConstant ERROR_INVALID_DRIVE
+
+syntax keyword cppWinConstant ERROR_CURRENT_DIRECTORY
+
+syntax keyword cppWinConstant ERROR_NOT_SAME_DEVICE
+
+syntax keyword cppWinConstant ERROR_NO_MORE_FILES
+
+syntax keyword cppWinConstant ERROR_WRITE_PROTECT
+
+syntax keyword cppWinConstant ERROR_BAD_UNIT
+
+syntax keyword cppWinConstant ERROR_NOT_READY
+
+syntax keyword cppWinConstant ERROR_BAD_COMMAND
+
+syntax keyword cppWinConstant ERROR_CRC
+
+syntax keyword cppWinConstant ERROR_BAD_LENGTH
+
+syntax keyword cppWinConstant ERROR_SEEK
+
+syntax keyword cppWinConstant ERROR_NOT_DOS_DISK
+
+syntax keyword cppWinConstant ERROR_SECTOR_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_OUT_OF_PAPER
+
+syntax keyword cppWinConstant ERROR_WRITE_FAULT
+
+syntax keyword cppWinConstant ERROR_READ_FAULT
+
+syntax keyword cppWinConstant ERROR_GEN_FAILURE
+
+syntax keyword cppWinConstant ERROR_SHARING_VIOLATION
+
+syntax keyword cppWinConstant ERROR_LOCK_VIOLATION
+
+syntax keyword cppWinConstant ERROR_WRONG_DISK
+
+syntax keyword cppWinConstant ERROR_SHARING_BUFFER_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_HANDLE_EOF
+
+syntax keyword cppWinConstant ERROR_HANDLE_DISK_FULL
+
+syntax keyword cppWinConstant ERROR_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_REM_NOT_LIST
+
+syntax keyword cppWinConstant ERROR_DUP_NAME
+
+syntax keyword cppWinConstant ERROR_BAD_NETPATH
+
+syntax keyword cppWinConstant ERROR_NETWORK_BUSY
+
+syntax keyword cppWinConstant ERROR_DEV_NOT_EXIST
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_CMDS
+
+syntax keyword cppWinConstant ERROR_ADAP_HDW_ERR
+
+syntax keyword cppWinConstant ERROR_BAD_NET_RESP
+
+syntax keyword cppWinConstant ERROR_UNEXP_NET_ERR
+
+syntax keyword cppWinConstant ERROR_BAD_REM_ADAP
+
+syntax keyword cppWinConstant ERROR_PRINTQ_FULL
+
+syntax keyword cppWinConstant ERROR_NO_SPOOL_SPACE
+
+syntax keyword cppWinConstant ERROR_PRINT_CANCELLED
+
+syntax keyword cppWinConstant ERROR_NETNAME_DELETED
+
+syntax keyword cppWinConstant ERROR_NETWORK_ACCESS_DENIED
+
+syntax keyword cppWinConstant ERROR_BAD_DEV_TYPE
+
+syntax keyword cppWinConstant ERROR_BAD_NET_NAME
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_NAMES
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_SESS
+
+syntax keyword cppWinConstant ERROR_SHARING_PAUSED
+
+syntax keyword cppWinConstant ERROR_REQ_NOT_ACCEP
+
+syntax keyword cppWinConstant ERROR_REDIR_PAUSED
+
+syntax keyword cppWinConstant ERROR_FILE_EXISTS
+
+syntax keyword cppWinConstant ERROR_CANNOT_MAKE
+
+syntax keyword cppWinConstant ERROR_FAIL_I24
+
+syntax keyword cppWinConstant ERROR_OUT_OF_STRUCTURES
+
+syntax keyword cppWinConstant ERROR_ALREADY_ASSIGNED
+
+syntax keyword cppWinConstant ERROR_INVALID_PASSWORD
+
+syntax keyword cppWinConstant ERROR_INVALID_PARAMETER
+
+syntax keyword cppWinConstant ERROR_NET_WRITE_FAULT
+
+syntax keyword cppWinConstant ERROR_NO_PROC_SLOTS
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_SEMAPHORES
+
+syntax keyword cppWinConstant ERROR_EXCL_SEM_ALREADY_OWNED
+
+syntax keyword cppWinConstant ERROR_SEM_IS_SET
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_SEM_REQUESTS
+
+syntax keyword cppWinConstant ERROR_INVALID_AT_INTERRUPT_TIME
+
+syntax keyword cppWinConstant ERROR_SEM_OWNER_DIED
+
+syntax keyword cppWinConstant ERROR_SEM_USER_LIMIT
+
+syntax keyword cppWinConstant ERROR_DISK_CHANGE
+
+syntax keyword cppWinConstant ERROR_DRIVE_LOCKED
+
+syntax keyword cppWinConstant ERROR_BROKEN_PIPE
+
+syntax keyword cppWinConstant ERROR_OPEN_FAILED
+
+syntax keyword cppWinConstant ERROR_BUFFER_OVERFLOW
+
+syntax keyword cppWinConstant ERROR_DISK_FULL
+
+syntax keyword cppWinConstant ERROR_NO_MORE_SEARCH_HANDLES
+
+syntax keyword cppWinConstant ERROR_INVALID_TARGET_HANDLE
+
+syntax keyword cppWinConstant ERROR_INVALID_CATEGORY
+
+syntax keyword cppWinConstant ERROR_INVALID_VERIFY_SWITCH
+
+syntax keyword cppWinConstant ERROR_BAD_DRIVER_LEVEL
+
+syntax keyword cppWinConstant ERROR_CALL_NOT_IMPLEMENTED
+
+syntax keyword cppWinConstant ERROR_SEM_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_INSUFFICIENT_BUFFER
+
+syntax keyword cppWinConstant ERROR_INVALID_NAME
+
+syntax keyword cppWinConstant ERROR_INVALID_LEVEL
+
+syntax keyword cppWinConstant ERROR_NO_VOLUME_LABEL
+
+syntax keyword cppWinConstant ERROR_MOD_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_PROC_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_WAIT_NO_CHILDREN
+
+syntax keyword cppWinConstant ERROR_CHILD_NOT_COMPLETE
+
+syntax keyword cppWinConstant ERROR_DIRECT_ACCESS_HANDLE
+
+syntax keyword cppWinConstant ERROR_NEGATIVE_SEEK
+
+syntax keyword cppWinConstant ERROR_SEEK_ON_DEVICE
+
+syntax keyword cppWinConstant ERROR_IS_JOIN_TARGET
+
+syntax keyword cppWinConstant ERROR_IS_JOINED
+
+syntax keyword cppWinConstant ERROR_IS_SUBSTED
+
+syntax keyword cppWinConstant ERROR_NOT_JOINED
+
+syntax keyword cppWinConstant ERROR_NOT_SUBSTED
+
+syntax keyword cppWinConstant ERROR_JOIN_TO_JOIN
+
+syntax keyword cppWinConstant ERROR_SUBST_TO_SUBST
+
+syntax keyword cppWinConstant ERROR_JOIN_TO_SUBST
+
+syntax keyword cppWinConstant ERROR_SUBST_TO_JOIN
+
+syntax keyword cppWinConstant ERROR_BUSY_DRIVE
+
+syntax keyword cppWinConstant ERROR_SAME_DRIVE
+
+syntax keyword cppWinConstant ERROR_DIR_NOT_ROOT
+
+syntax keyword cppWinConstant ERROR_DIR_NOT_EMPTY
+
+syntax keyword cppWinConstant ERROR_IS_SUBST_PATH
+
+syntax keyword cppWinConstant ERROR_IS_JOIN_PATH
+
+syntax keyword cppWinConstant ERROR_PATH_BUSY
+
+syntax keyword cppWinConstant ERROR_IS_SUBST_TARGET
+
+syntax keyword cppWinConstant ERROR_SYSTEM_TRACE
+
+syntax keyword cppWinConstant ERROR_INVALID_EVENT_COUNT
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_MUXWAITERS
+
+syntax keyword cppWinConstant ERROR_INVALID_LIST_FORMAT
+
+syntax keyword cppWinConstant ERROR_LABEL_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_TCBS
+
+syntax keyword cppWinConstant ERROR_SIGNAL_REFUSED
+
+syntax keyword cppWinConstant ERROR_DISCARDED
+
+syntax keyword cppWinConstant ERROR_NOT_LOCKED
+
+syntax keyword cppWinConstant ERROR_BAD_THREADID_ADDR
+
+syntax keyword cppWinConstant ERROR_BAD_ARGUMENTS
+
+syntax keyword cppWinConstant ERROR_BAD_PATHNAME
+
+syntax keyword cppWinConstant ERROR_SIGNAL_PENDING
+
+syntax keyword cppWinConstant ERROR_MAX_THRDS_REACHED
+
+syntax keyword cppWinConstant ERROR_LOCK_FAILED
+
+syntax keyword cppWinConstant ERROR_BUSY
+
+syntax keyword cppWinConstant ERROR_CANCEL_VIOLATION
+
+syntax keyword cppWinConstant ERROR_ATOMIC_LOCKS_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_INVALID_SEGMENT_NUMBER
+
+syntax keyword cppWinConstant ERROR_INVALID_ORDINAL
+
+syntax keyword cppWinConstant ERROR_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_INVALID_FLAG_NUMBER
+
+syntax keyword cppWinConstant ERROR_SEM_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_INVALID_STARTING_CODESEG
+
+syntax keyword cppWinConstant ERROR_INVALID_STACKSEG
+
+syntax keyword cppWinConstant ERROR_INVALID_MODULETYPE
+
+syntax keyword cppWinConstant ERROR_INVALID_EXE_SIGNATURE
+
+syntax keyword cppWinConstant ERROR_EXE_MARKED_INVALID
+
+syntax keyword cppWinConstant ERROR_BAD_EXE_FORMAT
+
+syntax keyword cppWinConstant ERROR_ITERATED_DATA_EXCEEDS_64k
+
+syntax keyword cppWinConstant ERROR_INVALID_MINALLOCSIZE
+
+syntax keyword cppWinConstant ERROR_DYNLINK_FROM_INVALID_RING
+
+syntax keyword cppWinConstant ERROR_IOPL_NOT_ENABLED
+
+syntax keyword cppWinConstant ERROR_INVALID_SEGDPL
+
+syntax keyword cppWinConstant ERROR_AUTODATASEG_EXCEEDS_64k
+
+syntax keyword cppWinConstant ERROR_RING2SEG_MUST_BE_MOVABLE
+
+syntax keyword cppWinConstant ERROR_RELOC_CHAIN_XEEDS_SEGLIM
+
+syntax keyword cppWinConstant ERROR_INFLOOP_IN_RELOC_CHAIN
+
+syntax keyword cppWinConstant ERROR_ENVVAR_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NO_SIGNAL_SENT
+
+syntax keyword cppWinConstant ERROR_FILENAME_EXCED_RANGE
+
+syntax keyword cppWinConstant ERROR_RING2_STACK_IN_USE
+
+syntax keyword cppWinConstant ERROR_META_EXPANSION_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_INVALID_SIGNAL_NUMBER
+
+syntax keyword cppWinConstant ERROR_THREAD_1_INACTIVE
+
+syntax keyword cppWinConstant ERROR_LOCKED
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_MODULES
+
+syntax keyword cppWinConstant ERROR_NESTING_NOT_ALLOWED
+
+syntax keyword cppWinConstant ERROR_EXE_MACHINE_TYPE_MISMATCH
+
+syntax keyword cppWinConstant ERROR_EXE_CANNOT_MODIFY_SIGNED_BINARY
+
+syntax keyword cppWinConstant ERROR_EXE_CANNOT_MODIFY_STRONG_SIGNED_BINARY
+
+syntax keyword cppWinConstant ERROR_FILE_CHECKED_OUT
+
+syntax keyword cppWinConstant ERROR_CHECKOUT_REQUIRED
+
+syntax keyword cppWinConstant ERROR_BAD_FILE_TYPE
+
+syntax keyword cppWinConstant ERROR_FILE_TOO_LARGE
+
+syntax keyword cppWinConstant ERROR_FORMS_AUTH_REQUIRED
+
+syntax keyword cppWinConstant ERROR_VIRUS_INFECTED
+
+syntax keyword cppWinConstant ERROR_VIRUS_DELETED
+
+syntax keyword cppWinConstant ERROR_PIPE_LOCAL
+
+syntax keyword cppWinConstant ERROR_BAD_PIPE
+
+syntax keyword cppWinConstant ERROR_PIPE_BUSY
+
+syntax keyword cppWinConstant ERROR_NO_DATA
+
+syntax keyword cppWinConstant ERROR_PIPE_NOT_CONNECTED
+
+syntax keyword cppWinConstant ERROR_MORE_DATA
+
+syntax keyword cppWinConstant ERROR_VC_DISCONNECTED
+
+syntax keyword cppWinConstant ERROR_INVALID_EA_NAME
+
+syntax keyword cppWinConstant ERROR_EA_LIST_INCONSISTENT
+
+syntax keyword cppWinConstant WAIT_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_NO_MORE_ITEMS
+
+syntax keyword cppWinConstant ERROR_CANNOT_COPY
+
+syntax keyword cppWinConstant ERROR_DIRECTORY
+
+syntax keyword cppWinConstant ERROR_EAS_DIDNT_FIT
+
+syntax keyword cppWinConstant ERROR_EA_FILE_CORRUPT
+
+syntax keyword cppWinConstant ERROR_EA_TABLE_FULL
+
+syntax keyword cppWinConstant ERROR_INVALID_EA_HANDLE
+
+syntax keyword cppWinConstant ERROR_EAS_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_NOT_OWNER
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_POSTS
+
+syntax keyword cppWinConstant ERROR_PARTIAL_COPY
+
+syntax keyword cppWinConstant ERROR_OPLOCK_NOT_GRANTED
+
+syntax keyword cppWinConstant ERROR_INVALID_OPLOCK_PROTOCOL
+
+syntax keyword cppWinConstant ERROR_DISK_TOO_FRAGMENTED
+
+syntax keyword cppWinConstant ERROR_DELETE_PENDING
+
+syntax keyword cppWinConstant ERROR_INCOMPATIBLE_WITH_GLOBAL_SHORT_NAME_REGISTRY_SETTING
+
+syntax keyword cppWinConstant ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME
+
+syntax keyword cppWinConstant ERROR_SECURITY_STREAM_IS_INCONSISTENT
+
+syntax keyword cppWinConstant ERROR_INVALID_LOCK_RANGE
+
+syntax keyword cppWinConstant ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT
+
+syntax keyword cppWinConstant ERROR_NOTIFICATION_GUID_ALREADY_DEFINED
+
+syntax keyword cppWinConstant ERROR_MR_MID_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_SCOPE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_FAIL_NOACTION_REBOOT
+
+syntax keyword cppWinConstant ERROR_FAIL_SHUTDOWN
+
+syntax keyword cppWinConstant ERROR_FAIL_RESTART
+
+syntax keyword cppWinConstant ERROR_MAX_SESSIONS_REACHED
+
+syntax keyword cppWinConstant ERROR_THREAD_MODE_ALREADY_BACKGROUND
+
+syntax keyword cppWinConstant ERROR_THREAD_MODE_NOT_BACKGROUND
+
+syntax keyword cppWinConstant ERROR_PROCESS_MODE_ALREADY_BACKGROUND
+
+syntax keyword cppWinConstant ERROR_PROCESS_MODE_NOT_BACKGROUND
+
+syntax keyword cppWinConstant ERROR_INVALID_ADDRESS
+
+syntax keyword cppWinConstant ERROR_USER_PROFILE_LOAD
+
+syntax keyword cppWinConstant ERROR_ARITHMETIC_OVERFLOW
+
+syntax keyword cppWinConstant ERROR_PIPE_CONNECTED
+
+syntax keyword cppWinConstant ERROR_PIPE_LISTENING
+
+syntax keyword cppWinConstant ERROR_VERIFIER_STOP
+
+syntax keyword cppWinConstant ERROR_ABIOS_ERROR
+
+syntax keyword cppWinConstant ERROR_WX86_WARNING
+
+syntax keyword cppWinConstant ERROR_WX86_ERROR
+
+syntax keyword cppWinConstant ERROR_TIMER_NOT_CANCELED
+
+syntax keyword cppWinConstant ERROR_UNWIND
+
+syntax keyword cppWinConstant ERROR_BAD_STACK
+
+syntax keyword cppWinConstant ERROR_INVALID_UNWIND_TARGET
+
+syntax keyword cppWinConstant ERROR_INVALID_PORT_ATTRIBUTES
+
+syntax keyword cppWinConstant ERROR_PORT_MESSAGE_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_INVALID_QUOTA_LOWER
+
+syntax keyword cppWinConstant ERROR_DEVICE_ALREADY_ATTACHED
+
+syntax keyword cppWinConstant ERROR_INSTRUCTION_MISALIGNMENT
+
+syntax keyword cppWinConstant ERROR_PROFILING_NOT_STARTED
+
+syntax keyword cppWinConstant ERROR_PROFILING_NOT_STOPPED
+
+syntax keyword cppWinConstant ERROR_COULD_NOT_INTERPRET
+
+syntax keyword cppWinConstant ERROR_PROFILING_AT_LIMIT
+
+syntax keyword cppWinConstant ERROR_CANT_WAIT
+
+syntax keyword cppWinConstant ERROR_CANT_TERMINATE_SELF
+
+syntax keyword cppWinConstant ERROR_UNEXPECTED_MM_CREATE_ERR
+
+syntax keyword cppWinConstant ERROR_UNEXPECTED_MM_MAP_ERROR
+
+syntax keyword cppWinConstant ERROR_UNEXPECTED_MM_EXTEND_ERR
+
+syntax keyword cppWinConstant ERROR_BAD_FUNCTION_TABLE
+
+syntax keyword cppWinConstant ERROR_NO_GUID_TRANSLATION
+
+syntax keyword cppWinConstant ERROR_INVALID_LDT_SIZE
+
+syntax keyword cppWinConstant ERROR_INVALID_LDT_OFFSET
+
+syntax keyword cppWinConstant ERROR_INVALID_LDT_DESCRIPTOR
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_THREADS
+
+syntax keyword cppWinConstant ERROR_THREAD_NOT_IN_PROCESS
+
+syntax keyword cppWinConstant ERROR_PAGEFILE_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_LOGON_SERVER_CONFLICT
+
+syntax keyword cppWinConstant ERROR_SYNCHRONIZATION_REQUIRED
+
+syntax keyword cppWinConstant ERROR_NET_OPEN_FAILED
+
+syntax keyword cppWinConstant ERROR_IO_PRIVILEGE_FAILED
+
+syntax keyword cppWinConstant ERROR_CONTROL_C_EXIT
+
+syntax keyword cppWinConstant ERROR_MISSING_SYSTEMFILE
+
+syntax keyword cppWinConstant ERROR_UNHANDLED_EXCEPTION
+
+syntax keyword cppWinConstant ERROR_APP_INIT_FAILURE
+
+syntax keyword cppWinConstant ERROR_PAGEFILE_CREATE_FAILED
+
+syntax keyword cppWinConstant ERROR_INVALID_IMAGE_HASH
+
+syntax keyword cppWinConstant ERROR_NO_PAGEFILE
+
+syntax keyword cppWinConstant ERROR_ILLEGAL_FLOAT_CONTEXT
+
+syntax keyword cppWinConstant ERROR_NO_EVENT_PAIR
+
+syntax keyword cppWinConstant ERROR_DOMAIN_CTRLR_CONFIG_ERROR
+
+syntax keyword cppWinConstant ERROR_ILLEGAL_CHARACTER
+
+syntax keyword cppWinConstant ERROR_UNDEFINED_CHARACTER
+
+syntax keyword cppWinConstant ERROR_FLOPPY_VOLUME
+
+syntax keyword cppWinConstant ERROR_BIOS_FAILED_TO_CONNECT_INTERRUPT
+
+syntax keyword cppWinConstant ERROR_BACKUP_CONTROLLER
+
+syntax keyword cppWinConstant ERROR_MUTANT_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_FS_DRIVER_REQUIRED
+
+syntax keyword cppWinConstant ERROR_CANNOT_LOAD_REGISTRY_FILE
+
+syntax keyword cppWinConstant ERROR_DEBUG_ATTACH_FAILED
+
+syntax keyword cppWinConstant ERROR_SYSTEM_PROCESS_TERMINATED
+
+syntax keyword cppWinConstant ERROR_DATA_NOT_ACCEPTED
+
+syntax keyword cppWinConstant ERROR_VDM_HARD_ERROR
+
+syntax keyword cppWinConstant ERROR_DRIVER_CANCEL_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_REPLY_MESSAGE_MISMATCH
+
+syntax keyword cppWinConstant ERROR_LOST_WRITEBEHIND_DATA
+
+syntax keyword cppWinConstant ERROR_CLIENT_SERVER_PARAMETERS_INVALID
+
+syntax keyword cppWinConstant ERROR_NOT_TINY_STREAM
+
+syntax keyword cppWinConstant ERROR_STACK_OVERFLOW_READ
+
+syntax keyword cppWinConstant ERROR_CONVERT_TO_LARGE
+
+syntax keyword cppWinConstant ERROR_FOUND_OUT_OF_SCOPE
+
+syntax keyword cppWinConstant ERROR_ALLOCATE_BUCKET
+
+syntax keyword cppWinConstant ERROR_MARSHALL_OVERFLOW
+
+syntax keyword cppWinConstant ERROR_INVALID_VARIANT
+
+syntax keyword cppWinConstant ERROR_BAD_COMPRESSION_BUFFER
+
+syntax keyword cppWinConstant ERROR_AUDIT_FAILED
+
+syntax keyword cppWinConstant ERROR_TIMER_RESOLUTION_NOT_SET
+
+syntax keyword cppWinConstant ERROR_INSUFFICIENT_LOGON_INFO
+
+syntax keyword cppWinConstant ERROR_BAD_DLL_ENTRYPOINT
+
+syntax keyword cppWinConstant ERROR_BAD_SERVICE_ENTRYPOINT
+
+syntax keyword cppWinConstant ERROR_IP_ADDRESS_CONFLICT1
+
+syntax keyword cppWinConstant ERROR_IP_ADDRESS_CONFLICT2
+
+syntax keyword cppWinConstant ERROR_REGISTRY_QUOTA_LIMIT
+
+syntax keyword cppWinConstant ERROR_NO_CALLBACK_ACTIVE
+
+syntax keyword cppWinConstant ERROR_PWD_TOO_SHORT
+
+syntax keyword cppWinConstant ERROR_PWD_TOO_RECENT
+
+syntax keyword cppWinConstant ERROR_PWD_HISTORY_CONFLICT
+
+syntax keyword cppWinConstant ERROR_UNSUPPORTED_COMPRESSION
+
+syntax keyword cppWinConstant ERROR_INVALID_HW_PROFILE
+
+syntax keyword cppWinConstant ERROR_INVALID_PLUGPLAY_DEVICE_PATH
+
+syntax keyword cppWinConstant ERROR_QUOTA_LIST_INCONSISTENT
+
+syntax keyword cppWinConstant ERROR_EVALUATION_EXPIRATION
+
+syntax keyword cppWinConstant ERROR_ILLEGAL_DLL_RELOCATION
+
+syntax keyword cppWinConstant ERROR_DLL_INIT_FAILED_LOGOFF
+
+syntax keyword cppWinConstant ERROR_VALIDATE_CONTINUE
+
+syntax keyword cppWinConstant ERROR_NO_MORE_MATCHES
+
+syntax keyword cppWinConstant ERROR_RANGE_LIST_CONFLICT
+
+syntax keyword cppWinConstant ERROR_SERVER_SID_MISMATCH
+
+syntax keyword cppWinConstant ERROR_CANT_ENABLE_DENY_ONLY
+
+syntax keyword cppWinConstant ERROR_FLOAT_MULTIPLE_FAULTS
+
+syntax keyword cppWinConstant ERROR_FLOAT_MULTIPLE_TRAPS
+
+syntax keyword cppWinConstant ERROR_NOINTERFACE
+
+syntax keyword cppWinConstant ERROR_DRIVER_FAILED_SLEEP
+
+syntax keyword cppWinConstant ERROR_CORRUPT_SYSTEM_FILE
+
+syntax keyword cppWinConstant ERROR_COMMITMENT_MINIMUM
+
+syntax keyword cppWinConstant ERROR_PNP_RESTART_ENUMERATION
+
+syntax keyword cppWinConstant ERROR_SYSTEM_IMAGE_BAD_SIGNATURE
+
+syntax keyword cppWinConstant ERROR_PNP_REBOOT_REQUIRED
+
+syntax keyword cppWinConstant ERROR_INSUFFICIENT_POWER
+
+syntax keyword cppWinConstant ERROR_MULTIPLE_FAULT_VIOLATION
+
+syntax keyword cppWinConstant ERROR_SYSTEM_SHUTDOWN
+
+syntax keyword cppWinConstant ERROR_PORT_NOT_SET
+
+syntax keyword cppWinConstant ERROR_DS_VERSION_CHECK_FAILURE
+
+syntax keyword cppWinConstant ERROR_RANGE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NOT_SAFE_MODE_DRIVER
+
+syntax keyword cppWinConstant ERROR_FAILED_DRIVER_ENTRY
+
+syntax keyword cppWinConstant ERROR_DEVICE_ENUMERATION_ERROR
+
+syntax keyword cppWinConstant ERROR_MOUNT_POINT_NOT_RESOLVED
+
+syntax keyword cppWinConstant ERROR_INVALID_DEVICE_OBJECT_PARAMETER
+
+syntax keyword cppWinConstant ERROR_MCA_OCCURED
+
+syntax keyword cppWinConstant ERROR_DRIVER_DATABASE_ERROR
+
+syntax keyword cppWinConstant ERROR_SYSTEM_HIVE_TOO_LARGE
+
+syntax keyword cppWinConstant ERROR_DRIVER_FAILED_PRIOR_UNLOAD
+
+syntax keyword cppWinConstant ERROR_VOLSNAP_PREPARE_HIBERNATE
+
+syntax keyword cppWinConstant ERROR_HIBERNATION_FAILURE
+
+syntax keyword cppWinConstant ERROR_FILE_SYSTEM_LIMITATION
+
+syntax keyword cppWinConstant ERROR_ASSERTION_FAILURE
+
+syntax keyword cppWinConstant ERROR_ACPI_ERROR
+
+syntax keyword cppWinConstant ERROR_WOW_ASSERTION
+
+syntax keyword cppWinConstant ERROR_PNP_BAD_MPS_TABLE
+
+syntax keyword cppWinConstant ERROR_PNP_TRANSLATION_FAILED
+
+syntax keyword cppWinConstant ERROR_PNP_IRQ_TRANSLATION_FAILED
+
+syntax keyword cppWinConstant ERROR_PNP_INVALID_ID
+
+syntax keyword cppWinConstant ERROR_WAKE_SYSTEM_DEBUGGER
+
+syntax keyword cppWinConstant ERROR_HANDLES_CLOSED
+
+syntax keyword cppWinConstant ERROR_EXTRANEOUS_INFORMATION
+
+syntax keyword cppWinConstant ERROR_RXACT_COMMIT_NECESSARY
+
+syntax keyword cppWinConstant ERROR_MEDIA_CHECK
+
+syntax keyword cppWinConstant ERROR_GUID_SUBSTITUTION_MADE
+
+syntax keyword cppWinConstant ERROR_STOPPED_ON_SYMLINK
+
+syntax keyword cppWinConstant ERROR_LONGJUMP
+
+syntax keyword cppWinConstant ERROR_PLUGPLAY_QUERY_VETOED
+
+syntax keyword cppWinConstant ERROR_UNWIND_CONSOLIDATE
+
+syntax keyword cppWinConstant ERROR_REGISTRY_HIVE_RECOVERED
+
+syntax keyword cppWinConstant ERROR_DLL_MIGHT_BE_INSECURE
+
+syntax keyword cppWinConstant ERROR_DLL_MIGHT_BE_INCOMPATIBLE
+
+syntax keyword cppWinConstant ERROR_DBG_EXCEPTION_NOT_HANDLED
+
+syntax keyword cppWinConstant ERROR_DBG_REPLY_LATER
+
+syntax keyword cppWinConstant ERROR_DBG_UNABLE_TO_PROVIDE_HANDLE
+
+syntax keyword cppWinConstant ERROR_DBG_TERMINATE_THREAD
+
+syntax keyword cppWinConstant ERROR_DBG_TERMINATE_PROCESS
+
+syntax keyword cppWinConstant ERROR_DBG_CONTROL_C
+
+syntax keyword cppWinConstant ERROR_DBG_PRINTEXCEPTION_C
+
+syntax keyword cppWinConstant ERROR_DBG_RIPEXCEPTION
+
+syntax keyword cppWinConstant ERROR_DBG_CONTROL_BREAK
+
+syntax keyword cppWinConstant ERROR_DBG_COMMAND_EXCEPTION
+
+syntax keyword cppWinConstant ERROR_OBJECT_NAME_EXISTS
+
+syntax keyword cppWinConstant ERROR_THREAD_WAS_SUSPENDED
+
+syntax keyword cppWinConstant ERROR_IMAGE_NOT_AT_BASE
+
+syntax keyword cppWinConstant ERROR_RXACT_STATE_CREATED
+
+syntax keyword cppWinConstant ERROR_SEGMENT_NOTIFICATION
+
+syntax keyword cppWinConstant ERROR_BAD_CURRENT_DIRECTORY
+
+syntax keyword cppWinConstant ERROR_FT_READ_RECOVERY_FROM_BACKUP
+
+syntax keyword cppWinConstant ERROR_FT_WRITE_RECOVERY
+
+syntax keyword cppWinConstant ERROR_IMAGE_MACHINE_TYPE_MISMATCH
+
+syntax keyword cppWinConstant ERROR_RECEIVE_PARTIAL
+
+syntax keyword cppWinConstant ERROR_RECEIVE_EXPEDITED
+
+syntax keyword cppWinConstant ERROR_RECEIVE_PARTIAL_EXPEDITED
+
+syntax keyword cppWinConstant ERROR_EVENT_DONE
+
+syntax keyword cppWinConstant ERROR_EVENT_PENDING
+
+syntax keyword cppWinConstant ERROR_CHECKING_FILE_SYSTEM
+
+syntax keyword cppWinConstant ERROR_FATAL_APP_EXIT
+
+syntax keyword cppWinConstant ERROR_PREDEFINED_HANDLE
+
+syntax keyword cppWinConstant ERROR_WAS_UNLOCKED
+
+syntax keyword cppWinConstant ERROR_SERVICE_NOTIFICATION
+
+syntax keyword cppWinConstant ERROR_WAS_LOCKED
+
+syntax keyword cppWinConstant ERROR_LOG_HARD_ERROR
+
+syntax keyword cppWinConstant ERROR_ALREADY_WIN32
+
+syntax keyword cppWinConstant ERROR_IMAGE_MACHINE_TYPE_MISMATCH_EXE
+
+syntax keyword cppWinConstant ERROR_NO_YIELD_PERFORMED
+
+syntax keyword cppWinConstant ERROR_TIMER_RESUME_IGNORED
+
+syntax keyword cppWinConstant ERROR_ARBITRATION_UNHANDLED
+
+syntax keyword cppWinConstant ERROR_CARDBUS_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_MP_PROCESSOR_MISMATCH
+
+syntax keyword cppWinConstant ERROR_HIBERNATED
+
+syntax keyword cppWinConstant ERROR_RESUME_HIBERNATION
+
+syntax keyword cppWinConstant ERROR_FIRMWARE_UPDATED
+
+syntax keyword cppWinConstant ERROR_DRIVERS_LEAKING_LOCKED_PAGES
+
+syntax keyword cppWinConstant ERROR_WAKE_SYSTEM
+
+syntax keyword cppWinConstant ERROR_WAIT_1
+
+syntax keyword cppWinConstant ERROR_WAIT_2
+
+syntax keyword cppWinConstant ERROR_WAIT_3
+
+syntax keyword cppWinConstant ERROR_WAIT_63
+
+syntax keyword cppWinConstant ERROR_ABANDONED_WAIT_0
+
+syntax keyword cppWinConstant ERROR_ABANDONED_WAIT_63
+
+syntax keyword cppWinConstant ERROR_USER_APC
+
+syntax keyword cppWinConstant ERROR_KERNEL_APC
+
+syntax keyword cppWinConstant ERROR_ALERTED
+
+syntax keyword cppWinConstant ERROR_ELEVATION_REQUIRED
+
+syntax keyword cppWinConstant ERROR_REPARSE
+
+syntax keyword cppWinConstant ERROR_OPLOCK_BREAK_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_VOLUME_MOUNTED
+
+syntax keyword cppWinConstant ERROR_RXACT_COMMITTED
+
+syntax keyword cppWinConstant ERROR_NOTIFY_CLEANUP
+
+syntax keyword cppWinConstant ERROR_PRIMARY_TRANSPORT_CONNECT_FAILED
+
+syntax keyword cppWinConstant ERROR_PAGE_FAULT_TRANSITION
+
+syntax keyword cppWinConstant ERROR_PAGE_FAULT_DEMAND_ZERO
+
+syntax keyword cppWinConstant ERROR_PAGE_FAULT_COPY_ON_WRITE
+
+syntax keyword cppWinConstant ERROR_PAGE_FAULT_GUARD_PAGE
+
+syntax keyword cppWinConstant ERROR_PAGE_FAULT_PAGING_FILE
+
+syntax keyword cppWinConstant ERROR_CACHE_PAGE_LOCKED
+
+syntax keyword cppWinConstant ERROR_CRASH_DUMP
+
+syntax keyword cppWinConstant ERROR_BUFFER_ALL_ZEROS
+
+syntax keyword cppWinConstant ERROR_REPARSE_OBJECT
+
+syntax keyword cppWinConstant ERROR_RESOURCE_REQUIREMENTS_CHANGED
+
+syntax keyword cppWinConstant ERROR_TRANSLATION_COMPLETE
+
+syntax keyword cppWinConstant ERROR_NOTHING_TO_TERMINATE
+
+syntax keyword cppWinConstant ERROR_PROCESS_NOT_IN_JOB
+
+syntax keyword cppWinConstant ERROR_PROCESS_IN_JOB
+
+syntax keyword cppWinConstant ERROR_VOLSNAP_HIBERNATE_READY
+
+syntax keyword cppWinConstant ERROR_FSFILTER_OP_COMPLETED_SUCCESSFULLY
+
+syntax keyword cppWinConstant ERROR_INTERRUPT_VECTOR_ALREADY_CONNECTED
+
+syntax keyword cppWinConstant ERROR_INTERRUPT_STILL_CONNECTED
+
+syntax keyword cppWinConstant ERROR_WAIT_FOR_OPLOCK
+
+syntax keyword cppWinConstant ERROR_DBG_EXCEPTION_HANDLED
+
+syntax keyword cppWinConstant ERROR_DBG_CONTINUE
+
+syntax keyword cppWinConstant ERROR_CALLBACK_POP_STACK
+
+syntax keyword cppWinConstant ERROR_COMPRESSION_DISABLED
+
+syntax keyword cppWinConstant ERROR_CANTFETCHBACKWARDS
+
+syntax keyword cppWinConstant ERROR_CANTSCROLLBACKWARDS
+
+syntax keyword cppWinConstant ERROR_ROWSNOTRELEASED
+
+syntax keyword cppWinConstant ERROR_BAD_ACCESSOR_FLAGS
+
+syntax keyword cppWinConstant ERROR_ERRORS_ENCOUNTERED
+
+syntax keyword cppWinConstant ERROR_NOT_CAPABLE
+
+syntax keyword cppWinConstant ERROR_REQUEST_OUT_OF_SEQUENCE
+
+syntax keyword cppWinConstant ERROR_VERSION_PARSE_ERROR
+
+syntax keyword cppWinConstant ERROR_BADSTARTPOSITION
+
+syntax keyword cppWinConstant ERROR_MEMORY_HARDWARE
+
+syntax keyword cppWinConstant ERROR_DISK_REPAIR_DISABLED
+
+syntax keyword cppWinConstant ERROR_INSUFFICIENT_RESOURCE_FOR_SPECIFIED_SHARED_SECTION_SIZE
+
+syntax keyword cppWinConstant ERROR_SYSTEM_POWERSTATE_TRANSITION
+
+syntax keyword cppWinConstant ERROR_SYSTEM_POWERSTATE_COMPLEX_TRANSITION
+
+syntax keyword cppWinConstant ERROR_MCA_EXCEPTION
+
+syntax keyword cppWinConstant ERROR_ACCESS_AUDIT_BY_POLICY
+
+syntax keyword cppWinConstant ERROR_ACCESS_DISABLED_NO_SAFER_UI_BY_POLICY
+
+syntax keyword cppWinConstant ERROR_ABANDON_HIBERFILE
+
+syntax keyword cppWinConstant ERROR_LOST_WRITEBEHIND_DATA_NETWORK_DISCONNECTED
+
+syntax keyword cppWinConstant ERROR_LOST_WRITEBEHIND_DATA_NETWORK_SERVER_ERROR
+
+syntax keyword cppWinConstant ERROR_LOST_WRITEBEHIND_DATA_LOCAL_DISK_ERROR
+
+syntax keyword cppWinConstant ERROR_BAD_MCFG_TABLE
+
+syntax keyword cppWinConstant ERROR_OPLOCK_SWITCHED_TO_NEW_HANDLE
+
+syntax keyword cppWinConstant ERROR_CANNOT_GRANT_REQUESTED_OPLOCK
+
+syntax keyword cppWinConstant ERROR_CANNOT_BREAK_OPLOCK
+
+syntax keyword cppWinConstant ERROR_OPLOCK_HANDLE_CLOSED
+
+syntax keyword cppWinConstant ERROR_NO_ACE_CONDITION
+
+syntax keyword cppWinConstant ERROR_INVALID_ACE_CONDITION
+
+syntax keyword cppWinConstant ERROR_EA_ACCESS_DENIED
+
+syntax keyword cppWinConstant ERROR_OPERATION_ABORTED
+
+syntax keyword cppWinConstant ERROR_IO_INCOMPLETE
+
+syntax keyword cppWinConstant ERROR_IO_PENDING
+
+syntax keyword cppWinConstant ERROR_NOACCESS
+
+syntax keyword cppWinConstant ERROR_SWAPERROR
+
+syntax keyword cppWinConstant ERROR_STACK_OVERFLOW
+
+syntax keyword cppWinConstant ERROR_INVALID_MESSAGE
+
+syntax keyword cppWinConstant ERROR_CAN_NOT_COMPLETE
+
+syntax keyword cppWinConstant ERROR_INVALID_FLAGS
+
+syntax keyword cppWinConstant ERROR_UNRECOGNIZED_VOLUME
+
+syntax keyword cppWinConstant ERROR_FILE_INVALID
+
+syntax keyword cppWinConstant ERROR_FULLSCREEN_MODE
+
+syntax keyword cppWinConstant ERROR_NO_TOKEN
+
+syntax keyword cppWinConstant ERROR_BADDB
+
+syntax keyword cppWinConstant ERROR_BADKEY
+
+syntax keyword cppWinConstant ERROR_CANTOPEN
+
+syntax keyword cppWinConstant ERROR_CANTREAD
+
+syntax keyword cppWinConstant ERROR_CANTWRITE
+
+syntax keyword cppWinConstant ERROR_REGISTRY_RECOVERED
+
+syntax keyword cppWinConstant ERROR_REGISTRY_CORRUPT
+
+syntax keyword cppWinConstant ERROR_REGISTRY_IO_FAILED
+
+syntax keyword cppWinConstant ERROR_NOT_REGISTRY_FILE
+
+syntax keyword cppWinConstant ERROR_KEY_DELETED
+
+syntax keyword cppWinConstant ERROR_NO_LOG_SPACE
+
+syntax keyword cppWinConstant ERROR_KEY_HAS_CHILDREN
+
+syntax keyword cppWinConstant ERROR_CHILD_MUST_BE_VOLATILE
+
+syntax keyword cppWinConstant ERROR_NOTIFY_ENUM_DIR
+
+syntax keyword cppWinConstant ERROR_DEPENDENT_SERVICES_RUNNING
+
+syntax keyword cppWinConstant ERROR_INVALID_SERVICE_CONTROL
+
+syntax keyword cppWinConstant ERROR_SERVICE_REQUEST_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_SERVICE_NO_THREAD
+
+syntax keyword cppWinConstant ERROR_SERVICE_DATABASE_LOCKED
+
+syntax keyword cppWinConstant ERROR_SERVICE_ALREADY_RUNNING
+
+syntax keyword cppWinConstant ERROR_INVALID_SERVICE_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_SERVICE_DISABLED
+
+syntax keyword cppWinConstant ERROR_CIRCULAR_DEPENDENCY
+
+syntax keyword cppWinConstant ERROR_SERVICE_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant ERROR_SERVICE_CANNOT_ACCEPT_CTRL
+
+syntax keyword cppWinConstant ERROR_SERVICE_NOT_ACTIVE
+
+syntax keyword cppWinConstant ERROR_FAILED_SERVICE_CONTROLLER_CONNECT
+
+syntax keyword cppWinConstant ERROR_EXCEPTION_IN_SERVICE
+
+syntax keyword cppWinConstant ERROR_DATABASE_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant ERROR_SERVICE_SPECIFIC_ERROR
+
+syntax keyword cppWinConstant ERROR_PROCESS_ABORTED
+
+syntax keyword cppWinConstant ERROR_SERVICE_DEPENDENCY_FAIL
+
+syntax keyword cppWinConstant ERROR_SERVICE_LOGON_FAILED
+
+syntax keyword cppWinConstant ERROR_SERVICE_START_HANG
+
+syntax keyword cppWinConstant ERROR_INVALID_SERVICE_LOCK
+
+syntax keyword cppWinConstant ERROR_SERVICE_MARKED_FOR_DELETE
+
+syntax keyword cppWinConstant ERROR_SERVICE_EXISTS
+
+syntax keyword cppWinConstant ERROR_ALREADY_RUNNING_LKG
+
+syntax keyword cppWinConstant ERROR_SERVICE_DEPENDENCY_DELETED
+
+syntax keyword cppWinConstant ERROR_BOOT_ALREADY_ACCEPTED
+
+syntax keyword cppWinConstant ERROR_SERVICE_NEVER_STARTED
+
+syntax keyword cppWinConstant ERROR_DUPLICATE_SERVICE_NAME
+
+syntax keyword cppWinConstant ERROR_DIFFERENT_SERVICE_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_CANNOT_DETECT_DRIVER_FAILURE
+
+syntax keyword cppWinConstant ERROR_CANNOT_DETECT_PROCESS_ABORT
+
+syntax keyword cppWinConstant ERROR_NO_RECOVERY_PROGRAM
+
+syntax keyword cppWinConstant ERROR_SERVICE_NOT_IN_EXE
+
+syntax keyword cppWinConstant ERROR_NOT_SAFEBOOT_SERVICE
+
+syntax keyword cppWinConstant ERROR_END_OF_MEDIA
+
+syntax keyword cppWinConstant ERROR_FILEMARK_DETECTED
+
+syntax keyword cppWinConstant ERROR_BEGINNING_OF_MEDIA
+
+syntax keyword cppWinConstant ERROR_SETMARK_DETECTED
+
+syntax keyword cppWinConstant ERROR_NO_DATA_DETECTED
+
+syntax keyword cppWinConstant ERROR_PARTITION_FAILURE
+
+syntax keyword cppWinConstant ERROR_INVALID_BLOCK_LENGTH
+
+syntax keyword cppWinConstant ERROR_DEVICE_NOT_PARTITIONED
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_LOCK_MEDIA
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_UNLOAD_MEDIA
+
+syntax keyword cppWinConstant ERROR_MEDIA_CHANGED
+
+syntax keyword cppWinConstant ERROR_BUS_RESET
+
+syntax keyword cppWinConstant ERROR_NO_MEDIA_IN_DRIVE
+
+syntax keyword cppWinConstant ERROR_NO_UNICODE_TRANSLATION
+
+syntax keyword cppWinConstant ERROR_DLL_INIT_FAILED
+
+syntax keyword cppWinConstant ERROR_SHUTDOWN_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_NO_SHUTDOWN_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_IO_DEVICE
+
+syntax keyword cppWinConstant ERROR_SERIAL_NO_DEVICE
+
+syntax keyword cppWinConstant ERROR_IRQ_BUSY
+
+syntax keyword cppWinConstant ERROR_MORE_WRITES
+
+syntax keyword cppWinConstant ERROR_COUNTER_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_FLOPPY_ID_MARK_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_FLOPPY_WRONG_CYLINDER
+
+syntax keyword cppWinConstant ERROR_FLOPPY_UNKNOWN_ERROR
+
+syntax keyword cppWinConstant ERROR_FLOPPY_BAD_REGISTERS
+
+syntax keyword cppWinConstant ERROR_DISK_RECALIBRATE_FAILED
+
+syntax keyword cppWinConstant ERROR_DISK_OPERATION_FAILED
+
+syntax keyword cppWinConstant ERROR_DISK_RESET_FAILED
+
+syntax keyword cppWinConstant ERROR_EOM_OVERFLOW
+
+syntax keyword cppWinConstant ERROR_NOT_ENOUGH_SERVER_MEMORY
+
+syntax keyword cppWinConstant ERROR_POSSIBLE_DEADLOCK
+
+syntax keyword cppWinConstant ERROR_MAPPED_ALIGNMENT
+
+syntax keyword cppWinConstant ERROR_SET_POWER_STATE_VETOED
+
+syntax keyword cppWinConstant ERROR_SET_POWER_STATE_FAILED
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_LINKS
+
+syntax keyword cppWinConstant ERROR_OLD_WIN_VERSION
+
+syntax keyword cppWinConstant ERROR_APP_WRONG_OS
+
+syntax keyword cppWinConstant ERROR_SINGLE_INSTANCE_APP
+
+syntax keyword cppWinConstant ERROR_RMODE_APP
+
+syntax keyword cppWinConstant ERROR_INVALID_DLL
+
+syntax keyword cppWinConstant ERROR_NO_ASSOCIATION
+
+syntax keyword cppWinConstant ERROR_DDE_FAIL
+
+syntax keyword cppWinConstant ERROR_DLL_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NO_MORE_USER_HANDLES
+
+syntax keyword cppWinConstant ERROR_MESSAGE_SYNC_ONLY
+
+syntax keyword cppWinConstant ERROR_SOURCE_ELEMENT_EMPTY
+
+syntax keyword cppWinConstant ERROR_DESTINATION_ELEMENT_FULL
+
+syntax keyword cppWinConstant ERROR_ILLEGAL_ELEMENT_ADDRESS
+
+syntax keyword cppWinConstant ERROR_MAGAZINE_NOT_PRESENT
+
+syntax keyword cppWinConstant ERROR_DEVICE_REINITIALIZATION_NEEDED
+
+syntax keyword cppWinConstant ERROR_DEVICE_REQUIRES_CLEANING
+
+syntax keyword cppWinConstant ERROR_DEVICE_DOOR_OPEN
+
+syntax keyword cppWinConstant ERROR_DEVICE_NOT_CONNECTED
+
+syntax keyword cppWinConstant ERROR_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NO_MATCH
+
+syntax keyword cppWinConstant ERROR_SET_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_POINT_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NO_TRACKING_SERVICE
+
+syntax keyword cppWinConstant ERROR_NO_VOLUME_ID
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_REMOVE_REPLACED
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_MOVE_REPLACEMENT
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_MOVE_REPLACEMENT_2
+
+syntax keyword cppWinConstant ERROR_JOURNAL_DELETE_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_JOURNAL_NOT_ACTIVE
+
+syntax keyword cppWinConstant ERROR_POTENTIAL_FILE_FOUND
+
+syntax keyword cppWinConstant ERROR_JOURNAL_ENTRY_DELETED
+
+syntax keyword cppWinConstant ERROR_SHUTDOWN_IS_SCHEDULED
+
+syntax keyword cppWinConstant ERROR_SHUTDOWN_USERS_LOGGED_ON
+
+syntax keyword cppWinConstant ERROR_BAD_DEVICE
+
+syntax keyword cppWinConstant ERROR_CONNECTION_UNAVAIL
+
+syntax keyword cppWinConstant ERROR_DEVICE_ALREADY_REMEMBERED
+
+syntax keyword cppWinConstant ERROR_NO_NET_OR_BAD_PATH
+
+syntax keyword cppWinConstant ERROR_BAD_PROVIDER
+
+syntax keyword cppWinConstant ERROR_CANNOT_OPEN_PROFILE
+
+syntax keyword cppWinConstant ERROR_BAD_PROFILE
+
+syntax keyword cppWinConstant ERROR_NOT_CONTAINER
+
+syntax keyword cppWinConstant ERROR_EXTENDED_ERROR
+
+syntax keyword cppWinConstant ERROR_INVALID_GROUPNAME
+
+syntax keyword cppWinConstant ERROR_INVALID_COMPUTERNAME
+
+syntax keyword cppWinConstant ERROR_INVALID_EVENTNAME
+
+syntax keyword cppWinConstant ERROR_INVALID_DOMAINNAME
+
+syntax keyword cppWinConstant ERROR_INVALID_SERVICENAME
+
+syntax keyword cppWinConstant ERROR_INVALID_NETNAME
+
+syntax keyword cppWinConstant ERROR_INVALID_SHARENAME
+
+syntax keyword cppWinConstant ERROR_INVALID_PASSWORDNAME
+
+syntax keyword cppWinConstant ERROR_INVALID_MESSAGENAME
+
+syntax keyword cppWinConstant ERROR_INVALID_MESSAGEDEST
+
+syntax keyword cppWinConstant ERROR_SESSION_CREDENTIAL_CONFLICT
+
+syntax keyword cppWinConstant ERROR_REMOTE_SESSION_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DUP_DOMAINNAME
+
+syntax keyword cppWinConstant ERROR_NO_NETWORK
+
+syntax keyword cppWinConstant ERROR_CANCELLED
+
+syntax keyword cppWinConstant ERROR_USER_MAPPED_FILE
+
+syntax keyword cppWinConstant ERROR_CONNECTION_REFUSED
+
+syntax keyword cppWinConstant ERROR_GRACEFUL_DISCONNECT
+
+syntax keyword cppWinConstant ERROR_ADDRESS_ALREADY_ASSOCIATED
+
+syntax keyword cppWinConstant ERROR_ADDRESS_NOT_ASSOCIATED
+
+syntax keyword cppWinConstant ERROR_CONNECTION_INVALID
+
+syntax keyword cppWinConstant ERROR_CONNECTION_ACTIVE
+
+syntax keyword cppWinConstant ERROR_NETWORK_UNREACHABLE
+
+syntax keyword cppWinConstant ERROR_HOST_UNREACHABLE
+
+syntax keyword cppWinConstant ERROR_PROTOCOL_UNREACHABLE
+
+syntax keyword cppWinConstant ERROR_PORT_UNREACHABLE
+
+syntax keyword cppWinConstant ERROR_REQUEST_ABORTED
+
+syntax keyword cppWinConstant ERROR_CONNECTION_ABORTED
+
+syntax keyword cppWinConstant ERROR_RETRY
+
+syntax keyword cppWinConstant ERROR_CONNECTION_COUNT_LIMIT
+
+syntax keyword cppWinConstant ERROR_LOGIN_TIME_RESTRICTION
+
+syntax keyword cppWinConstant ERROR_LOGIN_WKSTA_RESTRICTION
+
+syntax keyword cppWinConstant ERROR_INCORRECT_ADDRESS
+
+syntax keyword cppWinConstant ERROR_ALREADY_REGISTERED
+
+syntax keyword cppWinConstant ERROR_SERVICE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NOT_AUTHENTICATED
+
+syntax keyword cppWinConstant ERROR_NOT_LOGGED_ON
+
+syntax keyword cppWinConstant ERROR_CONTINUE
+
+syntax keyword cppWinConstant ERROR_ALREADY_INITIALIZED
+
+syntax keyword cppWinConstant ERROR_NO_MORE_DEVICES
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_SITE
+
+syntax keyword cppWinConstant ERROR_DOMAIN_CONTROLLER_EXISTS
+
+syntax keyword cppWinConstant ERROR_ONLY_IF_CONNECTED
+
+syntax keyword cppWinConstant ERROR_OVERRIDE_NOCHANGES
+
+syntax keyword cppWinConstant ERROR_BAD_USER_PROFILE
+
+syntax keyword cppWinConstant ERROR_NOT_SUPPORTED_ON_SBS
+
+syntax keyword cppWinConstant ERROR_SERVER_SHUTDOWN_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_HOST_DOWN
+
+syntax keyword cppWinConstant ERROR_NON_ACCOUNT_SID
+
+syntax keyword cppWinConstant ERROR_NON_DOMAIN_SID
+
+syntax keyword cppWinConstant ERROR_APPHELP_BLOCK
+
+syntax keyword cppWinConstant ERROR_ACCESS_DISABLED_BY_POLICY
+
+syntax keyword cppWinConstant ERROR_REG_NAT_CONSUMPTION
+
+syntax keyword cppWinConstant ERROR_CSCSHARE_OFFLINE
+
+syntax keyword cppWinConstant ERROR_PKINIT_FAILURE
+
+syntax keyword cppWinConstant ERROR_SMARTCARD_SUBSYSTEM_FAILURE
+
+syntax keyword cppWinConstant ERROR_DOWNGRADE_DETECTED
+
+syntax keyword cppWinConstant ERROR_MACHINE_LOCKED
+
+syntax keyword cppWinConstant ERROR_CALLBACK_SUPPLIED_INVALID_DATA
+
+syntax keyword cppWinConstant ERROR_SYNC_FOREGROUND_REFRESH_REQUIRED
+
+syntax keyword cppWinConstant ERROR_DRIVER_BLOCKED
+
+syntax keyword cppWinConstant ERROR_INVALID_IMPORT_OF_NON_DLL
+
+syntax keyword cppWinConstant ERROR_ACCESS_DISABLED_WEBBLADE
+
+syntax keyword cppWinConstant ERROR_ACCESS_DISABLED_WEBBLADE_TAMPER
+
+syntax keyword cppWinConstant ERROR_RECOVERY_FAILURE
+
+syntax keyword cppWinConstant ERROR_ALREADY_FIBER
+
+syntax keyword cppWinConstant ERROR_ALREADY_THREAD
+
+syntax keyword cppWinConstant ERROR_STACK_BUFFER_OVERRUN
+
+syntax keyword cppWinConstant ERROR_PARAMETER_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DEBUGGER_INACTIVE
+
+syntax keyword cppWinConstant ERROR_DELAY_LOAD_FAILED
+
+syntax keyword cppWinConstant ERROR_VDM_DISALLOWED
+
+syntax keyword cppWinConstant ERROR_UNIDENTIFIED_ERROR
+
+syntax keyword cppWinConstant ERROR_INVALID_CRUNTIME_PARAMETER
+
+syntax keyword cppWinConstant ERROR_BEYOND_VDL
+
+syntax keyword cppWinConstant ERROR_INCOMPATIBLE_SERVICE_SID_TYPE
+
+syntax keyword cppWinConstant ERROR_DRIVER_PROCESS_TERMINATED
+
+syntax keyword cppWinConstant ERROR_IMPLEMENTATION_LIMIT
+
+syntax keyword cppWinConstant ERROR_PROCESS_IS_PROTECTED
+
+syntax keyword cppWinConstant ERROR_SERVICE_NOTIFY_CLIENT_LAGGING
+
+syntax keyword cppWinConstant ERROR_DISK_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_CONTENT_BLOCKED
+
+syntax keyword cppWinConstant ERROR_INCOMPATIBLE_SERVICE_PRIVILEGE
+
+syntax keyword cppWinConstant ERROR_APP_HANG
+
+syntax keyword cppWinConstant ERROR_INVALID_LABEL
+
+syntax keyword cppWinConstant ERROR_NOT_ALL_ASSIGNED
+
+syntax keyword cppWinConstant ERROR_SOME_NOT_MAPPED
+
+syntax keyword cppWinConstant ERROR_NO_QUOTAS_FOR_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_LOCAL_USER_SESSION_KEY
+
+syntax keyword cppWinConstant ERROR_NULL_LM_PASSWORD
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_REVISION
+
+syntax keyword cppWinConstant ERROR_REVISION_MISMATCH
+
+syntax keyword cppWinConstant ERROR_INVALID_OWNER
+
+syntax keyword cppWinConstant ERROR_INVALID_PRIMARY_GROUP
+
+syntax keyword cppWinConstant ERROR_NO_IMPERSONATION_TOKEN
+
+syntax keyword cppWinConstant ERROR_CANT_DISABLE_MANDATORY
+
+syntax keyword cppWinConstant ERROR_NO_LOGON_SERVERS
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_LOGON_SESSION
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_PRIVILEGE
+
+syntax keyword cppWinConstant ERROR_PRIVILEGE_NOT_HELD
+
+syntax keyword cppWinConstant ERROR_INVALID_ACCOUNT_NAME
+
+syntax keyword cppWinConstant ERROR_USER_EXISTS
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_USER
+
+syntax keyword cppWinConstant ERROR_GROUP_EXISTS
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_GROUP
+
+syntax keyword cppWinConstant ERROR_MEMBER_IN_GROUP
+
+syntax keyword cppWinConstant ERROR_MEMBER_NOT_IN_GROUP
+
+syntax keyword cppWinConstant ERROR_LAST_ADMIN
+
+syntax keyword cppWinConstant ERROR_WRONG_PASSWORD
+
+syntax keyword cppWinConstant ERROR_ILL_FORMED_PASSWORD
+
+syntax keyword cppWinConstant ERROR_PASSWORD_RESTRICTION
+
+syntax keyword cppWinConstant ERROR_LOGON_FAILURE
+
+syntax keyword cppWinConstant ERROR_ACCOUNT_RESTRICTION
+
+syntax keyword cppWinConstant ERROR_INVALID_LOGON_HOURS
+
+syntax keyword cppWinConstant ERROR_INVALID_WORKSTATION
+
+syntax keyword cppWinConstant ERROR_PASSWORD_EXPIRED
+
+syntax keyword cppWinConstant ERROR_ACCOUNT_DISABLED
+
+syntax keyword cppWinConstant ERROR_NONE_MAPPED
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_LUIDS_REQUESTED
+
+syntax keyword cppWinConstant ERROR_LUIDS_EXHAUSTED
+
+syntax keyword cppWinConstant ERROR_INVALID_SUB_AUTHORITY
+
+syntax keyword cppWinConstant ERROR_INVALID_ACL
+
+syntax keyword cppWinConstant ERROR_INVALID_SID
+
+syntax keyword cppWinConstant ERROR_INVALID_SECURITY_DESCR
+
+syntax keyword cppWinConstant ERROR_BAD_INHERITANCE_ACL
+
+syntax keyword cppWinConstant ERROR_SERVER_DISABLED
+
+syntax keyword cppWinConstant ERROR_SERVER_NOT_DISABLED
+
+syntax keyword cppWinConstant ERROR_INVALID_ID_AUTHORITY
+
+syntax keyword cppWinConstant ERROR_ALLOTTED_SPACE_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_INVALID_GROUP_ATTRIBUTES
+
+syntax keyword cppWinConstant ERROR_BAD_IMPERSONATION_LEVEL
+
+syntax keyword cppWinConstant ERROR_CANT_OPEN_ANONYMOUS
+
+syntax keyword cppWinConstant ERROR_BAD_VALIDATION_CLASS
+
+syntax keyword cppWinConstant ERROR_BAD_TOKEN_TYPE
+
+syntax keyword cppWinConstant ERROR_NO_SECURITY_ON_OBJECT
+
+syntax keyword cppWinConstant ERROR_CANT_ACCESS_DOMAIN_INFO
+
+syntax keyword cppWinConstant ERROR_INVALID_SERVER_STATE
+
+syntax keyword cppWinConstant ERROR_INVALID_DOMAIN_STATE
+
+syntax keyword cppWinConstant ERROR_INVALID_DOMAIN_ROLE
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_DOMAIN
+
+syntax keyword cppWinConstant ERROR_DOMAIN_EXISTS
+
+syntax keyword cppWinConstant ERROR_DOMAIN_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_INTERNAL_DB_CORRUPTION
+
+syntax keyword cppWinConstant ERROR_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_GENERIC_NOT_MAPPED
+
+syntax keyword cppWinConstant ERROR_BAD_DESCRIPTOR_FORMAT
+
+syntax keyword cppWinConstant ERROR_NOT_LOGON_PROCESS
+
+syntax keyword cppWinConstant ERROR_LOGON_SESSION_EXISTS
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_PACKAGE
+
+syntax keyword cppWinConstant ERROR_BAD_LOGON_SESSION_STATE
+
+syntax keyword cppWinConstant ERROR_LOGON_SESSION_COLLISION
+
+syntax keyword cppWinConstant ERROR_INVALID_LOGON_TYPE
+
+syntax keyword cppWinConstant ERROR_CANNOT_IMPERSONATE
+
+syntax keyword cppWinConstant ERROR_RXACT_INVALID_STATE
+
+syntax keyword cppWinConstant ERROR_RXACT_COMMIT_FAILURE
+
+syntax keyword cppWinConstant ERROR_SPECIAL_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_SPECIAL_GROUP
+
+syntax keyword cppWinConstant ERROR_SPECIAL_USER
+
+syntax keyword cppWinConstant ERROR_MEMBERS_PRIMARY_GROUP
+
+syntax keyword cppWinConstant ERROR_TOKEN_ALREADY_IN_USE
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_ALIAS
+
+syntax keyword cppWinConstant ERROR_MEMBER_NOT_IN_ALIAS
+
+syntax keyword cppWinConstant ERROR_MEMBER_IN_ALIAS
+
+syntax keyword cppWinConstant ERROR_ALIAS_EXISTS
+
+syntax keyword cppWinConstant ERROR_LOGON_NOT_GRANTED
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_SECRETS
+
+syntax keyword cppWinConstant ERROR_SECRET_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_INTERNAL_DB_ERROR
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_CONTEXT_IDS
+
+syntax keyword cppWinConstant ERROR_LOGON_TYPE_NOT_GRANTED
+
+syntax keyword cppWinConstant ERROR_NT_CROSS_ENCRYPTION_REQUIRED
+
+syntax keyword cppWinConstant ERROR_NO_SUCH_MEMBER
+
+syntax keyword cppWinConstant ERROR_INVALID_MEMBER
+
+syntax keyword cppWinConstant ERROR_TOO_MANY_SIDS
+
+syntax keyword cppWinConstant ERROR_LM_CROSS_ENCRYPTION_REQUIRED
+
+syntax keyword cppWinConstant ERROR_NO_INHERITANCE
+
+syntax keyword cppWinConstant ERROR_FILE_CORRUPT
+
+syntax keyword cppWinConstant ERROR_DISK_CORRUPT
+
+syntax keyword cppWinConstant ERROR_NO_USER_SESSION_KEY
+
+syntax keyword cppWinConstant ERROR_LICENSE_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_WRONG_TARGET_NAME
+
+syntax keyword cppWinConstant ERROR_MUTUAL_AUTH_FAILED
+
+syntax keyword cppWinConstant ERROR_TIME_SKEW
+
+syntax keyword cppWinConstant ERROR_CURRENT_DOMAIN_NOT_ALLOWED
+
+syntax keyword cppWinConstant ERROR_INVALID_WINDOW_HANDLE
+
+syntax keyword cppWinConstant ERROR_INVALID_MENU_HANDLE
+
+syntax keyword cppWinConstant ERROR_INVALID_CURSOR_HANDLE
+
+syntax keyword cppWinConstant ERROR_INVALID_ACCEL_HANDLE
+
+syntax keyword cppWinConstant ERROR_INVALID_HOOK_HANDLE
+
+syntax keyword cppWinConstant ERROR_INVALID_DWP_HANDLE
+
+syntax keyword cppWinConstant ERROR_TLW_WITH_WSCHILD
+
+syntax keyword cppWinConstant ERROR_CANNOT_FIND_WND_CLASS
+
+syntax keyword cppWinConstant ERROR_WINDOW_OF_OTHER_THREAD
+
+syntax keyword cppWinConstant ERROR_HOTKEY_ALREADY_REGISTERED
+
+syntax keyword cppWinConstant ERROR_CLASS_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_CLASS_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant ERROR_CLASS_HAS_WINDOWS
+
+syntax keyword cppWinConstant ERROR_INVALID_INDEX
+
+syntax keyword cppWinConstant ERROR_INVALID_ICON_HANDLE
+
+syntax keyword cppWinConstant ERROR_PRIVATE_DIALOG_INDEX
+
+syntax keyword cppWinConstant ERROR_LISTBOX_ID_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NO_WILDCARD_CHARACTERS
+
+syntax keyword cppWinConstant ERROR_CLIPBOARD_NOT_OPEN
+
+syntax keyword cppWinConstant ERROR_HOTKEY_NOT_REGISTERED
+
+syntax keyword cppWinConstant ERROR_WINDOW_NOT_DIALOG
+
+syntax keyword cppWinConstant ERROR_CONTROL_ID_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_INVALID_COMBOBOX_MESSAGE
+
+syntax keyword cppWinConstant ERROR_WINDOW_NOT_COMBOBOX
+
+syntax keyword cppWinConstant ERROR_INVALID_EDIT_HEIGHT
+
+syntax keyword cppWinConstant ERROR_DC_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_INVALID_HOOK_FILTER
+
+syntax keyword cppWinConstant ERROR_INVALID_FILTER_PROC
+
+syntax keyword cppWinConstant ERROR_HOOK_NEEDS_HMOD
+
+syntax keyword cppWinConstant ERROR_GLOBAL_ONLY_HOOK
+
+syntax keyword cppWinConstant ERROR_JOURNAL_HOOK_SET
+
+syntax keyword cppWinConstant ERROR_HOOK_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_INVALID_LB_MESSAGE
+
+syntax keyword cppWinConstant ERROR_SETCOUNT_ON_BAD_LB
+
+syntax keyword cppWinConstant ERROR_LB_WITHOUT_TABSTOPS
+
+syntax keyword cppWinConstant ERROR_DESTROY_OBJECT_OF_OTHER_THREAD
+
+syntax keyword cppWinConstant ERROR_CHILD_WINDOW_MENU
+
+syntax keyword cppWinConstant ERROR_NO_SYSTEM_MENU
+
+syntax keyword cppWinConstant ERROR_INVALID_MSGBOX_STYLE
+
+syntax keyword cppWinConstant ERROR_INVALID_SPI_VALUE
+
+syntax keyword cppWinConstant ERROR_SCREEN_ALREADY_LOCKED
+
+syntax keyword cppWinConstant ERROR_HWNDS_HAVE_DIFF_PARENT
+
+syntax keyword cppWinConstant ERROR_NOT_CHILD_WINDOW
+
+syntax keyword cppWinConstant ERROR_INVALID_GW_COMMAND
+
+syntax keyword cppWinConstant ERROR_INVALID_THREAD_ID
+
+syntax keyword cppWinConstant ERROR_NON_MDICHILD_WINDOW
+
+syntax keyword cppWinConstant ERROR_POPUP_ALREADY_ACTIVE
+
+syntax keyword cppWinConstant ERROR_NO_SCROLLBARS
+
+syntax keyword cppWinConstant ERROR_INVALID_SCROLLBAR_RANGE
+
+syntax keyword cppWinConstant ERROR_INVALID_SHOWWIN_COMMAND
+
+syntax keyword cppWinConstant ERROR_NO_SYSTEM_RESOURCES
+
+syntax keyword cppWinConstant ERROR_NONPAGED_SYSTEM_RESOURCES
+
+syntax keyword cppWinConstant ERROR_PAGED_SYSTEM_RESOURCES
+
+syntax keyword cppWinConstant ERROR_WORKING_SET_QUOTA
+
+syntax keyword cppWinConstant ERROR_PAGEFILE_QUOTA
+
+syntax keyword cppWinConstant ERROR_COMMITMENT_LIMIT
+
+syntax keyword cppWinConstant ERROR_MENU_ITEM_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_INVALID_KEYBOARD_HANDLE
+
+syntax keyword cppWinConstant ERROR_HOOK_TYPE_NOT_ALLOWED
+
+syntax keyword cppWinConstant ERROR_REQUIRES_INTERACTIVE_WINDOWSTATION
+
+syntax keyword cppWinConstant ERROR_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_INVALID_MONITOR_HANDLE
+
+syntax keyword cppWinConstant ERROR_INCORRECT_SIZE
+
+syntax keyword cppWinConstant ERROR_SYMLINK_CLASS_DISABLED
+
+syntax keyword cppWinConstant ERROR_SYMLINK_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_XML_PARSE_ERROR
+
+syntax keyword cppWinConstant ERROR_XMLDSIG_ERROR
+
+syntax keyword cppWinConstant ERROR_RESTART_APPLICATION
+
+syntax keyword cppWinConstant ERROR_WRONG_COMPARTMENT
+
+syntax keyword cppWinConstant ERROR_AUTHIP_FAILURE
+
+syntax keyword cppWinConstant ERROR_NO_NVRAM_RESOURCES
+
+syntax keyword cppWinConstant ERROR_EVENTLOG_FILE_CORRUPT
+
+syntax keyword cppWinConstant ERROR_EVENTLOG_CANT_START
+
+syntax keyword cppWinConstant ERROR_LOG_FILE_FULL
+
+syntax keyword cppWinConstant ERROR_EVENTLOG_FILE_CHANGED
+
+syntax keyword cppWinConstant ERROR_INVALID_TASK_NAME
+
+syntax keyword cppWinConstant ERROR_INVALID_TASK_INDEX
+
+syntax keyword cppWinConstant ERROR_THREAD_ALREADY_IN_TASK
+
+syntax keyword cppWinConstant ERROR_INSTALL_SERVICE_FAILURE
+
+syntax keyword cppWinConstant ERROR_INSTALL_USEREXIT
+
+syntax keyword cppWinConstant ERROR_INSTALL_FAILURE
+
+syntax keyword cppWinConstant ERROR_INSTALL_SUSPEND
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_PRODUCT
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_FEATURE
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_COMPONENT
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_PROPERTY
+
+syntax keyword cppWinConstant ERROR_INVALID_HANDLE_STATE
+
+syntax keyword cppWinConstant ERROR_BAD_CONFIGURATION
+
+syntax keyword cppWinConstant ERROR_INDEX_ABSENT
+
+syntax keyword cppWinConstant ERROR_INSTALL_SOURCE_ABSENT
+
+syntax keyword cppWinConstant ERROR_INSTALL_PACKAGE_VERSION
+
+syntax keyword cppWinConstant ERROR_PRODUCT_UNINSTALLED
+
+syntax keyword cppWinConstant ERROR_BAD_QUERY_SYNTAX
+
+syntax keyword cppWinConstant ERROR_INVALID_FIELD
+
+syntax keyword cppWinConstant ERROR_DEVICE_REMOVED
+
+syntax keyword cppWinConstant ERROR_INSTALL_ALREADY_RUNNING
+
+syntax keyword cppWinConstant ERROR_INSTALL_PACKAGE_OPEN_FAILED
+
+syntax keyword cppWinConstant ERROR_INSTALL_PACKAGE_INVALID
+
+syntax keyword cppWinConstant ERROR_INSTALL_UI_FAILURE
+
+syntax keyword cppWinConstant ERROR_INSTALL_LOG_FAILURE
+
+syntax keyword cppWinConstant ERROR_INSTALL_LANGUAGE_UNSUPPORTED
+
+syntax keyword cppWinConstant ERROR_INSTALL_TRANSFORM_FAILURE
+
+syntax keyword cppWinConstant ERROR_INSTALL_PACKAGE_REJECTED
+
+syntax keyword cppWinConstant ERROR_FUNCTION_NOT_CALLED
+
+syntax keyword cppWinConstant ERROR_FUNCTION_FAILED
+
+syntax keyword cppWinConstant ERROR_INVALID_TABLE
+
+syntax keyword cppWinConstant ERROR_DATATYPE_MISMATCH
+
+syntax keyword cppWinConstant ERROR_UNSUPPORTED_TYPE
+
+syntax keyword cppWinConstant ERROR_CREATE_FAILED
+
+syntax keyword cppWinConstant ERROR_INSTALL_TEMP_UNWRITABLE
+
+syntax keyword cppWinConstant ERROR_INSTALL_PLATFORM_UNSUPPORTED
+
+syntax keyword cppWinConstant ERROR_INSTALL_NOTUSED
+
+syntax keyword cppWinConstant ERROR_PATCH_PACKAGE_OPEN_FAILED
+
+syntax keyword cppWinConstant ERROR_PATCH_PACKAGE_INVALID
+
+syntax keyword cppWinConstant ERROR_PATCH_PACKAGE_UNSUPPORTED
+
+syntax keyword cppWinConstant ERROR_PRODUCT_VERSION
+
+syntax keyword cppWinConstant ERROR_INVALID_COMMAND_LINE
+
+syntax keyword cppWinConstant ERROR_INSTALL_REMOTE_DISALLOWED
+
+syntax keyword cppWinConstant ERROR_SUCCESS_REBOOT_INITIATED
+
+syntax keyword cppWinConstant ERROR_PATCH_TARGET_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_PATCH_PACKAGE_REJECTED
+
+syntax keyword cppWinConstant ERROR_INSTALL_TRANSFORM_REJECTED
+
+syntax keyword cppWinConstant ERROR_INSTALL_REMOTE_PROHIBITED
+
+syntax keyword cppWinConstant ERROR_PATCH_REMOVAL_UNSUPPORTED
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_PATCH
+
+syntax keyword cppWinConstant ERROR_PATCH_NO_SEQUENCE
+
+syntax keyword cppWinConstant ERROR_PATCH_REMOVAL_DISALLOWED
+
+syntax keyword cppWinConstant ERROR_INVALID_PATCH_XML
+
+syntax keyword cppWinConstant ERROR_PATCH_MANAGED_ADVERTISED_PRODUCT
+
+syntax keyword cppWinConstant ERROR_INSTALL_SERVICE_SAFEBOOT
+
+syntax keyword cppWinConstant ERROR_FAIL_FAST_EXCEPTION
+
+syntax keyword cppWinConstant RPC_S_INVALID_STRING_BINDING
+
+syntax keyword cppWinConstant RPC_S_WRONG_KIND_OF_BINDING
+
+syntax keyword cppWinConstant RPC_S_INVALID_BINDING
+
+syntax keyword cppWinConstant RPC_S_PROTSEQ_NOT_SUPPORTED
+
+syntax keyword cppWinConstant RPC_S_INVALID_RPC_PROTSEQ
+
+syntax keyword cppWinConstant RPC_S_INVALID_STRING_UUID
+
+syntax keyword cppWinConstant RPC_S_INVALID_ENDPOINT_FORMAT
+
+syntax keyword cppWinConstant RPC_S_INVALID_NET_ADDR
+
+syntax keyword cppWinConstant RPC_S_NO_ENDPOINT_FOUND
+
+syntax keyword cppWinConstant RPC_S_INVALID_TIMEOUT
+
+syntax keyword cppWinConstant RPC_S_OBJECT_NOT_FOUND
+
+syntax keyword cppWinConstant RPC_S_ALREADY_REGISTERED
+
+syntax keyword cppWinConstant RPC_S_TYPE_ALREADY_REGISTERED
+
+syntax keyword cppWinConstant RPC_S_ALREADY_LISTENING
+
+syntax keyword cppWinConstant RPC_S_NO_PROTSEQS_REGISTERED
+
+syntax keyword cppWinConstant RPC_S_NOT_LISTENING
+
+syntax keyword cppWinConstant RPC_S_UNKNOWN_MGR_TYPE
+
+syntax keyword cppWinConstant RPC_S_UNKNOWN_IF
+
+syntax keyword cppWinConstant RPC_S_NO_BINDINGS
+
+syntax keyword cppWinConstant RPC_S_NO_PROTSEQS
+
+syntax keyword cppWinConstant RPC_S_CANT_CREATE_ENDPOINT
+
+syntax keyword cppWinConstant RPC_S_OUT_OF_RESOURCES
+
+syntax keyword cppWinConstant RPC_S_SERVER_UNAVAILABLE
+
+syntax keyword cppWinConstant RPC_S_SERVER_TOO_BUSY
+
+syntax keyword cppWinConstant RPC_S_INVALID_NETWORK_OPTIONS
+
+syntax keyword cppWinConstant RPC_S_NO_CALL_ACTIVE
+
+syntax keyword cppWinConstant RPC_S_CALL_FAILED
+
+syntax keyword cppWinConstant RPC_S_CALL_FAILED_DNE
+
+syntax keyword cppWinConstant RPC_S_PROTOCOL_ERROR
+
+syntax keyword cppWinConstant RPC_S_PROXY_ACCESS_DENIED
+
+syntax keyword cppWinConstant RPC_S_UNSUPPORTED_TRANS_SYN
+
+syntax keyword cppWinConstant RPC_S_UNSUPPORTED_TYPE
+
+syntax keyword cppWinConstant RPC_S_INVALID_TAG
+
+syntax keyword cppWinConstant RPC_S_INVALID_BOUND
+
+syntax keyword cppWinConstant RPC_S_NO_ENTRY_NAME
+
+syntax keyword cppWinConstant RPC_S_INVALID_NAME_SYNTAX
+
+syntax keyword cppWinConstant RPC_S_UNSUPPORTED_NAME_SYNTAX
+
+syntax keyword cppWinConstant RPC_S_UUID_NO_ADDRESS
+
+syntax keyword cppWinConstant RPC_S_DUPLICATE_ENDPOINT
+
+syntax keyword cppWinConstant RPC_S_UNKNOWN_AUTHN_TYPE
+
+syntax keyword cppWinConstant RPC_S_MAX_CALLS_TOO_SMALL
+
+syntax keyword cppWinConstant RPC_S_STRING_TOO_LONG
+
+syntax keyword cppWinConstant RPC_S_PROTSEQ_NOT_FOUND
+
+syntax keyword cppWinConstant RPC_S_PROCNUM_OUT_OF_RANGE
+
+syntax keyword cppWinConstant RPC_S_BINDING_HAS_NO_AUTH
+
+syntax keyword cppWinConstant RPC_S_UNKNOWN_AUTHN_SERVICE
+
+syntax keyword cppWinConstant RPC_S_UNKNOWN_AUTHN_LEVEL
+
+syntax keyword cppWinConstant RPC_S_INVALID_AUTH_IDENTITY
+
+syntax keyword cppWinConstant RPC_S_UNKNOWN_AUTHZ_SERVICE
+
+syntax keyword cppWinConstant EPT_S_INVALID_ENTRY
+
+syntax keyword cppWinConstant EPT_S_CANT_PERFORM_OP
+
+syntax keyword cppWinConstant EPT_S_NOT_REGISTERED
+
+syntax keyword cppWinConstant RPC_S_NOTHING_TO_EXPORT
+
+syntax keyword cppWinConstant RPC_S_INCOMPLETE_NAME
+
+syntax keyword cppWinConstant RPC_S_INVALID_VERS_OPTION
+
+syntax keyword cppWinConstant RPC_S_NO_MORE_MEMBERS
+
+syntax keyword cppWinConstant RPC_S_NOT_ALL_OBJS_UNEXPORTED
+
+syntax keyword cppWinConstant RPC_S_INTERFACE_NOT_FOUND
+
+syntax keyword cppWinConstant RPC_S_ENTRY_ALREADY_EXISTS
+
+syntax keyword cppWinConstant RPC_S_ENTRY_NOT_FOUND
+
+syntax keyword cppWinConstant RPC_S_NAME_SERVICE_UNAVAILABLE
+
+syntax keyword cppWinConstant RPC_S_INVALID_NAF_ID
+
+syntax keyword cppWinConstant RPC_S_CANNOT_SUPPORT
+
+syntax keyword cppWinConstant RPC_S_NO_CONTEXT_AVAILABLE
+
+syntax keyword cppWinConstant RPC_S_INTERNAL_ERROR
+
+syntax keyword cppWinConstant RPC_S_ZERO_DIVIDE
+
+syntax keyword cppWinConstant RPC_S_ADDRESS_ERROR
+
+syntax keyword cppWinConstant RPC_S_FP_DIV_ZERO
+
+syntax keyword cppWinConstant RPC_S_FP_UNDERFLOW
+
+syntax keyword cppWinConstant RPC_S_FP_OVERFLOW
+
+syntax keyword cppWinConstant RPC_X_NO_MORE_ENTRIES
+
+syntax keyword cppWinConstant RPC_X_SS_CHAR_TRANS_OPEN_FAIL
+
+syntax keyword cppWinConstant RPC_X_SS_CHAR_TRANS_SHORT_FILE
+
+syntax keyword cppWinConstant RPC_X_SS_IN_NULL_CONTEXT
+
+syntax keyword cppWinConstant RPC_X_SS_CONTEXT_DAMAGED
+
+syntax keyword cppWinConstant RPC_X_SS_HANDLES_MISMATCH
+
+syntax keyword cppWinConstant RPC_X_SS_CANNOT_GET_CALL_HANDLE
+
+syntax keyword cppWinConstant RPC_X_NULL_REF_POINTER
+
+syntax keyword cppWinConstant RPC_X_ENUM_VALUE_OUT_OF_RANGE
+
+syntax keyword cppWinConstant RPC_X_BYTE_COUNT_TOO_SMALL
+
+syntax keyword cppWinConstant RPC_X_BAD_STUB_DATA
+
+syntax keyword cppWinConstant ERROR_INVALID_USER_BUFFER
+
+syntax keyword cppWinConstant ERROR_UNRECOGNIZED_MEDIA
+
+syntax keyword cppWinConstant ERROR_NO_TRUST_LSA_SECRET
+
+syntax keyword cppWinConstant ERROR_NO_TRUST_SAM_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_TRUSTED_DOMAIN_FAILURE
+
+syntax keyword cppWinConstant ERROR_TRUSTED_RELATIONSHIP_FAILURE
+
+syntax keyword cppWinConstant ERROR_TRUST_FAILURE
+
+syntax keyword cppWinConstant RPC_S_CALL_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_NETLOGON_NOT_STARTED
+
+syntax keyword cppWinConstant ERROR_ACCOUNT_EXPIRED
+
+syntax keyword cppWinConstant ERROR_REDIRECTOR_HAS_OPEN_HANDLES
+
+syntax keyword cppWinConstant ERROR_PRINTER_DRIVER_ALREADY_INSTALLED
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_PORT
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_PRINTER_DRIVER
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_PRINTPROCESSOR
+
+syntax keyword cppWinConstant ERROR_INVALID_SEPARATOR_FILE
+
+syntax keyword cppWinConstant ERROR_INVALID_PRIORITY
+
+syntax keyword cppWinConstant ERROR_INVALID_PRINTER_NAME
+
+syntax keyword cppWinConstant ERROR_PRINTER_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_INVALID_PRINTER_COMMAND
+
+syntax keyword cppWinConstant ERROR_INVALID_DATATYPE
+
+syntax keyword cppWinConstant ERROR_INVALID_ENVIRONMENT
+
+syntax keyword cppWinConstant RPC_S_NO_MORE_BINDINGS
+
+syntax keyword cppWinConstant ERROR_NOLOGON_INTERDOMAIN_TRUST_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_NOLOGON_WORKSTATION_TRUST_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_NOLOGON_SERVER_TRUST_ACCOUNT
+
+syntax keyword cppWinConstant ERROR_DOMAIN_TRUST_INCONSISTENT
+
+syntax keyword cppWinConstant ERROR_SERVER_HAS_OPEN_HANDLES
+
+syntax keyword cppWinConstant ERROR_RESOURCE_DATA_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_RESOURCE_TYPE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_RESOURCE_NAME_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_RESOURCE_LANG_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NOT_ENOUGH_QUOTA
+
+syntax keyword cppWinConstant RPC_S_NO_INTERFACES
+
+syntax keyword cppWinConstant RPC_S_CALL_CANCELLED
+
+syntax keyword cppWinConstant RPC_S_BINDING_INCOMPLETE
+
+syntax keyword cppWinConstant RPC_S_COMM_FAILURE
+
+syntax keyword cppWinConstant RPC_S_UNSUPPORTED_AUTHN_LEVEL
+
+syntax keyword cppWinConstant RPC_S_NO_PRINC_NAME
+
+syntax keyword cppWinConstant RPC_S_NOT_RPC_ERROR
+
+syntax keyword cppWinConstant RPC_S_UUID_LOCAL_ONLY
+
+syntax keyword cppWinConstant RPC_S_SEC_PKG_ERROR
+
+syntax keyword cppWinConstant RPC_S_NOT_CANCELLED
+
+syntax keyword cppWinConstant RPC_X_INVALID_ES_ACTION
+
+syntax keyword cppWinConstant RPC_X_WRONG_ES_VERSION
+
+syntax keyword cppWinConstant RPC_X_WRONG_STUB_VERSION
+
+syntax keyword cppWinConstant RPC_X_INVALID_PIPE_OBJECT
+
+syntax keyword cppWinConstant RPC_X_WRONG_PIPE_ORDER
+
+syntax keyword cppWinConstant RPC_X_WRONG_PIPE_VERSION
+
+syntax keyword cppWinConstant RPC_S_COOKIE_AUTH_FAILED
+
+syntax keyword cppWinConstant RPC_S_GROUP_MEMBER_NOT_FOUND
+
+syntax keyword cppWinConstant EPT_S_CANT_CREATE
+
+syntax keyword cppWinConstant RPC_S_INVALID_OBJECT
+
+syntax keyword cppWinConstant ERROR_INVALID_TIME
+
+syntax keyword cppWinConstant ERROR_INVALID_FORM_NAME
+
+syntax keyword cppWinConstant ERROR_INVALID_FORM_SIZE
+
+syntax keyword cppWinConstant ERROR_ALREADY_WAITING
+
+syntax keyword cppWinConstant ERROR_PRINTER_DELETED
+
+syntax keyword cppWinConstant ERROR_INVALID_PRINTER_STATE
+
+syntax keyword cppWinConstant ERROR_PASSWORD_MUST_CHANGE
+
+syntax keyword cppWinConstant ERROR_DOMAIN_CONTROLLER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_ACCOUNT_LOCKED_OUT
+
+syntax keyword cppWinConstant OR_INVALID_OXID
+
+syntax keyword cppWinConstant OR_INVALID_OID
+
+syntax keyword cppWinConstant OR_INVALID_SET
+
+syntax keyword cppWinConstant RPC_S_SEND_INCOMPLETE
+
+syntax keyword cppWinConstant RPC_S_INVALID_ASYNC_HANDLE
+
+syntax keyword cppWinConstant RPC_S_INVALID_ASYNC_CALL
+
+syntax keyword cppWinConstant RPC_X_PIPE_CLOSED
+
+syntax keyword cppWinConstant RPC_X_PIPE_DISCIPLINE_ERROR
+
+syntax keyword cppWinConstant RPC_X_PIPE_EMPTY
+
+syntax keyword cppWinConstant ERROR_NO_SITENAME
+
+syntax keyword cppWinConstant ERROR_CANT_ACCESS_FILE
+
+syntax keyword cppWinConstant ERROR_CANT_RESOLVE_FILENAME
+
+syntax keyword cppWinConstant RPC_S_ENTRY_TYPE_MISMATCH
+
+syntax keyword cppWinConstant RPC_S_NOT_ALL_OBJS_EXPORTED
+
+syntax keyword cppWinConstant RPC_S_INTERFACE_NOT_EXPORTED
+
+syntax keyword cppWinConstant RPC_S_PROFILE_NOT_ADDED
+
+syntax keyword cppWinConstant RPC_S_PRF_ELT_NOT_ADDED
+
+syntax keyword cppWinConstant RPC_S_PRF_ELT_NOT_REMOVED
+
+syntax keyword cppWinConstant RPC_S_GRP_ELT_NOT_ADDED
+
+syntax keyword cppWinConstant RPC_S_GRP_ELT_NOT_REMOVED
+
+syntax keyword cppWinConstant ERROR_KM_DRIVER_BLOCKED
+
+syntax keyword cppWinConstant ERROR_CONTEXT_EXPIRED
+
+syntax keyword cppWinConstant ERROR_PER_USER_TRUST_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_ALL_USER_TRUST_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_USER_DELETE_TRUST_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_AUTHENTICATION_FIREWALL_FAILED
+
+syntax keyword cppWinConstant ERROR_REMOTE_PRINT_CONNECTIONS_BLOCKED
+
+syntax keyword cppWinConstant ERROR_NTLM_BLOCKED
+
+syntax keyword cppWinConstant ERROR_INVALID_PIXEL_FORMAT
+
+syntax keyword cppWinConstant ERROR_BAD_DRIVER
+
+syntax keyword cppWinConstant ERROR_INVALID_WINDOW_STYLE
+
+syntax keyword cppWinConstant ERROR_METAFILE_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_TRANSFORM_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_CLIPPING_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_INVALID_CMM
+
+syntax keyword cppWinConstant ERROR_INVALID_PROFILE
+
+syntax keyword cppWinConstant ERROR_TAG_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_TAG_NOT_PRESENT
+
+syntax keyword cppWinConstant ERROR_DUPLICATE_TAG
+
+syntax keyword cppWinConstant ERROR_PROFILE_NOT_ASSOCIATED_WITH_DEVICE
+
+syntax keyword cppWinConstant ERROR_PROFILE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_INVALID_COLORSPACE
+
+syntax keyword cppWinConstant ERROR_ICM_NOT_ENABLED
+
+syntax keyword cppWinConstant ERROR_DELETING_ICM_XFORM
+
+syntax keyword cppWinConstant ERROR_INVALID_TRANSFORM
+
+syntax keyword cppWinConstant ERROR_COLORSPACE_MISMATCH
+
+syntax keyword cppWinConstant ERROR_INVALID_COLORINDEX
+
+syntax keyword cppWinConstant ERROR_PROFILE_DOES_NOT_MATCH_DEVICE
+
+syntax keyword cppWinConstant ERROR_CONNECTED_OTHER_PASSWORD
+
+syntax keyword cppWinConstant ERROR_CONNECTED_OTHER_PASSWORD_DEFAULT
+
+syntax keyword cppWinConstant ERROR_BAD_USERNAME
+
+syntax keyword cppWinConstant ERROR_NOT_CONNECTED
+
+syntax keyword cppWinConstant ERROR_OPEN_FILES
+
+syntax keyword cppWinConstant ERROR_ACTIVE_CONNECTIONS
+
+syntax keyword cppWinConstant ERROR_DEVICE_IN_USE
+
+syntax keyword cppWinConstant ERROR_UNKNOWN_PRINT_MONITOR
+
+syntax keyword cppWinConstant ERROR_PRINTER_DRIVER_IN_USE
+
+syntax keyword cppWinConstant ERROR_SPOOL_FILE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_SPL_NO_STARTDOC
+
+syntax keyword cppWinConstant ERROR_SPL_NO_ADDJOB
+
+syntax keyword cppWinConstant ERROR_PRINT_PROCESSOR_ALREADY_INSTALLED
+
+syntax keyword cppWinConstant ERROR_PRINT_MONITOR_ALREADY_INSTALLED
+
+syntax keyword cppWinConstant ERROR_INVALID_PRINT_MONITOR
+
+syntax keyword cppWinConstant ERROR_PRINT_MONITOR_IN_USE
+
+syntax keyword cppWinConstant ERROR_PRINTER_HAS_JOBS_QUEUED
+
+syntax keyword cppWinConstant ERROR_SUCCESS_REBOOT_REQUIRED
+
+syntax keyword cppWinConstant ERROR_SUCCESS_RESTART_REQUIRED
+
+syntax keyword cppWinConstant ERROR_PRINTER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_PRINTER_DRIVER_WARNED
+
+syntax keyword cppWinConstant ERROR_PRINTER_DRIVER_BLOCKED
+
+syntax keyword cppWinConstant ERROR_PRINTER_DRIVER_PACKAGE_IN_USE
+
+syntax keyword cppWinConstant ERROR_CORE_DRIVER_PACKAGE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_FAIL_REBOOT_REQUIRED
+
+syntax keyword cppWinConstant ERROR_FAIL_REBOOT_INITIATED
+
+syntax keyword cppWinConstant ERROR_PRINTER_DRIVER_DOWNLOAD_NEEDED
+
+syntax keyword cppWinConstant ERROR_PRINT_JOB_RESTART_REQUIRED
+
+syntax keyword cppWinConstant ERROR_IO_REISSUE_AS_CACHED
+
+syntax keyword cppWinConstant ERROR_WINS_INTERNAL
+
+syntax keyword cppWinConstant ERROR_CAN_NOT_DEL_LOCAL_WINS
+
+syntax keyword cppWinConstant ERROR_STATIC_INIT
+
+syntax keyword cppWinConstant ERROR_INC_BACKUP
+
+syntax keyword cppWinConstant ERROR_FULL_BACKUP
+
+syntax keyword cppWinConstant ERROR_REC_NON_EXISTENT
+
+syntax keyword cppWinConstant ERROR_RPL_NOT_ALLOWED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_CANNOT_PARSE_CONTENTINFO
+
+syntax keyword cppWinConstant PEERDIST_ERROR_MISSING_DATA
+
+syntax keyword cppWinConstant PEERDIST_ERROR_NO_MORE
+
+syntax keyword cppWinConstant PEERDIST_ERROR_NOT_INITIALIZED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_ALREADY_INITIALIZED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_SHUTDOWN_IN_PROGRESS
+
+syntax keyword cppWinConstant PEERDIST_ERROR_INVALIDATED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_ALREADY_EXISTS
+
+syntax keyword cppWinConstant PEERDIST_ERROR_OPERATION_NOTFOUND
+
+syntax keyword cppWinConstant PEERDIST_ERROR_ALREADY_COMPLETED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_OUT_OF_BOUNDS
+
+syntax keyword cppWinConstant PEERDIST_ERROR_VERSION_UNSUPPORTED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_INVALID_CONFIGURATION
+
+syntax keyword cppWinConstant PEERDIST_ERROR_NOT_LICENSED
+
+syntax keyword cppWinConstant PEERDIST_ERROR_SERVICE_UNAVAILABLE
+
+syntax keyword cppWinConstant ERROR_DHCP_ADDRESS_CONFLICT
+
+syntax keyword cppWinConstant ERROR_WMI_GUID_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_WMI_INSTANCE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_WMI_ITEMID_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_WMI_TRY_AGAIN
+
+syntax keyword cppWinConstant ERROR_WMI_DP_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_WMI_UNRESOLVED_INSTANCE_REF
+
+syntax keyword cppWinConstant ERROR_WMI_ALREADY_ENABLED
+
+syntax keyword cppWinConstant ERROR_WMI_GUID_DISCONNECTED
+
+syntax keyword cppWinConstant ERROR_WMI_SERVER_UNAVAILABLE
+
+syntax keyword cppWinConstant ERROR_WMI_DP_FAILED
+
+syntax keyword cppWinConstant ERROR_WMI_INVALID_MOF
+
+syntax keyword cppWinConstant ERROR_WMI_INVALID_REGINFO
+
+syntax keyword cppWinConstant ERROR_WMI_ALREADY_DISABLED
+
+syntax keyword cppWinConstant ERROR_WMI_READ_ONLY
+
+syntax keyword cppWinConstant ERROR_WMI_SET_FAILURE
+
+syntax keyword cppWinConstant ERROR_INVALID_MEDIA
+
+syntax keyword cppWinConstant ERROR_INVALID_LIBRARY
+
+syntax keyword cppWinConstant ERROR_INVALID_MEDIA_POOL
+
+syntax keyword cppWinConstant ERROR_DRIVE_MEDIA_MISMATCH
+
+syntax keyword cppWinConstant ERROR_MEDIA_OFFLINE
+
+syntax keyword cppWinConstant ERROR_LIBRARY_OFFLINE
+
+syntax keyword cppWinConstant ERROR_EMPTY
+
+syntax keyword cppWinConstant ERROR_NOT_EMPTY
+
+syntax keyword cppWinConstant ERROR_MEDIA_UNAVAILABLE
+
+syntax keyword cppWinConstant ERROR_RESOURCE_DISABLED
+
+syntax keyword cppWinConstant ERROR_INVALID_CLEANER
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_CLEAN
+
+syntax keyword cppWinConstant ERROR_OBJECT_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DATABASE_FAILURE
+
+syntax keyword cppWinConstant ERROR_DATABASE_FULL
+
+syntax keyword cppWinConstant ERROR_MEDIA_INCOMPATIBLE
+
+syntax keyword cppWinConstant ERROR_RESOURCE_NOT_PRESENT
+
+syntax keyword cppWinConstant ERROR_INVALID_OPERATION
+
+syntax keyword cppWinConstant ERROR_MEDIA_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_DEVICE_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_REQUEST_REFUSED
+
+syntax keyword cppWinConstant ERROR_INVALID_DRIVE_OBJECT
+
+syntax keyword cppWinConstant ERROR_LIBRARY_FULL
+
+syntax keyword cppWinConstant ERROR_MEDIUM_NOT_ACCESSIBLE
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_LOAD_MEDIUM
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_INVENTORY_DRIVE
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_INVENTORY_SLOT
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_INVENTORY_TRANSPORT
+
+syntax keyword cppWinConstant ERROR_TRANSPORT_FULL
+
+syntax keyword cppWinConstant ERROR_CONTROLLING_IEPORT
+
+syntax keyword cppWinConstant ERROR_UNABLE_TO_EJECT_MOUNTED_MEDIA
+
+syntax keyword cppWinConstant ERROR_CLEANER_SLOT_SET
+
+syntax keyword cppWinConstant ERROR_CLEANER_SLOT_NOT_SET
+
+syntax keyword cppWinConstant ERROR_CLEANER_CARTRIDGE_SPENT
+
+syntax keyword cppWinConstant ERROR_UNEXPECTED_OMID
+
+syntax keyword cppWinConstant ERROR_CANT_DELETE_LAST_ITEM
+
+syntax keyword cppWinConstant ERROR_MESSAGE_EXCEEDS_MAX_SIZE
+
+syntax keyword cppWinConstant ERROR_VOLUME_CONTAINS_SYS_FILES
+
+syntax keyword cppWinConstant ERROR_INDIGENOUS_TYPE
+
+syntax keyword cppWinConstant ERROR_NO_SUPPORTING_DRIVES
+
+syntax keyword cppWinConstant ERROR_CLEANER_CARTRIDGE_INSTALLED
+
+syntax keyword cppWinConstant ERROR_IEPORT_FULL
+
+syntax keyword cppWinConstant ERROR_FILE_OFFLINE
+
+syntax keyword cppWinConstant ERROR_REMOTE_STORAGE_NOT_ACTIVE
+
+syntax keyword cppWinConstant ERROR_REMOTE_STORAGE_MEDIA_ERROR
+
+syntax keyword cppWinConstant ERROR_NOT_A_REPARSE_POINT
+
+syntax keyword cppWinConstant ERROR_REPARSE_ATTRIBUTE_CONFLICT
+
+syntax keyword cppWinConstant ERROR_INVALID_REPARSE_DATA
+
+syntax keyword cppWinConstant ERROR_REPARSE_TAG_INVALID
+
+syntax keyword cppWinConstant ERROR_REPARSE_TAG_MISMATCH
+
+syntax keyword cppWinConstant ERROR_VOLUME_NOT_SIS_ENABLED
+
+syntax keyword cppWinConstant ERROR_DEPENDENT_RESOURCE_EXISTS
+
+syntax keyword cppWinConstant ERROR_DEPENDENCY_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DEPENDENCY_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_RESOURCE_NOT_ONLINE
+
+syntax keyword cppWinConstant ERROR_HOST_NODE_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_RESOURCE_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_RESOURCE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_SHUTDOWN_CLUSTER
+
+syntax keyword cppWinConstant ERROR_CANT_EVICT_ACTIVE_NODE
+
+syntax keyword cppWinConstant ERROR_OBJECT_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_OBJECT_IN_LIST
+
+syntax keyword cppWinConstant ERROR_GROUP_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_GROUP_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_GROUP_NOT_ONLINE
+
+syntax keyword cppWinConstant ERROR_HOST_NODE_NOT_RESOURCE_OWNER
+
+syntax keyword cppWinConstant ERROR_HOST_NODE_NOT_GROUP_OWNER
+
+syntax keyword cppWinConstant ERROR_RESMON_CREATE_FAILED
+
+syntax keyword cppWinConstant ERROR_RESMON_ONLINE_FAILED
+
+syntax keyword cppWinConstant ERROR_RESOURCE_ONLINE
+
+syntax keyword cppWinConstant ERROR_QUORUM_RESOURCE
+
+syntax keyword cppWinConstant ERROR_NOT_QUORUM_CAPABLE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_SHUTTING_DOWN
+
+syntax keyword cppWinConstant ERROR_INVALID_STATE
+
+syntax keyword cppWinConstant ERROR_RESOURCE_PROPERTIES_STORED
+
+syntax keyword cppWinConstant ERROR_NOT_QUORUM_CLASS
+
+syntax keyword cppWinConstant ERROR_CORE_RESOURCE
+
+syntax keyword cppWinConstant ERROR_QUORUM_RESOURCE_ONLINE_FAILED
+
+syntax keyword cppWinConstant ERROR_QUORUMLOG_OPEN_FAILED
+
+syntax keyword cppWinConstant ERROR_CLUSTERLOG_CORRUPT
+
+syntax keyword cppWinConstant ERROR_CLUSTERLOG_RECORD_EXCEEDS_MAXSIZE
+
+syntax keyword cppWinConstant ERROR_CLUSTERLOG_EXCEEDS_MAXSIZE
+
+syntax keyword cppWinConstant ERROR_CLUSTERLOG_CHKPOINT_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTERLOG_NOT_ENOUGH_SPACE
+
+syntax keyword cppWinConstant ERROR_QUORUM_OWNER_ALIVE
+
+syntax keyword cppWinConstant ERROR_NETWORK_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_NODE_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_ALL_NODES_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_RESOURCE_FAILED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_NODE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_EXISTS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_JOIN_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_LOCAL_NODE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETWORK_EXISTS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETWORK_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETINTERFACE_EXISTS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETINTERFACE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_REQUEST
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_NETWORK_PROVIDER
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_DOWN
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_UNREACHABLE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_NOT_MEMBER
+
+syntax keyword cppWinConstant ERROR_CLUSTER_JOIN_NOT_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_NETWORK
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_UP
+
+syntax keyword cppWinConstant ERROR_CLUSTER_IPADDR_IN_USE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_NOT_PAUSED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NO_SECURITY_CONTEXT
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETWORK_NOT_INTERNAL
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_ALREADY_UP
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_ALREADY_DOWN
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETWORK_ALREADY_ONLINE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETWORK_ALREADY_OFFLINE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_ALREADY_MEMBER
+
+syntax keyword cppWinConstant ERROR_CLUSTER_LAST_INTERNAL_NETWORK
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS
+
+syntax keyword cppWinConstant ERROR_INVALID_OPERATION_ON_QUORUM
+
+syntax keyword cppWinConstant ERROR_DEPENDENCY_NOT_ALLOWED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_PAUSED
+
+syntax keyword cppWinConstant ERROR_NODE_CANT_HOST_RESOURCE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_NOT_READY
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_SHUTTING_DOWN
+
+syntax keyword cppWinConstant ERROR_CLUSTER_JOIN_ABORTED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INCOMPATIBLE_VERSIONS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_MAXNUM_OF_RESOURCES_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_SYSTEM_CONFIG_CHANGED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RESOURCE_TYPE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RESTYPE_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RESNAME_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NO_RPC_PACKAGES_REGISTERED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_OWNER_NOT_IN_PREFLIST
+
+syntax keyword cppWinConstant ERROR_CLUSTER_DATABASE_SEQMISMATCH
+
+syntax keyword cppWinConstant ERROR_RESMON_INVALID_STATE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_GUM_NOT_LOCKER
+
+syntax keyword cppWinConstant ERROR_QUORUM_DISK_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DATABASE_BACKUP_CORRUPT
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NODE_ALREADY_HAS_DFS_ROOT
+
+syntax keyword cppWinConstant ERROR_RESOURCE_PROPERTY_UNCHANGEABLE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_MEMBERSHIP_INVALID_STATE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_QUORUMLOG_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_MEMBERSHIP_HALT
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INSTANCE_ID_MISMATCH
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NETWORK_NOT_FOUND_FOR_IP
+
+syntax keyword cppWinConstant ERROR_CLUSTER_PROPERTY_DATA_TYPE_MISMATCH
+
+syntax keyword cppWinConstant ERROR_CLUSTER_EVICT_WITHOUT_CLEANUP
+
+syntax keyword cppWinConstant ERROR_CLUSTER_PARAMETER_MISMATCH
+
+syntax keyword cppWinConstant ERROR_NODE_CANNOT_BE_CLUSTERED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_WRONG_OS_VERSION
+
+syntax keyword cppWinConstant ERROR_CLUSTER_CANT_CREATE_DUP_CLUSTER_NAME
+
+syntax keyword cppWinConstant ERROR_CLUSCFG_ALREADY_COMMITTED
+
+syntax keyword cppWinConstant ERROR_CLUSCFG_ROLLBACK_FAILED
+
+syntax keyword cppWinConstant ERROR_CLUSCFG_SYSTEM_DISK_DRIVE_LETTER_CONFLICT
+
+syntax keyword cppWinConstant ERROR_CLUSTER_OLD_VERSION
+
+syntax keyword cppWinConstant ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NO_NET_ADAPTERS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_POISONED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_GROUP_MOVING
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RESOURCE_TYPE_BUSY
+
+syntax keyword cppWinConstant ERROR_RESOURCE_CALL_TIMED_OUT
+
+syntax keyword cppWinConstant ERROR_INVALID_CLUSTER_IPV6_ADDRESS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INTERNAL_INVALID_FUNCTION
+
+syntax keyword cppWinConstant ERROR_CLUSTER_PARAMETER_OUT_OF_BOUNDS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_PARTIAL_SEND
+
+syntax keyword cppWinConstant ERROR_CLUSTER_REGISTRY_INVALID_FUNCTION
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_STRING_TERMINATION
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_STRING_FORMAT
+
+syntax keyword cppWinConstant ERROR_CLUSTER_DATABASE_TRANSACTION_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_DATABASE_TRANSACTION_NOT_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NULL_DATA
+
+syntax keyword cppWinConstant ERROR_CLUSTER_PARTIAL_READ
+
+syntax keyword cppWinConstant ERROR_CLUSTER_PARTIAL_WRITE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_CANT_DESERIALIZE_DATA
+
+syntax keyword cppWinConstant ERROR_DEPENDENT_RESOURCE_PROPERTY_CONFLICT
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NO_QUORUM
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_IPV6_NETWORK
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_IPV6_TUNNEL_NETWORK
+
+syntax keyword cppWinConstant ERROR_QUORUM_NOT_ALLOWED_IN_THIS_GROUP
+
+syntax keyword cppWinConstant ERROR_DEPENDENCY_TREE_TOO_COMPLEX
+
+syntax keyword cppWinConstant ERROR_EXCEPTION_IN_RESOURCE_CALL
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RHS_FAILED_INITIALIZATION
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RESOURCES_MUST_BE_ONLINE_ON_THE_SAME_NODE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_MAX_NODES_IN_CLUSTER
+
+syntax keyword cppWinConstant ERROR_CLUSTER_TOO_MANY_NODES
+
+syntax keyword cppWinConstant ERROR_CLUSTER_OBJECT_ALREADY_USED
+
+syntax keyword cppWinConstant ERROR_NONCORE_GROUPS_FOUND
+
+syntax keyword cppWinConstant ERROR_FILE_SHARE_RESOURCE_CONFLICT
+
+syntax keyword cppWinConstant ERROR_CLUSTER_EVICT_INVALID_REQUEST
+
+syntax keyword cppWinConstant ERROR_CLUSTER_SINGLETON_RESOURCE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_GROUP_SINGLETON_RESOURCE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RESOURCE_PROVIDER_FAILED
+
+syntax keyword cppWinConstant ERROR_CLUSTER_RESOURCE_CONFIGURATION_ERROR
+
+syntax keyword cppWinConstant ERROR_CLUSTER_GROUP_BUSY
+
+syntax keyword cppWinConstant ERROR_CLUSTER_NOT_SHARED_VOLUME
+
+syntax keyword cppWinConstant ERROR_CLUSTER_INVALID_SECURITY_DESCRIPTOR
+
+syntax keyword cppWinConstant ERROR_CLUSTER_SHARED_VOLUMES_IN_USE
+
+syntax keyword cppWinConstant ERROR_CLUSTER_USE_SHARED_VOLUMES_API
+
+syntax keyword cppWinConstant ERROR_CLUSTER_BACKUP_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_NON_CSV_PATH
+
+syntax keyword cppWinConstant ERROR_CSV_VOLUME_NOT_LOCAL
+
+syntax keyword cppWinConstant ERROR_CLUSTER_WATCHDOG_TERMINATING
+
+syntax keyword cppWinConstant ERROR_ENCRYPTION_FAILED
+
+syntax keyword cppWinConstant ERROR_DECRYPTION_FAILED
+
+syntax keyword cppWinConstant ERROR_FILE_ENCRYPTED
+
+syntax keyword cppWinConstant ERROR_NO_RECOVERY_POLICY
+
+syntax keyword cppWinConstant ERROR_NO_EFS
+
+syntax keyword cppWinConstant ERROR_WRONG_EFS
+
+syntax keyword cppWinConstant ERROR_NO_USER_KEYS
+
+syntax keyword cppWinConstant ERROR_FILE_NOT_ENCRYPTED
+
+syntax keyword cppWinConstant ERROR_NOT_EXPORT_FORMAT
+
+syntax keyword cppWinConstant ERROR_FILE_READ_ONLY
+
+syntax keyword cppWinConstant ERROR_DIR_EFS_DISALLOWED
+
+syntax keyword cppWinConstant ERROR_EFS_SERVER_NOT_TRUSTED
+
+syntax keyword cppWinConstant ERROR_BAD_RECOVERY_POLICY
+
+syntax keyword cppWinConstant ERROR_EFS_ALG_BLOB_TOO_BIG
+
+syntax keyword cppWinConstant ERROR_VOLUME_NOT_SUPPORT_EFS
+
+syntax keyword cppWinConstant ERROR_EFS_DISABLED
+
+syntax keyword cppWinConstant ERROR_EFS_VERSION_NOT_SUPPORT
+
+syntax keyword cppWinConstant ERROR_CS_ENCRYPTION_INVALID_SERVER_RESPONSE
+
+syntax keyword cppWinConstant ERROR_CS_ENCRYPTION_UNSUPPORTED_SERVER
+
+syntax keyword cppWinConstant ERROR_CS_ENCRYPTION_EXISTING_ENCRYPTED_FILE
+
+syntax keyword cppWinConstant ERROR_CS_ENCRYPTION_NEW_ENCRYPTED_FILE
+
+syntax keyword cppWinConstant ERROR_CS_ENCRYPTION_FILE_NOT_CSE
+
+syntax keyword cppWinConstant ERROR_ENCRYPTION_POLICY_DENIES_OPERATION
+
+syntax keyword cppWinConstant ERROR_NO_BROWSER_SERVERS_FOUND
+
+syntax keyword cppWinConstant SCHED_E_SERVICE_NOT_LOCALSYSTEM
+
+syntax keyword cppWinConstant ERROR_LOG_SECTOR_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_SECTOR_PARITY_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_SECTOR_REMAPPED
+
+syntax keyword cppWinConstant ERROR_LOG_BLOCK_INCOMPLETE
+
+syntax keyword cppWinConstant ERROR_LOG_INVALID_RANGE
+
+syntax keyword cppWinConstant ERROR_LOG_BLOCKS_EXHAUSTED
+
+syntax keyword cppWinConstant ERROR_LOG_READ_CONTEXT_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_RESTART_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_BLOCK_VERSION
+
+syntax keyword cppWinConstant ERROR_LOG_BLOCK_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_READ_MODE_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_NO_RESTART
+
+syntax keyword cppWinConstant ERROR_LOG_METADATA_CORRUPT
+
+syntax keyword cppWinConstant ERROR_LOG_METADATA_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_METADATA_INCONSISTENT
+
+syntax keyword cppWinConstant ERROR_LOG_RESERVATION_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_CANT_DELETE
+
+syntax keyword cppWinConstant ERROR_LOG_CONTAINER_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_LOG_START_OF_LOG
+
+syntax keyword cppWinConstant ERROR_LOG_POLICY_ALREADY_INSTALLED
+
+syntax keyword cppWinConstant ERROR_LOG_POLICY_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_LOG_POLICY_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_POLICY_CONFLICT
+
+syntax keyword cppWinConstant ERROR_LOG_PINNED_ARCHIVE_TAIL
+
+syntax keyword cppWinConstant ERROR_LOG_RECORD_NONEXISTENT
+
+syntax keyword cppWinConstant ERROR_LOG_RECORDS_RESERVED_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_SPACE_RESERVED_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_TAIL_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_FULL
+
+syntax keyword cppWinConstant ERROR_COULD_NOT_RESIZE_LOG
+
+syntax keyword cppWinConstant ERROR_LOG_MULTIPLEXED
+
+syntax keyword cppWinConstant ERROR_LOG_DEDICATED
+
+syntax keyword cppWinConstant ERROR_LOG_ARCHIVE_NOT_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_LOG_ARCHIVE_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_LOG_EPHEMERAL
+
+syntax keyword cppWinConstant ERROR_LOG_NOT_ENOUGH_CONTAINERS
+
+syntax keyword cppWinConstant ERROR_LOG_CLIENT_ALREADY_REGISTERED
+
+syntax keyword cppWinConstant ERROR_LOG_CLIENT_NOT_REGISTERED
+
+syntax keyword cppWinConstant ERROR_LOG_FULL_HANDLER_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_LOG_CONTAINER_READ_FAILED
+
+syntax keyword cppWinConstant ERROR_LOG_CONTAINER_WRITE_FAILED
+
+syntax keyword cppWinConstant ERROR_LOG_CONTAINER_OPEN_FAILED
+
+syntax keyword cppWinConstant ERROR_LOG_CONTAINER_STATE_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_STATE_INVALID
+
+syntax keyword cppWinConstant ERROR_LOG_PINNED
+
+syntax keyword cppWinConstant ERROR_LOG_METADATA_FLUSH_FAILED
+
+syntax keyword cppWinConstant ERROR_LOG_INCONSISTENT_SECURITY
+
+syntax keyword cppWinConstant ERROR_LOG_APPENDED_FLUSH_FAILED
+
+syntax keyword cppWinConstant ERROR_LOG_PINNED_RESERVATION
+
+syntax keyword cppWinConstant ERROR_INVALID_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_NOT_ACTIVE
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_REQUEST_NOT_VALID
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_NOT_REQUESTED
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_ALREADY_ABORTED
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_ALREADY_COMMITTED
+
+syntax keyword cppWinConstant ERROR_TM_INITIALIZATION_FAILED
+
+syntax keyword cppWinConstant ERROR_RESOURCEMANAGER_READ_ONLY
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_NOT_JOINED
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_SUPERIOR_EXISTS
+
+syntax keyword cppWinConstant ERROR_CRM_PROTOCOL_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_PROPAGATION_FAILED
+
+syntax keyword cppWinConstant ERROR_CRM_PROTOCOL_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_INVALID_MARSHALL_BUFFER
+
+syntax keyword cppWinConstant ERROR_CURRENT_TRANSACTION_NOT_VALID
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_RESOURCEMANAGER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_ENLISTMENT_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONMANAGER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONMANAGER_NOT_ONLINE
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONMANAGER_RECOVERY_NAME_COLLISION
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_NOT_ROOT
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_OBJECT_EXPIRED
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_RESPONSE_NOT_ENLISTED
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_RECORD_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_IMPLICIT_TRANSACTION_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_INTEGRITY_VIOLATED
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONMANAGER_IDENTITY_MISMATCH
+
+syntax keyword cppWinConstant ERROR_RM_CANNOT_BE_FROZEN_FOR_SNAPSHOT
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_MUST_WRITETHROUGH
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_NO_SUPERIOR
+
+syntax keyword cppWinConstant ERROR_HEURISTIC_DAMAGE_POSSIBLE
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONAL_CONFLICT
+
+syntax keyword cppWinConstant ERROR_RM_NOT_ACTIVE
+
+syntax keyword cppWinConstant ERROR_RM_METADATA_CORRUPT
+
+syntax keyword cppWinConstant ERROR_DIRECTORY_NOT_RM
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE
+
+syntax keyword cppWinConstant ERROR_LOG_RESIZE_INVALID_SIZE
+
+syntax keyword cppWinConstant ERROR_OBJECT_NO_LONGER_EXISTS
+
+syntax keyword cppWinConstant ERROR_STREAM_MINIVERSION_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_STREAM_MINIVERSION_NOT_VALID
+
+syntax keyword cppWinConstant ERROR_MINIVERSION_INACCESSIBLE_FROM_SPECIFIED_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_CANT_OPEN_MINIVERSION_WITH_MODIFY_INTENT
+
+syntax keyword cppWinConstant ERROR_CANT_CREATE_MORE_STREAM_MINIVERSIONS
+
+syntax keyword cppWinConstant ERROR_REMOTE_FILE_VERSION_MISMATCH
+
+syntax keyword cppWinConstant ERROR_HANDLE_NO_LONGER_VALID
+
+syntax keyword cppWinConstant ERROR_NO_TXF_METADATA
+
+syntax keyword cppWinConstant ERROR_LOG_CORRUPTION_DETECTED
+
+syntax keyword cppWinConstant ERROR_CANT_RECOVER_WITH_HANDLE_OPEN
+
+syntax keyword cppWinConstant ERROR_RM_DISCONNECTED
+
+syntax keyword cppWinConstant ERROR_ENLISTMENT_NOT_SUPERIOR
+
+syntax keyword cppWinConstant ERROR_RECOVERY_NOT_NEEDED
+
+syntax keyword cppWinConstant ERROR_RM_ALREADY_STARTED
+
+syntax keyword cppWinConstant ERROR_FILE_IDENTITY_NOT_PERSISTENT
+
+syntax keyword cppWinConstant ERROR_CANT_BREAK_TRANSACTIONAL_DEPENDENCY
+
+syntax keyword cppWinConstant ERROR_CANT_CROSS_RM_BOUNDARY
+
+syntax keyword cppWinConstant ERROR_TXF_DIR_NOT_EMPTY
+
+syntax keyword cppWinConstant ERROR_INDOUBT_TRANSACTIONS_EXIST
+
+syntax keyword cppWinConstant ERROR_TM_VOLATILE
+
+syntax keyword cppWinConstant ERROR_ROLLBACK_TIMER_EXPIRED
+
+syntax keyword cppWinConstant ERROR_TXF_ATTRIBUTE_CORRUPT
+
+syntax keyword cppWinConstant ERROR_EFS_NOT_ALLOWED_IN_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONAL_OPEN_NOT_ALLOWED
+
+syntax keyword cppWinConstant ERROR_LOG_GROWTH_FAILED
+
+syntax keyword cppWinConstant ERROR_TRANSACTED_MAPPING_UNSUPPORTED_REMOTE
+
+syntax keyword cppWinConstant ERROR_TXF_METADATA_ALREADY_PRESENT
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_SCOPE_CALLBACKS_NOT_SET
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_REQUIRED_PROMOTION
+
+syntax keyword cppWinConstant ERROR_CANNOT_EXECUTE_FILE_IN_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_TRANSACTIONS_NOT_FROZEN
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_FREEZE_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_NOT_SNAPSHOT_VOLUME
+
+syntax keyword cppWinConstant ERROR_NO_SAVEPOINT_WITH_OPEN_FILES
+
+syntax keyword cppWinConstant ERROR_DATA_LOST_REPAIR
+
+syntax keyword cppWinConstant ERROR_SPARSE_NOT_ALLOWED_IN_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_TM_IDENTITY_MISMATCH
+
+syntax keyword cppWinConstant ERROR_FLOATED_SECTION
+
+syntax keyword cppWinConstant ERROR_CANNOT_ACCEPT_TRANSACTED_WORK
+
+syntax keyword cppWinConstant ERROR_CANNOT_ABORT_TRANSACTIONS
+
+syntax keyword cppWinConstant ERROR_BAD_CLUSTERS
+
+syntax keyword cppWinConstant ERROR_COMPRESSION_NOT_ALLOWED_IN_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_VOLUME_DIRTY
+
+syntax keyword cppWinConstant ERROR_NO_LINK_TRACKING_IN_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_OPERATION_NOT_SUPPORTED_IN_TRANSACTION
+
+syntax keyword cppWinConstant ERROR_EXPIRED_HANDLE
+
+syntax keyword cppWinConstant ERROR_TRANSACTION_NOT_ENLISTED
+
+syntax keyword cppWinConstant ERROR_CTX_WINSTATION_NAME_INVALID
+
+syntax keyword cppWinConstant ERROR_CTX_INVALID_PD
+
+syntax keyword cppWinConstant ERROR_CTX_PD_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CTX_WD_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CTX_CANNOT_MAKE_EVENTLOG_ENTRY
+
+syntax keyword cppWinConstant ERROR_CTX_SERVICE_NAME_COLLISION
+
+syntax keyword cppWinConstant ERROR_CTX_CLOSE_PENDING
+
+syntax keyword cppWinConstant ERROR_CTX_NO_OUTBUF
+
+syntax keyword cppWinConstant ERROR_CTX_MODEM_INF_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CTX_INVALID_MODEMNAME
+
+syntax keyword cppWinConstant ERROR_CTX_MODEM_RESPONSE_ERROR
+
+syntax keyword cppWinConstant ERROR_CTX_MODEM_RESPONSE_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_CTX_MODEM_RESPONSE_NO_CARRIER
+
+syntax keyword cppWinConstant ERROR_CTX_MODEM_RESPONSE_NO_DIALTONE
+
+syntax keyword cppWinConstant ERROR_CTX_MODEM_RESPONSE_BUSY
+
+syntax keyword cppWinConstant ERROR_CTX_MODEM_RESPONSE_VOICE
+
+syntax keyword cppWinConstant ERROR_CTX_TD_ERROR
+
+syntax keyword cppWinConstant ERROR_CTX_WINSTATION_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_CTX_WINSTATION_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_CTX_WINSTATION_BUSY
+
+syntax keyword cppWinConstant ERROR_CTX_BAD_VIDEO_MODE
+
+syntax keyword cppWinConstant ERROR_CTX_GRAPHICS_INVALID
+
+syntax keyword cppWinConstant ERROR_CTX_LOGON_DISABLED
+
+syntax keyword cppWinConstant ERROR_CTX_NOT_CONSOLE
+
+syntax keyword cppWinConstant ERROR_CTX_CLIENT_QUERY_TIMEOUT
+
+syntax keyword cppWinConstant ERROR_CTX_CONSOLE_DISCONNECT
+
+syntax keyword cppWinConstant ERROR_CTX_CONSOLE_CONNECT
+
+syntax keyword cppWinConstant ERROR_CTX_SHADOW_DENIED
+
+syntax keyword cppWinConstant ERROR_CTX_WINSTATION_ACCESS_DENIED
+
+syntax keyword cppWinConstant ERROR_CTX_INVALID_WD
+
+syntax keyword cppWinConstant ERROR_CTX_SHADOW_INVALID
+
+syntax keyword cppWinConstant ERROR_CTX_SHADOW_DISABLED
+
+syntax keyword cppWinConstant ERROR_CTX_CLIENT_LICENSE_IN_USE
+
+syntax keyword cppWinConstant ERROR_CTX_CLIENT_LICENSE_NOT_SET
+
+syntax keyword cppWinConstant ERROR_CTX_LICENSE_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_CTX_LICENSE_CLIENT_INVALID
+
+syntax keyword cppWinConstant ERROR_CTX_LICENSE_EXPIRED
+
+syntax keyword cppWinConstant ERROR_CTX_SHADOW_NOT_RUNNING
+
+syntax keyword cppWinConstant ERROR_CTX_SHADOW_ENDED_BY_MODE_CHANGE
+
+syntax keyword cppWinConstant ERROR_ACTIVATION_COUNT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_CTX_WINSTATIONS_DISABLED
+
+syntax keyword cppWinConstant ERROR_CTX_ENCRYPTION_LEVEL_REQUIRED
+
+syntax keyword cppWinConstant ERROR_CTX_SESSION_IN_USE
+
+syntax keyword cppWinConstant ERROR_CTX_NO_FORCE_LOGOFF
+
+syntax keyword cppWinConstant ERROR_CTX_ACCOUNT_RESTRICTION
+
+syntax keyword cppWinConstant ERROR_RDP_PROTOCOL_ERROR
+
+syntax keyword cppWinConstant ERROR_CTX_CDM_CONNECT
+
+syntax keyword cppWinConstant ERROR_CTX_CDM_DISCONNECT
+
+syntax keyword cppWinConstant ERROR_CTX_SECURITY_LAYER_ERROR
+
+syntax keyword cppWinConstant ERROR_TS_INCOMPATIBLE_SESSIONS
+
+syntax keyword cppWinConstant ERROR_TS_VIDEO_SUBSYSTEM_ERROR
+
+syntax keyword cppWinConstant FRS_ERR_INVALID_API_SEQUENCE
+
+syntax keyword cppWinConstant FRS_ERR_STARTING_SERVICE
+
+syntax keyword cppWinConstant FRS_ERR_STOPPING_SERVICE
+
+syntax keyword cppWinConstant FRS_ERR_INTERNAL_API
+
+syntax keyword cppWinConstant FRS_ERR_INTERNAL
+
+syntax keyword cppWinConstant FRS_ERR_SERVICE_COMM
+
+syntax keyword cppWinConstant FRS_ERR_INSUFFICIENT_PRIV
+
+syntax keyword cppWinConstant FRS_ERR_AUTHENTICATION
+
+syntax keyword cppWinConstant FRS_ERR_PARENT_INSUFFICIENT_PRIV
+
+syntax keyword cppWinConstant FRS_ERR_PARENT_AUTHENTICATION
+
+syntax keyword cppWinConstant FRS_ERR_CHILD_TO_PARENT_COMM
+
+syntax keyword cppWinConstant FRS_ERR_PARENT_TO_CHILD_COMM
+
+syntax keyword cppWinConstant FRS_ERR_SYSVOL_POPULATE
+
+syntax keyword cppWinConstant FRS_ERR_SYSVOL_POPULATE_TIMEOUT
+
+syntax keyword cppWinConstant FRS_ERR_SYSVOL_IS_BUSY
+
+syntax keyword cppWinConstant FRS_ERR_SYSVOL_DEMOTE
+
+syntax keyword cppWinConstant FRS_ERR_INVALID_SERVICE_PARAMETER
+
+syntax keyword cppWinConstant DS_S_SUCCESS
+//
+syntax keyword cppWinConstant ERROR_DS_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_DS_MEMBERSHIP_EVALUATED_LOCALLY
+
+syntax keyword cppWinConstant ERROR_DS_NO_ATTRIBUTE_OR_VALUE
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_ATTRIBUTE_SYNTAX
+
+syntax keyword cppWinConstant ERROR_DS_ATTRIBUTE_TYPE_UNDEFINED
+
+syntax keyword cppWinConstant ERROR_DS_ATTRIBUTE_OR_VALUE_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_BUSY
+
+syntax keyword cppWinConstant ERROR_DS_UNAVAILABLE
+
+syntax keyword cppWinConstant ERROR_DS_NO_RIDS_ALLOCATED
+
+syntax keyword cppWinConstant ERROR_DS_NO_MORE_RIDS
+
+syntax keyword cppWinConstant ERROR_DS_INCORRECT_ROLE_OWNER
+
+syntax keyword cppWinConstant ERROR_DS_RIDMGR_INIT_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_OBJ_CLASS_VIOLATION
+
+syntax keyword cppWinConstant ERROR_DS_CANT_ON_NON_LEAF
+
+syntax keyword cppWinConstant ERROR_DS_CANT_ON_RDN
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOD_OBJ_CLASS
+
+syntax keyword cppWinConstant ERROR_DS_CROSS_DOM_MOVE_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_GC_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_SHARED_POLICY
+
+syntax keyword cppWinConstant ERROR_POLICY_OBJECT_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_POLICY_ONLY_IN_DS
+
+syntax keyword cppWinConstant ERROR_PROMOTION_ACTIVE
+
+syntax keyword cppWinConstant ERROR_NO_PROMOTION_ACTIVE
+
+syntax keyword cppWinConstant ERROR_DS_OPERATIONS_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_PROTOCOL_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_TIMELIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_SIZELIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_ADMIN_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_COMPARE_FALSE
+
+syntax keyword cppWinConstant ERROR_DS_COMPARE_TRUE
+
+syntax keyword cppWinConstant ERROR_DS_AUTH_METHOD_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_DS_STRONG_AUTH_REQUIRED
+
+syntax keyword cppWinConstant ERROR_DS_INAPPROPRIATE_AUTH
+
+syntax keyword cppWinConstant ERROR_DS_AUTH_UNKNOWN
+
+syntax keyword cppWinConstant ERROR_DS_REFERRAL
+
+syntax keyword cppWinConstant ERROR_DS_UNAVAILABLE_CRIT_EXTENSION
+
+syntax keyword cppWinConstant ERROR_DS_CONFIDENTIALITY_REQUIRED
+
+syntax keyword cppWinConstant ERROR_DS_INAPPROPRIATE_MATCHING
+
+syntax keyword cppWinConstant ERROR_DS_CONSTRAINT_VIOLATION
+
+syntax keyword cppWinConstant ERROR_DS_NO_SUCH_OBJECT
+
+syntax keyword cppWinConstant ERROR_DS_ALIAS_PROBLEM
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_DN_SYNTAX
+
+syntax keyword cppWinConstant ERROR_DS_IS_LEAF
+
+syntax keyword cppWinConstant ERROR_DS_ALIAS_DEREF_PROBLEM
+
+syntax keyword cppWinConstant ERROR_DS_UNWILLING_TO_PERFORM
+
+syntax keyword cppWinConstant ERROR_DS_LOOP_DETECT
+
+syntax keyword cppWinConstant ERROR_DS_NAMING_VIOLATION
+
+syntax keyword cppWinConstant ERROR_DS_OBJECT_RESULTS_TOO_LARGE
+
+syntax keyword cppWinConstant ERROR_DS_AFFECTS_MULTIPLE_DSAS
+
+syntax keyword cppWinConstant ERROR_DS_SERVER_DOWN
+
+syntax keyword cppWinConstant ERROR_DS_LOCAL_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_ENCODING_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_DECODING_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_FILTER_UNKNOWN
+
+syntax keyword cppWinConstant ERROR_DS_PARAM_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_DS_NO_RESULTS_RETURNED
+
+syntax keyword cppWinConstant ERROR_DS_CONTROL_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_CLIENT_LOOP
+
+syntax keyword cppWinConstant ERROR_DS_REFERRAL_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_SORT_CONTROL_MISSING
+
+syntax keyword cppWinConstant ERROR_DS_OFFSET_RANGE_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_ROOT_MUST_BE_NC
+
+syntax keyword cppWinConstant ERROR_DS_ADD_REPLICA_INHIBITED
+
+syntax keyword cppWinConstant ERROR_DS_ATT_NOT_DEF_IN_SCHEMA
+
+syntax keyword cppWinConstant ERROR_DS_MAX_OBJ_SIZE_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_OBJ_STRING_NAME_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_NO_RDN_DEFINED_IN_SCHEMA
+
+syntax keyword cppWinConstant ERROR_DS_RDN_DOESNT_MATCH_SCHEMA
+
+syntax keyword cppWinConstant ERROR_DS_NO_REQUESTED_ATTS_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_USER_BUFFER_TO_SMALL
+
+syntax keyword cppWinConstant ERROR_DS_ATT_IS_NOT_ON_OBJ
+
+syntax keyword cppWinConstant ERROR_DS_ILLEGAL_MOD_OPERATION
+
+syntax keyword cppWinConstant ERROR_DS_OBJ_TOO_LARGE
+
+syntax keyword cppWinConstant ERROR_DS_BAD_INSTANCE_TYPE
+
+syntax keyword cppWinConstant ERROR_DS_MASTERDSA_REQUIRED
+
+syntax keyword cppWinConstant ERROR_DS_OBJECT_CLASS_REQUIRED
+
+syntax keyword cppWinConstant ERROR_DS_MISSING_REQUIRED_ATT
+
+syntax keyword cppWinConstant ERROR_DS_ATT_NOT_DEF_FOR_CLASS
+
+syntax keyword cppWinConstant ERROR_DS_ATT_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_ADD_ATT_VALUES
+
+syntax keyword cppWinConstant ERROR_DS_SINGLE_VALUE_CONSTRAINT
+
+syntax keyword cppWinConstant ERROR_DS_RANGE_CONSTRAINT
+
+syntax keyword cppWinConstant ERROR_DS_ATT_VAL_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_REM_MISSING_ATT
+
+syntax keyword cppWinConstant ERROR_DS_CANT_REM_MISSING_ATT_VAL
+
+syntax keyword cppWinConstant ERROR_DS_ROOT_CANT_BE_SUBREF
+
+syntax keyword cppWinConstant ERROR_DS_NO_CHAINING
+
+syntax keyword cppWinConstant ERROR_DS_NO_CHAINED_EVAL
+
+syntax keyword cppWinConstant ERROR_DS_NO_PARENT_OBJECT
+
+syntax keyword cppWinConstant ERROR_DS_PARENT_IS_AN_ALIAS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MIX_MASTER_AND_REPS
+
+syntax keyword cppWinConstant ERROR_DS_CHILDREN_EXIST
+
+syntax keyword cppWinConstant ERROR_DS_OBJ_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_ALIASED_OBJ_MISSING
+
+syntax keyword cppWinConstant ERROR_DS_BAD_NAME_SYNTAX
+
+syntax keyword cppWinConstant ERROR_DS_ALIAS_POINTS_TO_ALIAS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_DEREF_ALIAS
+
+syntax keyword cppWinConstant ERROR_DS_OUT_OF_SCOPE
+
+syntax keyword cppWinConstant ERROR_DS_OBJECT_BEING_REMOVED
+
+syntax keyword cppWinConstant ERROR_DS_CANT_DELETE_DSA_OBJ
+
+syntax keyword cppWinConstant ERROR_DS_GENERIC_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_DSA_MUST_BE_INT_MASTER
+
+syntax keyword cppWinConstant ERROR_DS_CLASS_NOT_DSA
+
+syntax keyword cppWinConstant ERROR_DS_INSUFF_ACCESS_RIGHTS
+
+syntax keyword cppWinConstant ERROR_DS_ILLEGAL_SUPERIOR
+
+syntax keyword cppWinConstant ERROR_DS_ATTRIBUTE_OWNED_BY_SAM
+
+syntax keyword cppWinConstant ERROR_DS_NAME_TOO_MANY_PARTS
+
+syntax keyword cppWinConstant ERROR_DS_NAME_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_DS_NAME_VALUE_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_DS_NAME_UNPARSEABLE
+
+syntax keyword cppWinConstant ERROR_DS_NAME_TYPE_UNKNOWN
+
+syntax keyword cppWinConstant ERROR_DS_NOT_AN_OBJECT
+
+syntax keyword cppWinConstant ERROR_DS_SEC_DESC_TOO_SHORT
+
+syntax keyword cppWinConstant ERROR_DS_SEC_DESC_INVALID
+
+syntax keyword cppWinConstant ERROR_DS_NO_DELETED_NAME
+
+syntax keyword cppWinConstant ERROR_DS_SUBREF_MUST_HAVE_PARENT
+
+syntax keyword cppWinConstant ERROR_DS_NCNAME_MUST_BE_NC
+
+syntax keyword cppWinConstant ERROR_DS_CANT_ADD_SYSTEM_ONLY
+
+syntax keyword cppWinConstant ERROR_DS_CLASS_MUST_BE_CONCRETE
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_DMD
+
+syntax keyword cppWinConstant ERROR_DS_OBJ_GUID_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_NOT_ON_BACKLINK
+
+syntax keyword cppWinConstant ERROR_DS_NO_CROSSREF_FOR_NC
+
+syntax keyword cppWinConstant ERROR_DS_SHUTTING_DOWN
+
+syntax keyword cppWinConstant ERROR_DS_UNKNOWN_OPERATION
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_ROLE_OWNER
+
+syntax keyword cppWinConstant ERROR_DS_COULDNT_CONTACT_FSMO
+
+syntax keyword cppWinConstant ERROR_DS_CROSS_NC_DN_RENAME
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOD_SYSTEM_ONLY
+
+syntax keyword cppWinConstant ERROR_DS_REPLICATOR_ONLY
+
+syntax keyword cppWinConstant ERROR_DS_OBJ_CLASS_NOT_DEFINED
+
+syntax keyword cppWinConstant ERROR_DS_OBJ_CLASS_NOT_SUBCLASS
+
+syntax keyword cppWinConstant ERROR_DS_NAME_REFERENCE_INVALID
+
+syntax keyword cppWinConstant ERROR_DS_CROSS_REF_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_DEL_MASTER_CROSSREF
+
+syntax keyword cppWinConstant ERROR_DS_SUBTREE_NOTIFY_NOT_NC_HEAD
+
+syntax keyword cppWinConstant ERROR_DS_NOTIFY_FILTER_TOO_COMPLEX
+
+syntax keyword cppWinConstant ERROR_DS_DUP_RDN
+
+syntax keyword cppWinConstant ERROR_DS_DUP_OID
+
+syntax keyword cppWinConstant ERROR_DS_DUP_MAPI_ID
+
+syntax keyword cppWinConstant ERROR_DS_DUP_SCHEMA_ID_GUID
+
+syntax keyword cppWinConstant ERROR_DS_DUP_LDAP_DISPLAY_NAME
+
+syntax keyword cppWinConstant ERROR_DS_SEMANTIC_ATT_TEST
+
+syntax keyword cppWinConstant ERROR_DS_SYNTAX_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_EXISTS_IN_MUST_HAVE
+
+syntax keyword cppWinConstant ERROR_DS_EXISTS_IN_MAY_HAVE
+
+syntax keyword cppWinConstant ERROR_DS_NONEXISTENT_MAY_HAVE
+
+syntax keyword cppWinConstant ERROR_DS_NONEXISTENT_MUST_HAVE
+
+syntax keyword cppWinConstant ERROR_DS_AUX_CLS_TEST_FAIL
+
+syntax keyword cppWinConstant ERROR_DS_NONEXISTENT_POSS_SUP
+
+syntax keyword cppWinConstant ERROR_DS_SUB_CLS_TEST_FAIL
+
+syntax keyword cppWinConstant ERROR_DS_BAD_RDN_ATT_ID_SYNTAX
+
+syntax keyword cppWinConstant ERROR_DS_EXISTS_IN_AUX_CLS
+
+syntax keyword cppWinConstant ERROR_DS_EXISTS_IN_SUB_CLS
+
+syntax keyword cppWinConstant ERROR_DS_EXISTS_IN_POSS_SUP
+
+syntax keyword cppWinConstant ERROR_DS_RECALCSCHEMA_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_TREE_DELETE_NOT_FINISHED
+
+syntax keyword cppWinConstant ERROR_DS_CANT_DELETE
+
+syntax keyword cppWinConstant ERROR_DS_ATT_SCHEMA_REQ_ID
+
+syntax keyword cppWinConstant ERROR_DS_BAD_ATT_SCHEMA_SYNTAX
+
+syntax keyword cppWinConstant ERROR_DS_CANT_CACHE_ATT
+
+syntax keyword cppWinConstant ERROR_DS_CANT_CACHE_CLASS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_REMOVE_ATT_CACHE
+
+syntax keyword cppWinConstant ERROR_DS_CANT_REMOVE_CLASS_CACHE
+
+syntax keyword cppWinConstant ERROR_DS_CANT_RETRIEVE_DN
+
+syntax keyword cppWinConstant ERROR_DS_MISSING_SUPREF
+
+syntax keyword cppWinConstant ERROR_DS_CANT_RETRIEVE_INSTANCE
+
+syntax keyword cppWinConstant ERROR_DS_CODE_INCONSISTENCY
+
+syntax keyword cppWinConstant ERROR_DS_DATABASE_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_GOVERNSID_MISSING
+
+syntax keyword cppWinConstant ERROR_DS_MISSING_EXPECTED_ATT
+
+syntax keyword cppWinConstant ERROR_DS_NCNAME_MISSING_CR_REF
+
+syntax keyword cppWinConstant ERROR_DS_SECURITY_CHECKING_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_SCHEMA_NOT_LOADED
+
+syntax keyword cppWinConstant ERROR_DS_SCHEMA_ALLOC_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_ATT_SCHEMA_REQ_SYNTAX
+
+syntax keyword cppWinConstant ERROR_DS_GCVERIFY_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SCHEMA_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_CANT_FIND_DSA_OBJ
+
+syntax keyword cppWinConstant ERROR_DS_CANT_FIND_EXPECTED_NC
+
+syntax keyword cppWinConstant ERROR_DS_CANT_FIND_NC_IN_CACHE
+
+syntax keyword cppWinConstant ERROR_DS_CANT_RETRIEVE_CHILD
+
+syntax keyword cppWinConstant ERROR_DS_SECURITY_ILLEGAL_MODIFY
+
+syntax keyword cppWinConstant ERROR_DS_CANT_REPLACE_HIDDEN_REC
+
+syntax keyword cppWinConstant ERROR_DS_BAD_HIERARCHY_FILE
+
+syntax keyword cppWinConstant ERROR_DS_BUILD_HIERARCHY_TABLE_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_CONFIG_PARAM_MISSING
+
+syntax keyword cppWinConstant ERROR_DS_COUNTING_AB_INDICES_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_HIERARCHY_TABLE_MALLOC_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_INTERNAL_FAILURE
+
+syntax keyword cppWinConstant ERROR_DS_UNKNOWN_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_ROOT_REQUIRES_CLASS_TOP
+
+syntax keyword cppWinConstant ERROR_DS_REFUSING_FSMO_ROLES
+
+syntax keyword cppWinConstant ERROR_DS_MISSING_FSMO_SETTINGS
+
+syntax keyword cppWinConstant ERROR_DS_UNABLE_TO_SURRENDER_ROLES
+
+syntax keyword cppWinConstant ERROR_DS_DRA_GENERIC
+
+syntax keyword cppWinConstant ERROR_DS_DRA_INVALID_PARAMETER
+
+syntax keyword cppWinConstant ERROR_DS_DRA_BUSY
+
+syntax keyword cppWinConstant ERROR_DS_DRA_BAD_DN
+
+syntax keyword cppWinConstant ERROR_DS_DRA_BAD_NC
+
+syntax keyword cppWinConstant ERROR_DS_DRA_DN_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_DRA_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_DRA_INCONSISTENT_DIT
+
+syntax keyword cppWinConstant ERROR_DS_DRA_CONNECTION_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_BAD_INSTANCE_TYPE
+
+syntax keyword cppWinConstant ERROR_DS_DRA_OUT_OF_MEM
+
+syntax keyword cppWinConstant ERROR_DS_DRA_MAIL_PROBLEM
+
+syntax keyword cppWinConstant ERROR_DS_DRA_REF_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_DS_DRA_REF_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_DRA_OBJ_IS_REP_SOURCE
+
+syntax keyword cppWinConstant ERROR_DS_DRA_DB_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_DRA_NO_REPLICA
+
+syntax keyword cppWinConstant ERROR_DS_DRA_ACCESS_DENIED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_RPC_CANCELLED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SOURCE_DISABLED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SINK_DISABLED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_NAME_COLLISION
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SOURCE_REINSTALLED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_MISSING_PARENT
+
+syntax keyword cppWinConstant ERROR_DS_DRA_PREEMPTED
+
+syntax keyword cppWinConstant ERROR_DS_DRA_ABANDON_SYNC
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SHUTDOWN
+
+syntax keyword cppWinConstant ERROR_DS_DRA_INCOMPATIBLE_PARTIAL_SET
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SOURCE_IS_PARTIAL_REPLICA
+
+syntax keyword cppWinConstant ERROR_DS_DRA_EXTN_CONNECTION_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_INSTALL_SCHEMA_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_DUP_LINK_ID
+
+syntax keyword cppWinConstant ERROR_DS_NAME_ERROR_RESOLVING
+
+syntax keyword cppWinConstant ERROR_DS_NAME_ERROR_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_NAME_ERROR_NOT_UNIQUE
+
+syntax keyword cppWinConstant ERROR_DS_NAME_ERROR_NO_MAPPING
+
+syntax keyword cppWinConstant ERROR_DS_NAME_ERROR_DOMAIN_ONLY
+
+syntax keyword cppWinConstant ERROR_DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING
+
+syntax keyword cppWinConstant ERROR_DS_CONSTRUCTED_ATT_MOD
+
+syntax keyword cppWinConstant ERROR_DS_WRONG_OM_OBJ_CLASS
+
+syntax keyword cppWinConstant ERROR_DS_DRA_REPL_PENDING
+
+syntax keyword cppWinConstant ERROR_DS_DS_REQUIRED
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_LDAP_DISPLAY_NAME
+
+syntax keyword cppWinConstant ERROR_DS_NON_BASE_SEARCH
+
+syntax keyword cppWinConstant ERROR_DS_CANT_RETRIEVE_ATTS
+
+syntax keyword cppWinConstant ERROR_DS_BACKLINK_WITHOUT_LINK
+
+syntax keyword cppWinConstant ERROR_DS_EPOCH_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_SRC_NAME_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_SRC_AND_DST_NC_IDENTICAL
+
+syntax keyword cppWinConstant ERROR_DS_DST_NC_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_NOT_AUTHORITIVE_FOR_DST_NC
+
+syntax keyword cppWinConstant ERROR_DS_SRC_GUID_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOVE_DELETED_OBJECT
+
+syntax keyword cppWinConstant ERROR_DS_PDC_OPERATION_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_DS_CROSS_DOMAIN_CLEANUP_REQD
+
+syntax keyword cppWinConstant ERROR_DS_ILLEGAL_XDOM_MOVE_OPERATION
+
+syntax keyword cppWinConstant ERROR_DS_CANT_WITH_ACCT_GROUP_MEMBERSHPS
+
+syntax keyword cppWinConstant ERROR_DS_NC_MUST_HAVE_NC_PARENT
+
+syntax keyword cppWinConstant ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE
+
+syntax keyword cppWinConstant ERROR_DS_DST_DOMAIN_NOT_NATIVE
+
+syntax keyword cppWinConstant ERROR_DS_MISSING_INFRASTRUCTURE_CONTAINER
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOVE_ACCOUNT_GROUP
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOVE_RESOURCE_GROUP
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_SEARCH_FLAG
+
+syntax keyword cppWinConstant ERROR_DS_NO_TREE_DELETE_ABOVE_NC
+
+syntax keyword cppWinConstant ERROR_DS_COULDNT_LOCK_TREE_FOR_DELETE
+
+syntax keyword cppWinConstant ERROR_DS_COULDNT_IDENTIFY_OBJECTS_FOR_TREE_DELETE
+
+syntax keyword cppWinConstant ERROR_DS_SAM_INIT_FAILURE
+
+syntax keyword cppWinConstant ERROR_DS_SENSITIVE_GROUP_VIOLATION
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOD_PRIMARYGROUPID
+
+syntax keyword cppWinConstant ERROR_DS_ILLEGAL_BASE_SCHEMA_MOD
+
+syntax keyword cppWinConstant ERROR_DS_NONSAFE_SCHEMA_CHANGE
+
+syntax keyword cppWinConstant ERROR_DS_SCHEMA_UPDATE_DISALLOWED
+
+syntax keyword cppWinConstant ERROR_DS_CANT_CREATE_UNDER_SCHEMA
+
+syntax keyword cppWinConstant ERROR_DS_INSTALL_NO_SRC_SCH_VERSION
+
+syntax keyword cppWinConstant ERROR_DS_INSTALL_NO_SCH_VERSION_IN_INIFILE
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_GROUP_TYPE
+
+syntax keyword cppWinConstant ERROR_DS_NO_NEST_GLOBALGROUP_IN_MIXEDDOMAIN
+
+syntax keyword cppWinConstant ERROR_DS_NO_NEST_LOCALGROUP_IN_MIXEDDOMAIN
+
+syntax keyword cppWinConstant ERROR_DS_GLOBAL_CANT_HAVE_LOCAL_MEMBER
+
+syntax keyword cppWinConstant ERROR_DS_GLOBAL_CANT_HAVE_UNIVERSAL_MEMBER
+
+syntax keyword cppWinConstant ERROR_DS_UNIVERSAL_CANT_HAVE_LOCAL_MEMBER
+
+syntax keyword cppWinConstant ERROR_DS_GLOBAL_CANT_HAVE_CROSSDOMAIN_MEMBER
+
+syntax keyword cppWinConstant ERROR_DS_LOCAL_CANT_HAVE_CROSSDOMAIN_LOCAL_MEMBER
+
+syntax keyword cppWinConstant ERROR_DS_HAVE_PRIMARY_MEMBERS
+
+syntax keyword cppWinConstant ERROR_DS_STRING_SD_CONVERSION_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_NAMING_MASTER_GC
+
+syntax keyword cppWinConstant ERROR_DS_DNS_LOOKUP_FAILURE
+
+syntax keyword cppWinConstant ERROR_DS_COULDNT_UPDATE_SPNS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_RETRIEVE_SD
+
+syntax keyword cppWinConstant ERROR_DS_KEY_NOT_UNIQUE
+
+syntax keyword cppWinConstant ERROR_DS_WRONG_LINKED_ATT_SYNTAX
+
+syntax keyword cppWinConstant ERROR_DS_SAM_NEED_BOOTKEY_PASSWORD
+
+syntax keyword cppWinConstant ERROR_DS_SAM_NEED_BOOTKEY_FLOPPY
+
+syntax keyword cppWinConstant ERROR_DS_CANT_START
+
+syntax keyword cppWinConstant ERROR_DS_INIT_FAILURE
+
+syntax keyword cppWinConstant ERROR_DS_NO_PKT_PRIVACY_ON_CONNECTION
+
+syntax keyword cppWinConstant ERROR_DS_SOURCE_DOMAIN_IN_FOREST
+
+syntax keyword cppWinConstant ERROR_DS_DESTINATION_DOMAIN_NOT_IN_FOREST
+
+syntax keyword cppWinConstant ERROR_DS_DESTINATION_AUDITING_NOT_ENABLED
+
+syntax keyword cppWinConstant ERROR_DS_CANT_FIND_DC_FOR_SRC_DOMAIN
+
+syntax keyword cppWinConstant ERROR_DS_SRC_OBJ_NOT_GROUP_OR_USER
+
+syntax keyword cppWinConstant ERROR_DS_SRC_SID_EXISTS_IN_FOREST
+
+syntax keyword cppWinConstant ERROR_DS_SRC_AND_DST_OBJECT_CLASS_MISMATCH
+
+syntax keyword cppWinConstant ERROR_SAM_INIT_FAILURE
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SCHEMA_INFO_SHIP
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SCHEMA_CONFLICT
+
+syntax keyword cppWinConstant ERROR_DS_DRA_EARLIER_SCHEMA_CONFLICT
+
+syntax keyword cppWinConstant ERROR_DS_DRA_OBJ_NC_MISMATCH
+
+syntax keyword cppWinConstant ERROR_DS_NC_STILL_HAS_DSAS
+
+syntax keyword cppWinConstant ERROR_DS_GC_REQUIRED
+
+syntax keyword cppWinConstant ERROR_DS_LOCAL_MEMBER_OF_LOCAL_ONLY
+
+syntax keyword cppWinConstant ERROR_DS_NO_FPO_IN_UNIVERSAL_GROUPS
+
+syntax keyword cppWinConstant ERROR_DS_CANT_ADD_TO_GC
+
+syntax keyword cppWinConstant ERROR_DS_NO_CHECKPOINT_WITH_PDC
+
+syntax keyword cppWinConstant ERROR_DS_SOURCE_AUDITING_NOT_ENABLED
+
+syntax keyword cppWinConstant ERROR_DS_CANT_CREATE_IN_NONDOMAIN_NC
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_NAME_FOR_SPN
+
+syntax keyword cppWinConstant ERROR_DS_FILTER_USES_CONTRUCTED_ATTRS
+
+syntax keyword cppWinConstant ERROR_DS_UNICODEPWD_NOT_IN_QUOTES
+
+syntax keyword cppWinConstant ERROR_DS_MACHINE_ACCOUNT_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_MUST_BE_RUN_ON_DST_DC
+
+syntax keyword cppWinConstant ERROR_DS_SRC_DC_MUST_BE_SP4_OR_GREATER
+
+syntax keyword cppWinConstant ERROR_DS_CANT_TREE_DELETE_CRITICAL_OBJ
+
+syntax keyword cppWinConstant ERROR_DS_INIT_FAILURE_CONSOLE
+
+syntax keyword cppWinConstant ERROR_DS_SAM_INIT_FAILURE_CONSOLE
+
+syntax keyword cppWinConstant ERROR_DS_FOREST_VERSION_TOO_HIGH
+
+syntax keyword cppWinConstant ERROR_DS_DOMAIN_VERSION_TOO_HIGH
+
+syntax keyword cppWinConstant ERROR_DS_FOREST_VERSION_TOO_LOW
+
+syntax keyword cppWinConstant ERROR_DS_DOMAIN_VERSION_TOO_LOW
+
+syntax keyword cppWinConstant ERROR_DS_INCOMPATIBLE_VERSION
+
+syntax keyword cppWinConstant ERROR_DS_LOW_DSA_VERSION
+
+syntax keyword cppWinConstant ERROR_DS_NO_BEHAVIOR_VERSION_IN_MIXEDDOMAIN
+
+syntax keyword cppWinConstant ERROR_DS_NOT_SUPPORTED_SORT_ORDER
+
+syntax keyword cppWinConstant ERROR_DS_NAME_NOT_UNIQUE
+
+syntax keyword cppWinConstant ERROR_DS_MACHINE_ACCOUNT_CREATED_PRENT4
+
+syntax keyword cppWinConstant ERROR_DS_OUT_OF_VERSION_STORE
+
+syntax keyword cppWinConstant ERROR_DS_INCOMPATIBLE_CONTROLS_USED
+
+syntax keyword cppWinConstant ERROR_DS_NO_REF_DOMAIN
+
+syntax keyword cppWinConstant ERROR_DS_RESERVED_LINK_ID
+
+syntax keyword cppWinConstant ERROR_DS_LINK_ID_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_DS_AG_CANT_HAVE_UNIVERSAL_MEMBER
+
+syntax keyword cppWinConstant ERROR_DS_MODIFYDN_DISALLOWED_BY_INSTANCE_TYPE
+
+syntax keyword cppWinConstant ERROR_DS_NO_OBJECT_MOVE_IN_SCHEMA_NC
+
+syntax keyword cppWinConstant ERROR_DS_MODIFYDN_DISALLOWED_BY_FLAG
+
+syntax keyword cppWinConstant ERROR_DS_MODIFYDN_WRONG_GRANDPARENT
+
+syntax keyword cppWinConstant ERROR_DS_NAME_ERROR_TRUST_REFERRAL
+
+syntax keyword cppWinConstant ERROR_NOT_SUPPORTED_ON_STANDARD_SERVER
+
+syntax keyword cppWinConstant ERROR_DS_CANT_ACCESS_REMOTE_PART_OF_AD
+
+syntax keyword cppWinConstant ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE_V2
+
+syntax keyword cppWinConstant ERROR_DS_THREAD_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_NOT_CLOSEST
+
+syntax keyword cppWinConstant ERROR_DS_CANT_DERIVE_SPN_WITHOUT_SERVER_REF
+
+syntax keyword cppWinConstant ERROR_DS_SINGLE_USER_MODE_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_NTDSCRIPT_SYNTAX_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_NTDSCRIPT_PROCESS_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_DIFFERENT_REPL_EPOCHS
+
+syntax keyword cppWinConstant ERROR_DS_DRS_EXTENSIONS_CHANGED
+
+syntax keyword cppWinConstant ERROR_DS_REPLICA_SET_CHANGE_NOT_ALLOWED_ON_DISABLED_CR
+
+syntax keyword cppWinConstant ERROR_DS_NO_MSDS_INTID
+
+syntax keyword cppWinConstant ERROR_DS_DUP_MSDS_INTID
+
+syntax keyword cppWinConstant ERROR_DS_EXISTS_IN_RDNATTID
+
+syntax keyword cppWinConstant ERROR_DS_AUTHORIZATION_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_SCRIPT
+
+syntax keyword cppWinConstant ERROR_DS_REMOTE_CROSSREF_OP_FAILED
+
+syntax keyword cppWinConstant ERROR_DS_CROSS_REF_BUSY
+
+syntax keyword cppWinConstant ERROR_DS_CANT_DERIVE_SPN_FOR_DELETED_DOMAIN
+
+syntax keyword cppWinConstant ERROR_DS_CANT_DEMOTE_WITH_WRITEABLE_NC
+
+syntax keyword cppWinConstant ERROR_DS_DUPLICATE_ID_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_INSUFFICIENT_ATTR_TO_CREATE_OBJECT
+
+syntax keyword cppWinConstant ERROR_DS_GROUP_CONVERSION_ERROR
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOVE_APP_BASIC_GROUP
+
+syntax keyword cppWinConstant ERROR_DS_CANT_MOVE_APP_QUERY_GROUP
+
+syntax keyword cppWinConstant ERROR_DS_ROLE_NOT_VERIFIED
+
+syntax keyword cppWinConstant ERROR_DS_WKO_CONTAINER_CANNOT_BE_SPECIAL
+
+syntax keyword cppWinConstant ERROR_DS_DOMAIN_RENAME_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_DS_EXISTING_AD_CHILD_NC
+
+syntax keyword cppWinConstant ERROR_DS_REPL_LIFETIME_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_DS_DISALLOWED_IN_SYSTEM_CONTAINER
+
+syntax keyword cppWinConstant ERROR_DS_LDAP_SEND_QUEUE_FULL
+
+syntax keyword cppWinConstant ERROR_DS_DRA_OUT_SCHEDULE_WINDOW
+
+syntax keyword cppWinConstant ERROR_DS_POLICY_NOT_KNOWN
+
+syntax keyword cppWinConstant ERROR_NO_SITE_SETTINGS_OBJECT
+
+syntax keyword cppWinConstant ERROR_NO_SECRETS
+
+syntax keyword cppWinConstant ERROR_NO_WRITABLE_DC_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_NO_SERVER_OBJECT
+
+syntax keyword cppWinConstant ERROR_DS_NO_NTDSA_OBJECT
+
+syntax keyword cppWinConstant ERROR_DS_NON_ASQ_SEARCH
+
+syntax keyword cppWinConstant ERROR_DS_AUDIT_FAILURE
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_SEARCH_FLAG_SUBTREE
+
+syntax keyword cppWinConstant ERROR_DS_INVALID_SEARCH_FLAG_TUPLE
+
+syntax keyword cppWinConstant ERROR_DS_HIERARCHY_TABLE_TOO_DEEP
+
+syntax keyword cppWinConstant ERROR_DS_DRA_CORRUPT_UTD_VECTOR
+
+syntax keyword cppWinConstant ERROR_DS_DRA_SECRETS_DENIED
+
+syntax keyword cppWinConstant ERROR_DS_RESERVED_MAPI_ID
+
+syntax keyword cppWinConstant ERROR_DS_MAPI_ID_NOT_AVAILABLE
+
+syntax keyword cppWinConstant ERROR_DS_DRA_MISSING_KRBTGT_SECRET
+
+syntax keyword cppWinConstant ERROR_DS_DOMAIN_NAME_EXISTS_IN_FOREST
+
+syntax keyword cppWinConstant ERROR_DS_FLAT_NAME_EXISTS_IN_FOREST
+
+syntax keyword cppWinConstant ERROR_INVALID_USER_PRINCIPAL_NAME
+
+syntax keyword cppWinConstant ERROR_DS_OID_MAPPED_GROUP_CANT_HAVE_MEMBERS
+
+syntax keyword cppWinConstant ERROR_DS_OID_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_DS_DRA_RECYCLED_TARGET
+
+syntax keyword cppWinConstant DNS_ERROR_RESPONSE_CODES_BASE
+
+syntax keyword cppWinConstant DNS_ERROR_MASK
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_FORMAT_ERROR
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_SERVER_FAILURE
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_NAME_ERROR
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_NOT_IMPLEMENTED
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_REFUSED
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_YXDOMAIN
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_YXRRSET
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_NXRRSET
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_NOTAUTH
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_NOTZONE
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_BADSIG
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_BADKEY
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE_BADTIME
+
+syntax keyword cppWinConstant DNS_ERROR_PACKET_FMT_BASE
+
+syntax keyword cppWinConstant DNS_INFO_NO_RECORDS
+
+syntax keyword cppWinConstant DNS_ERROR_BAD_PACKET
+
+syntax keyword cppWinConstant DNS_ERROR_NO_PACKET
+
+syntax keyword cppWinConstant DNS_ERROR_RCODE
+
+syntax keyword cppWinConstant DNS_ERROR_UNSECURE_PACKET
+
+syntax keyword cppWinConstant DNS_ERROR_NO_MEMORY
+syntax keyword cppWinConstant DNS_ERROR_INVALID_NAME
+syntax keyword cppWinConstant DNS_ERROR_GENERAL_API_BASE
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_TYPE
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_IP_ADDRESS
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_PROPERTY
+
+syntax keyword cppWinConstant DNS_ERROR_TRY_AGAIN_LATER
+
+syntax keyword cppWinConstant DNS_ERROR_NOT_UNIQUE
+
+syntax keyword cppWinConstant DNS_ERROR_NON_RFC_NAME
+
+syntax keyword cppWinConstant DNS_STATUS_FQDN
+
+syntax keyword cppWinConstant DNS_STATUS_DOTTED_NAME
+
+syntax keyword cppWinConstant DNS_STATUS_SINGLE_PART_NAME
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_NAME_CHAR
+
+syntax keyword cppWinConstant DNS_ERROR_NUMERIC_NAME
+
+syntax keyword cppWinConstant DNS_ERROR_NOT_ALLOWED_ON_ROOT_SERVER
+
+syntax keyword cppWinConstant DNS_ERROR_NOT_ALLOWED_UNDER_DELEGATION
+
+syntax keyword cppWinConstant DNS_ERROR_CANNOT_FIND_ROOT_HINTS
+
+syntax keyword cppWinConstant DNS_ERROR_INCONSISTENT_ROOT_HINTS
+
+syntax keyword cppWinConstant DNS_ERROR_DWORD_VALUE_TOO_SMALL
+
+syntax keyword cppWinConstant DNS_ERROR_DWORD_VALUE_TOO_LARGE
+
+syntax keyword cppWinConstant DNS_ERROR_BACKGROUND_LOADING
+
+syntax keyword cppWinConstant DNS_ERROR_NOT_ALLOWED_ON_RODC
+
+syntax keyword cppWinConstant DNS_ERROR_NOT_ALLOWED_UNDER_DNAME
+
+syntax keyword cppWinConstant DNS_ERROR_DELEGATION_REQUIRED
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_POLICY_TABLE
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_BASE
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant DNS_ERROR_NO_ZONE_INFO
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_ZONE_OPERATION
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_CONFIGURATION_ERROR
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_HAS_NO_SOA_RECORD
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_HAS_NO_NS_RECORDS
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_LOCKED
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_CREATION_FAILED
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_ALREADY_EXISTS
+
+syntax keyword cppWinConstant DNS_ERROR_AUTOZONE_ALREADY_EXISTS
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_ZONE_TYPE
+
+syntax keyword cppWinConstant DNS_ERROR_SECONDARY_REQUIRES_MASTER_IP
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_NOT_SECONDARY
+
+syntax keyword cppWinConstant DNS_ERROR_NEED_SECONDARY_ADDRESSES
+
+syntax keyword cppWinConstant DNS_ERROR_WINS_INIT_FAILED
+
+syntax keyword cppWinConstant DNS_ERROR_NEED_WINS_SERVERS
+
+syntax keyword cppWinConstant DNS_ERROR_NBSTAT_INIT_FAILED
+
+syntax keyword cppWinConstant DNS_ERROR_SOA_DELETE_INVALID
+
+syntax keyword cppWinConstant DNS_ERROR_FORWARDER_ALREADY_EXISTS
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_REQUIRES_MASTER_IP
+
+syntax keyword cppWinConstant DNS_ERROR_ZONE_IS_SHUTDOWN
+
+syntax keyword cppWinConstant DNS_ERROR_DATAFILE_BASE
+
+syntax keyword cppWinConstant DNS_ERROR_PRIMARY_REQUIRES_DATAFILE
+
+syntax keyword cppWinConstant DNS_ERROR_INVALID_DATAFILE_NAME
+
+syntax keyword cppWinConstant DNS_ERROR_DATAFILE_OPEN_FAILURE
+
+syntax keyword cppWinConstant DNS_ERROR_FILE_WRITEBACK_FAILED
+
+syntax keyword cppWinConstant DNS_ERROR_DATAFILE_PARSING
+
+syntax keyword cppWinConstant DNS_ERROR_DATABASE_BASE
+
+syntax keyword cppWinConstant DNS_ERROR_RECORD_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant DNS_ERROR_RECORD_FORMAT
+
+syntax keyword cppWinConstant DNS_ERROR_NODE_CREATION_FAILED
+
+syntax keyword cppWinConstant DNS_ERROR_UNKNOWN_RECORD_TYPE
+
+syntax keyword cppWinConstant DNS_ERROR_RECORD_TIMED_OUT
+
+syntax keyword cppWinConstant DNS_ERROR_NAME_NOT_IN_ZONE
+
+syntax keyword cppWinConstant DNS_ERROR_CNAME_LOOP
+
+syntax keyword cppWinConstant DNS_ERROR_NODE_IS_CNAME
+
+syntax keyword cppWinConstant DNS_ERROR_CNAME_COLLISION
+
+syntax keyword cppWinConstant DNS_ERROR_RECORD_ONLY_AT_ZONE_ROOT
+
+syntax keyword cppWinConstant DNS_ERROR_RECORD_ALREADY_EXISTS
+
+syntax keyword cppWinConstant DNS_ERROR_SECONDARY_DATA
+
+syntax keyword cppWinConstant DNS_ERROR_NO_CREATE_CACHE_DATA
+
+syntax keyword cppWinConstant DNS_ERROR_NAME_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant DNS_WARNING_PTR_CREATE_FAILED
+
+syntax keyword cppWinConstant DNS_WARNING_DOMAIN_UNDELETED
+
+syntax keyword cppWinConstant DNS_ERROR_DS_UNAVAILABLE
+
+syntax keyword cppWinConstant DNS_ERROR_DS_ZONE_ALREADY_EXISTS
+
+syntax keyword cppWinConstant DNS_ERROR_NO_BOOTFILE_IF_DS_ZONE
+
+syntax keyword cppWinConstant DNS_ERROR_NODE_IS_DNAME
+
+syntax keyword cppWinConstant DNS_ERROR_DNAME_COLLISION
+
+syntax keyword cppWinConstant DNS_ERROR_ALIAS_LOOP
+
+syntax keyword cppWinConstant DNS_ERROR_OPERATION_BASE
+
+syntax keyword cppWinConstant DNS_INFO_AXFR_COMPLETE
+
+syntax keyword cppWinConstant DNS_ERROR_AXFR
+
+syntax keyword cppWinConstant DNS_INFO_ADDED_LOCAL_WINS
+
+syntax keyword cppWinConstant DNS_ERROR_SECURE_BASE
+
+syntax keyword cppWinConstant DNS_STATUS_CONTINUE_NEEDED
+
+syntax keyword cppWinConstant DNS_ERROR_SETUP_BASE
+
+syntax keyword cppWinConstant DNS_ERROR_NO_TCPIP
+
+syntax keyword cppWinConstant DNS_ERROR_NO_DNS_SERVERS
+
+syntax keyword cppWinConstant DNS_ERROR_DP_BASE
+
+syntax keyword cppWinConstant DNS_ERROR_DP_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant DNS_ERROR_DP_ALREADY_EXISTS
+
+syntax keyword cppWinConstant DNS_ERROR_DP_NOT_ENLISTED
+
+syntax keyword cppWinConstant DNS_ERROR_DP_ALREADY_ENLISTED
+
+syntax keyword cppWinConstant DNS_ERROR_DP_NOT_AVAILABLE
+
+syntax keyword cppWinConstant DNS_ERROR_DP_FSMO_ERROR
+
+
+syntax keyword cppWinConstant WSABASEERR
+syntax keyword cppWinConstant WSAEINTR
+
+syntax keyword cppWinConstant WSAEBADF
+
+syntax keyword cppWinConstant WSAEACCES
+
+syntax keyword cppWinConstant WSAEFAULT
+
+syntax keyword cppWinConstant WSAEINVAL
+
+syntax keyword cppWinConstant WSAEMFILE
+
+syntax keyword cppWinConstant WSAEWOULDBLOCK
+
+syntax keyword cppWinConstant WSAEINPROGRESS
+
+syntax keyword cppWinConstant WSAEALREADY
+
+syntax keyword cppWinConstant WSAENOTSOCK
+
+syntax keyword cppWinConstant WSAEDESTADDRREQ
+
+syntax keyword cppWinConstant WSAEMSGSIZE
+
+syntax keyword cppWinConstant WSAEPROTOTYPE
+
+syntax keyword cppWinConstant WSAENOPROTOOPT
+
+syntax keyword cppWinConstant WSAEPROTONOSUPPORT
+
+syntax keyword cppWinConstant WSAESOCKTNOSUPPORT
+
+syntax keyword cppWinConstant WSAEOPNOTSUPP
+
+syntax keyword cppWinConstant WSAEPFNOSUPPORT
+
+syntax keyword cppWinConstant WSAEAFNOSUPPORT
+
+syntax keyword cppWinConstant WSAEADDRINUSE
+
+syntax keyword cppWinConstant WSAEADDRNOTAVAIL
+
+syntax keyword cppWinConstant WSAENETDOWN
+
+syntax keyword cppWinConstant WSAENETUNREACH
+
+syntax keyword cppWinConstant WSAENETRESET
+
+syntax keyword cppWinConstant WSAECONNABORTED
+
+syntax keyword cppWinConstant WSAECONNRESET
+
+syntax keyword cppWinConstant WSAENOBUFS
+
+syntax keyword cppWinConstant WSAEISCONN
+
+syntax keyword cppWinConstant WSAENOTCONN
+
+syntax keyword cppWinConstant WSAESHUTDOWN
+
+syntax keyword cppWinConstant WSAETOOMANYREFS
+
+syntax keyword cppWinConstant WSAETIMEDOUT
+
+syntax keyword cppWinConstant WSAECONNREFUSED
+
+syntax keyword cppWinConstant WSAELOOP
+
+syntax keyword cppWinConstant WSAENAMETOOLONG
+
+syntax keyword cppWinConstant WSAEHOSTDOWN
+
+syntax keyword cppWinConstant WSAEHOSTUNREACH
+
+syntax keyword cppWinConstant WSAENOTEMPTY
+
+syntax keyword cppWinConstant WSAEPROCLIM
+
+syntax keyword cppWinConstant WSAEUSERS
+
+syntax keyword cppWinConstant WSAEDQUOT
+
+syntax keyword cppWinConstant WSAESTALE
+
+syntax keyword cppWinConstant WSAEREMOTE
+
+syntax keyword cppWinConstant WSASYSNOTREADY
+
+syntax keyword cppWinConstant WSAVERNOTSUPPORTED
+
+syntax keyword cppWinConstant WSANOTINITIALISED
+
+syntax keyword cppWinConstant WSAEDISCON
+
+syntax keyword cppWinConstant WSAENOMORE
+
+syntax keyword cppWinConstant WSAECANCELLED
+
+syntax keyword cppWinConstant WSAEINVALIDPROCTABLE
+
+syntax keyword cppWinConstant WSAEINVALIDPROVIDER
+
+syntax keyword cppWinConstant WSAEPROVIDERFAILEDINIT
+
+syntax keyword cppWinConstant WSASYSCALLFAILURE
+
+syntax keyword cppWinConstant WSASERVICE_NOT_FOUND
+
+syntax keyword cppWinConstant WSATYPE_NOT_FOUND
+
+syntax keyword cppWinConstant WSA_E_NO_MORE
+
+syntax keyword cppWinConstant WSA_E_CANCELLED
+
+syntax keyword cppWinConstant WSAEREFUSED
+
+syntax keyword cppWinConstant WSAHOST_NOT_FOUND
+
+syntax keyword cppWinConstant WSATRY_AGAIN
+
+syntax keyword cppWinConstant WSANO_RECOVERY
+
+syntax keyword cppWinConstant WSANO_DATA
+
+syntax keyword cppWinConstant WSA_QOS_RECEIVERS
+
+syntax keyword cppWinConstant WSA_QOS_SENDERS
+
+syntax keyword cppWinConstant WSA_QOS_NO_SENDERS
+
+syntax keyword cppWinConstant WSA_QOS_NO_RECEIVERS
+
+syntax keyword cppWinConstant WSA_QOS_REQUEST_CONFIRMED
+
+syntax keyword cppWinConstant WSA_QOS_ADMISSION_FAILURE
+
+syntax keyword cppWinConstant WSA_QOS_POLICY_FAILURE
+
+syntax keyword cppWinConstant WSA_QOS_BAD_STYLE
+
+syntax keyword cppWinConstant WSA_QOS_BAD_OBJECT
+
+syntax keyword cppWinConstant WSA_QOS_TRAFFIC_CTRL_ERROR
+
+syntax keyword cppWinConstant WSA_QOS_GENERIC_ERROR
+
+syntax keyword cppWinConstant WSA_QOS_ESERVICETYPE
+
+syntax keyword cppWinConstant WSA_QOS_EFLOWSPEC
+
+syntax keyword cppWinConstant WSA_QOS_EPROVSPECBUF
+
+syntax keyword cppWinConstant WSA_QOS_EFILTERSTYLE
+
+syntax keyword cppWinConstant WSA_QOS_EFILTERTYPE
+
+syntax keyword cppWinConstant WSA_QOS_EFILTERCOUNT
+
+syntax keyword cppWinConstant WSA_QOS_EOBJLENGTH
+
+syntax keyword cppWinConstant WSA_QOS_EFLOWCOUNT
+
+syntax keyword cppWinConstant WSA_QOS_EUNKOWNPSOBJ
+
+syntax keyword cppWinConstant WSA_QOS_EPOLICYOBJ
+
+syntax keyword cppWinConstant WSA_QOS_EFLOWDESC
+
+syntax keyword cppWinConstant WSA_QOS_EPSFLOWSPEC
+
+syntax keyword cppWinConstant WSA_QOS_EPSFILTERSPEC
+
+syntax keyword cppWinConstant WSA_QOS_ESDMODEOBJ
+
+syntax keyword cppWinConstant WSA_QOS_ESHAPERATEOBJ
+
+syntax keyword cppWinConstant WSA_QOS_RESERVED_PETYPE
+
+syntax keyword cppWinConstant WSA_SECURE_HOST_NOT_FOUND
+
+syntax keyword cppWinConstant WSA_IPSEC_NAME_POLICY_ERROR
+
+syntax keyword cppWinConstant ERROR_IPSEC_QM_POLICY_EXISTS
+
+syntax keyword cppWinConstant ERROR_IPSEC_QM_POLICY_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_QM_POLICY_IN_USE
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_POLICY_EXISTS
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_POLICY_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_POLICY_IN_USE
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_FILTER_EXISTS
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_FILTER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_TRANSPORT_FILTER_EXISTS
+
+syntax keyword cppWinConstant ERROR_IPSEC_TRANSPORT_FILTER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_AUTH_EXISTS
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_AUTH_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_AUTH_IN_USE
+
+syntax keyword cppWinConstant ERROR_IPSEC_DEFAULT_MM_POLICY_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_DEFAULT_MM_AUTH_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_DEFAULT_QM_POLICY_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_TUNNEL_FILTER_EXISTS
+
+syntax keyword cppWinConstant ERROR_IPSEC_TUNNEL_FILTER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_FILTER_PENDING_DELETION
+
+syntax keyword cppWinConstant ERROR_IPSEC_TRANSPORT_FILTER_PENDING_DELETION
+
+syntax keyword cppWinConstant ERROR_IPSEC_TUNNEL_FILTER_PENDING_DELETION
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_POLICY_PENDING_DELETION
+
+syntax keyword cppWinConstant ERROR_IPSEC_MM_AUTH_PENDING_DELETION
+
+syntax keyword cppWinConstant ERROR_IPSEC_QM_POLICY_PENDING_DELETION
+
+syntax keyword cppWinConstant WARNING_IPSEC_MM_POLICY_PRUNED
+
+syntax keyword cppWinConstant WARNING_IPSEC_QM_POLICY_PRUNED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NEG_STATUS_BEGIN
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_AUTH_FAIL
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_ATTRIB_FAIL
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NEGOTIATION_PENDING
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_GENERAL_PROCESSING_ERROR
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_TIMED_OUT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NO_CERT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SA_DELETED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SA_REAPED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_MM_ACQUIRE_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_QM_ACQUIRE_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_QUEUE_DROP_MM
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_QUEUE_DROP_NO_MM
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_DROP_NO_RESPONSE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_MM_DELAY_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_QM_DELAY_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_ERROR
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_CRL_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_KEY_USAGE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_CERT_TYPE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NO_PRIVATE_KEY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SIMULTANEOUS_REKEY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_DH_FAIL
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_CRITICAL_PAYLOAD_NOT_RECOGNIZED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_HEADER
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NO_POLICY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_SIGNATURE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_KERBEROS_ERROR
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NO_PUBLIC_KEY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_SA
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_PROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_TRANS
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_KE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_ID
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_CERT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_CERT_REQ
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_HASH
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_SIG
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_NONCE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_NOTIFY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_DELETE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_VENDOR
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_PAYLOAD
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_LOAD_SOFT_SA
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SOFT_SA_TORN_DOWN
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_COOKIE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NO_PEER_CERT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PEER_CRL_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_POLICY_CHANGE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NO_MM_POLICY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NOTCBPRIV
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SECLOADFAIL
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_FAILSSPINIT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_FAILQUERYSSP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SRVACQFAIL
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SRVQUERYCRED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_GETSPIFAIL
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_FILTER
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_OUT_OF_MEMORY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_ADD_UPDATE_KEY_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_POLICY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_UNKNOWN_DOI
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_SITUATION
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_DH_FAILURE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_GROUP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_ENCRYPT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_DECRYPT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_POLICY_MATCH
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_UNSUPPORTED_ID
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_HASH
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_HASH_ALG
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_HASH_SIZE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_ENCRYPT_ALG
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_AUTH_ALG
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_SIG
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_LOAD_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_RPC_DELETE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_BENIGN_REINIT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_RESPONDER_LIFETIME_NOTIFY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_MAJOR_VERSION
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_CERT_KEYLEN
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_MM_LIMIT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NEGOTIATION_DISABLED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_QM_LIMIT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_MM_EXPIRED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PEER_MM_ASSUMED_INVALID
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_CERT_CHAIN_POLICY_MISMATCH
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_UNEXPECTED_MESSAGE_ID
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_AUTH_PAYLOAD
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_DOS_COOKIE_SENT
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_SHUTTING_DOWN
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_CGA_AUTH_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PROCESS_ERR_NATOA
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INVALID_MM_FOR_QM
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_QM_EXPIRED
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_TOO_MANY_FILTERS
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NEG_STATUS_END
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_KILL_DUMMY_NAP_TUNNEL
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_INNER_IP_ASSIGNMENT_FAILURE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_REQUIRE_CP_PAYLOAD_MISSING
+
+syntax keyword cppWinConstant ERROR_IPSEC_KEY_MODULE_IMPERSONATION_NEGOTIATION_PENDING
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_COEXISTENCE_SUPPRESS
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_RATELIMIT_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_PEER_DOESNT_SUPPORT_MOBIKE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_AUTHORIZATION_FAILURE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_STRONG_CRED_AUTHORIZATION_FAILURE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_AUTHORIZATION_FAILURE_WITH_OPTIONAL_RETRY
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_STRONG_CRED_AUTHORIZATION_AND_CERTMAP_FAILURE
+
+syntax keyword cppWinConstant ERROR_IPSEC_IKE_NEG_STATUS_EXTENDED_END
+
+syntax keyword cppWinConstant ERROR_IPSEC_BAD_SPI
+
+syntax keyword cppWinConstant ERROR_IPSEC_SA_LIFETIME_EXPIRED
+
+syntax keyword cppWinConstant ERROR_IPSEC_WRONG_SA
+
+syntax keyword cppWinConstant ERROR_IPSEC_REPLAY_CHECK_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_INVALID_PACKET
+
+syntax keyword cppWinConstant ERROR_IPSEC_INTEGRITY_CHECK_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_CLEAR_TEXT_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_AUTH_FIREWALL_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_THROTTLE_DROP
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_BLOCK
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_RECEIVED_MULTICAST
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_INVALID_PACKET
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_STATE_LOOKUP_FAILED
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_MAX_ENTRIES
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_KEYMOD_NOT_ALLOWED
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_IPSEC_DOSP_MAX_PER_IP_RATELIMIT_QUEUES
+
+syntax keyword cppWinConstant ERROR_SXS_SECTION_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_SXS_CANT_GEN_ACTCTX
+
+syntax keyword cppWinConstant ERROR_SXS_INVALID_ACTCTXDATA_FORMAT
+
+syntax keyword cppWinConstant ERROR_SXS_ASSEMBLY_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_SXS_MANIFEST_FORMAT_ERROR
+
+syntax keyword cppWinConstant ERROR_SXS_MANIFEST_PARSE_ERROR
+
+syntax keyword cppWinConstant ERROR_SXS_ACTIVATION_CONTEXT_DISABLED
+
+syntax keyword cppWinConstant ERROR_SXS_KEY_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_SXS_VERSION_CONFLICT
+
+syntax keyword cppWinConstant ERROR_SXS_WRONG_SECTION_TYPE
+
+syntax keyword cppWinConstant ERROR_SXS_THREAD_QUERIES_DISABLED
+
+syntax keyword cppWinConstant ERROR_SXS_PROCESS_DEFAULT_ALREADY_SET
+
+syntax keyword cppWinConstant ERROR_SXS_UNKNOWN_ENCODING_GROUP
+
+syntax keyword cppWinConstant ERROR_SXS_UNKNOWN_ENCODING
+
+syntax keyword cppWinConstant ERROR_SXS_INVALID_XML_NAMESPACE_URI
+
+syntax keyword cppWinConstant ERROR_SXS_ROOT_MANIFEST_DEPENDENCY_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_SXS_LEAF_MANIFEST_DEPENDENCY_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_SXS_INVALID_ASSEMBLY_IDENTITY_ATTRIBUTE
+
+syntax keyword cppWinConstant ERROR_SXS_MANIFEST_MISSING_REQUIRED_DEFAULT_NAMESPACE
+
+syntax keyword cppWinConstant ERROR_SXS_MANIFEST_INVALID_REQUIRED_DEFAULT_NAMESPACE
+
+syntax keyword cppWinConstant ERROR_SXS_PRIVATE_MANIFEST_CROSS_PATH_WITH_REPARSE_POINT
+
+syntax keyword cppWinConstant ERROR_SXS_DUPLICATE_DLL_NAME
+
+syntax keyword cppWinConstant ERROR_SXS_DUPLICATE_WINDOWCLASS_NAME
+
+syntax keyword cppWinConstant ERROR_SXS_DUPLICATE_CLSID
+
+syntax keyword cppWinConstant ERROR_SXS_DUPLICATE_IID
+
+syntax keyword cppWinConstant ERROR_SXS_DUPLICATE_TLBID
+
+syntax keyword cppWinConstant ERROR_SXS_DUPLICATE_PROGID
+
+syntax keyword cppWinConstant ERROR_SXS_DUPLICATE_ASSEMBLY_NAME
+
+syntax keyword cppWinConstant ERROR_SXS_FILE_HASH_MISMATCH
+
+syntax keyword cppWinConstant ERROR_SXS_POLICY_PARSE_ERROR
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MISSINGQUOTE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_COMMENTSYNTAX
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_BADSTARTNAMECHAR
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_BADNAMECHAR
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_BADCHARINSTRING
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_XMLDECLSYNTAX
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_BADCHARDATA
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MISSINGWHITESPACE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_EXPECTINGTAGEND
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MISSINGSEMICOLON
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNBALANCEDPAREN
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INTERNALERROR
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNEXPECTED_WHITESPACE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INCOMPLETE_ENCODING
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MISSING_PAREN
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_EXPECTINGCLOSEQUOTE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MULTIPLE_COLONS
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALID_DECIMAL
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALID_HEXIDECIMAL
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALID_UNICODE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_WHITESPACEORQUESTIONMARK
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNEXPECTEDENDTAG
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNCLOSEDTAG
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_DUPLICATEATTRIBUTE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MULTIPLEROOTS
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALIDATROOTLEVEL
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_BADXMLDECL
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MISSINGROOT
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNEXPECTEDEOF
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_BADPEREFINSUBSET
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNCLOSEDSTARTTAG
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNCLOSEDENDTAG
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNCLOSEDSTRING
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNCLOSEDCOMMENT
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNCLOSEDDECL
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNCLOSEDCDATA
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_RESERVEDNAMESPACE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALIDENCODING
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALIDSWITCH
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_BADXMLCASE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALID_STANDALONE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_UNEXPECTED_STANDALONE
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_INVALID_VERSION
+
+syntax keyword cppWinConstant ERROR_SXS_XML_E_MISSINGEQUALS
+
+syntax keyword cppWinConstant ERROR_SXS_PROTECTION_RECOVERY_FAILED
+
+syntax keyword cppWinConstant ERROR_SXS_PROTECTION_PUBLIC_KEY_TOO_SHORT
+
+syntax keyword cppWinConstant ERROR_SXS_PROTECTION_CATALOG_NOT_VALID
+
+syntax keyword cppWinConstant ERROR_SXS_UNTRANSLATABLE_HRESULT
+
+syntax keyword cppWinConstant ERROR_SXS_PROTECTION_CATALOG_FILE_MISSING
+
+syntax keyword cppWinConstant ERROR_SXS_MISSING_ASSEMBLY_IDENTITY_ATTRIBUTE
+
+syntax keyword cppWinConstant ERROR_SXS_INVALID_ASSEMBLY_IDENTITY_ATTRIBUTE_NAME
+
+syntax keyword cppWinConstant ERROR_SXS_ASSEMBLY_MISSING
+
+syntax keyword cppWinConstant ERROR_SXS_CORRUPT_ACTIVATION_STACK
+
+syntax keyword cppWinConstant ERROR_SXS_CORRUPTION
+
+syntax keyword cppWinConstant ERROR_SXS_EARLY_DEACTIVATION
+
+syntax keyword cppWinConstant ERROR_SXS_INVALID_DEACTIVATION
+
+syntax keyword cppWinConstant ERROR_SXS_MULTIPLE_DEACTIVATION
+
+syntax keyword cppWinConstant ERROR_SXS_PROCESS_TERMINATION_REQUESTED
+
+syntax keyword cppWinConstant ERROR_SXS_RELEASE_ACTIVATION_CONTEXT
+
+syntax keyword cppWinConstant ERROR_SXS_SYSTEM_DEFAULT_ACTIVATION_CONTEXT_EMPTY
+
+syntax keyword cppWinConstant ERROR_SXS_INVALID_IDENTITY_ATTRIBUTE_VALUE
+
+syntax keyword cppWinConstant ERROR_SXS_INVALID_IDENTITY_ATTRIBUTE_NAME
+
+syntax keyword cppWinConstant ERROR_SXS_IDENTITY_DUPLICATE_ATTRIBUTE
+
+syntax keyword cppWinConstant ERROR_SXS_IDENTITY_PARSE_ERROR
+
+syntax keyword cppWinConstant ERROR_MALFORMED_SUBSTITUTION_STRING
+
+syntax keyword cppWinConstant ERROR_SXS_INCORRECT_PUBLIC_KEY_TOKEN
+
+syntax keyword cppWinConstant ERROR_UNMAPPED_SUBSTITUTION_STRING
+
+syntax keyword cppWinConstant ERROR_SXS_ASSEMBLY_NOT_LOCKED
+
+syntax keyword cppWinConstant ERROR_SXS_COMPONENT_STORE_CORRUPT
+
+syntax keyword cppWinConstant ERROR_ADVANCED_INSTALLER_FAILED
+
+syntax keyword cppWinConstant ERROR_XML_ENCODING_MISMATCH
+
+syntax keyword cppWinConstant ERROR_SXS_MANIFEST_IDENTITY_SAME_BUT_CONTENTS_DIFFERENT
+
+syntax keyword cppWinConstant ERROR_SXS_IDENTITIES_DIFFERENT
+
+syntax keyword cppWinConstant ERROR_SXS_ASSEMBLY_IS_NOT_A_DEPLOYMENT
+
+syntax keyword cppWinConstant ERROR_SXS_FILE_NOT_PART_OF_ASSEMBLY
+
+syntax keyword cppWinConstant ERROR_SXS_MANIFEST_TOO_BIG
+
+syntax keyword cppWinConstant ERROR_SXS_SETTING_NOT_REGISTERED
+
+syntax keyword cppWinConstant ERROR_SXS_TRANSACTION_CLOSURE_INCOMPLETE
+
+syntax keyword cppWinConstant ERROR_SMI_PRIMITIVE_INSTALLER_FAILED
+
+syntax keyword cppWinConstant ERROR_GENERIC_COMMAND_FAILED
+
+syntax keyword cppWinConstant ERROR_SXS_FILE_HASH_MISSING
+
+syntax keyword cppWinConstant ERROR_EVT_INVALID_CHANNEL_PATH
+
+syntax keyword cppWinConstant ERROR_EVT_INVALID_QUERY
+
+syntax keyword cppWinConstant ERROR_EVT_PUBLISHER_METADATA_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EVT_EVENT_TEMPLATE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EVT_INVALID_PUBLISHER_NAME
+
+syntax keyword cppWinConstant ERROR_EVT_INVALID_EVENT_DATA
+
+syntax keyword cppWinConstant ERROR_EVT_CHANNEL_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EVT_MALFORMED_XML_TEXT
+
+syntax keyword cppWinConstant ERROR_EVT_SUBSCRIPTION_TO_DIRECT_CHANNEL
+
+syntax keyword cppWinConstant ERROR_EVT_CONFIGURATION_ERROR
+
+syntax keyword cppWinConstant ERROR_EVT_QUERY_RESULT_STALE
+
+syntax keyword cppWinConstant ERROR_EVT_QUERY_RESULT_INVALID_POSITION
+
+syntax keyword cppWinConstant ERROR_EVT_NON_VALIDATING_MSXML
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_ALREADYSCOPED
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_NOTELTSET
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_INVARG
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_INVTEST
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_INVTYPE
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_PARSEERR
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_UNSUPPORTEDOP
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_UNEXPECTEDTOKEN
+
+syntax keyword cppWinConstant ERROR_EVT_INVALID_OPERATION_OVER_ENABLED_DIRECT_CHANNEL
+
+syntax keyword cppWinConstant ERROR_EVT_INVALID_CHANNEL_PROPERTY_VALUE
+
+syntax keyword cppWinConstant ERROR_EVT_INVALID_PUBLISHER_PROPERTY_VALUE
+
+syntax keyword cppWinConstant ERROR_EVT_CHANNEL_CANNOT_ACTIVATE
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_TOO_COMPLEX
+
+syntax keyword cppWinConstant ERROR_EVT_MESSAGE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EVT_MESSAGE_ID_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EVT_UNRESOLVED_VALUE_INSERT
+
+syntax keyword cppWinConstant ERROR_EVT_UNRESOLVED_PARAMETER_INSERT
+
+syntax keyword cppWinConstant ERROR_EVT_MAX_INSERTS_REACHED
+
+syntax keyword cppWinConstant ERROR_EVT_EVENT_DEFINITION_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EVT_MESSAGE_LOCALE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EVT_VERSION_TOO_OLD
+
+syntax keyword cppWinConstant ERROR_EVT_VERSION_TOO_NEW
+
+syntax keyword cppWinConstant ERROR_EVT_CANNOT_OPEN_CHANNEL_OF_QUERY
+
+syntax keyword cppWinConstant ERROR_EVT_PUBLISHER_DISABLED
+
+syntax keyword cppWinConstant ERROR_EVT_FILTER_OUT_OF_RANGE
+
+syntax keyword cppWinConstant ERROR_EC_SUBSCRIPTION_CANNOT_ACTIVATE
+
+syntax keyword cppWinConstant ERROR_EC_LOG_DISABLED
+
+syntax keyword cppWinConstant ERROR_EC_CIRCULAR_FORWARDING
+
+syntax keyword cppWinConstant ERROR_EC_CREDSTORE_FULL
+
+syntax keyword cppWinConstant ERROR_EC_CRED_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_EC_NO_ACTIVE_CHANNEL
+
+syntax keyword cppWinConstant ERROR_MUI_FILE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_MUI_INVALID_FILE
+
+syntax keyword cppWinConstant ERROR_MUI_INVALID_RC_CONFIG
+
+syntax keyword cppWinConstant ERROR_MUI_INVALID_LOCALE_NAME
+
+syntax keyword cppWinConstant ERROR_MUI_INVALID_ULTIMATEFALLBACK_NAME
+
+syntax keyword cppWinConstant ERROR_MUI_FILE_NOT_LOADED
+
+syntax keyword cppWinConstant ERROR_RESOURCE_ENUM_USER_STOP
+
+syntax keyword cppWinConstant ERROR_MUI_INTLSETTINGS_UILANG_NOT_INSTALLED
+
+syntax keyword cppWinConstant ERROR_MUI_INTLSETTINGS_INVALID_LOCALE_NAME
+
+syntax keyword cppWinConstant ERROR_MCA_INVALID_CAPABILITIES_STRING
+
+syntax keyword cppWinConstant ERROR_MCA_INVALID_VCP_VERSION
+
+syntax keyword cppWinConstant ERROR_MCA_MONITOR_VIOLATES_MCCS_SPECIFICATION
+
+syntax keyword cppWinConstant ERROR_MCA_MCCS_VERSION_MISMATCH
+
+syntax keyword cppWinConstant ERROR_MCA_UNSUPPORTED_MCCS_VERSION
+
+syntax keyword cppWinConstant ERROR_MCA_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_MCA_INVALID_TECHNOLOGY_TYPE_RETURNED
+
+syntax keyword cppWinConstant ERROR_MCA_UNSUPPORTED_COLOR_TEMPERATURE
+
+syntax keyword cppWinConstant ERROR_AMBIGUOUS_SYSTEM_DEVICE
+
+syntax keyword cppWinConstant ERROR_SYSTEM_DEVICE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_HASH_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_HASH_NOT_PRESENT
+
+syntax keyword cppWinConstant SEVERITY_SUCCESS
+syntax keyword cppWinConstant SEVERITY_ERROR
+
+
+syntax keyword cppWinMacro SUCCEEDED
+
+syntax keyword cppWinMacro FAILED
+
+
+syntax keyword cppWinMacro IS_ERROR
+
+syntax keyword cppWinMacro HRESULT_CODE
+syntax keyword cppWinMacro SCODE_CODE
+
+syntax keyword cppWinMacro HRESULT_FACILITY
+syntax keyword cppWinMacro SCODE_FACILITY
+
+syntax keyword cppWinMacro HRESULT_SEVERITY
+syntax keyword cppWinMacro SCODE_SEVERITY
+
+syntax keyword cppWinMacro MAKE_HRESULT
+syntax keyword cppWinMacro MAKE_SCODE
+
+
+syntax keyword cppWinConstant FACILITY_NT_BIT
+
+syntax keyword cppWinMacro _HRESULT_DEFINED
+
+syntax keyword cppWinMacro HRESULT_FROM_WIN32
+
+syntax keyword cppWinMacro HRESULT_FROM_NT
+
+
+syntax keyword cppWinMacro GetScode
+
+syntax keyword cppWinMacro ResultFromScode
+
+
+syntax keyword cppWinMacro PropagateResult
+
+
+syntax keyword cppWinConstant E_NOT_SET
+syntax keyword cppWinConstant E_NOT_VALID_STATE
+syntax keyword cppWinConstant E_NOT_SUFFICIENT_BUFFER
+
+syntax keyword cppWinMacro _HRESULT_TYPEDEF_
+
+syntax keyword cppWinConstant NOERROR
+
+syntax keyword cppWinConstant E_UNEXPECTED
+
+syntax keyword cppWinConstant E_NOTIMPL
+
+syntax keyword cppWinConstant E_OUTOFMEMORY
+
+syntax keyword cppWinConstant E_INVALIDARG
+
+syntax keyword cppWinConstant E_NOINTERFACE
+
+syntax keyword cppWinConstant E_POINTER
+
+syntax keyword cppWinConstant E_HANDLE
+
+syntax keyword cppWinConstant E_ABORT
+
+syntax keyword cppWinConstant E_FAIL
+
+syntax keyword cppWinConstant E_ACCESSDENIED
+
+syntax keyword cppWinConstant E_NOTIMPL
+
+syntax keyword cppWinConstant E_OUTOFMEMORY
+
+syntax keyword cppWinConstant E_INVALIDARG
+
+syntax keyword cppWinConstant E_NOINTERFACE
+
+syntax keyword cppWinConstant E_POINTER
+
+syntax keyword cppWinConstant E_HANDLE
+
+syntax keyword cppWinConstant E_ABORT
+
+syntax keyword cppWinConstant E_FAIL
+
+syntax keyword cppWinConstant E_ACCESSDENIED
+
+syntax keyword cppWinConstant E_PENDING
+
+syntax keyword cppWinConstant CO_E_INIT_TLS
+
+syntax keyword cppWinConstant CO_E_INIT_SHARED_ALLOCATOR
+
+syntax keyword cppWinConstant CO_E_INIT_MEMORY_ALLOCATOR
+
+syntax keyword cppWinConstant CO_E_INIT_CLASS_CACHE
+
+syntax keyword cppWinConstant CO_E_INIT_RPC_CHANNEL
+
+syntax keyword cppWinConstant CO_E_INIT_TLS_SET_CHANNEL_CONTROL
+
+syntax keyword cppWinConstant CO_E_INIT_TLS_CHANNEL_CONTROL
+
+syntax keyword cppWinConstant CO_E_INIT_UNACCEPTED_USER_ALLOCATOR
+
+syntax keyword cppWinConstant CO_E_INIT_SCM_MUTEX_EXISTS
+
+syntax keyword cppWinConstant CO_E_INIT_SCM_FILE_MAPPING_EXISTS
+
+syntax keyword cppWinConstant CO_E_INIT_SCM_MAP_VIEW_OF_FILE
+
+syntax keyword cppWinConstant CO_E_INIT_SCM_EXEC_FAILURE
+
+syntax keyword cppWinConstant CO_E_INIT_ONLY_SINGLE_THREADED
+
+syntax keyword cppWinConstant CO_E_CANT_REMOTE
+
+syntax keyword cppWinConstant CO_E_BAD_SERVER_NAME
+
+syntax keyword cppWinConstant CO_E_WRONG_SERVER_IDENTITY
+
+syntax keyword cppWinConstant CO_E_OLE1DDE_DISABLED
+
+syntax keyword cppWinConstant CO_E_RUNAS_SYNTAX
+
+syntax keyword cppWinConstant CO_E_CREATEPROCESS_FAILURE
+
+syntax keyword cppWinConstant CO_E_RUNAS_CREATEPROCESS_FAILURE
+
+syntax keyword cppWinConstant CO_E_RUNAS_LOGON_FAILURE
+
+syntax keyword cppWinConstant CO_E_LAUNCH_PERMSSION_DENIED
+
+syntax keyword cppWinConstant CO_E_START_SERVICE_FAILURE
+
+syntax keyword cppWinConstant CO_E_REMOTE_COMMUNICATION_FAILURE
+
+syntax keyword cppWinConstant CO_E_SERVER_START_TIMEOUT
+
+syntax keyword cppWinConstant CO_E_CLSREG_INCONSISTENT
+
+syntax keyword cppWinConstant CO_E_IIDREG_INCONSISTENT
+
+syntax keyword cppWinConstant CO_E_NOT_SUPPORTED
+
+syntax keyword cppWinConstant CO_E_RELOAD_DLL
+
+syntax keyword cppWinConstant CO_E_MSI_ERROR
+
+syntax keyword cppWinConstant CO_E_ATTEMPT_TO_CREATE_OUTSIDE_CLIENT_CONTEXT
+
+syntax keyword cppWinConstant CO_E_SERVER_PAUSED
+
+syntax keyword cppWinConstant CO_E_SERVER_NOT_PAUSED
+
+syntax keyword cppWinConstant CO_E_CLASS_DISABLED
+
+syntax keyword cppWinConstant CO_E_CLRNOTAVAILABLE
+
+syntax keyword cppWinConstant CO_E_ASYNC_WORK_REJECTED
+
+syntax keyword cppWinConstant CO_E_SERVER_INIT_TIMEOUT
+
+syntax keyword cppWinConstant CO_E_NO_SECCTX_IN_ACTIVATE
+
+syntax keyword cppWinConstant CO_E_TRACKER_CONFIG
+
+syntax keyword cppWinConstant CO_E_THREADPOOL_CONFIG
+
+syntax keyword cppWinConstant CO_E_SXS_CONFIG
+
+syntax keyword cppWinConstant CO_E_MALFORMED_SPN
+
+
+syntax keyword cppWinConstant S_OK
+syntax keyword cppWinConstant S_FALSE
+
+syntax keyword cppWinConstant OLE_E_FIRST
+syntax keyword cppWinConstant OLE_E_LAST
+syntax keyword cppWinConstant OLE_S_FIRST
+syntax keyword cppWinConstant OLE_S_LAST
+
+syntax keyword cppWinConstant OLE_E_OLEVERB
+
+syntax keyword cppWinConstant OLE_E_ADVF
+
+syntax keyword cppWinConstant OLE_E_ENUM_NOMORE
+
+syntax keyword cppWinConstant OLE_E_ADVISENOTSUPPORTED
+
+syntax keyword cppWinConstant OLE_E_NOCONNECTION
+
+syntax keyword cppWinConstant OLE_E_NOTRUNNING
+
+syntax keyword cppWinConstant OLE_E_NOCACHE
+
+syntax keyword cppWinConstant OLE_E_BLANK
+
+syntax keyword cppWinConstant OLE_E_CLASSDIFF
+
+syntax keyword cppWinConstant OLE_E_CANT_GETMONIKER
+
+syntax keyword cppWinConstant OLE_E_CANT_BINDTOSOURCE
+
+syntax keyword cppWinConstant OLE_E_STATIC
+
+syntax keyword cppWinConstant OLE_E_PROMPTSAVECANCELLED
+
+syntax keyword cppWinConstant OLE_E_INVALIDRECT
+
+syntax keyword cppWinConstant OLE_E_WRONGCOMPOBJ
+
+syntax keyword cppWinConstant OLE_E_INVALIDHWND
+
+syntax keyword cppWinConstant OLE_E_NOT_INPLACEACTIVE
+
+syntax keyword cppWinConstant OLE_E_CANTCONVERT
+
+syntax keyword cppWinConstant OLE_E_NOSTORAGE
+
+syntax keyword cppWinConstant DV_E_FORMATETC
+
+syntax keyword cppWinConstant DV_E_DVTARGETDEVICE
+
+syntax keyword cppWinConstant DV_E_STGMEDIUM
+
+syntax keyword cppWinConstant DV_E_STATDATA
+
+syntax keyword cppWinConstant DV_E_LINDEX
+
+syntax keyword cppWinConstant DV_E_TYMED
+
+syntax keyword cppWinConstant DV_E_CLIPFORMAT
+
+syntax keyword cppWinConstant DV_E_DVASPECT
+
+syntax keyword cppWinConstant DV_E_DVTARGETDEVICE_SIZE
+
+syntax keyword cppWinConstant DV_E_NOIVIEWOBJECT
+
+syntax keyword cppWinConstant DRAGDROP_E_FIRST
+syntax keyword cppWinConstant DRAGDROP_E_LAST
+syntax keyword cppWinConstant DRAGDROP_S_FIRST
+syntax keyword cppWinConstant DRAGDROP_S_LAST
+syntax keyword cppWinConstant DRAGDROP_E_NOTREGISTERED
+
+syntax keyword cppWinConstant DRAGDROP_E_ALREADYREGISTERED
+
+syntax keyword cppWinConstant DRAGDROP_E_INVALIDHWND
+
+syntax keyword cppWinConstant CLASSFACTORY_E_FIRST
+syntax keyword cppWinConstant CLASSFACTORY_E_LAST
+syntax keyword cppWinConstant CLASSFACTORY_S_FIRST
+syntax keyword cppWinConstant CLASSFACTORY_S_LAST
+
+syntax keyword cppWinConstant CLASS_E_NOAGGREGATION
+
+syntax keyword cppWinConstant CLASS_E_CLASSNOTAVAILABLE
+
+syntax keyword cppWinConstant CLASS_E_NOTLICENSED
+
+syntax keyword cppWinConstant MARSHAL_E_FIRST
+syntax keyword cppWinConstant MARSHAL_E_LAST
+syntax keyword cppWinConstant MARSHAL_S_FIRST
+syntax keyword cppWinConstant MARSHAL_S_LAST
+syntax keyword cppWinConstant DATA_E_FIRST
+syntax keyword cppWinConstant DATA_E_LAST
+syntax keyword cppWinConstant DATA_S_FIRST
+syntax keyword cppWinConstant DATA_S_LAST
+syntax keyword cppWinConstant VIEW_E_FIRST
+syntax keyword cppWinConstant VIEW_E_LAST
+syntax keyword cppWinConstant VIEW_S_FIRST
+syntax keyword cppWinConstant VIEW_S_LAST
+//
+syntax keyword cppWinConstant VIEW_E_DRAW
+
+syntax keyword cppWinConstant REGDB_E_FIRST
+syntax keyword cppWinConstant REGDB_E_LAST
+syntax keyword cppWinConstant REGDB_S_FIRST
+syntax keyword cppWinConstant REGDB_S_LAST
+
+syntax keyword cppWinConstant REGDB_E_READREGDB
+
+syntax keyword cppWinConstant REGDB_E_WRITEREGDB
+
+syntax keyword cppWinConstant REGDB_E_KEYMISSING
+
+syntax keyword cppWinConstant REGDB_E_INVALIDVALUE
+
+syntax keyword cppWinConstant REGDB_E_CLASSNOTREG
+
+syntax keyword cppWinConstant REGDB_E_IIDNOTREG
+
+syntax keyword cppWinConstant REGDB_E_BADTHREADINGMODEL
+
+syntax keyword cppWinConstant CAT_E_FIRST
+syntax keyword cppWinConstant CAT_E_LAST
+
+syntax keyword cppWinConstant CAT_E_CATIDNOEXIST
+
+syntax keyword cppWinConstant CAT_E_NODESCRIPTION
+
+syntax keyword cppWinConstant CS_E_FIRST
+syntax keyword cppWinConstant CS_E_LAST
+syntax keyword cppWinConstant CS_E_PACKAGE_NOTFOUND
+
+syntax keyword cppWinConstant CS_E_NOT_DELETABLE
+
+syntax keyword cppWinConstant CS_E_CLASS_NOTFOUND
+
+syntax keyword cppWinConstant CS_E_INVALID_VERSION
+
+syntax keyword cppWinConstant CS_E_NO_CLASSSTORE
+
+syntax keyword cppWinConstant CS_E_OBJECT_NOTFOUND
+
+syntax keyword cppWinConstant CS_E_OBJECT_ALREADY_EXISTS
+
+syntax keyword cppWinConstant CS_E_INVALID_PATH
+
+syntax keyword cppWinConstant CS_E_NETWORK_ERROR
+
+syntax keyword cppWinConstant CS_E_ADMIN_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant CS_E_SCHEMA_MISMATCH
+
+syntax keyword cppWinConstant CS_E_INTERNAL_ERROR
+
+syntax keyword cppWinConstant CACHE_E_FIRST
+syntax keyword cppWinConstant CACHE_E_LAST
+syntax keyword cppWinConstant CACHE_S_FIRST
+syntax keyword cppWinConstant CACHE_S_LAST
+syntax keyword cppWinConstant CACHE_E_NOCACHE_UPDATED
+
+syntax keyword cppWinConstant OLEOBJ_E_FIRST
+syntax keyword cppWinConstant OLEOBJ_E_LAST
+syntax keyword cppWinConstant OLEOBJ_S_FIRST
+syntax keyword cppWinConstant OLEOBJ_S_LAST
+syntax keyword cppWinConstant OLEOBJ_E_NOVERBS
+
+syntax keyword cppWinConstant OLEOBJ_E_INVALIDVERB
+
+syntax keyword cppWinConstant CLIENTSITE_E_FIRST
+syntax keyword cppWinConstant CLIENTSITE_E_LAST
+syntax keyword cppWinConstant CLIENTSITE_S_FIRST
+syntax keyword cppWinConstant CLIENTSITE_S_LAST
+syntax keyword cppWinConstant INPLACE_E_NOTUNDOABLE
+
+syntax keyword cppWinConstant INPLACE_E_NOTOOLSPACE
+
+syntax keyword cppWinConstant INPLACE_E_FIRST
+syntax keyword cppWinConstant INPLACE_E_LAST
+syntax keyword cppWinConstant INPLACE_S_FIRST
+syntax keyword cppWinConstant INPLACE_S_LAST
+syntax keyword cppWinConstant ENUM_E_FIRST
+syntax keyword cppWinConstant ENUM_E_LAST
+syntax keyword cppWinConstant ENUM_S_FIRST
+syntax keyword cppWinConstant ENUM_S_LAST
+syntax keyword cppWinConstant CONVERT10_E_FIRST
+syntax keyword cppWinConstant CONVERT10_E_LAST
+syntax keyword cppWinConstant CONVERT10_S_FIRST
+syntax keyword cppWinConstant CONVERT10_S_LAST
+
+syntax keyword cppWinConstant CONVERT10_E_OLESTREAM_GET
+
+syntax keyword cppWinConstant CONVERT10_E_OLESTREAM_PUT
+
+syntax keyword cppWinConstant CONVERT10_E_OLESTREAM_FMT
+
+syntax keyword cppWinConstant CONVERT10_E_OLESTREAM_BITMAP_TO_DIB
+
+syntax keyword cppWinConstant CONVERT10_E_STG_FMT
+
+syntax keyword cppWinConstant CONVERT10_E_STG_NO_STD_STREAM
+
+syntax keyword cppWinConstant CONVERT10_E_STG_DIB_TO_BITMAP
+
+syntax keyword cppWinConstant CLIPBRD_E_FIRST
+syntax keyword cppWinConstant CLIPBRD_E_LAST
+syntax keyword cppWinConstant CLIPBRD_S_FIRST
+syntax keyword cppWinConstant CLIPBRD_S_LAST
+
+syntax keyword cppWinConstant CLIPBRD_E_CANT_OPEN
+
+syntax keyword cppWinConstant CLIPBRD_E_CANT_EMPTY
+
+syntax keyword cppWinConstant CLIPBRD_E_CANT_SET
+
+syntax keyword cppWinConstant CLIPBRD_E_BAD_DATA
+
+syntax keyword cppWinConstant CLIPBRD_E_CANT_CLOSE
+
+syntax keyword cppWinConstant MK_E_FIRST
+syntax keyword cppWinConstant MK_E_LAST
+syntax keyword cppWinConstant MK_S_FIRST
+syntax keyword cppWinConstant MK_S_LAST
+
+syntax keyword cppWinConstant MK_E_CONNECTMANUALLY
+
+syntax keyword cppWinConstant MK_E_EXCEEDEDDEADLINE
+
+syntax keyword cppWinConstant MK_E_NEEDGENERIC
+
+syntax keyword cppWinConstant MK_E_UNAVAILABLE
+
+syntax keyword cppWinConstant MK_E_SYNTAX
+
+syntax keyword cppWinConstant MK_E_NOOBJECT
+
+syntax keyword cppWinConstant MK_E_INVALIDEXTENSION
+
+syntax keyword cppWinConstant MK_E_INTERMEDIATEINTERFACENOTSUPPORTED
+
+syntax keyword cppWinConstant MK_E_NOTBINDABLE
+
+syntax keyword cppWinConstant MK_E_NOTBOUND
+
+syntax keyword cppWinConstant MK_E_CANTOPENFILE
+
+syntax keyword cppWinConstant MK_E_MUSTBOTHERUSER
+
+syntax keyword cppWinConstant MK_E_NOINVERSE
+
+syntax keyword cppWinConstant MK_E_NOSTORAGE
+
+syntax keyword cppWinConstant MK_E_NOPREFIX
+
+syntax keyword cppWinConstant MK_E_ENUMERATION_FAILED
+
+syntax keyword cppWinConstant CO_E_FIRST
+syntax keyword cppWinConstant CO_E_LAST
+syntax keyword cppWinConstant CO_S_FIRST
+syntax keyword cppWinConstant CO_S_LAST
+syntax keyword cppWinConstant CO_E_NOTINITIALIZED
+
+syntax keyword cppWinConstant CO_E_ALREADYINITIALIZED
+
+syntax keyword cppWinConstant CO_E_CANTDETERMINECLASS
+
+syntax keyword cppWinConstant CO_E_CLASSSTRING
+
+syntax keyword cppWinConstant CO_E_IIDSTRING
+
+syntax keyword cppWinConstant CO_E_APPNOTFOUND
+
+syntax keyword cppWinConstant CO_E_APPSINGLEUSE
+
+syntax keyword cppWinConstant CO_E_ERRORINAPP
+
+syntax keyword cppWinConstant CO_E_DLLNOTFOUND
+
+syntax keyword cppWinConstant CO_E_ERRORINDLL
+
+syntax keyword cppWinConstant CO_E_WRONGOSFORAPP
+
+syntax keyword cppWinConstant CO_E_OBJNOTREG
+
+syntax keyword cppWinConstant CO_E_OBJISREG
+
+syntax keyword cppWinConstant CO_E_OBJNOTCONNECTED
+
+syntax keyword cppWinConstant CO_E_APPDIDNTREG
+
+syntax keyword cppWinConstant CO_E_RELEASED
+
+syntax keyword cppWinConstant EVENT_E_FIRST
+syntax keyword cppWinConstant EVENT_E_LAST
+syntax keyword cppWinConstant EVENT_S_FIRST
+syntax keyword cppWinConstant EVENT_S_LAST
+syntax keyword cppWinConstant EVENT_S_SOME_SUBSCRIBERS_FAILED
+
+syntax keyword cppWinConstant EVENT_E_ALL_SUBSCRIBERS_FAILED
+
+syntax keyword cppWinConstant EVENT_S_NOSUBSCRIBERS
+
+syntax keyword cppWinConstant EVENT_E_QUERYSYNTAX
+
+syntax keyword cppWinConstant EVENT_E_QUERYFIELD
+
+syntax keyword cppWinConstant EVENT_E_INTERNALEXCEPTION
+
+syntax keyword cppWinConstant EVENT_E_INTERNALERROR
+
+syntax keyword cppWinConstant EVENT_E_INVALID_PER_USER_SID
+
+syntax keyword cppWinConstant EVENT_E_USER_EXCEPTION
+
+syntax keyword cppWinConstant EVENT_E_TOO_MANY_METHODS
+
+syntax keyword cppWinConstant EVENT_E_MISSING_EVENTCLASS
+
+syntax keyword cppWinConstant EVENT_E_NOT_ALL_REMOVED
+
+syntax keyword cppWinConstant EVENT_E_COMPLUS_NOT_INSTALLED
+
+syntax keyword cppWinConstant EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT
+
+syntax keyword cppWinConstant EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT
+
+syntax keyword cppWinConstant EVENT_E_INVALID_EVENT_CLASS_PARTITION
+
+syntax keyword cppWinConstant EVENT_E_PER_USER_SID_NOT_LOGGED_ON
+
+syntax keyword cppWinConstant XACT_E_FIRST
+syntax keyword cppWinConstant XACT_E_LAST
+syntax keyword cppWinConstant XACT_S_FIRST
+syntax keyword cppWinConstant XACT_S_LAST
+
+syntax keyword cppWinConstant XACT_E_ALREADYOTHERSINGLEPHASE
+
+syntax keyword cppWinConstant XACT_E_CANTRETAIN
+
+syntax keyword cppWinConstant XACT_E_COMMITFAILED
+
+syntax keyword cppWinConstant XACT_E_COMMITPREVENTED
+
+syntax keyword cppWinConstant XACT_E_HEURISTICABORT
+
+syntax keyword cppWinConstant XACT_E_HEURISTICCOMMIT
+
+syntax keyword cppWinConstant XACT_E_HEURISTICDAMAGE
+
+syntax keyword cppWinConstant XACT_E_HEURISTICDANGER
+
+syntax keyword cppWinConstant XACT_E_ISOLATIONLEVEL
+
+syntax keyword cppWinConstant XACT_E_NOASYNC
+
+syntax keyword cppWinConstant XACT_E_NOENLIST
+
+syntax keyword cppWinConstant XACT_E_NOISORETAIN
+
+syntax keyword cppWinConstant XACT_E_NORESOURCE
+
+syntax keyword cppWinConstant XACT_E_NOTCURRENT
+
+syntax keyword cppWinConstant XACT_E_NOTRANSACTION
+
+syntax keyword cppWinConstant XACT_E_NOTSUPPORTED
+
+syntax keyword cppWinConstant XACT_E_UNKNOWNRMGRID
+
+syntax keyword cppWinConstant XACT_E_WRONGSTATE
+
+syntax keyword cppWinConstant XACT_E_WRONGUOW
+
+syntax keyword cppWinConstant XACT_E_XTIONEXISTS
+
+syntax keyword cppWinConstant XACT_E_NOIMPORTOBJECT
+
+syntax keyword cppWinConstant XACT_E_INVALIDCOOKIE
+
+syntax keyword cppWinConstant XACT_E_INDOUBT
+
+syntax keyword cppWinConstant XACT_E_NOTIMEOUT
+
+syntax keyword cppWinConstant XACT_E_ALREADYINPROGRESS
+
+syntax keyword cppWinConstant XACT_E_ABORTED
+
+syntax keyword cppWinConstant XACT_E_LOGFULL
+
+syntax keyword cppWinConstant XACT_E_TMNOTAVAILABLE
+
+syntax keyword cppWinConstant XACT_E_CONNECTION_DOWN
+
+syntax keyword cppWinConstant XACT_E_CONNECTION_DENIED
+
+syntax keyword cppWinConstant XACT_E_REENLISTTIMEOUT
+
+syntax keyword cppWinConstant XACT_E_TIP_CONNECT_FAILED
+
+syntax keyword cppWinConstant XACT_E_TIP_PROTOCOL_ERROR
+
+syntax keyword cppWinConstant XACT_E_TIP_PULL_FAILED
+
+syntax keyword cppWinConstant XACT_E_DEST_TMNOTAVAILABLE
+
+syntax keyword cppWinConstant XACT_E_TIP_DISABLED
+
+syntax keyword cppWinConstant XACT_E_NETWORK_TX_DISABLED
+
+syntax keyword cppWinConstant XACT_E_PARTNER_NETWORK_TX_DISABLED
+
+syntax keyword cppWinConstant XACT_E_XA_TX_DISABLED
+
+syntax keyword cppWinConstant XACT_E_UNABLE_TO_READ_DTC_CONFIG
+
+syntax keyword cppWinConstant XACT_E_UNABLE_TO_LOAD_DTC_PROXY
+
+syntax keyword cppWinConstant XACT_E_ABORTING
+
+syntax keyword cppWinConstant XACT_E_PUSH_COMM_FAILURE
+
+syntax keyword cppWinConstant XACT_E_PULL_COMM_FAILURE
+
+syntax keyword cppWinConstant XACT_E_LU_TX_DISABLED
+
+syntax keyword cppWinConstant XACT_E_CLERKNOTFOUND
+
+syntax keyword cppWinConstant XACT_E_CLERKEXISTS
+
+syntax keyword cppWinConstant XACT_E_RECOVERYINPROGRESS
+
+syntax keyword cppWinConstant XACT_E_TRANSACTIONCLOSED
+
+syntax keyword cppWinConstant XACT_E_INVALIDLSN
+
+syntax keyword cppWinConstant XACT_E_REPLAYREQUEST
+
+syntax keyword cppWinConstant XACT_S_ASYNC
+
+syntax keyword cppWinConstant XACT_S_DEFECT
+
+syntax keyword cppWinConstant XACT_S_READONLY
+
+syntax keyword cppWinConstant XACT_S_SOMENORETAIN
+
+syntax keyword cppWinConstant XACT_S_OKINFORM
+
+syntax keyword cppWinConstant XACT_S_MADECHANGESCONTENT
+
+syntax keyword cppWinConstant XACT_S_MADECHANGESINFORM
+
+syntax keyword cppWinConstant XACT_S_ALLNORETAIN
+
+syntax keyword cppWinConstant XACT_S_ABORTING
+
+syntax keyword cppWinConstant XACT_S_SINGLEPHASE
+
+syntax keyword cppWinConstant XACT_S_LOCALLY_OK
+
+syntax keyword cppWinConstant XACT_S_LASTRESOURCEMANAGER
+
+syntax keyword cppWinConstant CONTEXT_E_FIRST
+syntax keyword cppWinConstant CONTEXT_E_LAST
+syntax keyword cppWinConstant CONTEXT_S_FIRST
+syntax keyword cppWinConstant CONTEXT_S_LAST
+
+syntax keyword cppWinConstant CONTEXT_E_ABORTED
+
+syntax keyword cppWinConstant CONTEXT_E_ABORTING
+
+syntax keyword cppWinConstant CONTEXT_E_NOCONTEXT
+
+syntax keyword cppWinConstant CONTEXT_E_WOULD_DEADLOCK
+
+syntax keyword cppWinConstant CONTEXT_E_SYNCH_TIMEOUT
+
+syntax keyword cppWinConstant CONTEXT_E_OLDREF
+
+syntax keyword cppWinConstant CONTEXT_E_ROLENOTFOUND
+
+syntax keyword cppWinConstant CONTEXT_E_TMNOTAVAILABLE
+
+syntax keyword cppWinConstant CO_E_ACTIVATIONFAILED
+
+syntax keyword cppWinConstant CO_E_ACTIVATIONFAILED_EVENTLOGGED
+
+syntax keyword cppWinConstant CO_E_ACTIVATIONFAILED_CATALOGERROR
+
+syntax keyword cppWinConstant CO_E_ACTIVATIONFAILED_TIMEOUT
+
+syntax keyword cppWinConstant CO_E_INITIALIZATIONFAILED
+
+syntax keyword cppWinConstant CONTEXT_E_NOJIT
+
+syntax keyword cppWinConstant CONTEXT_E_NOTRANSACTION
+
+syntax keyword cppWinConstant CO_E_THREADINGMODEL_CHANGED
+
+syntax keyword cppWinConstant CO_E_NOIISINTRINSICS
+
+syntax keyword cppWinConstant CO_E_NOCOOKIES
+
+syntax keyword cppWinConstant CO_E_DBERROR
+
+syntax keyword cppWinConstant CO_E_NOTPOOLED
+
+syntax keyword cppWinConstant CO_E_NOTCONSTRUCTED
+
+syntax keyword cppWinConstant CO_E_NOSYNCHRONIZATION
+
+syntax keyword cppWinConstant CO_E_ISOLEVELMISMATCH
+
+syntax keyword cppWinConstant CO_E_CALL_OUT_OF_TX_SCOPE_NOT_ALLOWED
+
+syntax keyword cppWinConstant CO_E_EXIT_TRANSACTION_SCOPE_NOT_CALLED
+
+syntax keyword cppWinConstant OLE_S_USEREG
+
+syntax keyword cppWinConstant OLE_S_STATIC
+
+syntax keyword cppWinConstant OLE_S_MAC_CLIPFORMAT
+
+syntax keyword cppWinConstant DRAGDROP_S_DROP
+
+syntax keyword cppWinConstant DRAGDROP_S_CANCEL
+
+syntax keyword cppWinConstant DRAGDROP_S_USEDEFAULTCURSORS
+
+syntax keyword cppWinConstant DATA_S_SAMEFORMATETC
+
+syntax keyword cppWinConstant VIEW_S_ALREADY_FROZEN
+
+syntax keyword cppWinConstant CACHE_S_FORMATETC_NOTSUPPORTED
+
+syntax keyword cppWinConstant CACHE_S_SAMECACHE
+
+syntax keyword cppWinConstant CACHE_S_SOMECACHES_NOTUPDATED
+
+syntax keyword cppWinConstant OLEOBJ_S_INVALIDVERB
+
+syntax keyword cppWinConstant OLEOBJ_S_CANNOT_DOVERB_NOW
+
+syntax keyword cppWinConstant OLEOBJ_S_INVALIDHWND
+
+syntax keyword cppWinConstant INPLACE_S_TRUNCATED
+
+syntax keyword cppWinConstant CONVERT10_S_NO_PRESENTATION
+
+syntax keyword cppWinConstant MK_S_REDUCED_TO_SELF
+
+syntax keyword cppWinConstant MK_S_ME
+
+syntax keyword cppWinConstant MK_S_HIM
+
+syntax keyword cppWinConstant MK_S_US
+
+syntax keyword cppWinConstant MK_S_MONIKERALREADYREGISTERED
+
+syntax keyword cppWinConstant SCHED_S_TASK_READY
+
+syntax keyword cppWinConstant SCHED_S_TASK_RUNNING
+
+syntax keyword cppWinConstant SCHED_S_TASK_DISABLED
+
+syntax keyword cppWinConstant SCHED_S_TASK_HAS_NOT_RUN
+
+syntax keyword cppWinConstant SCHED_S_TASK_NO_MORE_RUNS
+
+syntax keyword cppWinConstant SCHED_S_TASK_NOT_SCHEDULED
+
+syntax keyword cppWinConstant SCHED_S_TASK_TERMINATED
+
+syntax keyword cppWinConstant SCHED_S_TASK_NO_VALID_TRIGGERS
+
+syntax keyword cppWinConstant SCHED_S_EVENT_TRIGGER
+
+syntax keyword cppWinConstant SCHED_E_TRIGGER_NOT_FOUND
+
+syntax keyword cppWinConstant SCHED_E_TASK_NOT_READY
+
+syntax keyword cppWinConstant SCHED_E_TASK_NOT_RUNNING
+
+syntax keyword cppWinConstant SCHED_E_SERVICE_NOT_INSTALLED
+
+syntax keyword cppWinConstant SCHED_E_CANNOT_OPEN_TASK
+
+syntax keyword cppWinConstant SCHED_E_INVALID_TASK
+
+syntax keyword cppWinConstant SCHED_E_ACCOUNT_INFORMATION_NOT_SET
+
+syntax keyword cppWinConstant SCHED_E_ACCOUNT_NAME_NOT_FOUND
+
+syntax keyword cppWinConstant SCHED_E_ACCOUNT_DBASE_CORRUPT
+
+syntax keyword cppWinConstant SCHED_E_NO_SECURITY_SERVICES
+
+syntax keyword cppWinConstant SCHED_E_UNKNOWN_OBJECT_VERSION
+
+syntax keyword cppWinConstant SCHED_E_UNSUPPORTED_ACCOUNT_OPTION
+
+syntax keyword cppWinConstant SCHED_E_SERVICE_NOT_RUNNING
+
+syntax keyword cppWinConstant SCHED_E_UNEXPECTEDNODE
+
+syntax keyword cppWinConstant SCHED_E_NAMESPACE
+
+syntax keyword cppWinConstant SCHED_E_INVALIDVALUE
+
+syntax keyword cppWinConstant SCHED_E_MISSINGNODE
+
+syntax keyword cppWinConstant SCHED_E_MALFORMEDXML
+
+syntax keyword cppWinConstant SCHED_S_SOME_TRIGGERS_FAILED
+
+syntax keyword cppWinConstant SCHED_S_BATCH_LOGON_PROBLEM
+
+syntax keyword cppWinConstant SCHED_E_TOO_MANY_NODES
+
+syntax keyword cppWinConstant SCHED_E_PAST_END_BOUNDARY
+
+syntax keyword cppWinConstant SCHED_E_ALREADY_RUNNING
+
+syntax keyword cppWinConstant SCHED_E_USER_NOT_LOGGED_ON
+
+syntax keyword cppWinConstant SCHED_E_INVALID_TASK_HASH
+
+syntax keyword cppWinConstant SCHED_E_SERVICE_NOT_AVAILABLE
+
+syntax keyword cppWinConstant SCHED_E_SERVICE_TOO_BUSY
+
+syntax keyword cppWinConstant SCHED_E_TASK_ATTEMPTED
+
+syntax keyword cppWinConstant SCHED_S_TASK_QUEUED
+
+syntax keyword cppWinConstant SCHED_E_TASK_DISABLED
+
+syntax keyword cppWinConstant SCHED_E_TASK_NOT_V1_COMPAT
+
+syntax keyword cppWinConstant SCHED_E_START_ON_DEMAND
+
+syntax keyword cppWinConstant CO_E_CLASS_CREATE_FAILED
+
+syntax keyword cppWinConstant CO_E_SCM_ERROR
+
+syntax keyword cppWinConstant CO_E_SCM_RPC_FAILURE
+
+syntax keyword cppWinConstant CO_E_BAD_PATH
+
+syntax keyword cppWinConstant CO_E_SERVER_EXEC_FAILURE
+
+syntax keyword cppWinConstant CO_E_OBJSRV_RPC_FAILURE
+
+syntax keyword cppWinConstant MK_E_NO_NORMALIZED
+
+syntax keyword cppWinConstant CO_E_SERVER_STOPPING
+
+syntax keyword cppWinConstant MEM_E_INVALID_ROOT
+
+syntax keyword cppWinConstant MEM_E_INVALID_LINK
+
+syntax keyword cppWinConstant MEM_E_INVALID_SIZE
+
+syntax keyword cppWinConstant CO_S_NOTALLINTERFACES
+
+syntax keyword cppWinConstant CO_S_MACHINENAMENOTFOUND
+
+syntax keyword cppWinConstant CO_E_MISSING_DISPLAYNAME
+
+syntax keyword cppWinConstant CO_E_RUNAS_VALUE_MUST_BE_AAA
+
+syntax keyword cppWinConstant CO_E_ELEVATION_DISABLED
+
+syntax keyword cppWinConstant DISP_E_UNKNOWNINTERFACE
+
+syntax keyword cppWinConstant DISP_E_MEMBERNOTFOUND
+
+syntax keyword cppWinConstant DISP_E_PARAMNOTFOUND
+
+syntax keyword cppWinConstant DISP_E_TYPEMISMATCH
+
+syntax keyword cppWinConstant DISP_E_UNKNOWNNAME
+
+syntax keyword cppWinConstant DISP_E_NONAMEDARGS
+
+syntax keyword cppWinConstant DISP_E_BADVARTYPE
+
+syntax keyword cppWinConstant DISP_E_EXCEPTION
+
+syntax keyword cppWinConstant DISP_E_OVERFLOW
+
+syntax keyword cppWinConstant DISP_E_BADINDEX
+
+syntax keyword cppWinConstant DISP_E_UNKNOWNLCID
+
+syntax keyword cppWinConstant DISP_E_ARRAYISLOCKED
+
+syntax keyword cppWinConstant DISP_E_BADPARAMCOUNT
+
+syntax keyword cppWinConstant DISP_E_PARAMNOTOPTIONAL
+
+syntax keyword cppWinConstant DISP_E_BADCALLEE
+
+syntax keyword cppWinConstant DISP_E_NOTACOLLECTION
+
+syntax keyword cppWinConstant DISP_E_DIVBYZERO
+
+syntax keyword cppWinConstant DISP_E_BUFFERTOOSMALL
+
+syntax keyword cppWinConstant TYPE_E_BUFFERTOOSMALL
+
+syntax keyword cppWinConstant TYPE_E_FIELDNOTFOUND
+
+syntax keyword cppWinConstant TYPE_E_INVDATAREAD
+
+syntax keyword cppWinConstant TYPE_E_UNSUPFORMAT
+
+syntax keyword cppWinConstant TYPE_E_REGISTRYACCESS
+
+syntax keyword cppWinConstant TYPE_E_LIBNOTREGISTERED
+
+syntax keyword cppWinConstant TYPE_E_UNDEFINEDTYPE
+
+syntax keyword cppWinConstant TYPE_E_QUALIFIEDNAMEDISALLOWED
+
+syntax keyword cppWinConstant TYPE_E_INVALIDSTATE
+
+syntax keyword cppWinConstant TYPE_E_WRONGTYPEKIND
+
+syntax keyword cppWinConstant TYPE_E_ELEMENTNOTFOUND
+
+syntax keyword cppWinConstant TYPE_E_AMBIGUOUSNAME
+
+syntax keyword cppWinConstant TYPE_E_NAMECONFLICT
+
+syntax keyword cppWinConstant TYPE_E_UNKNOWNLCID
+
+syntax keyword cppWinConstant TYPE_E_DLLFUNCTIONNOTFOUND
+
+syntax keyword cppWinConstant TYPE_E_BADMODULEKIND
+
+syntax keyword cppWinConstant TYPE_E_SIZETOOBIG
+
+syntax keyword cppWinConstant TYPE_E_DUPLICATEID
+
+syntax keyword cppWinConstant TYPE_E_INVALIDID
+
+syntax keyword cppWinConstant TYPE_E_TYPEMISMATCH
+
+syntax keyword cppWinConstant TYPE_E_OUTOFBOUNDS
+
+syntax keyword cppWinConstant TYPE_E_IOERROR
+
+syntax keyword cppWinConstant TYPE_E_CANTCREATETMPFILE
+
+syntax keyword cppWinConstant TYPE_E_CANTLOADLIBRARY
+
+syntax keyword cppWinConstant TYPE_E_INCONSISTENTPROPFUNCS
+
+syntax keyword cppWinConstant TYPE_E_CIRCULARTYPE
+
+syntax keyword cppWinConstant STG_E_INVALIDFUNCTION
+
+syntax keyword cppWinConstant STG_E_FILENOTFOUND
+
+syntax keyword cppWinConstant STG_E_PATHNOTFOUND
+
+syntax keyword cppWinConstant STG_E_TOOMANYOPENFILES
+
+syntax keyword cppWinConstant STG_E_ACCESSDENIED
+
+syntax keyword cppWinConstant STG_E_INVALIDHANDLE
+
+syntax keyword cppWinConstant STG_E_INSUFFICIENTMEMORY
+
+syntax keyword cppWinConstant STG_E_INVALIDPOINTER
+
+syntax keyword cppWinConstant STG_E_NOMOREFILES
+
+syntax keyword cppWinConstant STG_E_DISKISWRITEPROTECTED
+
+syntax keyword cppWinConstant STG_E_SEEKERROR
+
+syntax keyword cppWinConstant STG_E_WRITEFAULT
+
+syntax keyword cppWinConstant STG_E_READFAULT
+
+syntax keyword cppWinConstant STG_E_SHAREVIOLATION
+
+syntax keyword cppWinConstant STG_E_LOCKVIOLATION
+
+syntax keyword cppWinConstant STG_E_FILEALREADYEXISTS
+
+syntax keyword cppWinConstant STG_E_INVALIDPARAMETER
+
+syntax keyword cppWinConstant STG_E_MEDIUMFULL
+
+syntax keyword cppWinConstant STG_E_PROPSETMISMATCHED
+
+syntax keyword cppWinConstant STG_E_ABNORMALAPIEXIT
+
+syntax keyword cppWinConstant STG_E_INVALIDHEADER
+
+syntax keyword cppWinConstant STG_E_INVALIDNAME
+
+syntax keyword cppWinConstant STG_E_UNKNOWN
+
+syntax keyword cppWinConstant STG_E_UNIMPLEMENTEDFUNCTION
+
+syntax keyword cppWinConstant STG_E_INVALIDFLAG
+
+syntax keyword cppWinConstant STG_E_INUSE
+
+syntax keyword cppWinConstant STG_E_NOTCURRENT
+
+syntax keyword cppWinConstant STG_E_REVERTED
+
+syntax keyword cppWinConstant STG_E_CANTSAVE
+
+syntax keyword cppWinConstant STG_E_OLDFORMAT
+
+syntax keyword cppWinConstant STG_E_OLDDLL
+
+syntax keyword cppWinConstant STG_E_SHAREREQUIRED
+
+syntax keyword cppWinConstant STG_E_NOTFILEBASEDSTORAGE
+
+syntax keyword cppWinConstant STG_E_EXTANTMARSHALLINGS
+
+syntax keyword cppWinConstant STG_E_DOCFILECORRUPT
+
+syntax keyword cppWinConstant STG_E_BADBASEADDRESS
+
+syntax keyword cppWinConstant STG_E_DOCFILETOOLARGE
+
+syntax keyword cppWinConstant STG_E_NOTSIMPLEFORMAT
+
+syntax keyword cppWinConstant STG_E_INCOMPLETE
+
+syntax keyword cppWinConstant STG_E_TERMINATED
+
+syntax keyword cppWinConstant STG_S_CONVERTED
+
+syntax keyword cppWinConstant STG_S_BLOCK
+
+syntax keyword cppWinConstant STG_S_RETRYNOW
+
+syntax keyword cppWinConstant STG_S_MONITORING
+
+syntax keyword cppWinConstant STG_S_MULTIPLEOPENS
+
+syntax keyword cppWinConstant STG_S_CONSOLIDATIONFAILED
+
+syntax keyword cppWinConstant STG_S_CANNOTCONSOLIDATE
+
+syntax keyword cppWinConstant STG_E_STATUS_COPY_PROTECTION_FAILURE
+
+syntax keyword cppWinConstant STG_E_CSS_AUTHENTICATION_FAILURE
+
+syntax keyword cppWinConstant STG_E_CSS_KEY_NOT_PRESENT
+
+syntax keyword cppWinConstant STG_E_CSS_KEY_NOT_ESTABLISHED
+
+syntax keyword cppWinConstant STG_E_CSS_SCRAMBLED_SECTOR
+
+syntax keyword cppWinConstant STG_E_CSS_REGION_MISMATCH
+
+syntax keyword cppWinConstant STG_E_RESETS_EXHAUSTED
+
+syntax keyword cppWinConstant RPC_E_CALL_REJECTED
+
+syntax keyword cppWinConstant RPC_E_CALL_CANCELED
+
+syntax keyword cppWinConstant RPC_E_CANTPOST_INSENDCALL
+
+syntax keyword cppWinConstant RPC_E_CANTCALLOUT_INASYNCCALL
+
+syntax keyword cppWinConstant RPC_E_CANTCALLOUT_INEXTERNALCALL
+
+syntax keyword cppWinConstant RPC_E_CONNECTION_TERMINATED
+
+syntax keyword cppWinConstant RPC_E_SERVER_DIED
+
+syntax keyword cppWinConstant RPC_E_CLIENT_DIED
+
+syntax keyword cppWinConstant RPC_E_INVALID_DATAPACKET
+
+syntax keyword cppWinConstant RPC_E_CANTTRANSMIT_CALL
+
+syntax keyword cppWinConstant RPC_E_CLIENT_CANTMARSHAL_DATA
+
+syntax keyword cppWinConstant RPC_E_CLIENT_CANTUNMARSHAL_DATA
+
+syntax keyword cppWinConstant RPC_E_SERVER_CANTMARSHAL_DATA
+
+syntax keyword cppWinConstant RPC_E_SERVER_CANTUNMARSHAL_DATA
+
+syntax keyword cppWinConstant RPC_E_INVALID_DATA
+
+syntax keyword cppWinConstant RPC_E_INVALID_PARAMETER
+
+syntax keyword cppWinConstant RPC_E_CANTCALLOUT_AGAIN
+
+syntax keyword cppWinConstant RPC_E_SERVER_DIED_DNE
+
+syntax keyword cppWinConstant RPC_E_SYS_CALL_FAILED
+
+syntax keyword cppWinConstant RPC_E_OUT_OF_RESOURCES
+
+syntax keyword cppWinConstant RPC_E_ATTEMPTED_MULTITHREAD
+
+syntax keyword cppWinConstant RPC_E_NOT_REGISTERED
+
+syntax keyword cppWinConstant RPC_E_FAULT
+
+syntax keyword cppWinConstant RPC_E_SERVERFAULT
+
+syntax keyword cppWinConstant RPC_E_CHANGED_MODE
+
+syntax keyword cppWinConstant RPC_E_INVALIDMETHOD
+
+syntax keyword cppWinConstant RPC_E_DISCONNECTED
+
+syntax keyword cppWinConstant RPC_E_RETRY
+
+syntax keyword cppWinConstant RPC_E_SERVERCALL_RETRYLATER
+
+syntax keyword cppWinConstant RPC_E_SERVERCALL_REJECTED
+
+syntax keyword cppWinConstant RPC_E_INVALID_CALLDATA
+
+syntax keyword cppWinConstant RPC_E_CANTCALLOUT_ININPUTSYNCCALL
+
+syntax keyword cppWinConstant RPC_E_WRONG_THREAD
+
+syntax keyword cppWinConstant RPC_E_THREAD_NOT_INIT
+
+syntax keyword cppWinConstant RPC_E_VERSION_MISMATCH
+
+syntax keyword cppWinConstant RPC_E_INVALID_HEADER
+
+syntax keyword cppWinConstant RPC_E_INVALID_EXTENSION
+
+syntax keyword cppWinConstant RPC_E_INVALID_IPID
+
+syntax keyword cppWinConstant RPC_E_INVALID_OBJECT
+
+syntax keyword cppWinConstant RPC_S_CALLPENDING
+
+syntax keyword cppWinConstant RPC_S_WAITONTIMER
+
+syntax keyword cppWinConstant RPC_E_CALL_COMPLETE
+
+syntax keyword cppWinConstant RPC_E_UNSECURE_CALL
+
+syntax keyword cppWinConstant RPC_E_TOO_LATE
+
+syntax keyword cppWinConstant RPC_E_NO_GOOD_SECURITY_PACKAGES
+
+syntax keyword cppWinConstant RPC_E_ACCESS_DENIED
+
+syntax keyword cppWinConstant RPC_E_REMOTE_DISABLED
+
+syntax keyword cppWinConstant RPC_E_INVALID_OBJREF
+
+syntax keyword cppWinConstant RPC_E_NO_CONTEXT
+
+syntax keyword cppWinConstant RPC_E_TIMEOUT
+
+syntax keyword cppWinConstant RPC_E_NO_SYNC
+
+syntax keyword cppWinConstant RPC_E_FULLSIC_REQUIRED
+
+syntax keyword cppWinConstant RPC_E_INVALID_STD_NAME
+
+syntax keyword cppWinConstant CO_E_FAILEDTOIMPERSONATE
+
+syntax keyword cppWinConstant CO_E_FAILEDTOGETSECCTX
+
+syntax keyword cppWinConstant CO_E_FAILEDTOOPENTHREADTOKEN
+
+syntax keyword cppWinConstant CO_E_FAILEDTOGETTOKENINFO
+
+syntax keyword cppWinConstant CO_E_TRUSTEEDOESNTMATCHCLIENT
+
+syntax keyword cppWinConstant CO_E_FAILEDTOQUERYCLIENTBLANKET
+
+syntax keyword cppWinConstant CO_E_FAILEDTOSETDACL
+
+syntax keyword cppWinConstant CO_E_ACCESSCHECKFAILED
+
+syntax keyword cppWinConstant CO_E_NETACCESSAPIFAILED
+
+syntax keyword cppWinConstant CO_E_WRONGTRUSTEENAMESYNTAX
+
+syntax keyword cppWinConstant CO_E_INVALIDSID
+
+syntax keyword cppWinConstant CO_E_CONVERSIONFAILED
+
+syntax keyword cppWinConstant CO_E_NOMATCHINGSIDFOUND
+
+syntax keyword cppWinConstant CO_E_LOOKUPACCSIDFAILED
+
+syntax keyword cppWinConstant CO_E_NOMATCHINGNAMEFOUND
+
+syntax keyword cppWinConstant CO_E_LOOKUPACCNAMEFAILED
+
+syntax keyword cppWinConstant CO_E_SETSERLHNDLFAILED
+
+syntax keyword cppWinConstant CO_E_FAILEDTOGETWINDIR
+
+syntax keyword cppWinConstant CO_E_PATHTOOLONG
+
+syntax keyword cppWinConstant CO_E_FAILEDTOGENUUID
+
+syntax keyword cppWinConstant CO_E_FAILEDTOCREATEFILE
+
+syntax keyword cppWinConstant CO_E_FAILEDTOCLOSEHANDLE
+
+syntax keyword cppWinConstant CO_E_EXCEEDSYSACLLIMIT
+
+syntax keyword cppWinConstant CO_E_ACESINWRONGORDER
+
+syntax keyword cppWinConstant CO_E_INCOMPATIBLESTREAMVERSION
+
+syntax keyword cppWinConstant CO_E_FAILEDTOOPENPROCESSTOKEN
+
+syntax keyword cppWinConstant CO_E_DECODEFAILED
+
+syntax keyword cppWinConstant CO_E_ACNOTINITIALIZED
+
+syntax keyword cppWinConstant CO_E_CANCEL_DISABLED
+
+syntax keyword cppWinConstant RPC_E_UNEXPECTED
+
+syntax keyword cppWinConstant ERROR_AUDITING_DISABLED
+
+syntax keyword cppWinConstant ERROR_ALL_SIDS_FILTERED
+
+syntax keyword cppWinConstant ERROR_BIZRULES_NOT_ENABLED
+
+syntax keyword cppWinConstant NTE_BAD_UID
+
+syntax keyword cppWinConstant NTE_BAD_HASH
+
+syntax keyword cppWinConstant NTE_BAD_KEY
+
+syntax keyword cppWinConstant NTE_BAD_LEN
+
+syntax keyword cppWinConstant NTE_BAD_DATA
+
+syntax keyword cppWinConstant NTE_BAD_SIGNATURE
+
+syntax keyword cppWinConstant NTE_BAD_VER
+
+syntax keyword cppWinConstant NTE_BAD_ALGID
+
+syntax keyword cppWinConstant NTE_BAD_FLAGS
+
+syntax keyword cppWinConstant NTE_BAD_TYPE
+
+syntax keyword cppWinConstant NTE_BAD_KEY_STATE
+
+syntax keyword cppWinConstant NTE_BAD_HASH_STATE
+
+syntax keyword cppWinConstant NTE_NO_KEY
+
+syntax keyword cppWinConstant NTE_NO_MEMORY
+
+syntax keyword cppWinConstant NTE_EXISTS
+
+syntax keyword cppWinConstant NTE_PERM
+
+syntax keyword cppWinConstant NTE_NOT_FOUND
+
+syntax keyword cppWinConstant NTE_DOUBLE_ENCRYPT
+
+syntax keyword cppWinConstant NTE_BAD_PROVIDER
+
+syntax keyword cppWinConstant NTE_BAD_PROV_TYPE
+
+syntax keyword cppWinConstant NTE_BAD_PUBLIC_KEY
+
+syntax keyword cppWinConstant NTE_BAD_KEYSET
+
+syntax keyword cppWinConstant NTE_PROV_TYPE_NOT_DEF
+
+syntax keyword cppWinConstant NTE_PROV_TYPE_ENTRY_BAD
+
+syntax keyword cppWinConstant NTE_KEYSET_NOT_DEF
+
+syntax keyword cppWinConstant NTE_KEYSET_ENTRY_BAD
+
+syntax keyword cppWinConstant NTE_PROV_TYPE_NO_MATCH
+
+syntax keyword cppWinConstant NTE_SIGNATURE_FILE_BAD
+
+syntax keyword cppWinConstant NTE_PROVIDER_DLL_FAIL
+
+syntax keyword cppWinConstant NTE_PROV_DLL_NOT_FOUND
+
+syntax keyword cppWinConstant NTE_BAD_KEYSET_PARAM
+
+syntax keyword cppWinConstant NTE_FAIL
+
+syntax keyword cppWinConstant NTE_SYS_ERR
+
+syntax keyword cppWinConstant NTE_SILENT_CONTEXT
+
+syntax keyword cppWinConstant NTE_TOKEN_KEYSET_STORAGE_FULL
+
+syntax keyword cppWinConstant NTE_TEMPORARY_PROFILE
+
+syntax keyword cppWinConstant NTE_FIXEDPARAMETER
+
+syntax keyword cppWinConstant NTE_INVALID_HANDLE
+
+syntax keyword cppWinConstant NTE_INVALID_PARAMETER
+
+syntax keyword cppWinConstant NTE_BUFFER_TOO_SMALL
+
+syntax keyword cppWinConstant NTE_NOT_SUPPORTED
+
+syntax keyword cppWinConstant NTE_NO_MORE_ITEMS
+
+syntax keyword cppWinConstant NTE_BUFFERS_OVERLAP
+
+syntax keyword cppWinConstant NTE_DECRYPTION_FAILURE
+
+syntax keyword cppWinConstant NTE_INTERNAL_ERROR
+
+syntax keyword cppWinConstant NTE_UI_REQUIRED
+
+syntax keyword cppWinConstant NTE_HMAC_NOT_SUPPORTED
+
+syntax keyword cppWinConstant SEC_E_INSUFFICIENT_MEMORY
+
+syntax keyword cppWinConstant SEC_E_INVALID_HANDLE
+
+syntax keyword cppWinConstant SEC_E_UNSUPPORTED_FUNCTION
+
+syntax keyword cppWinConstant SEC_E_TARGET_UNKNOWN
+
+syntax keyword cppWinConstant SEC_E_INTERNAL_ERROR
+
+syntax keyword cppWinConstant SEC_E_SECPKG_NOT_FOUND
+
+syntax keyword cppWinConstant SEC_E_NOT_OWNER
+
+syntax keyword cppWinConstant SEC_E_CANNOT_INSTALL
+
+syntax keyword cppWinConstant SEC_E_INVALID_TOKEN
+
+syntax keyword cppWinConstant SEC_E_CANNOT_PACK
+
+syntax keyword cppWinConstant SEC_E_QOP_NOT_SUPPORTED
+
+syntax keyword cppWinConstant SEC_E_NO_IMPERSONATION
+
+syntax keyword cppWinConstant SEC_E_LOGON_DENIED
+
+syntax keyword cppWinConstant SEC_E_UNKNOWN_CREDENTIALS
+
+syntax keyword cppWinConstant SEC_E_NO_CREDENTIALS
+
+syntax keyword cppWinConstant SEC_E_MESSAGE_ALTERED
+
+syntax keyword cppWinConstant SEC_E_OUT_OF_SEQUENCE
+
+syntax keyword cppWinConstant SEC_E_NO_AUTHENTICATING_AUTHORITY
+
+syntax keyword cppWinConstant SEC_I_CONTINUE_NEEDED
+
+syntax keyword cppWinConstant SEC_I_COMPLETE_NEEDED
+
+syntax keyword cppWinConstant SEC_I_COMPLETE_AND_CONTINUE
+
+syntax keyword cppWinConstant SEC_I_LOCAL_LOGON
+
+syntax keyword cppWinConstant SEC_E_BAD_PKGID
+
+syntax keyword cppWinConstant SEC_E_CONTEXT_EXPIRED
+
+syntax keyword cppWinConstant SEC_I_CONTEXT_EXPIRED
+
+syntax keyword cppWinConstant SEC_E_INCOMPLETE_MESSAGE
+
+syntax keyword cppWinConstant SEC_E_INCOMPLETE_CREDENTIALS
+
+syntax keyword cppWinConstant SEC_E_BUFFER_TOO_SMALL
+
+syntax keyword cppWinConstant SEC_I_INCOMPLETE_CREDENTIALS
+
+syntax keyword cppWinConstant SEC_I_RENEGOTIATE
+
+syntax keyword cppWinConstant SEC_E_WRONG_PRINCIPAL
+
+syntax keyword cppWinConstant SEC_I_NO_LSA_CONTEXT
+
+syntax keyword cppWinConstant SEC_E_TIME_SKEW
+
+syntax keyword cppWinConstant SEC_E_UNTRUSTED_ROOT
+
+syntax keyword cppWinConstant SEC_E_ILLEGAL_MESSAGE
+
+syntax keyword cppWinConstant SEC_E_CERT_UNKNOWN
+
+syntax keyword cppWinConstant SEC_E_CERT_EXPIRED
+
+syntax keyword cppWinConstant SEC_E_ENCRYPT_FAILURE
+
+syntax keyword cppWinConstant SEC_E_DECRYPT_FAILURE
+
+syntax keyword cppWinConstant SEC_E_ALGORITHM_MISMATCH
+
+syntax keyword cppWinConstant SEC_E_SECURITY_QOS_FAILED
+
+syntax keyword cppWinConstant SEC_E_UNFINISHED_CONTEXT_DELETED
+
+syntax keyword cppWinConstant SEC_E_NO_TGT_REPLY
+
+syntax keyword cppWinConstant SEC_E_NO_IP_ADDRESSES
+
+syntax keyword cppWinConstant SEC_E_WRONG_CREDENTIAL_HANDLE
+
+syntax keyword cppWinConstant SEC_E_CRYPTO_SYSTEM_INVALID
+
+syntax keyword cppWinConstant SEC_E_MAX_REFERRALS_EXCEEDED
+
+syntax keyword cppWinConstant SEC_E_MUST_BE_KDC
+
+syntax keyword cppWinConstant SEC_E_STRONG_CRYPTO_NOT_SUPPORTED
+
+syntax keyword cppWinConstant SEC_E_TOO_MANY_PRINCIPALS
+
+syntax keyword cppWinConstant SEC_E_NO_PA_DATA
+
+syntax keyword cppWinConstant SEC_E_PKINIT_NAME_MISMATCH
+
+syntax keyword cppWinConstant SEC_E_SMARTCARD_LOGON_REQUIRED
+
+syntax keyword cppWinConstant SEC_E_SHUTDOWN_IN_PROGRESS
+
+syntax keyword cppWinConstant SEC_E_KDC_INVALID_REQUEST
+
+syntax keyword cppWinConstant SEC_E_KDC_UNABLE_TO_REFER
+
+syntax keyword cppWinConstant SEC_E_KDC_UNKNOWN_ETYPE
+
+syntax keyword cppWinConstant SEC_E_UNSUPPORTED_PREAUTH
+
+syntax keyword cppWinConstant SEC_E_DELEGATION_REQUIRED
+
+syntax keyword cppWinConstant SEC_E_BAD_BINDINGS
+
+syntax keyword cppWinConstant SEC_E_MULTIPLE_ACCOUNTS
+
+syntax keyword cppWinConstant SEC_E_NO_KERB_KEY
+
+syntax keyword cppWinConstant SEC_E_CERT_WRONG_USAGE
+
+syntax keyword cppWinConstant SEC_E_DOWNGRADE_DETECTED
+
+syntax keyword cppWinConstant SEC_E_SMARTCARD_CERT_REVOKED
+
+syntax keyword cppWinConstant SEC_E_ISSUING_CA_UNTRUSTED
+
+syntax keyword cppWinConstant SEC_E_REVOCATION_OFFLINE_C
+
+syntax keyword cppWinConstant SEC_E_PKINIT_CLIENT_FAILURE
+
+syntax keyword cppWinConstant SEC_E_SMARTCARD_CERT_EXPIRED
+
+syntax keyword cppWinConstant SEC_E_NO_S4U_PROT_SUPPORT
+
+syntax keyword cppWinConstant SEC_E_CROSSREALM_DELEGATION_FAILURE
+
+syntax keyword cppWinConstant SEC_E_REVOCATION_OFFLINE_KDC
+
+syntax keyword cppWinConstant SEC_E_ISSUING_CA_UNTRUSTED_KDC
+
+syntax keyword cppWinConstant SEC_E_KDC_CERT_EXPIRED
+
+syntax keyword cppWinConstant SEC_E_KDC_CERT_REVOKED
+
+syntax keyword cppWinConstant SEC_I_SIGNATURE_NEEDED
+
+syntax keyword cppWinConstant SEC_E_INVALID_PARAMETER
+
+syntax keyword cppWinConstant SEC_E_DELEGATION_POLICY
+
+syntax keyword cppWinConstant SEC_E_POLICY_NLTM_ONLY
+
+syntax keyword cppWinConstant SEC_I_NO_RENEGOTIATION
+
+syntax keyword cppWinConstant SEC_E_NO_CONTEXT
+
+syntax keyword cppWinConstant SEC_E_PKU2U_CERT_FAILURE
+
+syntax keyword cppWinConstant SEC_E_MUTUAL_AUTH_FAILED
+
+syntax keyword cppWinConstant SEC_E_NO_SPM
+syntax keyword cppWinConstant CRYPT_E_MSG_ERROR
+
+syntax keyword cppWinConstant CRYPT_E_UNKNOWN_ALGO
+
+syntax keyword cppWinConstant CRYPT_E_OID_FORMAT
+
+syntax keyword cppWinConstant CRYPT_E_INVALID_MSG_TYPE
+
+syntax keyword cppWinConstant CRYPT_E_UNEXPECTED_ENCODING
+
+syntax keyword cppWinConstant CRYPT_E_AUTH_ATTR_MISSING
+
+syntax keyword cppWinConstant CRYPT_E_HASH_VALUE
+
+syntax keyword cppWinConstant CRYPT_E_INVALID_INDEX
+
+syntax keyword cppWinConstant CRYPT_E_ALREADY_DECRYPTED
+
+syntax keyword cppWinConstant CRYPT_E_NOT_DECRYPTED
+
+syntax keyword cppWinConstant CRYPT_E_RECIPIENT_NOT_FOUND
+
+syntax keyword cppWinConstant CRYPT_E_CONTROL_TYPE
+
+syntax keyword cppWinConstant CRYPT_E_ISSUER_SERIALNUMBER
+
+syntax keyword cppWinConstant CRYPT_E_SIGNER_NOT_FOUND
+
+syntax keyword cppWinConstant CRYPT_E_ATTRIBUTES_MISSING
+
+syntax keyword cppWinConstant CRYPT_E_STREAM_MSG_NOT_READY
+
+syntax keyword cppWinConstant CRYPT_E_STREAM_INSUFFICIENT_DATA
+
+syntax keyword cppWinConstant CRYPT_I_NEW_PROTECTION_REQUIRED
+
+syntax keyword cppWinConstant CRYPT_E_BAD_LEN
+
+syntax keyword cppWinConstant CRYPT_E_BAD_ENCODE
+
+syntax keyword cppWinConstant CRYPT_E_FILE_ERROR
+
+syntax keyword cppWinConstant CRYPT_E_NOT_FOUND
+
+syntax keyword cppWinConstant CRYPT_E_EXISTS
+
+syntax keyword cppWinConstant CRYPT_E_NO_PROVIDER
+
+syntax keyword cppWinConstant CRYPT_E_SELF_SIGNED
+
+syntax keyword cppWinConstant CRYPT_E_DELETED_PREV
+
+syntax keyword cppWinConstant CRYPT_E_NO_MATCH
+
+syntax keyword cppWinConstant CRYPT_E_UNEXPECTED_MSG_TYPE
+
+syntax keyword cppWinConstant CRYPT_E_NO_KEY_PROPERTY
+
+syntax keyword cppWinConstant CRYPT_E_NO_DECRYPT_CERT
+
+syntax keyword cppWinConstant CRYPT_E_BAD_MSG
+
+syntax keyword cppWinConstant CRYPT_E_NO_SIGNER
+
+syntax keyword cppWinConstant CRYPT_E_PENDING_CLOSE
+
+syntax keyword cppWinConstant CRYPT_E_REVOKED
+
+syntax keyword cppWinConstant CRYPT_E_NO_REVOCATION_DLL
+
+syntax keyword cppWinConstant CRYPT_E_NO_REVOCATION_CHECK
+
+syntax keyword cppWinConstant CRYPT_E_REVOCATION_OFFLINE
+
+syntax keyword cppWinConstant CRYPT_E_NOT_IN_REVOCATION_DATABASE
+
+syntax keyword cppWinConstant CRYPT_E_INVALID_NUMERIC_STRING
+
+syntax keyword cppWinConstant CRYPT_E_INVALID_PRINTABLE_STRING
+
+syntax keyword cppWinConstant CRYPT_E_INVALID_IA5_STRING
+
+syntax keyword cppWinConstant CRYPT_E_INVALID_X500_STRING
+
+syntax keyword cppWinConstant CRYPT_E_NOT_CHAR_STRING
+
+syntax keyword cppWinConstant CRYPT_E_FILERESIZED
+
+syntax keyword cppWinConstant CRYPT_E_SECURITY_SETTINGS
+
+syntax keyword cppWinConstant CRYPT_E_NO_VERIFY_USAGE_DLL
+
+syntax keyword cppWinConstant CRYPT_E_NO_VERIFY_USAGE_CHECK
+
+syntax keyword cppWinConstant CRYPT_E_VERIFY_USAGE_OFFLINE
+
+syntax keyword cppWinConstant CRYPT_E_NOT_IN_CTL
+
+syntax keyword cppWinConstant CRYPT_E_NO_TRUSTED_SIGNER
+
+syntax keyword cppWinConstant CRYPT_E_MISSING_PUBKEY_PARA
+
+syntax keyword cppWinConstant CRYPT_E_OSS_ERROR
+
+syntax keyword cppWinConstant OSS_MORE_BUF
+
+syntax keyword cppWinConstant OSS_NEGATIVE_UINTEGER
+
+syntax keyword cppWinConstant OSS_PDU_RANGE
+
+syntax keyword cppWinConstant OSS_MORE_INPUT
+
+syntax keyword cppWinConstant OSS_DATA_ERROR
+
+syntax keyword cppWinConstant OSS_BAD_ARG
+
+syntax keyword cppWinConstant OSS_BAD_VERSION
+
+syntax keyword cppWinConstant OSS_OUT_MEMORY
+
+syntax keyword cppWinConstant OSS_PDU_MISMATCH
+
+syntax keyword cppWinConstant OSS_LIMITED
+
+syntax keyword cppWinConstant OSS_BAD_PTR
+
+syntax keyword cppWinConstant OSS_BAD_TIME
+
+syntax keyword cppWinConstant OSS_INDEFINITE_NOT_SUPPORTED
+
+syntax keyword cppWinConstant OSS_MEM_ERROR
+
+syntax keyword cppWinConstant OSS_BAD_TABLE
+
+syntax keyword cppWinConstant OSS_TOO_LONG
+
+syntax keyword cppWinConstant OSS_CONSTRAINT_VIOLATED
+
+syntax keyword cppWinConstant OSS_FATAL_ERROR
+
+syntax keyword cppWinConstant OSS_ACCESS_SERIALIZATION_ERROR
+
+syntax keyword cppWinConstant OSS_NULL_TBL
+
+syntax keyword cppWinConstant OSS_NULL_FCN
+
+syntax keyword cppWinConstant OSS_BAD_ENCRULES
+
+syntax keyword cppWinConstant OSS_UNAVAIL_ENCRULES
+
+syntax keyword cppWinConstant OSS_CANT_OPEN_TRACE_WINDOW
+
+syntax keyword cppWinConstant OSS_UNIMPLEMENTED
+
+syntax keyword cppWinConstant OSS_OID_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_CANT_OPEN_TRACE_FILE
+
+syntax keyword cppWinConstant OSS_TRACE_FILE_ALREADY_OPEN
+
+syntax keyword cppWinConstant OSS_TABLE_MISMATCH
+
+syntax keyword cppWinConstant OSS_TYPE_NOT_SUPPORTED
+
+syntax keyword cppWinConstant OSS_REAL_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_REAL_CODE_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_OUT_OF_RANGE
+
+syntax keyword cppWinConstant OSS_COPIER_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_CONSTRAINT_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_COMPARATOR_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_COMPARATOR_CODE_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_MEM_MGR_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_PDV_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_PDV_CODE_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_API_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_BERDER_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_PER_DLL_NOT_LINKED
+
+syntax keyword cppWinConstant OSS_OPEN_TYPE_ERROR
+
+syntax keyword cppWinConstant OSS_MUTEX_NOT_CREATED
+
+syntax keyword cppWinConstant OSS_CANT_CLOSE_TRACE_FILE
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_ERROR
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_INTERNAL
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_EOD
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_CORRUPT
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_LARGE
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_CONSTRAINT
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_MEMORY
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_OVERFLOW
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_BADPDU
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_BADARGS
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_BADREAL
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_BADTAG
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_CHOICE
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_RULE
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_UTF8
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_PDU_TYPE
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_NYI
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_EXTENDED
+
+syntax keyword cppWinConstant CRYPT_E_ASN1_NOEOD
+
+syntax keyword cppWinConstant CERTSRV_E_BAD_REQUESTSUBJECT
+
+syntax keyword cppWinConstant CERTSRV_E_NO_REQUEST
+
+syntax keyword cppWinConstant CERTSRV_E_BAD_REQUESTSTATUS
+
+syntax keyword cppWinConstant CERTSRV_E_PROPERTY_EMPTY
+
+syntax keyword cppWinConstant CERTSRV_E_INVALID_CA_CERTIFICATE
+
+syntax keyword cppWinConstant CERTSRV_E_SERVER_SUSPENDED
+
+syntax keyword cppWinConstant CERTSRV_E_ENCODING_LENGTH
+
+syntax keyword cppWinConstant CERTSRV_E_ROLECONFLICT
+
+syntax keyword cppWinConstant CERTSRV_E_RESTRICTEDOFFICER
+
+syntax keyword cppWinConstant CERTSRV_E_KEY_ARCHIVAL_NOT_CONFIGURED
+
+syntax keyword cppWinConstant CERTSRV_E_NO_VALID_KRA
+
+syntax keyword cppWinConstant CERTSRV_E_BAD_REQUEST_KEY_ARCHIVAL
+
+syntax keyword cppWinConstant CERTSRV_E_NO_CAADMIN_DEFINED
+
+syntax keyword cppWinConstant CERTSRV_E_BAD_RENEWAL_CERT_ATTRIBUTE
+
+syntax keyword cppWinConstant CERTSRV_E_NO_DB_SESSIONS
+
+syntax keyword cppWinConstant CERTSRV_E_ALIGNMENT_FAULT
+
+syntax keyword cppWinConstant CERTSRV_E_ENROLL_DENIED
+
+syntax keyword cppWinConstant CERTSRV_E_TEMPLATE_DENIED
+
+syntax keyword cppWinConstant CERTSRV_E_DOWNLEVEL_DC_SSL_OR_UPGRADE
+
+syntax keyword cppWinConstant CERTSRV_E_ADMIN_DENIED_REQUEST
+
+syntax keyword cppWinConstant CERTSRV_E_NO_POLICY_SERVER
+
+syntax keyword cppWinConstant CERTSRV_E_UNSUPPORTED_CERT_TYPE
+
+syntax keyword cppWinConstant CERTSRV_E_NO_CERT_TYPE
+
+syntax keyword cppWinConstant CERTSRV_E_TEMPLATE_CONFLICT
+
+syntax keyword cppWinConstant CERTSRV_E_SUBJECT_ALT_NAME_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_ARCHIVED_KEY_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_SMIME_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_BAD_RENEWAL_SUBJECT
+
+syntax keyword cppWinConstant CERTSRV_E_BAD_TEMPLATE_VERSION
+
+syntax keyword cppWinConstant CERTSRV_E_TEMPLATE_POLICY_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_SIGNATURE_POLICY_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_SIGNATURE_COUNT
+
+syntax keyword cppWinConstant CERTSRV_E_SIGNATURE_REJECTED
+
+syntax keyword cppWinConstant CERTSRV_E_ISSUANCE_POLICY_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_SUBJECT_UPN_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_SUBJECT_DIRECTORY_GUID_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_SUBJECT_DNS_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_ARCHIVED_KEY_UNEXPECTED
+
+syntax keyword cppWinConstant CERTSRV_E_KEY_LENGTH
+
+syntax keyword cppWinConstant CERTSRV_E_SUBJECT_EMAIL_REQUIRED
+
+syntax keyword cppWinConstant CERTSRV_E_UNKNOWN_CERT_TYPE
+
+syntax keyword cppWinConstant CERTSRV_E_CERT_TYPE_OVERLAP
+
+syntax keyword cppWinConstant CERTSRV_E_TOO_MANY_SIGNATURES
+
+syntax keyword cppWinConstant XENROLL_E_KEY_NOT_EXPORTABLE
+
+syntax keyword cppWinConstant XENROLL_E_CANNOT_ADD_ROOT_CERT
+
+syntax keyword cppWinConstant XENROLL_E_RESPONSE_KA_HASH_NOT_FOUND
+
+syntax keyword cppWinConstant XENROLL_E_RESPONSE_UNEXPECTED_KA_HASH
+
+syntax keyword cppWinConstant XENROLL_E_RESPONSE_KA_HASH_MISMATCH
+
+syntax keyword cppWinConstant XENROLL_E_KEYSPEC_SMIME_MISMATCH
+
+syntax keyword cppWinConstant TRUST_E_SYSTEM_ERROR
+
+syntax keyword cppWinConstant TRUST_E_NO_SIGNER_CERT
+
+syntax keyword cppWinConstant TRUST_E_COUNTER_SIGNER
+
+syntax keyword cppWinConstant TRUST_E_CERT_SIGNATURE
+
+syntax keyword cppWinConstant TRUST_E_TIME_STAMP
+
+syntax keyword cppWinConstant TRUST_E_BAD_DIGEST
+
+syntax keyword cppWinConstant TRUST_E_BASIC_CONSTRAINTS
+
+syntax keyword cppWinConstant TRUST_E_FINANCIAL_CRITERIA
+
+syntax keyword cppWinConstant MSSIPOTF_E_OUTOFMEMRANGE
+
+syntax keyword cppWinConstant MSSIPOTF_E_CANTGETOBJECT
+
+syntax keyword cppWinConstant MSSIPOTF_E_NOHEADTABLE
+
+syntax keyword cppWinConstant MSSIPOTF_E_BAD_MAGICNUMBER
+
+syntax keyword cppWinConstant MSSIPOTF_E_BAD_OFFSET_TABLE
+
+syntax keyword cppWinConstant MSSIPOTF_E_TABLE_TAGORDER
+
+syntax keyword cppWinConstant MSSIPOTF_E_TABLE_LONGWORD
+
+syntax keyword cppWinConstant MSSIPOTF_E_BAD_FIRST_TABLE_PLACEMENT
+
+syntax keyword cppWinConstant MSSIPOTF_E_TABLES_OVERLAP
+
+syntax keyword cppWinConstant MSSIPOTF_E_TABLE_PADBYTES
+
+syntax keyword cppWinConstant MSSIPOTF_E_FILETOOSMALL
+
+syntax keyword cppWinConstant MSSIPOTF_E_TABLE_CHECKSUM
+
+syntax keyword cppWinConstant MSSIPOTF_E_FILE_CHECKSUM
+
+syntax keyword cppWinConstant MSSIPOTF_E_FAILED_POLICY
+
+syntax keyword cppWinConstant MSSIPOTF_E_FAILED_HINTS_CHECK
+
+syntax keyword cppWinConstant MSSIPOTF_E_NOT_OPENTYPE
+
+syntax keyword cppWinConstant MSSIPOTF_E_FILE
+
+syntax keyword cppWinConstant MSSIPOTF_E_CRYPT
+
+syntax keyword cppWinConstant MSSIPOTF_E_BADVERSION
+
+syntax keyword cppWinConstant MSSIPOTF_E_DSIG_STRUCTURE
+
+syntax keyword cppWinConstant MSSIPOTF_E_PCONST_CHECK
+
+syntax keyword cppWinConstant MSSIPOTF_E_STRUCTURE
+
+syntax keyword cppWinConstant ERROR_CRED_REQUIRES_CONFIRMATION
+
+syntax keyword cppWinConstant TRUST_E_PROVIDER_UNKNOWN
+
+syntax keyword cppWinConstant TRUST_E_ACTION_UNKNOWN
+
+syntax keyword cppWinConstant TRUST_E_SUBJECT_FORM_UNKNOWN
+
+syntax keyword cppWinConstant TRUST_E_SUBJECT_NOT_TRUSTED
+
+syntax keyword cppWinConstant DIGSIG_E_ENCODE
+
+syntax keyword cppWinConstant DIGSIG_E_DECODE
+
+syntax keyword cppWinConstant DIGSIG_E_EXTENSIBILITY
+
+syntax keyword cppWinConstant DIGSIG_E_CRYPTO
+
+syntax keyword cppWinConstant PERSIST_E_SIZEDEFINITE
+
+syntax keyword cppWinConstant PERSIST_E_SIZEINDEFINITE
+
+syntax keyword cppWinConstant PERSIST_E_NOTSELFSIZING
+
+syntax keyword cppWinConstant TRUST_E_NOSIGNATURE
+
+syntax keyword cppWinConstant CERT_E_EXPIRED
+
+syntax keyword cppWinConstant CERT_E_VALIDITYPERIODNESTING
+
+syntax keyword cppWinConstant CERT_E_ROLE
+
+syntax keyword cppWinConstant CERT_E_PATHLENCONST
+
+syntax keyword cppWinConstant CERT_E_CRITICAL
+
+syntax keyword cppWinConstant CERT_E_PURPOSE
+
+syntax keyword cppWinConstant CERT_E_ISSUERCHAINING
+
+syntax keyword cppWinConstant CERT_E_MALFORMED
+
+syntax keyword cppWinConstant CERT_E_UNTRUSTEDROOT
+
+syntax keyword cppWinConstant CERT_E_CHAINING
+
+syntax keyword cppWinConstant TRUST_E_FAIL
+
+syntax keyword cppWinConstant CERT_E_REVOKED
+
+syntax keyword cppWinConstant CERT_E_UNTRUSTEDTESTROOT
+
+syntax keyword cppWinConstant CERT_E_REVOCATION_FAILURE
+
+syntax keyword cppWinConstant CERT_E_CN_NO_MATCH
+
+syntax keyword cppWinConstant CERT_E_WRONG_USAGE
+
+syntax keyword cppWinConstant TRUST_E_EXPLICIT_DISTRUST
+
+syntax keyword cppWinConstant CERT_E_UNTRUSTEDCA
+
+syntax keyword cppWinConstant CERT_E_INVALID_POLICY
+
+syntax keyword cppWinConstant CERT_E_INVALID_NAME
+
+syntax keyword cppWinMacro HRESULT_FROM_SETUPAPI
+
+syntax keyword cppWinConstant SPAPI_E_EXPECTED_SECTION_NAME
+
+syntax keyword cppWinConstant SPAPI_E_BAD_SECTION_NAME_LINE
+
+syntax keyword cppWinConstant SPAPI_E_SECTION_NAME_TOO_LONG
+
+syntax keyword cppWinConstant SPAPI_E_GENERAL_SYNTAX
+
+syntax keyword cppWinConstant SPAPI_E_WRONG_INF_STYLE
+
+syntax keyword cppWinConstant SPAPI_E_SECTION_NOT_FOUND
+
+syntax keyword cppWinConstant SPAPI_E_LINE_NOT_FOUND
+
+syntax keyword cppWinConstant SPAPI_E_NO_BACKUP
+
+syntax keyword cppWinConstant SPAPI_E_NO_ASSOCIATED_CLASS
+
+syntax keyword cppWinConstant SPAPI_E_CLASS_MISMATCH
+
+syntax keyword cppWinConstant SPAPI_E_DUPLICATE_FOUND
+
+syntax keyword cppWinConstant SPAPI_E_NO_DRIVER_SELECTED
+
+syntax keyword cppWinConstant SPAPI_E_KEY_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_DEVINST_NAME
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_CLASS
+
+syntax keyword cppWinConstant SPAPI_E_DEVINST_ALREADY_EXISTS
+
+syntax keyword cppWinConstant SPAPI_E_DEVINFO_NOT_REGISTERED
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_REG_PROPERTY
+
+syntax keyword cppWinConstant SPAPI_E_NO_INF
+
+syntax keyword cppWinConstant SPAPI_E_NO_SUCH_DEVINST
+
+syntax keyword cppWinConstant SPAPI_E_CANT_LOAD_CLASS_ICON
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_CLASS_INSTALLER
+
+syntax keyword cppWinConstant SPAPI_E_DI_DO_DEFAULT
+
+syntax keyword cppWinConstant SPAPI_E_DI_NOFILECOPY
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_HWPROFILE
+
+syntax keyword cppWinConstant SPAPI_E_NO_DEVICE_SELECTED
+
+syntax keyword cppWinConstant SPAPI_E_DEVINFO_LIST_LOCKED
+
+syntax keyword cppWinConstant SPAPI_E_DEVINFO_DATA_LOCKED
+
+syntax keyword cppWinConstant SPAPI_E_DI_BAD_PATH
+
+syntax keyword cppWinConstant SPAPI_E_NO_CLASSINSTALL_PARAMS
+
+syntax keyword cppWinConstant SPAPI_E_FILEQUEUE_LOCKED
+
+syntax keyword cppWinConstant SPAPI_E_BAD_SERVICE_INSTALLSECT
+
+syntax keyword cppWinConstant SPAPI_E_NO_CLASS_DRIVER_LIST
+
+syntax keyword cppWinConstant SPAPI_E_NO_ASSOCIATED_SERVICE
+
+syntax keyword cppWinConstant SPAPI_E_NO_DEFAULT_DEVICE_INTERFACE
+
+syntax keyword cppWinConstant SPAPI_E_DEVICE_INTERFACE_ACTIVE
+
+syntax keyword cppWinConstant SPAPI_E_DEVICE_INTERFACE_REMOVED
+
+syntax keyword cppWinConstant SPAPI_E_BAD_INTERFACE_INSTALLSECT
+
+syntax keyword cppWinConstant SPAPI_E_NO_SUCH_INTERFACE_CLASS
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_REFERENCE_STRING
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_MACHINENAME
+
+syntax keyword cppWinConstant SPAPI_E_REMOTE_COMM_FAILURE
+
+syntax keyword cppWinConstant SPAPI_E_MACHINE_UNAVAILABLE
+
+syntax keyword cppWinConstant SPAPI_E_NO_CONFIGMGR_SERVICES
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_PROPPAGE_PROVIDER
+
+syntax keyword cppWinConstant SPAPI_E_NO_SUCH_DEVICE_INTERFACE
+
+syntax keyword cppWinConstant SPAPI_E_DI_POSTPROCESSING_REQUIRED
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_COINSTALLER
+
+syntax keyword cppWinConstant SPAPI_E_NO_COMPAT_DRIVERS
+
+syntax keyword cppWinConstant SPAPI_E_NO_DEVICE_ICON
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_INF_LOGCONFIG
+
+syntax keyword cppWinConstant SPAPI_E_DI_DONT_INSTALL
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_FILTER_DRIVER
+
+syntax keyword cppWinConstant SPAPI_E_NON_WINDOWS_NT_DRIVER
+
+syntax keyword cppWinConstant SPAPI_E_NON_WINDOWS_DRIVER
+
+syntax keyword cppWinConstant SPAPI_E_NO_CATALOG_FOR_OEM_INF
+
+syntax keyword cppWinConstant SPAPI_E_DEVINSTALL_QUEUE_NONNATIVE
+
+syntax keyword cppWinConstant SPAPI_E_NOT_DISABLEABLE
+
+syntax keyword cppWinConstant SPAPI_E_CANT_REMOVE_DEVINST
+
+syntax keyword cppWinConstant SPAPI_E_INVALID_TARGET
+
+syntax keyword cppWinConstant SPAPI_E_DRIVER_NONNATIVE
+
+syntax keyword cppWinConstant SPAPI_E_IN_WOW64
+
+syntax keyword cppWinConstant SPAPI_E_SET_SYSTEM_RESTORE_POINT
+
+syntax keyword cppWinConstant SPAPI_E_INCORRECTLY_COPIED_INF
+
+syntax keyword cppWinConstant SPAPI_E_SCE_DISABLED
+
+syntax keyword cppWinConstant SPAPI_E_UNKNOWN_EXCEPTION
+
+syntax keyword cppWinConstant SPAPI_E_PNP_REGISTRY_ERROR
+
+syntax keyword cppWinConstant SPAPI_E_REMOTE_REQUEST_UNSUPPORTED
+
+syntax keyword cppWinConstant SPAPI_E_NOT_AN_INSTALLED_OEM_INF
+
+syntax keyword cppWinConstant SPAPI_E_INF_IN_USE_BY_DEVICES
+
+syntax keyword cppWinConstant SPAPI_E_DI_FUNCTION_OBSOLETE
+
+syntax keyword cppWinConstant SPAPI_E_NO_AUTHENTICODE_CATALOG
+
+syntax keyword cppWinConstant SPAPI_E_AUTHENTICODE_DISALLOWED
+
+syntax keyword cppWinConstant SPAPI_E_AUTHENTICODE_TRUSTED_PUBLISHER
+
+syntax keyword cppWinConstant SPAPI_E_AUTHENTICODE_TRUST_NOT_ESTABLISHED
+
+syntax keyword cppWinConstant SPAPI_E_AUTHENTICODE_PUBLISHER_NOT_TRUSTED
+
+syntax keyword cppWinConstant SPAPI_E_SIGNATURE_OSATTRIBUTE_MISMATCH
+
+syntax keyword cppWinConstant SPAPI_E_ONLY_VALIDATE_VIA_AUTHENTICODE
+
+syntax keyword cppWinConstant SPAPI_E_DEVICE_INSTALLER_NOT_READY
+
+syntax keyword cppWinConstant SPAPI_E_DRIVER_STORE_ADD_FAILED
+
+syntax keyword cppWinConstant SPAPI_E_DEVICE_INSTALL_BLOCKED
+
+syntax keyword cppWinConstant SPAPI_E_DRIVER_INSTALL_BLOCKED
+
+syntax keyword cppWinConstant SPAPI_E_WRONG_INF_TYPE
+
+syntax keyword cppWinConstant SPAPI_E_FILE_HASH_NOT_IN_CATALOG
+
+syntax keyword cppWinConstant SPAPI_E_DRIVER_STORE_DELETE_FAILED
+
+syntax keyword cppWinConstant SPAPI_E_UNRECOVERABLE_STACK_OVERFLOW
+
+syntax keyword cppWinConstant SPAPI_E_ERROR_NOT_INSTALLED
+
+syntax keyword cppWinConstant SCARD_S_SUCCESS
+
+syntax keyword cppWinConstant SCARD_F_INTERNAL_ERROR
+
+syntax keyword cppWinConstant SCARD_E_CANCELLED
+
+syntax keyword cppWinConstant SCARD_E_INVALID_HANDLE
+
+syntax keyword cppWinConstant SCARD_E_INVALID_PARAMETER
+
+syntax keyword cppWinConstant SCARD_E_INVALID_TARGET
+
+syntax keyword cppWinConstant SCARD_E_NO_MEMORY
+
+syntax keyword cppWinConstant SCARD_F_WAITED_TOO_LONG
+
+syntax keyword cppWinConstant SCARD_E_INSUFFICIENT_BUFFER
+
+syntax keyword cppWinConstant SCARD_E_UNKNOWN_READER
+
+syntax keyword cppWinConstant SCARD_E_TIMEOUT
+
+syntax keyword cppWinConstant SCARD_E_SHARING_VIOLATION
+
+syntax keyword cppWinConstant SCARD_E_NO_SMARTCARD
+
+syntax keyword cppWinConstant SCARD_E_UNKNOWN_CARD
+
+syntax keyword cppWinConstant SCARD_E_CANT_DISPOSE
+
+syntax keyword cppWinConstant SCARD_E_PROTO_MISMATCH
+
+syntax keyword cppWinConstant SCARD_E_NOT_READY
+
+syntax keyword cppWinConstant SCARD_E_INVALID_VALUE
+
+syntax keyword cppWinConstant SCARD_E_SYSTEM_CANCELLED
+
+syntax keyword cppWinConstant SCARD_F_COMM_ERROR
+
+syntax keyword cppWinConstant SCARD_F_UNKNOWN_ERROR
+
+syntax keyword cppWinConstant SCARD_E_INVALID_ATR
+
+syntax keyword cppWinConstant SCARD_E_NOT_TRANSACTED
+
+syntax keyword cppWinConstant SCARD_E_READER_UNAVAILABLE
+
+syntax keyword cppWinConstant SCARD_P_SHUTDOWN
+
+syntax keyword cppWinConstant SCARD_E_PCI_TOO_SMALL
+
+syntax keyword cppWinConstant SCARD_E_READER_UNSUPPORTED
+
+syntax keyword cppWinConstant SCARD_E_DUPLICATE_READER
+
+syntax keyword cppWinConstant SCARD_E_CARD_UNSUPPORTED
+
+syntax keyword cppWinConstant SCARD_E_NO_SERVICE
+
+syntax keyword cppWinConstant SCARD_E_SERVICE_STOPPED
+
+syntax keyword cppWinConstant SCARD_E_UNEXPECTED
+
+syntax keyword cppWinConstant SCARD_E_ICC_INSTALLATION
+
+syntax keyword cppWinConstant SCARD_E_ICC_CREATEORDER
+
+syntax keyword cppWinConstant SCARD_E_UNSUPPORTED_FEATURE
+
+syntax keyword cppWinConstant SCARD_E_DIR_NOT_FOUND
+
+syntax keyword cppWinConstant SCARD_E_FILE_NOT_FOUND
+
+syntax keyword cppWinConstant SCARD_E_NO_DIR
+
+syntax keyword cppWinConstant SCARD_E_NO_FILE
+
+syntax keyword cppWinConstant SCARD_E_NO_ACCESS
+
+syntax keyword cppWinConstant SCARD_E_WRITE_TOO_MANY
+
+syntax keyword cppWinConstant SCARD_E_BAD_SEEK
+
+syntax keyword cppWinConstant SCARD_E_INVALID_CHV
+
+syntax keyword cppWinConstant SCARD_E_UNKNOWN_RES_MNG
+
+syntax keyword cppWinConstant SCARD_E_NO_SUCH_CERTIFICATE
+
+syntax keyword cppWinConstant SCARD_E_CERTIFICATE_UNAVAILABLE
+
+syntax keyword cppWinConstant SCARD_E_NO_READERS_AVAILABLE
+
+syntax keyword cppWinConstant SCARD_E_COMM_DATA_LOST
+
+syntax keyword cppWinConstant SCARD_E_NO_KEY_CONTAINER
+
+syntax keyword cppWinConstant SCARD_E_SERVER_TOO_BUSY
+
+syntax keyword cppWinConstant SCARD_E_PIN_CACHE_EXPIRED
+
+syntax keyword cppWinConstant SCARD_E_NO_PIN_CACHE
+
+syntax keyword cppWinConstant SCARD_E_READ_ONLY_CARD
+
+syntax keyword cppWinConstant SCARD_W_UNSUPPORTED_CARD
+
+syntax keyword cppWinConstant SCARD_W_UNRESPONSIVE_CARD
+
+syntax keyword cppWinConstant SCARD_W_UNPOWERED_CARD
+
+syntax keyword cppWinConstant SCARD_W_RESET_CARD
+
+syntax keyword cppWinConstant SCARD_W_REMOVED_CARD
+
+syntax keyword cppWinConstant SCARD_W_SECURITY_VIOLATION
+
+syntax keyword cppWinConstant SCARD_W_WRONG_CHV
+
+syntax keyword cppWinConstant SCARD_W_CHV_BLOCKED
+
+syntax keyword cppWinConstant SCARD_W_EOF
+
+syntax keyword cppWinConstant SCARD_W_CANCELLED_BY_USER
+
+syntax keyword cppWinConstant SCARD_W_CARD_NOT_AUTHENTICATED
+
+syntax keyword cppWinConstant SCARD_W_CACHE_ITEM_NOT_FOUND
+
+syntax keyword cppWinConstant SCARD_W_CACHE_ITEM_STALE
+
+syntax keyword cppWinConstant SCARD_W_CACHE_ITEM_TOO_BIG
+
+syntax keyword cppWinConstant COMADMIN_E_OBJECTERRORS
+
+syntax keyword cppWinConstant COMADMIN_E_OBJECTINVALID
+
+syntax keyword cppWinConstant COMADMIN_E_KEYMISSING
+
+syntax keyword cppWinConstant COMADMIN_E_ALREADYINSTALLED
+
+syntax keyword cppWinConstant COMADMIN_E_APP_FILE_WRITEFAIL
+
+syntax keyword cppWinConstant COMADMIN_E_APP_FILE_READFAIL
+
+syntax keyword cppWinConstant COMADMIN_E_APP_FILE_VERSION
+
+syntax keyword cppWinConstant COMADMIN_E_BADPATH
+
+syntax keyword cppWinConstant COMADMIN_E_APPLICATIONEXISTS
+
+syntax keyword cppWinConstant COMADMIN_E_ROLEEXISTS
+
+syntax keyword cppWinConstant COMADMIN_E_CANTCOPYFILE
+
+syntax keyword cppWinConstant COMADMIN_E_NOUSER
+
+syntax keyword cppWinConstant COMADMIN_E_INVALIDUSERIDS
+
+syntax keyword cppWinConstant COMADMIN_E_NOREGISTRYCLSID
+
+syntax keyword cppWinConstant COMADMIN_E_BADREGISTRYPROGID
+
+syntax keyword cppWinConstant COMADMIN_E_AUTHENTICATIONLEVEL
+
+syntax keyword cppWinConstant COMADMIN_E_USERPASSWDNOTVALID
+
+syntax keyword cppWinConstant COMADMIN_E_CLSIDORIIDMISMATCH
+
+syntax keyword cppWinConstant COMADMIN_E_REMOTEINTERFACE
+
+syntax keyword cppWinConstant COMADMIN_E_DLLREGISTERSERVER
+
+syntax keyword cppWinConstant COMADMIN_E_NOSERVERSHARE
+
+syntax keyword cppWinConstant COMADMIN_E_DLLLOADFAILED
+
+syntax keyword cppWinConstant COMADMIN_E_BADREGISTRYLIBID
+
+syntax keyword cppWinConstant COMADMIN_E_APPDIRNOTFOUND
+
+syntax keyword cppWinConstant COMADMIN_E_REGISTRARFAILED
+
+syntax keyword cppWinConstant COMADMIN_E_COMPFILE_DOESNOTEXIST
+
+syntax keyword cppWinConstant COMADMIN_E_COMPFILE_LOADDLLFAIL
+
+syntax keyword cppWinConstant COMADMIN_E_COMPFILE_GETCLASSOBJ
+
+syntax keyword cppWinConstant COMADMIN_E_COMPFILE_CLASSNOTAVAIL
+
+syntax keyword cppWinConstant COMADMIN_E_COMPFILE_BADTLB
+
+syntax keyword cppWinConstant COMADMIN_E_COMPFILE_NOTINSTALLABLE
+
+syntax keyword cppWinConstant COMADMIN_E_NOTCHANGEABLE
+
+syntax keyword cppWinConstant COMADMIN_E_NOTDELETEABLE
+
+syntax keyword cppWinConstant COMADMIN_E_SESSION
+
+syntax keyword cppWinConstant COMADMIN_E_COMP_MOVE_LOCKED
+
+syntax keyword cppWinConstant COMADMIN_E_COMP_MOVE_BAD_DEST
+
+syntax keyword cppWinConstant COMADMIN_E_REGISTERTLB
+
+syntax keyword cppWinConstant COMADMIN_E_SYSTEMAPP
+
+syntax keyword cppWinConstant COMADMIN_E_COMPFILE_NOREGISTRAR
+
+syntax keyword cppWinConstant COMADMIN_E_COREQCOMPINSTALLED
+
+syntax keyword cppWinConstant COMADMIN_E_SERVICENOTINSTALLED
+
+syntax keyword cppWinConstant COMADMIN_E_PROPERTYSAVEFAILED
+
+syntax keyword cppWinConstant COMADMIN_E_OBJECTEXISTS
+
+syntax keyword cppWinConstant COMADMIN_E_COMPONENTEXISTS
+
+syntax keyword cppWinConstant COMADMIN_E_REGFILE_CORRUPT
+
+syntax keyword cppWinConstant COMADMIN_E_PROPERTY_OVERFLOW
+
+syntax keyword cppWinConstant COMADMIN_E_NOTINREGISTRY
+
+syntax keyword cppWinConstant COMADMIN_E_OBJECTNOTPOOLABLE
+
+syntax keyword cppWinConstant COMADMIN_E_APPLID_MATCHES_CLSID
+
+syntax keyword cppWinConstant COMADMIN_E_ROLE_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant COMADMIN_E_START_APP_NEEDS_COMPONENTS
+
+syntax keyword cppWinConstant COMADMIN_E_REQUIRES_DIFFERENT_PLATFORM
+
+syntax keyword cppWinConstant COMADMIN_E_CAN_NOT_EXPORT_APP_PROXY
+
+syntax keyword cppWinConstant COMADMIN_E_CAN_NOT_START_APP
+
+syntax keyword cppWinConstant COMADMIN_E_CAN_NOT_EXPORT_SYS_APP
+
+syntax keyword cppWinConstant COMADMIN_E_CANT_SUBSCRIBE_TO_COMPONENT
+
+syntax keyword cppWinConstant COMADMIN_E_EVENTCLASS_CANT_BE_SUBSCRIBER
+
+syntax keyword cppWinConstant COMADMIN_E_LIB_APP_PROXY_INCOMPATIBLE
+
+syntax keyword cppWinConstant COMADMIN_E_BASE_PARTITION_ONLY
+
+syntax keyword cppWinConstant COMADMIN_E_START_APP_DISABLED
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_DUPLICATE_PARTITION_NAME
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_INVALID_PARTITION_NAME
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_PARTITION_IN_USE
+
+syntax keyword cppWinConstant COMADMIN_E_FILE_PARTITION_DUPLICATE_FILES
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_IMPORTED_COMPONENTS_NOT_ALLOWED
+
+syntax keyword cppWinConstant COMADMIN_E_AMBIGUOUS_APPLICATION_NAME
+
+syntax keyword cppWinConstant COMADMIN_E_AMBIGUOUS_PARTITION_NAME
+
+syntax keyword cppWinConstant COMADMIN_E_REGDB_NOTINITIALIZED
+
+syntax keyword cppWinConstant COMADMIN_E_REGDB_NOTOPEN
+
+syntax keyword cppWinConstant COMADMIN_E_REGDB_SYSTEMERR
+
+syntax keyword cppWinConstant COMADMIN_E_REGDB_ALREADYRUNNING
+
+syntax keyword cppWinConstant COMADMIN_E_MIG_VERSIONNOTSUPPORTED
+
+syntax keyword cppWinConstant COMADMIN_E_MIG_SCHEMANOTFOUND
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_BITNESSMISMATCH
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_UNACCEPTABLEBITNESS
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_WRONGAPPBITNESS
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_PAUSE_RESUME_NOT_SUPPORTED
+
+syntax keyword cppWinConstant COMADMIN_E_CAT_SERVERFAULT
+
+syntax keyword cppWinConstant COMQC_E_APPLICATION_NOT_QUEUED
+
+syntax keyword cppWinConstant COMQC_E_NO_QUEUEABLE_INTERFACES
+
+syntax keyword cppWinConstant COMQC_E_QUEUING_SERVICE_NOT_AVAILABLE
+
+syntax keyword cppWinConstant COMQC_E_NO_IPERSISTSTREAM
+
+syntax keyword cppWinConstant COMQC_E_BAD_MESSAGE
+
+syntax keyword cppWinConstant COMQC_E_UNAUTHENTICATED
+
+syntax keyword cppWinConstant COMQC_E_UNTRUSTED_ENQUEUER
+
+syntax keyword cppWinConstant MSDTC_E_DUPLICATE_RESOURCE
+
+syntax keyword cppWinConstant COMADMIN_E_OBJECT_PARENT_MISSING
+
+syntax keyword cppWinConstant COMADMIN_E_OBJECT_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant COMADMIN_E_APP_NOT_RUNNING
+
+syntax keyword cppWinConstant COMADMIN_E_INVALID_PARTITION
+
+syntax keyword cppWinConstant COMADMIN_E_SVCAPP_NOT_POOLABLE_OR_RECYCLABLE
+
+syntax keyword cppWinConstant COMADMIN_E_USER_IN_SET
+
+syntax keyword cppWinConstant COMADMIN_E_CANTRECYCLELIBRARYAPPS
+
+syntax keyword cppWinConstant COMADMIN_E_CANTRECYCLESERVICEAPPS
+
+syntax keyword cppWinConstant COMADMIN_E_PROCESSALREADYRECYCLED
+
+syntax keyword cppWinConstant COMADMIN_E_PAUSEDPROCESSMAYNOTBERECYCLED
+
+syntax keyword cppWinConstant COMADMIN_E_CANTMAKEINPROCSERVICE
+
+syntax keyword cppWinConstant COMADMIN_E_PROGIDINUSEBYCLSID
+
+syntax keyword cppWinConstant COMADMIN_E_DEFAULT_PARTITION_NOT_IN_SET
+
+syntax keyword cppWinConstant COMADMIN_E_RECYCLEDPROCESSMAYNOTBEPAUSED
+
+syntax keyword cppWinConstant COMADMIN_E_PARTITION_ACCESSDENIED
+
+syntax keyword cppWinConstant COMADMIN_E_PARTITION_MSI_ONLY
+
+syntax keyword cppWinConstant COMADMIN_E_LEGACYCOMPS_NOT_ALLOWED_IN_1_0_FORMAT
+
+syntax keyword cppWinConstant COMADMIN_E_LEGACYCOMPS_NOT_ALLOWED_IN_NONBASE_PARTITIONS
+
+syntax keyword cppWinConstant COMADMIN_E_COMP_MOVE_SOURCE
+
+syntax keyword cppWinConstant COMADMIN_E_COMP_MOVE_DEST
+
+syntax keyword cppWinConstant COMADMIN_E_COMP_MOVE_PRIVATE
+
+syntax keyword cppWinConstant COMADMIN_E_BASEPARTITION_REQUIRED_IN_SET
+
+syntax keyword cppWinConstant COMADMIN_E_CANNOT_ALIAS_EVENTCLASS
+
+syntax keyword cppWinConstant COMADMIN_E_PRIVATE_ACCESSDENIED
+
+syntax keyword cppWinConstant COMADMIN_E_SAFERINVALID
+
+syntax keyword cppWinConstant COMADMIN_E_REGISTRY_ACCESSDENIED
+
+syntax keyword cppWinConstant COMADMIN_E_PARTITIONS_DISABLED
+
+syntax keyword cppWinConstant FILTER_HRESULT_FROM_FLT_NTSTATUS
+//
+syntax keyword cppWinConstant ERROR_FLT_IO_COMPLETE
+
+syntax keyword cppWinConstant ERROR_FLT_NO_HANDLER_DEFINED
+
+syntax keyword cppWinConstant ERROR_FLT_CONTEXT_ALREADY_DEFINED
+
+syntax keyword cppWinConstant ERROR_FLT_INVALID_ASYNCHRONOUS_REQUEST
+
+syntax keyword cppWinConstant ERROR_FLT_DISALLOW_FAST_IO
+
+syntax keyword cppWinConstant ERROR_FLT_INVALID_NAME_REQUEST
+
+syntax keyword cppWinConstant ERROR_FLT_NOT_SAFE_TO_POST_OPERATION
+
+syntax keyword cppWinConstant ERROR_FLT_NOT_INITIALIZED
+
+syntax keyword cppWinConstant ERROR_FLT_FILTER_NOT_READY
+
+syntax keyword cppWinConstant ERROR_FLT_POST_OPERATION_CLEANUP
+
+syntax keyword cppWinConstant ERROR_FLT_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_FLT_DELETING_OBJECT
+
+syntax keyword cppWinConstant ERROR_FLT_MUST_BE_NONPAGED_POOL
+
+syntax keyword cppWinConstant ERROR_FLT_DUPLICATE_ENTRY
+
+syntax keyword cppWinConstant ERROR_FLT_CBDQ_DISABLED
+
+syntax keyword cppWinConstant ERROR_FLT_DO_NOT_ATTACH
+
+syntax keyword cppWinConstant ERROR_FLT_DO_NOT_DETACH
+
+syntax keyword cppWinConstant ERROR_FLT_INSTANCE_ALTITUDE_COLLISION
+
+syntax keyword cppWinConstant ERROR_FLT_INSTANCE_NAME_COLLISION
+
+syntax keyword cppWinConstant ERROR_FLT_FILTER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_FLT_VOLUME_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_FLT_INSTANCE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_FLT_CONTEXT_ALLOCATION_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_FLT_INVALID_CONTEXT_REGISTRATION
+
+syntax keyword cppWinConstant ERROR_FLT_NAME_CACHE_MISS
+
+syntax keyword cppWinConstant ERROR_FLT_NO_DEVICE_OBJECT
+
+syntax keyword cppWinConstant ERROR_FLT_VOLUME_ALREADY_MOUNTED
+
+syntax keyword cppWinConstant ERROR_FLT_ALREADY_ENLISTED
+
+syntax keyword cppWinConstant ERROR_FLT_CONTEXT_ALREADY_LINKED
+
+syntax keyword cppWinConstant ERROR_FLT_NO_WAITER_FOR_REPLY
+
+syntax keyword cppWinConstant ERROR_HUNG_DISPLAY_DRIVER_THREAD
+
+syntax keyword cppWinConstant DWM_E_COMPOSITIONDISABLED
+
+syntax keyword cppWinConstant DWM_E_REMOTING_NOT_SUPPORTED
+
+syntax keyword cppWinConstant DWM_E_NO_REDIRECTION_SURFACE_AVAILABLE
+
+syntax keyword cppWinConstant DWM_E_NOT_QUEUING_PRESENTS
+
+syntax keyword cppWinConstant DWM_E_ADAPTER_NOT_FOUND
+
+syntax keyword cppWinConstant DWM_S_GDI_REDIRECTION_SURFACE
+
+syntax keyword cppWinConstant ERROR_MONITOR_NO_DESCRIPTOR
+
+syntax keyword cppWinConstant ERROR_MONITOR_UNKNOWN_DESCRIPTOR_FORMAT
+
+syntax keyword cppWinConstant ERROR_MONITOR_INVALID_DESCRIPTOR_CHECKSUM
+
+syntax keyword cppWinConstant ERROR_MONITOR_INVALID_STANDARD_TIMING_BLOCK
+
+syntax keyword cppWinConstant ERROR_MONITOR_WMI_DATABLOCK_REGISTRATION_FAILED
+
+syntax keyword cppWinConstant ERROR_MONITOR_INVALID_SERIAL_NUMBER_MONDSC_BLOCK
+
+syntax keyword cppWinConstant ERROR_MONITOR_INVALID_USER_FRIENDLY_MONDSC_BLOCK
+
+syntax keyword cppWinConstant ERROR_MONITOR_NO_MORE_DESCRIPTOR_DATA
+
+syntax keyword cppWinConstant ERROR_MONITOR_INVALID_DETAILED_TIMING_BLOCK
+
+syntax keyword cppWinConstant ERROR_MONITOR_INVALID_MANUFACTURE_DATE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NOT_EXCLUSIVE_MODE_OWNER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INSUFFICIENT_DMA_BUFFER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_DISPLAY_ADAPTER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ADAPTER_WAS_RESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_DRIVER_MODEL
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PRESENT_MODE_CHANGED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PRESENT_OCCLUDED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PRESENT_DENIED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CANNOTCOLORCONVERT
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DRIVER_MISMATCH
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PARTIAL_DATA_POPULATED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PRESENT_REDIRECTION_DISABLED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PRESENT_UNOCCLUDED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_VIDEO_MEMORY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CANT_LOCK_MEMORY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ALLOCATION_BUSY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_TOO_MANY_REFERENCES
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_TRY_AGAIN_LATER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_TRY_AGAIN_NOW
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ALLOCATION_INVALID
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNAVAILABLE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_UNSWIZZLING_APERTURE_UNSUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CANT_EVICT_PINNED_ALLOCATION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_ALLOCATION_USAGE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CANT_RENDER_LOCKED_ALLOCATION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ALLOCATION_CLOSED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_ALLOCATION_INSTANCE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_ALLOCATION_HANDLE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_WRONG_ALLOCATION_DEVICE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ALLOCATION_CONTENT_LOST
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_GPU_EXCEPTION_ON_DEVICE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_VIDPN_TOPOLOGY_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_VIDPN_TOPOLOGY_CURRENTLY_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDPN
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_VIDPN_MODALITY_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MODE_NOT_PINNED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDPN_SOURCEMODESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDPN_TARGETMODESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_FREQUENCY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_ACTIVE_REGION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_TOTAL_REGION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE_MODE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PATH_ALREADY_IN_TOPOLOGY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MODE_ALREADY_IN_MODESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDEOPRESENTSOURCESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDEOPRESENTTARGETSET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_SOURCE_ALREADY_IN_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_TARGET_ALREADY_IN_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDPN_PRESENT_PATH
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_RECOMMENDED_VIDPN_TOPOLOGY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_FREQUENCYRANGE_NOT_IN_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_PREFERRED_MODE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_FREQUENCYRANGE_ALREADY_IN_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_STALE_MODESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITOR_SOURCEMODESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITOR_SOURCE_MODE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MODE_ID_MUST_BE_UNIQUE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_EMPTY_ADAPTER_MONITOR_MODE_SUPPORT_INTERSECTION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_VIDEO_PRESENT_TARGETS_LESS_THAN_SOURCES
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PATH_NOT_IN_TOPOLOGY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_SOURCE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ADAPTER_MUST_HAVE_AT_LEAST_ONE_TARGET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITORDESCRIPTORSET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITORDESCRIPTOR
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MONITORDESCRIPTOR_NOT_IN_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MONITORDESCRIPTOR_ALREADY_IN_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MONITORDESCRIPTOR_ID_MUST_BE_UNIQUE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDPN_TARGET_SUBSET_TYPE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_RESOURCES_NOT_RELATED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_SOURCE_ID_MUST_BE_UNIQUE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_TARGET_ID_MUST_BE_UNIQUE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_AVAILABLE_VIDPN_TARGET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MONITOR_COULD_NOT_BE_ASSOCIATED_WITH_ADAPTER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_VIDPNMGR
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_ACTIVE_VIDPN
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_STALE_VIDPN_TOPOLOGY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MONITOR_NOT_CONNECTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_SOURCE_NOT_IN_TOPOLOGY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_PRIMARYSURFACE_SIZE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VISIBLEREGION_SIZE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_STRIDE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_PIXELFORMAT
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_COLORBASIS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_PIXELVALUEACCESSMODE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_TARGET_NOT_IN_TOPOLOGY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_DISPLAY_MODE_MANAGEMENT_SUPPORT
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CANT_ACCESS_ACTIVE_VIDPN
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_PATH_IMPORTANCE_ORDINAL
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_PATH_CONTENT_GEOMETRY_TRANSFORMATION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_GAMMA_RAMP
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_GAMMA_RAMP_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MULTISAMPLING_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MODE_NOT_IN_MODESET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DATASET_IS_EMPTY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_MORE_ELEMENTS_IN_DATASET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_VIDPN_TOPOLOGY_RECOMMENDATION_REASON
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_PATH_CONTENT_TYPE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_COPYPROTECTION_TYPE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_UNASSIGNED_MODESET_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_PINNED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_SCANLINE_ORDERING
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_TOPOLOGY_CHANGES_NOT_ALLOWED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_AVAILABLE_IMPORTANCE_ORDINALS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INCOMPATIBLE_PRIVATE_FORMAT
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MODE_PRUNING_ALGORITHM
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITOR_CAPABILITY_ORIGIN
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_MONITOR_FREQUENCYRANGE_CONSTRAINT
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MAX_NUM_PATHS_REACHED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CANCEL_VIDPN_TOPOLOGY_AUGMENTATION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_CLIENT_TYPE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CLIENTVIDPN_NOT_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_SPECIFIED_CHILD_ALREADY_CONNECTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CHILD_DESCRIPTOR_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_UNKNOWN_CHILD_STATUS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NOT_A_LINKED_ADAPTER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_LEADLINK_NOT_ENUMERATED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CHAINLINKS_NOT_ENUMERATED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ADAPTER_CHAIN_NOT_READY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CHAINLINKS_NOT_STARTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_CHAINLINKS_NOT_POWERED_ON
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INCONSISTENT_DEVICE_LINK_STATE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_LEADLINK_START_DEFERRED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NOT_POST_DEVICE_DRIVER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_POLLING_TOO_FREQUENTLY
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_START_DEFERRED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ADAPTER_ACCESS_NOT_EXCLUDED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_COPP_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_UAB_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_INVALID_ENCRYPTED_PARAMETERS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_NO_VIDEO_OUTPUTS_EXIST
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_INVALID_HANDLE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PVP_INVALID_CERTIFICATE_LENGTH
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_SPANNING_MODE_ENABLED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_THEATER_MODE_ENABLED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PVP_HFS_FAILED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_INVALID_SRM
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_HDCP
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_ACP
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_OUTPUT_DOES_NOT_SUPPORT_CGMSA
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_HDCP_SRM_NEVER_SET
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_RESOLUTION_TOO_HIGH
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_ALL_HDCP_HARDWARE_ALREADY_IN_USE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_NO_LONGER_EXISTS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_SESSION_TYPE_CHANGE_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_DOES_NOT_HAVE_COPP_SEMANTICS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_INVALID_INFORMATION_REQUEST
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_DRIVER_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_DOES_NOT_HAVE_OPM_SEMANTICS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_SIGNALING_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_OPM_INVALID_CONFIGURATION_REQUEST
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_I2C_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_I2C_DEVICE_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_I2C_ERROR_TRANSMITTING_DATA
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_I2C_ERROR_RECEIVING_DATA
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DDCCI_VCP_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DDCCI_INVALID_DATA
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DDCCI_MONITOR_RETURNED_INVALID_TIMING_STATUS_BYTE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_INVALID_CAPABILITIES_STRING
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_COMMAND
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_LENGTH
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DDCCI_INVALID_MESSAGE_CHECKSUM
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_PHYSICAL_MONITOR_HANDLE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MONITOR_NO_LONGER_EXISTS
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DDCCI_CURRENT_CURRENT_VALUE_GREATER_THAN_MAXIMUM_VALUE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_INVALID_VCP_VERSION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_MONITOR_VIOLATES_MCCS_SPECIFICATION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_MCCS_VERSION_MISMATCH
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_UNSUPPORTED_MCCS_VERSION
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_INVALID_TECHNOLOGY_TYPE_RETURNED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MCA_UNSUPPORTED_COLOR_TEMPERATURE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_ONLY_CONSOLE_SESSION_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_DISPLAY_DEVICE_CORRESPONDS_TO_NAME
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_DISPLAY_DEVICE_NOT_ATTACHED_TO_DESKTOP
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_MIRRORING_DEVICES_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INVALID_POINTER
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_NO_MONITORS_CORRESPOND_TO_DISPLAY_DEVICE
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_PARAMETER_ARRAY_TOO_SMALL
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_INTERNAL_ERROR
+
+syntax keyword cppWinConstant ERROR_GRAPHICS_SESSION_TYPE_CHANGE_IN_PROGRESS
+
+syntax keyword cppWinConstant TPM_E_ERROR_MASK
+
+syntax keyword cppWinConstant TPM_E_AUTHFAIL
+
+syntax keyword cppWinConstant TPM_E_BADINDEX
+
+syntax keyword cppWinConstant TPM_E_BAD_PARAMETER
+
+syntax keyword cppWinConstant TPM_E_AUDITFAILURE
+
+syntax keyword cppWinConstant TPM_E_CLEAR_DISABLED
+
+syntax keyword cppWinConstant TPM_E_DEACTIVATED
+
+syntax keyword cppWinConstant TPM_E_DISABLED
+
+syntax keyword cppWinConstant TPM_E_DISABLED_CMD
+
+syntax keyword cppWinConstant TPM_E_FAIL
+
+syntax keyword cppWinConstant TPM_E_BAD_ORDINAL
+
+syntax keyword cppWinConstant TPM_E_INSTALL_DISABLED
+
+syntax keyword cppWinConstant TPM_E_INVALID_KEYHANDLE
+
+syntax keyword cppWinConstant TPM_E_KEYNOTFOUND
+
+syntax keyword cppWinConstant TPM_E_INAPPROPRIATE_ENC
+
+syntax keyword cppWinConstant TPM_E_MIGRATEFAIL
+
+syntax keyword cppWinConstant TPM_E_INVALID_PCR_INFO
+
+syntax keyword cppWinConstant TPM_E_NOSPACE
+
+syntax keyword cppWinConstant TPM_E_NOSRK
+
+syntax keyword cppWinConstant TPM_E_NOTSEALED_BLOB
+
+syntax keyword cppWinConstant TPM_E_OWNER_SET
+
+syntax keyword cppWinConstant TPM_E_RESOURCES
+
+syntax keyword cppWinConstant TPM_E_SHORTRANDOM
+
+syntax keyword cppWinConstant TPM_E_SIZE
+
+syntax keyword cppWinConstant TPM_E_WRONGPCRVAL
+
+syntax keyword cppWinConstant TPM_E_BAD_PARAM_SIZE
+
+syntax keyword cppWinConstant TPM_E_SHA_THREAD
+
+syntax keyword cppWinConstant TPM_E_SHA_ERROR
+
+syntax keyword cppWinConstant TPM_E_FAILEDSELFTEST
+
+syntax keyword cppWinConstant TPM_E_AUTH2FAIL
+
+syntax keyword cppWinConstant TPM_E_BADTAG
+
+syntax keyword cppWinConstant TPM_E_IOERROR
+
+syntax keyword cppWinConstant TPM_E_ENCRYPT_ERROR
+
+syntax keyword cppWinConstant TPM_E_DECRYPT_ERROR
+
+syntax keyword cppWinConstant TPM_E_INVALID_AUTHHANDLE
+
+syntax keyword cppWinConstant TPM_E_NO_ENDORSEMENT
+
+syntax keyword cppWinConstant TPM_E_INVALID_KEYUSAGE
+
+syntax keyword cppWinConstant TPM_E_WRONG_ENTITYTYPE
+
+syntax keyword cppWinConstant TPM_E_INVALID_POSTINIT
+
+syntax keyword cppWinConstant TPM_E_INAPPROPRIATE_SIG
+
+syntax keyword cppWinConstant TPM_E_BAD_KEY_PROPERTY
+
+syntax keyword cppWinConstant TPM_E_BAD_MIGRATION
+
+syntax keyword cppWinConstant TPM_E_BAD_SCHEME
+
+syntax keyword cppWinConstant TPM_E_BAD_DATASIZE
+
+syntax keyword cppWinConstant TPM_E_BAD_MODE
+
+syntax keyword cppWinConstant TPM_E_BAD_PRESENCE
+
+syntax keyword cppWinConstant TPM_E_BAD_VERSION
+
+syntax keyword cppWinConstant TPM_E_NO_WRAP_TRANSPORT
+
+syntax keyword cppWinConstant TPM_E_AUDITFAIL_UNSUCCESSFUL
+
+syntax keyword cppWinConstant TPM_E_AUDITFAIL_SUCCESSFUL
+
+syntax keyword cppWinConstant TPM_E_NOTRESETABLE
+
+syntax keyword cppWinConstant TPM_E_NOTLOCAL
+
+syntax keyword cppWinConstant TPM_E_BAD_TYPE
+
+syntax keyword cppWinConstant TPM_E_INVALID_RESOURCE
+
+syntax keyword cppWinConstant TPM_E_NOTFIPS
+
+syntax keyword cppWinConstant TPM_E_INVALID_FAMILY
+
+syntax keyword cppWinConstant TPM_E_NO_NV_PERMISSION
+
+syntax keyword cppWinConstant TPM_E_REQUIRES_SIGN
+
+syntax keyword cppWinConstant TPM_E_KEY_NOTSUPPORTED
+
+syntax keyword cppWinConstant TPM_E_AUTH_CONFLICT
+
+syntax keyword cppWinConstant TPM_E_AREA_LOCKED
+
+syntax keyword cppWinConstant TPM_E_BAD_LOCALITY
+
+syntax keyword cppWinConstant TPM_E_READ_ONLY
+
+syntax keyword cppWinConstant TPM_E_PER_NOWRITE
+
+syntax keyword cppWinConstant TPM_E_FAMILYCOUNT
+
+syntax keyword cppWinConstant TPM_E_WRITE_LOCKED
+
+syntax keyword cppWinConstant TPM_E_BAD_ATTRIBUTES
+
+syntax keyword cppWinConstant TPM_E_INVALID_STRUCTURE
+
+syntax keyword cppWinConstant TPM_E_KEY_OWNER_CONTROL
+
+syntax keyword cppWinConstant TPM_E_BAD_COUNTER
+
+syntax keyword cppWinConstant TPM_E_NOT_FULLWRITE
+
+syntax keyword cppWinConstant TPM_E_CONTEXT_GAP
+
+syntax keyword cppWinConstant TPM_E_MAXNVWRITES
+
+syntax keyword cppWinConstant TPM_E_NOOPERATOR
+
+syntax keyword cppWinConstant TPM_E_RESOURCEMISSING
+
+syntax keyword cppWinConstant TPM_E_DELEGATE_LOCK
+
+syntax keyword cppWinConstant TPM_E_DELEGATE_FAMILY
+
+syntax keyword cppWinConstant TPM_E_DELEGATE_ADMIN
+
+syntax keyword cppWinConstant TPM_E_TRANSPORT_NOTEXCLUSIVE
+
+syntax keyword cppWinConstant TPM_E_OWNER_CONTROL
+
+syntax keyword cppWinConstant TPM_E_DAA_RESOURCES
+
+syntax keyword cppWinConstant TPM_E_DAA_INPUT_DATA0
+
+syntax keyword cppWinConstant TPM_E_DAA_INPUT_DATA1
+
+syntax keyword cppWinConstant TPM_E_DAA_ISSUER_SETTINGS
+
+syntax keyword cppWinConstant TPM_E_DAA_TPM_SETTINGS
+
+syntax keyword cppWinConstant TPM_E_DAA_STAGE
+
+syntax keyword cppWinConstant TPM_E_DAA_ISSUER_VALIDITY
+
+syntax keyword cppWinConstant TPM_E_DAA_WRONG_W
+
+syntax keyword cppWinConstant TPM_E_BAD_HANDLE
+
+syntax keyword cppWinConstant TPM_E_BAD_DELEGATE
+
+syntax keyword cppWinConstant TPM_E_BADCONTEXT
+
+syntax keyword cppWinConstant TPM_E_TOOMANYCONTEXTS
+
+syntax keyword cppWinConstant TPM_E_MA_TICKET_SIGNATURE
+
+syntax keyword cppWinConstant TPM_E_MA_DESTINATION
+
+syntax keyword cppWinConstant TPM_E_MA_SOURCE
+
+syntax keyword cppWinConstant TPM_E_MA_AUTHORITY
+
+syntax keyword cppWinConstant TPM_E_PERMANENTEK
+
+syntax keyword cppWinConstant TPM_E_BAD_SIGNATURE
+
+syntax keyword cppWinConstant TPM_E_NOCONTEXTSPACE
+
+syntax keyword cppWinConstant TPM_E_COMMAND_BLOCKED
+
+syntax keyword cppWinConstant TPM_E_INVALID_HANDLE
+
+syntax keyword cppWinConstant TPM_E_DUPLICATE_VHANDLE
+
+syntax keyword cppWinConstant TPM_E_EMBEDDED_COMMAND_BLOCKED
+
+syntax keyword cppWinConstant TPM_E_EMBEDDED_COMMAND_UNSUPPORTED
+
+syntax keyword cppWinConstant TPM_E_RETRY
+
+syntax keyword cppWinConstant TPM_E_NEEDS_SELFTEST
+
+syntax keyword cppWinConstant TPM_E_DOING_SELFTEST
+
+syntax keyword cppWinConstant TPM_E_DEFEND_LOCK_RUNNING
+
+syntax keyword cppWinConstant TBS_E_INTERNAL_ERROR
+
+syntax keyword cppWinConstant TBS_E_BAD_PARAMETER
+
+syntax keyword cppWinConstant TBS_E_INVALID_OUTPUT_POINTER
+
+syntax keyword cppWinConstant TBS_E_INVALID_CONTEXT
+
+syntax keyword cppWinConstant TBS_E_INSUFFICIENT_BUFFER
+
+syntax keyword cppWinConstant TBS_E_IOERROR
+
+syntax keyword cppWinConstant TBS_E_INVALID_CONTEXT_PARAM
+
+syntax keyword cppWinConstant TBS_E_SERVICE_NOT_RUNNING
+
+syntax keyword cppWinConstant TBS_E_TOO_MANY_TBS_CONTEXTS
+
+syntax keyword cppWinConstant TBS_E_TOO_MANY_RESOURCES
+
+syntax keyword cppWinConstant TBS_E_SERVICE_START_PENDING
+
+syntax keyword cppWinConstant TBS_E_PPI_NOT_SUPPORTED
+
+syntax keyword cppWinConstant TBS_E_COMMAND_CANCELED
+
+syntax keyword cppWinConstant TBS_E_BUFFER_TOO_LARGE
+
+syntax keyword cppWinConstant TBS_E_TPM_NOT_FOUND
+
+syntax keyword cppWinConstant TBS_E_SERVICE_DISABLED
+
+syntax keyword cppWinConstant TBS_E_NO_EVENT_LOG
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_STATE
+
+syntax keyword cppWinConstant TPMAPI_E_NOT_ENOUGH_DATA
+
+syntax keyword cppWinConstant TPMAPI_E_TOO_MUCH_DATA
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_OUTPUT_POINTER
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_PARAMETER
+
+syntax keyword cppWinConstant TPMAPI_E_OUT_OF_MEMORY
+
+syntax keyword cppWinConstant TPMAPI_E_BUFFER_TOO_SMALL
+
+syntax keyword cppWinConstant TPMAPI_E_INTERNAL_ERROR
+
+syntax keyword cppWinConstant TPMAPI_E_ACCESS_DENIED
+
+syntax keyword cppWinConstant TPMAPI_E_AUTHORIZATION_FAILED
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_CONTEXT_HANDLE
+
+syntax keyword cppWinConstant TPMAPI_E_TBS_COMMUNICATION_ERROR
+
+syntax keyword cppWinConstant TPMAPI_E_TPM_COMMAND_ERROR
+
+syntax keyword cppWinConstant TPMAPI_E_MESSAGE_TOO_LARGE
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_ENCODING
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_KEY_SIZE
+
+syntax keyword cppWinConstant TPMAPI_E_ENCRYPTION_FAILED
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_KEY_PARAMS
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_MIGRATION_AUTHORIZATION_BLOB
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_PCR_INDEX
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_DELEGATE_BLOB
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_CONTEXT_PARAMS
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_KEY_BLOB
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_PCR_DATA
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_OWNER_AUTH
+
+syntax keyword cppWinConstant TPMAPI_E_FIPS_RNG_CHECK_FAILED
+
+syntax keyword cppWinConstant TPMAPI_E_EMPTY_TCG_LOG
+
+syntax keyword cppWinConstant TPMAPI_E_INVALID_TCG_LOG_ENTRY
+
+syntax keyword cppWinConstant TPMAPI_E_TCG_SEPARATOR_ABSENT
+
+syntax keyword cppWinConstant TPMAPI_E_TCG_INVALID_DIGEST_ENTRY
+
+syntax keyword cppWinConstant TBSIMP_E_BUFFER_TOO_SMALL
+
+syntax keyword cppWinConstant TBSIMP_E_CLEANUP_FAILED
+
+syntax keyword cppWinConstant TBSIMP_E_INVALID_CONTEXT_HANDLE
+
+syntax keyword cppWinConstant TBSIMP_E_INVALID_CONTEXT_PARAM
+
+syntax keyword cppWinConstant TBSIMP_E_TPM_ERROR
+
+syntax keyword cppWinConstant TBSIMP_E_HASH_BAD_KEY
+
+syntax keyword cppWinConstant TBSIMP_E_DUPLICATE_VHANDLE
+
+syntax keyword cppWinConstant TBSIMP_E_INVALID_OUTPUT_POINTER
+
+syntax keyword cppWinConstant TBSIMP_E_INVALID_PARAMETER
+
+syntax keyword cppWinConstant TBSIMP_E_RPC_INIT_FAILED
+
+syntax keyword cppWinConstant TBSIMP_E_SCHEDULER_NOT_RUNNING
+
+syntax keyword cppWinConstant TBSIMP_E_COMMAND_CANCELED
+
+syntax keyword cppWinConstant TBSIMP_E_OUT_OF_MEMORY
+
+syntax keyword cppWinConstant TBSIMP_E_LIST_NO_MORE_ITEMS
+
+syntax keyword cppWinConstant TBSIMP_E_LIST_NOT_FOUND
+
+syntax keyword cppWinConstant TBSIMP_E_NOT_ENOUGH_SPACE
+
+syntax keyword cppWinConstant TBSIMP_E_NOT_ENOUGH_TPM_CONTEXTS
+
+syntax keyword cppWinConstant TBSIMP_E_COMMAND_FAILED
+
+syntax keyword cppWinConstant TBSIMP_E_UNKNOWN_ORDINAL
+
+syntax keyword cppWinConstant TBSIMP_E_RESOURCE_EXPIRED
+
+syntax keyword cppWinConstant TBSIMP_E_INVALID_RESOURCE
+
+syntax keyword cppWinConstant TBSIMP_E_NOTHING_TO_UNLOAD
+
+syntax keyword cppWinConstant TBSIMP_E_HASH_TABLE_FULL
+
+syntax keyword cppWinConstant TBSIMP_E_TOO_MANY_TBS_CONTEXTS
+
+syntax keyword cppWinConstant TBSIMP_E_TOO_MANY_RESOURCES
+
+syntax keyword cppWinConstant TBSIMP_E_PPI_NOT_SUPPORTED
+
+syntax keyword cppWinConstant TBSIMP_E_TPM_INCOMPATIBLE
+
+syntax keyword cppWinConstant TBSIMP_E_NO_EVENT_LOG
+
+syntax keyword cppWinConstant TPM_E_PPI_ACPI_FAILURE
+
+syntax keyword cppWinConstant TPM_E_PPI_USER_ABORT
+
+syntax keyword cppWinConstant TPM_E_PPI_BIOS_FAILURE
+
+syntax keyword cppWinConstant TPM_E_PPI_NOT_SUPPORTED
+
+syntax keyword cppWinConstant PLA_E_DCS_NOT_FOUND
+
+syntax keyword cppWinConstant PLA_E_DCS_IN_USE
+
+syntax keyword cppWinConstant PLA_E_TOO_MANY_FOLDERS
+
+syntax keyword cppWinConstant PLA_E_NO_MIN_DISK
+
+syntax keyword cppWinConstant PLA_E_DCS_ALREADY_EXISTS
+
+syntax keyword cppWinConstant PLA_S_PROPERTY_IGNORED
+
+syntax keyword cppWinConstant PLA_E_PROPERTY_CONFLICT
+
+syntax keyword cppWinConstant PLA_E_DCS_SINGLETON_REQUIRED
+
+syntax keyword cppWinConstant PLA_E_CREDENTIALS_REQUIRED
+
+syntax keyword cppWinConstant PLA_E_DCS_NOT_RUNNING
+
+syntax keyword cppWinConstant PLA_E_CONFLICT_INCL_EXCL_API
+
+syntax keyword cppWinConstant PLA_E_NETWORK_EXE_NOT_VALID
+
+syntax keyword cppWinConstant PLA_E_EXE_ALREADY_CONFIGURED
+
+syntax keyword cppWinConstant PLA_E_EXE_PATH_NOT_VALID
+
+syntax keyword cppWinConstant PLA_E_DC_ALREADY_EXISTS
+
+syntax keyword cppWinConstant PLA_E_DCS_START_WAIT_TIMEOUT
+
+syntax keyword cppWinConstant PLA_E_DC_START_WAIT_TIMEOUT
+
+syntax keyword cppWinConstant PLA_E_REPORT_WAIT_TIMEOUT
+
+syntax keyword cppWinConstant PLA_E_NO_DUPLICATES
+
+syntax keyword cppWinConstant PLA_E_EXE_FULL_PATH_REQUIRED
+
+syntax keyword cppWinConstant PLA_E_INVALID_SESSION_NAME
+
+syntax keyword cppWinConstant PLA_E_PLA_CHANNEL_NOT_ENABLED
+
+syntax keyword cppWinConstant PLA_E_TASKSCHED_CHANNEL_NOT_ENABLED
+
+syntax keyword cppWinConstant PLA_E_RULES_MANAGER_FAILED
+
+syntax keyword cppWinConstant PLA_E_CABAPI_FAILURE
+
+syntax keyword cppWinConstant FVE_E_LOCKED_VOLUME
+
+syntax keyword cppWinConstant FVE_E_NOT_ENCRYPTED
+
+syntax keyword cppWinConstant FVE_E_NO_TPM_BIOS
+
+syntax keyword cppWinConstant FVE_E_NO_MBR_METRIC
+
+syntax keyword cppWinConstant FVE_E_NO_BOOTSECTOR_METRIC
+
+syntax keyword cppWinConstant FVE_E_NO_BOOTMGR_METRIC
+
+syntax keyword cppWinConstant FVE_E_WRONG_BOOTMGR
+
+syntax keyword cppWinConstant FVE_E_SECURE_KEY_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_NOT_ACTIVATED
+
+syntax keyword cppWinConstant FVE_E_ACTION_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_AD_SCHEMA_NOT_INSTALLED
+
+syntax keyword cppWinConstant FVE_E_AD_INVALID_DATATYPE
+
+syntax keyword cppWinConstant FVE_E_AD_INVALID_DATASIZE
+
+syntax keyword cppWinConstant FVE_E_AD_NO_VALUES
+
+syntax keyword cppWinConstant FVE_E_AD_ATTR_NOT_SET
+
+syntax keyword cppWinConstant FVE_E_AD_GUID_NOT_FOUND
+
+syntax keyword cppWinConstant FVE_E_BAD_INFORMATION
+
+syntax keyword cppWinConstant FVE_E_TOO_SMALL
+
+syntax keyword cppWinConstant FVE_E_SYSTEM_VOLUME
+
+syntax keyword cppWinConstant FVE_E_FAILED_WRONG_FS
+
+syntax keyword cppWinConstant FVE_E_BAD_PARTITION_SIZE
+
+syntax keyword cppWinConstant FVE_E_NOT_SUPPORTED
+
+syntax keyword cppWinConstant FVE_E_BAD_DATA
+
+syntax keyword cppWinConstant FVE_E_VOLUME_NOT_BOUND
+
+syntax keyword cppWinConstant FVE_E_TPM_NOT_OWNED
+
+syntax keyword cppWinConstant FVE_E_NOT_DATA_VOLUME
+
+syntax keyword cppWinConstant FVE_E_AD_INSUFFICIENT_BUFFER
+
+syntax keyword cppWinConstant FVE_E_CONV_READ
+
+syntax keyword cppWinConstant FVE_E_CONV_WRITE
+
+syntax keyword cppWinConstant FVE_E_KEY_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_CLUSTERING_NOT_SUPPORTED
+
+syntax keyword cppWinConstant FVE_E_VOLUME_BOUND_ALREADY
+
+syntax keyword cppWinConstant FVE_E_OS_NOT_PROTECTED
+
+syntax keyword cppWinConstant FVE_E_PROTECTION_DISABLED
+
+syntax keyword cppWinConstant FVE_E_RECOVERY_KEY_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_FOREIGN_VOLUME
+
+syntax keyword cppWinConstant FVE_E_OVERLAPPED_UPDATE
+
+syntax keyword cppWinConstant FVE_E_TPM_SRK_AUTH_NOT_ZERO
+
+syntax keyword cppWinConstant FVE_E_FAILED_SECTOR_SIZE
+
+syntax keyword cppWinConstant FVE_E_FAILED_AUTHENTICATION
+
+syntax keyword cppWinConstant FVE_E_NOT_OS_VOLUME
+
+syntax keyword cppWinConstant FVE_E_AUTOUNLOCK_ENABLED
+
+syntax keyword cppWinConstant FVE_E_WRONG_BOOTSECTOR
+
+syntax keyword cppWinConstant FVE_E_WRONG_SYSTEM_FS
+
+syntax keyword cppWinConstant FVE_E_POLICY_PASSWORD_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_CANNOT_SET_FVEK_ENCRYPTED
+
+syntax keyword cppWinConstant FVE_E_CANNOT_ENCRYPT_NO_KEY
+
+syntax keyword cppWinConstant FVE_E_BOOTABLE_CDDVD
+
+syntax keyword cppWinConstant FVE_E_PROTECTOR_EXISTS
+
+syntax keyword cppWinConstant FVE_E_RELATIVE_PATH
+
+syntax keyword cppWinConstant FVE_E_PROTECTOR_NOT_FOUND
+
+syntax keyword cppWinConstant FVE_E_INVALID_KEY_FORMAT
+
+syntax keyword cppWinConstant FVE_E_INVALID_PASSWORD_FORMAT
+
+syntax keyword cppWinConstant FVE_E_FIPS_RNG_CHECK_FAILED
+
+syntax keyword cppWinConstant FVE_E_FIPS_PREVENTS_RECOVERY_PASSWORD
+
+syntax keyword cppWinConstant FVE_E_FIPS_PREVENTS_EXTERNAL_KEY_EXPORT
+
+syntax keyword cppWinConstant FVE_E_NOT_DECRYPTED
+
+syntax keyword cppWinConstant FVE_E_INVALID_PROTECTOR_TYPE
+
+syntax keyword cppWinConstant FVE_E_NO_PROTECTORS_TO_TEST
+
+syntax keyword cppWinConstant FVE_E_KEYFILE_NOT_FOUND
+
+syntax keyword cppWinConstant FVE_E_KEYFILE_INVALID
+
+syntax keyword cppWinConstant FVE_E_KEYFILE_NO_VMK
+
+syntax keyword cppWinConstant FVE_E_TPM_DISABLED
+
+syntax keyword cppWinConstant FVE_E_NOT_ALLOWED_IN_SAFE_MODE
+
+syntax keyword cppWinConstant FVE_E_TPM_INVALID_PCR
+
+syntax keyword cppWinConstant FVE_E_TPM_NO_VMK
+
+syntax keyword cppWinConstant FVE_E_PIN_INVALID
+
+syntax keyword cppWinConstant FVE_E_AUTH_INVALID_APPLICATION
+
+syntax keyword cppWinConstant FVE_E_AUTH_INVALID_CONFIG
+
+syntax keyword cppWinConstant FVE_E_FIPS_DISABLE_PROTECTION_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_FS_NOT_EXTENDED
+
+syntax keyword cppWinConstant FVE_E_FIRMWARE_TYPE_NOT_SUPPORTED
+
+syntax keyword cppWinConstant FVE_E_NO_LICENSE
+
+syntax keyword cppWinConstant FVE_E_NOT_ON_STACK
+
+syntax keyword cppWinConstant FVE_E_FS_MOUNTED
+
+syntax keyword cppWinConstant FVE_E_TOKEN_NOT_IMPERSONATED
+
+syntax keyword cppWinConstant FVE_E_DRY_RUN_FAILED
+
+syntax keyword cppWinConstant FVE_E_REBOOT_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_DEBUGGER_ENABLED
+
+syntax keyword cppWinConstant FVE_E_RAW_ACCESS
+
+syntax keyword cppWinConstant FVE_E_RAW_BLOCKED
+
+syntax keyword cppWinConstant FVE_E_BCD_APPLICATIONS_PATH_INCORRECT
+
+syntax keyword cppWinConstant FVE_E_NOT_ALLOWED_IN_VERSION
+
+syntax keyword cppWinConstant FVE_E_NO_AUTOUNLOCK_MASTER_KEY
+
+syntax keyword cppWinConstant FVE_E_MOR_FAILED
+
+syntax keyword cppWinConstant FVE_E_HIDDEN_VOLUME
+
+syntax keyword cppWinConstant FVE_E_TRANSIENT_STATE
+
+syntax keyword cppWinConstant FVE_E_PUBKEY_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_VOLUME_HANDLE_OPEN
+
+syntax keyword cppWinConstant FVE_E_NO_FEATURE_LICENSE
+
+syntax keyword cppWinConstant FVE_E_INVALID_STARTUP_OPTIONS
+
+syntax keyword cppWinConstant FVE_E_POLICY_RECOVERY_PASSWORD_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_RECOVERY_PASSWORD_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_POLICY_RECOVERY_KEY_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_RECOVERY_KEY_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_PIN_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_PIN_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_KEY_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_KEY_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_PIN_KEY_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_PIN_KEY_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_TPM_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_STARTUP_TPM_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_POLICY_INVALID_PIN_LENGTH
+
+syntax keyword cppWinConstant FVE_E_KEY_PROTECTOR_NOT_SUPPORTED
+
+syntax keyword cppWinConstant FVE_E_POLICY_PASSPHRASE_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_PASSPHRASE_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_FIPS_PREVENTS_PASSPHRASE
+
+syntax keyword cppWinConstant FVE_E_OS_VOLUME_PASSPHRASE_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_INVALID_BITLOCKER_OID
+
+syntax keyword cppWinConstant FVE_E_VOLUME_TOO_SMALL
+
+syntax keyword cppWinConstant FVE_E_DV_NOT_SUPPORTED_ON_FS
+
+syntax keyword cppWinConstant FVE_E_DV_NOT_ALLOWED_BY_GP
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_CERTIFICATE_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_CERTIFICATE_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_CERT_MUST_BE_HW
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_CONFIGURE_FDV_AUTOUNLOCK_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_CONFIGURE_RDV_AUTOUNLOCK_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_CONFIGURE_RDV_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_ENABLE_RDV_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_USER_DISABLE_RDV_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_POLICY_INVALID_PASSPHRASE_LENGTH
+
+syntax keyword cppWinConstant FVE_E_POLICY_PASSPHRASE_TOO_SIMPLE
+
+syntax keyword cppWinConstant FVE_E_RECOVERY_PARTITION
+
+syntax keyword cppWinConstant FVE_E_POLICY_CONFLICT_FDV_RK_OFF_AUK_ON
+
+syntax keyword cppWinConstant FVE_E_POLICY_CONFLICT_RDV_RK_OFF_AUK_ON
+
+syntax keyword cppWinConstant FVE_E_NON_BITLOCKER_OID
+
+syntax keyword cppWinConstant FVE_E_POLICY_PROHIBITS_SELFSIGNED
+
+syntax keyword cppWinConstant FVE_E_POLICY_CONFLICT_RO_AND_STARTUP_KEY_REQUIRED
+
+syntax keyword cppWinConstant FVE_E_CONV_RECOVERY_FAILED
+
+syntax keyword cppWinConstant FVE_E_VIRTUALIZED_SPACE_TOO_BIG
+
+syntax keyword cppWinConstant FVE_E_POLICY_CONFLICT_OSV_RP_OFF_ADB_ON
+
+syntax keyword cppWinConstant FVE_E_POLICY_CONFLICT_FDV_RP_OFF_ADB_ON
+
+syntax keyword cppWinConstant FVE_E_POLICY_CONFLICT_RDV_RP_OFF_ADB_ON
+
+syntax keyword cppWinConstant FVE_E_NON_BITLOCKER_KU
+
+syntax keyword cppWinConstant FVE_E_PRIVATEKEY_AUTH_FAILED
+
+syntax keyword cppWinConstant FVE_E_REMOVAL_OF_DRA_FAILED
+
+syntax keyword cppWinConstant FVE_E_OPERATION_NOT_SUPPORTED_ON_VISTA_VOLUME
+
+syntax keyword cppWinConstant FVE_E_CANT_LOCK_AUTOUNLOCK_ENABLED_VOLUME
+
+syntax keyword cppWinConstant FVE_E_FIPS_HASH_KDF_NOT_ALLOWED
+
+syntax keyword cppWinConstant FVE_E_ENH_PIN_INVALID
+
+syntax keyword cppWinConstant FVE_E_INVALID_PIN_CHARS
+
+syntax keyword cppWinConstant FVE_E_INVALID_DATUM_TYPE
+
+syntax keyword cppWinConstant FWP_E_CALLOUT_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_CONDITION_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_FILTER_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_LAYER_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_PROVIDER_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_PROVIDER_CONTEXT_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_SUBLAYER_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_NOT_FOUND
+
+syntax keyword cppWinConstant FWP_E_ALREADY_EXISTS
+
+syntax keyword cppWinConstant FWP_E_IN_USE
+
+syntax keyword cppWinConstant FWP_E_DYNAMIC_SESSION_IN_PROGRESS
+
+syntax keyword cppWinConstant FWP_E_WRONG_SESSION
+
+syntax keyword cppWinConstant FWP_E_NO_TXN_IN_PROGRESS
+
+syntax keyword cppWinConstant FWP_E_TXN_IN_PROGRESS
+
+syntax keyword cppWinConstant FWP_E_TXN_ABORTED
+
+syntax keyword cppWinConstant FWP_E_SESSION_ABORTED
+
+syntax keyword cppWinConstant FWP_E_INCOMPATIBLE_TXN
+
+syntax keyword cppWinConstant FWP_E_TIMEOUT
+
+syntax keyword cppWinConstant FWP_E_NET_EVENTS_DISABLED
+
+syntax keyword cppWinConstant FWP_E_INCOMPATIBLE_LAYER
+
+syntax keyword cppWinConstant FWP_E_KM_CLIENTS_ONLY
+
+syntax keyword cppWinConstant FWP_E_LIFETIME_MISMATCH
+
+syntax keyword cppWinConstant FWP_E_BUILTIN_OBJECT
+
+syntax keyword cppWinConstant FWP_E_TOO_MANY_CALLOUTS
+
+syntax keyword cppWinConstant FWP_E_NOTIFICATION_DROPPED
+
+syntax keyword cppWinConstant FWP_E_TRAFFIC_MISMATCH
+
+syntax keyword cppWinConstant FWP_E_INCOMPATIBLE_SA_STATE
+
+syntax keyword cppWinConstant FWP_E_NULL_POINTER
+
+syntax keyword cppWinConstant FWP_E_INVALID_ENUMERATOR
+
+syntax keyword cppWinConstant FWP_E_INVALID_FLAGS
+
+syntax keyword cppWinConstant FWP_E_INVALID_NET_MASK
+
+syntax keyword cppWinConstant FWP_E_INVALID_RANGE
+
+syntax keyword cppWinConstant FWP_E_INVALID_INTERVAL
+
+syntax keyword cppWinConstant FWP_E_ZERO_LENGTH_ARRAY
+
+syntax keyword cppWinConstant FWP_E_NULL_DISPLAY_NAME
+
+syntax keyword cppWinConstant FWP_E_INVALID_ACTION_TYPE
+
+syntax keyword cppWinConstant FWP_E_INVALID_WEIGHT
+
+syntax keyword cppWinConstant FWP_E_MATCH_TYPE_MISMATCH
+
+syntax keyword cppWinConstant FWP_E_TYPE_MISMATCH
+
+syntax keyword cppWinConstant FWP_E_OUT_OF_BOUNDS
+
+syntax keyword cppWinConstant FWP_E_RESERVED
+
+syntax keyword cppWinConstant FWP_E_DUPLICATE_CONDITION
+
+syntax keyword cppWinConstant FWP_E_DUPLICATE_KEYMOD
+
+syntax keyword cppWinConstant FWP_E_ACTION_INCOMPATIBLE_WITH_LAYER
+
+syntax keyword cppWinConstant FWP_E_ACTION_INCOMPATIBLE_WITH_SUBLAYER
+
+syntax keyword cppWinConstant FWP_E_CONTEXT_INCOMPATIBLE_WITH_LAYER
+
+syntax keyword cppWinConstant FWP_E_CONTEXT_INCOMPATIBLE_WITH_CALLOUT
+
+syntax keyword cppWinConstant FWP_E_INCOMPATIBLE_AUTH_METHOD
+
+syntax keyword cppWinConstant FWP_E_INCOMPATIBLE_DH_GROUP
+
+syntax keyword cppWinConstant FWP_E_EM_NOT_SUPPORTED
+
+syntax keyword cppWinConstant FWP_E_NEVER_MATCH
+
+syntax keyword cppWinConstant FWP_E_PROVIDER_CONTEXT_MISMATCH
+
+syntax keyword cppWinConstant FWP_E_INVALID_PARAMETER
+
+syntax keyword cppWinConstant FWP_E_TOO_MANY_SUBLAYERS
+
+syntax keyword cppWinConstant FWP_E_CALLOUT_NOTIFICATION_FAILED
+
+syntax keyword cppWinConstant FWP_E_INVALID_AUTH_TRANSFORM
+
+syntax keyword cppWinConstant FWP_E_INVALID_CIPHER_TRANSFORM
+
+syntax keyword cppWinConstant FWP_E_DROP_NOICMP
+
+syntax keyword cppWinConstant FWP_E_INCOMPATIBLE_CIPHER_TRANSFORM
+
+syntax keyword cppWinConstant FWP_E_INVALID_TRANSFORM_COMBINATION
+
+syntax keyword cppWinConstant FWP_E_DUPLICATE_AUTH_METHOD
+
+syntax keyword cppWinConstant WS_S_ASYNC
+
+syntax keyword cppWinConstant WS_S_END
+
+syntax keyword cppWinConstant WS_E_INVALID_FORMAT
+
+syntax keyword cppWinConstant WS_E_OBJECT_FAULTED
+
+syntax keyword cppWinConstant WS_E_NUMERIC_OVERFLOW
+
+syntax keyword cppWinConstant WS_E_INVALID_OPERATION
+
+syntax keyword cppWinConstant WS_E_OPERATION_ABORTED
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_ACCESS_DENIED
+
+syntax keyword cppWinConstant WS_E_OPERATION_TIMED_OUT
+
+syntax keyword cppWinConstant WS_E_OPERATION_ABANDONED
+
+syntax keyword cppWinConstant WS_E_QUOTA_EXCEEDED
+
+syntax keyword cppWinConstant WS_E_NO_TRANSLATION_AVAILABLE
+
+syntax keyword cppWinConstant WS_E_SECURITY_VERIFICATION_FAILURE
+
+syntax keyword cppWinConstant WS_E_ADDRESS_IN_USE
+
+syntax keyword cppWinConstant WS_E_ADDRESS_NOT_AVAILABLE
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_NOT_FOUND
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_NOT_AVAILABLE
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_FAILURE
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_UNREACHABLE
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_ACTION_NOT_SUPPORTED
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_TOO_BUSY
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_FAULT_RECEIVED
+
+syntax keyword cppWinConstant WS_E_ENDPOINT_DISCONNECTED
+
+syntax keyword cppWinConstant WS_E_PROXY_FAILURE
+
+syntax keyword cppWinConstant WS_E_PROXY_ACCESS_DENIED
+
+syntax keyword cppWinConstant WS_E_NOT_SUPPORTED
+
+syntax keyword cppWinConstant WS_E_PROXY_REQUIRES_BASIC_AUTH
+
+syntax keyword cppWinConstant WS_E_PROXY_REQUIRES_DIGEST_AUTH
+
+syntax keyword cppWinConstant WS_E_PROXY_REQUIRES_NTLM_AUTH
+
+syntax keyword cppWinConstant WS_E_PROXY_REQUIRES_NEGOTIATE_AUTH
+
+syntax keyword cppWinConstant WS_E_SERVER_REQUIRES_BASIC_AUTH
+
+syntax keyword cppWinConstant WS_E_SERVER_REQUIRES_DIGEST_AUTH
+
+syntax keyword cppWinConstant WS_E_SERVER_REQUIRES_NTLM_AUTH
+
+syntax keyword cppWinConstant WS_E_SERVER_REQUIRES_NEGOTIATE_AUTH
+
+syntax keyword cppWinConstant WS_E_INVALID_ENDPOINT_URL
+
+syntax keyword cppWinConstant WS_E_OTHER
+
+syntax keyword cppWinConstant WS_E_SECURITY_TOKEN_EXPIRED
+
+syntax keyword cppWinConstant WS_E_SECURITY_SYSTEM_FAILURE
+
+syntax keyword cppWinMacro _NDIS_ERROR_TYPEDEF_
+
+syntax keyword cppWinConstant ERROR_NDIS_INTERFACE_CLOSING
+
+syntax keyword cppWinConstant ERROR_NDIS_BAD_VERSION
+
+syntax keyword cppWinConstant ERROR_NDIS_BAD_CHARACTERISTICS
+
+syntax keyword cppWinConstant ERROR_NDIS_ADAPTER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NDIS_OPEN_FAILED
+
+syntax keyword cppWinConstant ERROR_NDIS_DEVICE_FAILED
+
+syntax keyword cppWinConstant ERROR_NDIS_MULTICAST_FULL
+
+syntax keyword cppWinConstant ERROR_NDIS_MULTICAST_EXISTS
+
+syntax keyword cppWinConstant ERROR_NDIS_MULTICAST_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NDIS_REQUEST_ABORTED
+
+syntax keyword cppWinConstant ERROR_NDIS_RESET_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_NDIS_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_PACKET
+
+syntax keyword cppWinConstant ERROR_NDIS_ADAPTER_NOT_READY
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_LENGTH
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_DATA
+
+syntax keyword cppWinConstant ERROR_NDIS_BUFFER_TOO_SHORT
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_OID
+
+syntax keyword cppWinConstant ERROR_NDIS_ADAPTER_REMOVED
+
+syntax keyword cppWinConstant ERROR_NDIS_UNSUPPORTED_MEDIA
+
+syntax keyword cppWinConstant ERROR_NDIS_GROUP_ADDRESS_IN_USE
+
+syntax keyword cppWinConstant ERROR_NDIS_FILE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NDIS_ERROR_READING_FILE
+
+syntax keyword cppWinConstant ERROR_NDIS_ALREADY_MAPPED
+
+syntax keyword cppWinConstant ERROR_NDIS_RESOURCE_CONFLICT
+
+syntax keyword cppWinConstant ERROR_NDIS_MEDIA_DISCONNECTED
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_ADDRESS
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_DEVICE_REQUEST
+
+syntax keyword cppWinConstant ERROR_NDIS_PAUSED
+
+syntax keyword cppWinConstant ERROR_NDIS_INTERFACE_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_NDIS_UNSUPPORTED_REVISION
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_PORT
+
+syntax keyword cppWinConstant ERROR_NDIS_INVALID_PORT_STATE
+
+syntax keyword cppWinConstant ERROR_NDIS_LOW_POWER_STATE
+
+syntax keyword cppWinConstant ERROR_NDIS_DOT11_AUTO_CONFIG_ENABLED
+
+syntax keyword cppWinConstant ERROR_NDIS_DOT11_MEDIA_IN_USE
+
+syntax keyword cppWinConstant ERROR_NDIS_DOT11_POWER_STATE_INVALID
+
+syntax keyword cppWinConstant ERROR_NDIS_PM_WOL_PATTERN_LIST_FULL
+
+syntax keyword cppWinConstant ERROR_NDIS_PM_PROTOCOL_OFFLOAD_LIST_FULL
+
+syntax keyword cppWinConstant ERROR_NDIS_INDICATION_REQUIRED
+
+syntax keyword cppWinConstant ERROR_NDIS_OFFLOAD_POLICY
+
+syntax keyword cppWinConstant ERROR_NDIS_OFFLOAD_CONNECTION_REJECTED
+
+syntax keyword cppWinConstant ERROR_NDIS_OFFLOAD_PATH_REJECTED
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_HYPERCALL_CODE
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_HYPERCALL_INPUT
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_ALIGNMENT
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_PARAMETER
+
+syntax keyword cppWinConstant ERROR_HV_ACCESS_DENIED
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_PARTITION_STATE
+
+syntax keyword cppWinConstant ERROR_HV_OPERATION_DENIED
+
+syntax keyword cppWinConstant ERROR_HV_UNKNOWN_PROPERTY
+
+syntax keyword cppWinConstant ERROR_HV_PROPERTY_VALUE_OUT_OF_RANGE
+
+syntax keyword cppWinConstant ERROR_HV_INSUFFICIENT_MEMORY
+
+syntax keyword cppWinConstant ERROR_HV_PARTITION_TOO_DEEP
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_PARTITION_ID
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_VP_INDEX
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_PORT_ID
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_CONNECTION_ID
+
+syntax keyword cppWinConstant ERROR_HV_INSUFFICIENT_BUFFERS
+
+syntax keyword cppWinConstant ERROR_HV_NOT_ACKNOWLEDGED
+
+syntax keyword cppWinConstant ERROR_HV_ACKNOWLEDGED
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_SAVE_RESTORE_STATE
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_SYNIC_STATE
+
+syntax keyword cppWinConstant ERROR_HV_OBJECT_IN_USE
+
+syntax keyword cppWinConstant ERROR_HV_INVALID_PROXIMITY_DOMAIN_INFO
+
+syntax keyword cppWinConstant ERROR_HV_NO_DATA
+
+syntax keyword cppWinConstant ERROR_HV_INACTIVE
+
+syntax keyword cppWinConstant ERROR_HV_NO_RESOURCES
+
+syntax keyword cppWinConstant ERROR_HV_FEATURE_UNAVAILABLE
+
+syntax keyword cppWinConstant ERROR_HV_NOT_PRESENT
+
+syntax keyword cppWinConstant ERROR_VID_DUPLICATE_HANDLER
+
+syntax keyword cppWinConstant ERROR_VID_TOO_MANY_HANDLERS
+
+syntax keyword cppWinConstant ERROR_VID_QUEUE_FULL
+
+syntax keyword cppWinConstant ERROR_VID_HANDLER_NOT_PRESENT
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_OBJECT_NAME
+
+syntax keyword cppWinConstant ERROR_VID_PARTITION_NAME_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_VID_MESSAGE_QUEUE_NAME_TOO_LONG
+
+syntax keyword cppWinConstant ERROR_VID_PARTITION_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_VID_PARTITION_DOES_NOT_EXIST
+
+syntax keyword cppWinConstant ERROR_VID_PARTITION_NAME_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_VID_MESSAGE_QUEUE_ALREADY_EXISTS
+
+syntax keyword cppWinConstant ERROR_VID_EXCEEDED_MBP_ENTRY_MAP_LIMIT
+
+syntax keyword cppWinConstant ERROR_VID_MB_STILL_REFERENCED
+
+syntax keyword cppWinConstant ERROR_VID_CHILD_GPA_PAGE_SET_CORRUPTED
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_NUMA_SETTINGS
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_NUMA_NODE_INDEX
+
+syntax keyword cppWinConstant ERROR_VID_NOTIFICATION_QUEUE_ALREADY_ASSOCIATED
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_MEMORY_BLOCK_HANDLE
+
+syntax keyword cppWinConstant ERROR_VID_PAGE_RANGE_OVERFLOW
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_MESSAGE_QUEUE_HANDLE
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_GPA_RANGE_HANDLE
+
+syntax keyword cppWinConstant ERROR_VID_NO_MEMORY_BLOCK_NOTIFICATION_QUEUE
+
+syntax keyword cppWinConstant ERROR_VID_MEMORY_BLOCK_LOCK_COUNT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_PPM_HANDLE
+
+syntax keyword cppWinConstant ERROR_VID_MBPS_ARE_LOCKED
+
+syntax keyword cppWinConstant ERROR_VID_MESSAGE_QUEUE_CLOSED
+
+syntax keyword cppWinConstant ERROR_VID_VIRTUAL_PROCESSOR_LIMIT_EXCEEDED
+
+syntax keyword cppWinConstant ERROR_VID_STOP_PENDING
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_PROCESSOR_STATE
+
+syntax keyword cppWinConstant ERROR_VID_EXCEEDED_KM_CONTEXT_COUNT_LIMIT
+
+syntax keyword cppWinConstant ERROR_VID_KM_INTERFACE_ALREADY_INITIALIZED
+
+syntax keyword cppWinConstant ERROR_VID_MB_PROPERTY_ALREADY_SET_RESET
+
+syntax keyword cppWinConstant ERROR_VID_MMIO_RANGE_DESTROYED
+
+syntax keyword cppWinConstant ERROR_VID_INVALID_CHILD_GPA_PAGE_SET
+
+syntax keyword cppWinConstant ERROR_VID_RESERVE_PAGE_SET_IS_BEING_USED
+
+syntax keyword cppWinConstant ERROR_VID_RESERVE_PAGE_SET_TOO_SMALL
+
+syntax keyword cppWinConstant ERROR_VID_MBP_ALREADY_LOCKED_USING_RESERVED_PAGE
+
+syntax keyword cppWinConstant ERROR_VID_MBP_COUNT_EXCEEDED_LIMIT
+
+syntax keyword cppWinConstant ERROR_VID_SAVED_STATE_CORRUPT
+
+syntax keyword cppWinConstant ERROR_VID_SAVED_STATE_UNRECOGNIZED_ITEM
+
+syntax keyword cppWinConstant ERROR_VID_SAVED_STATE_INCOMPATIBLE
+
+syntax keyword cppWinConstant ERROR_VID_REMOTE_NODE_PARENT_GPA_PAGES_USED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_INCOMPLETE_REGENERATION
+
+syntax keyword cppWinConstant ERROR_VOLMGR_INCOMPLETE_DISK_MIGRATION
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DATABASE_FULL
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_CONFIGURATION_CORRUPTED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_CONFIGURATION_NOT_IN_SYNC
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_CONFIG_UPDATE_FAILED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_CONTAINS_NON_SIMPLE_VOLUME
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_DUPLICATE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_DYNAMIC
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_ID_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_LAST_VOTER
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_LAYOUT_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_LAYOUT_NON_BASIC_BETWEEN_BASIC_PARTITIONS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_LAYOUT_NOT_CYLINDER_ALIGNED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_LAYOUT_PARTITIONS_TOO_SMALL
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_LAYOUT_PRIMARY_BETWEEN_LOGICAL_PARTITIONS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_LAYOUT_TOO_MANY_PARTITIONS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_MISSING
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_NOT_EMPTY
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_NOT_ENOUGH_SPACE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_REVECTORING_FAILED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_SECTOR_SIZE_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_SET_NOT_CONTAINED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_USED_BY_MULTIPLE_MEMBERS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DISK_USED_BY_MULTIPLE_PLEXES
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DYNAMIC_DISK_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_EXTENT_ALREADY_USED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_EXTENT_NOT_CONTIGUOUS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_EXTENT_NOT_IN_PUBLIC_REGION
+
+syntax keyword cppWinConstant ERROR_VOLMGR_EXTENT_NOT_SECTOR_ALIGNED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_EXTENT_OVERLAPS_EBR_PARTITION
+
+syntax keyword cppWinConstant ERROR_VOLMGR_EXTENT_VOLUME_LENGTHS_DO_NOT_MATCH
+
+syntax keyword cppWinConstant ERROR_VOLMGR_FAULT_TOLERANT_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_INTERLEAVE_LENGTH_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MAXIMUM_REGISTERED_USERS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MEMBER_IN_SYNC
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MEMBER_INDEX_DUPLICATE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MEMBER_INDEX_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MEMBER_MISSING
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MEMBER_NOT_DETACHED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MEMBER_REGENERATING
+
+syntax keyword cppWinConstant ERROR_VOLMGR_ALL_DISKS_FAILED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NO_REGISTERED_USERS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NO_SUCH_USER
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NOTIFICATION_RESET
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NUMBER_OF_MEMBERS_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NUMBER_OF_PLEXES_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_DUPLICATE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_ID_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_NAME_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_OFFLINE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_HAS_QUORUM
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_WITHOUT_QUORUM
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PARTITION_STYLE_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PARTITION_UPDATE_FAILED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_IN_SYNC
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_INDEX_DUPLICATE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_INDEX_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_LAST_ACTIVE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_MISSING
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_REGENERATING
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_TYPE_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_NOT_RAID5
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_NOT_SIMPLE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_STRUCTURE_SIZE_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_TOO_MANY_NOTIFICATION_REQUESTS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_TRANSACTION_IN_PROGRESS
+
+syntax keyword cppWinConstant ERROR_VOLMGR_UNEXPECTED_DISK_LAYOUT_CHANGE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_CONTAINS_MISSING_DISK
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_ID_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_LENGTH_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_LENGTH_NOT_SECTOR_SIZE_MULTIPLE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_NOT_MIRRORED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_NOT_RETAINED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_OFFLINE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_RETAINED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NUMBER_OF_EXTENTS_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_DIFFERENT_SECTOR_SIZE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_BAD_BOOT_DISK
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_CONFIG_OFFLINE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_CONFIG_ONLINE
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NOT_PRIMARY_PACK
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PACK_LOG_UPDATE_FAILED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NUMBER_OF_DISKS_IN_PLEX_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NUMBER_OF_DISKS_IN_MEMBER_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_VOLUME_MIRRORED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PLEX_NOT_SIMPLE_SPANNED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NO_VALID_LOG_COPIES
+
+syntax keyword cppWinConstant ERROR_VOLMGR_PRIMARY_PACK_PRESENT
+
+syntax keyword cppWinConstant ERROR_VOLMGR_NUMBER_OF_DISKS_INVALID
+
+syntax keyword cppWinConstant ERROR_VOLMGR_MIRROR_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_VOLMGR_RAID5_NOT_SUPPORTED
+
+syntax keyword cppWinConstant ERROR_BCD_NOT_ALL_ENTRIES_IMPORTED
+
+syntax keyword cppWinConstant ERROR_BCD_TOO_MANY_ELEMENTS
+
+syntax keyword cppWinConstant ERROR_BCD_NOT_ALL_ENTRIES_SYNCHRONIZED
+
+syntax keyword cppWinConstant ERROR_VHD_DRIVE_FOOTER_MISSING
+
+syntax keyword cppWinConstant ERROR_VHD_DRIVE_FOOTER_CHECKSUM_MISMATCH
+
+syntax keyword cppWinConstant ERROR_VHD_DRIVE_FOOTER_CORRUPT
+
+syntax keyword cppWinConstant ERROR_VHD_FORMAT_UNKNOWN
+
+syntax keyword cppWinConstant ERROR_VHD_FORMAT_UNSUPPORTED_VERSION
+
+syntax keyword cppWinConstant ERROR_VHD_SPARSE_HEADER_CHECKSUM_MISMATCH
+
+syntax keyword cppWinConstant ERROR_VHD_SPARSE_HEADER_UNSUPPORTED_VERSION
+
+syntax keyword cppWinConstant ERROR_VHD_SPARSE_HEADER_CORRUPT
+
+syntax keyword cppWinConstant ERROR_VHD_BLOCK_ALLOCATION_FAILURE
+
+syntax keyword cppWinConstant ERROR_VHD_BLOCK_ALLOCATION_TABLE_CORRUPT
+
+syntax keyword cppWinConstant ERROR_VHD_INVALID_BLOCK_SIZE
+
+syntax keyword cppWinConstant ERROR_VHD_BITMAP_MISMATCH
+
+syntax keyword cppWinConstant ERROR_VHD_PARENT_VHD_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_VHD_CHILD_PARENT_ID_MISMATCH
+
+syntax keyword cppWinConstant ERROR_VHD_CHILD_PARENT_TIMESTAMP_MISMATCH
+
+syntax keyword cppWinConstant ERROR_VHD_METADATA_READ_FAILURE
+
+syntax keyword cppWinConstant ERROR_VHD_METADATA_WRITE_FAILURE
+
+syntax keyword cppWinConstant ERROR_VHD_INVALID_SIZE
+
+syntax keyword cppWinConstant ERROR_VHD_INVALID_FILE_SIZE
+
+syntax keyword cppWinConstant ERROR_VIRTDISK_PROVIDER_NOT_FOUND
+
+syntax keyword cppWinConstant ERROR_VIRTDISK_NOT_VIRTUAL_DISK
+
+syntax keyword cppWinConstant ERROR_VHD_PARENT_VHD_ACCESS_DENIED
+
+syntax keyword cppWinConstant ERROR_VHD_CHILD_PARENT_SIZE_MISMATCH
+
+syntax keyword cppWinConstant ERROR_VHD_DIFFERENCING_CHAIN_CYCLE_DETECTED
+
+syntax keyword cppWinConstant ERROR_VHD_DIFFERENCING_CHAIN_ERROR_IN_PARENT
+
+syntax keyword cppWinConstant ERROR_VIRTUAL_DISK_LIMITATION
+
+syntax keyword cppWinConstant ERROR_VHD_INVALID_TYPE
+
+syntax keyword cppWinConstant ERROR_VHD_INVALID_STATE
+
+syntax keyword cppWinConstant ERROR_VIRTDISK_UNSUPPORTED_DISK_SECTOR_SIZE
+
+syntax keyword cppWinConstant ERROR_QUERY_STORAGE_ERROR
+
+syntax keyword cppWinConstant SDIAG_E_CANCELLED
+
+syntax keyword cppWinConstant SDIAG_E_SCRIPT
+
+syntax keyword cppWinConstant SDIAG_E_POWERSHELL
+
+syntax keyword cppWinConstant SDIAG_E_MANAGEDHOST
+
+syntax keyword cppWinConstant SDIAG_E_NOVERIFIER
+
+syntax keyword cppWinConstant SDIAG_S_CANNOTRUN
+
+syntax keyword cppWinConstant SDIAG_E_DISABLED
+
+syntax keyword cppWinConstant SDIAG_E_TRUST
+
+syntax keyword cppWinConstant SDIAG_E_CANNOTRUN
+
+syntax keyword cppWinConstant SDIAG_E_VERSION
+
+syntax keyword cppWinConstant SDIAG_E_RESOURCE
+
+syntax keyword cppWinConstant SDIAG_E_ROOTCAUSE
+
+syntax keyword cppWinConstant E_MBN_CONTEXT_NOT_ACTIVATED
+
+syntax keyword cppWinConstant E_MBN_BAD_SIM
+
+syntax keyword cppWinConstant E_MBN_DATA_CLASS_NOT_AVAILABLE
+
+syntax keyword cppWinConstant E_MBN_INVALID_ACCESS_STRING
+
+syntax keyword cppWinConstant E_MBN_MAX_ACTIVATED_CONTEXTS
+
+syntax keyword cppWinConstant E_MBN_PACKET_SVC_DETACHED
+
+syntax keyword cppWinConstant E_MBN_PROVIDER_NOT_VISIBLE
+
+syntax keyword cppWinConstant E_MBN_RADIO_POWER_OFF
+
+syntax keyword cppWinConstant E_MBN_SERVICE_NOT_ACTIVATED
+
+syntax keyword cppWinConstant E_MBN_SIM_NOT_INSERTED
+
+syntax keyword cppWinConstant E_MBN_VOICE_CALL_IN_PROGRESS
+
+syntax keyword cppWinConstant E_MBN_INVALID_CACHE
+
+syntax keyword cppWinConstant E_MBN_NOT_REGISTERED
+
+syntax keyword cppWinConstant E_MBN_PROVIDERS_NOT_FOUND
+
+syntax keyword cppWinConstant E_MBN_PIN_NOT_SUPPORTED
+
+syntax keyword cppWinConstant E_MBN_PIN_REQUIRED
+
+syntax keyword cppWinConstant E_MBN_PIN_DISABLED
+
+syntax keyword cppWinConstant E_MBN_FAILURE
+
+syntax keyword cppWinConstant E_MBN_INVALID_PROFILE
+
+syntax keyword cppWinConstant E_MBN_DEFAULT_PROFILE_EXIST
+
+syntax keyword cppWinConstant E_MBN_SMS_ENCODING_NOT_SUPPORTED
+
+syntax keyword cppWinConstant E_MBN_SMS_FILTER_NOT_SUPPORTED
+
+syntax keyword cppWinConstant E_MBN_SMS_INVALID_MEMORY_INDEX
+
+syntax keyword cppWinConstant E_MBN_SMS_LANG_NOT_SUPPORTED
+
+syntax keyword cppWinConstant E_MBN_SMS_MEMORY_FAILURE
+
+syntax keyword cppWinConstant E_MBN_SMS_NETWORK_TIMEOUT
+
+syntax keyword cppWinConstant E_MBN_SMS_UNKNOWN_SMSC_ADDRESS
+
+syntax keyword cppWinConstant E_MBN_SMS_FORMAT_NOT_SUPPORTED
+
+syntax keyword cppWinConstant E_MBN_SMS_OPERATION_NOT_ALLOWED
+
+syntax keyword cppWinConstant E_MBN_SMS_MEMORY_FULL
+
+syntax keyword cppWinConstant UI_E_CREATE_FAILED
+
+syntax keyword cppWinConstant UI_E_SHUTDOWN_CALLED
+
+syntax keyword cppWinConstant UI_E_ILLEGAL_REENTRANCY
+
+syntax keyword cppWinConstant UI_E_OBJECT_SEALED
+
+syntax keyword cppWinConstant UI_E_VALUE_NOT_SET
+
+syntax keyword cppWinConstant UI_E_VALUE_NOT_DETERMINED
+
+syntax keyword cppWinConstant UI_E_INVALID_OUTPUT
+
+syntax keyword cppWinConstant UI_E_BOOLEAN_EXPECTED
+
+syntax keyword cppWinConstant UI_E_DIFFERENT_OWNER
+
+syntax keyword cppWinConstant UI_E_AMBIGUOUS_MATCH
+
+syntax keyword cppWinConstant UI_E_FP_OVERFLOW
+
+syntax keyword cppWinConstant UI_E_WRONG_THREAD
+
+syntax keyword cppWinConstant UI_E_STORYBOARD_ACTIVE
+
+syntax keyword cppWinConstant UI_E_STORYBOARD_NOT_PLAYING
+
+syntax keyword cppWinConstant UI_E_START_KEYFRAME_AFTER_END
+
+syntax keyword cppWinConstant UI_E_END_KEYFRAME_NOT_DETERMINED
+
+syntax keyword cppWinConstant UI_E_LOOPS_OVERLAP
+
+syntax keyword cppWinConstant UI_E_TRANSITION_ALREADY_USED
+
+syntax keyword cppWinConstant UI_E_TRANSITION_NOT_IN_STORYBOARD
+
+syntax keyword cppWinConstant UI_E_TRANSITION_ECLIPSED
+
+syntax keyword cppWinConstant UI_E_TIME_BEFORE_LAST_UPDATE
+
+syntax keyword cppWinConstant UI_E_TIMER_CLIENT_ALREADY_CONNECTED
+
+"========================================================================
+
+hi link cppWinTypes Typedef
+hi link cppWinConstant Constant
+hi link cppWinMacro Function

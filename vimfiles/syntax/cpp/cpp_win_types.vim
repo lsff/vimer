@@ -202,11 +202,7 @@ syntax keyword cppWinConstant DC_PAPERNAMES
 syntax keyword cppWinConstant DC_ORIENTATION
 syntax keyword cppWinConstant DC_COPIES
 
-"WinError
 syntax keyword cppWinTypes HRESULT
-syntax keyword cppWinConstant S_OK
-syntax keyword cppWinConstant E_FAIL
-
 
 "============================================================================================
 
