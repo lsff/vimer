@@ -3293,7 +3293,7 @@ syntax keyword cppWinConstant FRS_ERR_SYSVOL_DEMOTE
 syntax keyword cppWinConstant FRS_ERR_INVALID_SERVICE_PARAMETER
 
 syntax keyword cppWinConstant DS_S_SUCCESS
-//
+
 syntax keyword cppWinConstant ERROR_DS_NOT_INSTALLED
 
 syntax keyword cppWinConstant ERROR_DS_MEMBERSHIP_EVALUATED_LOCALLY
@@ -5433,7 +5433,7 @@ syntax keyword cppWinConstant VIEW_E_FIRST
 syntax keyword cppWinConstant VIEW_E_LAST
 syntax keyword cppWinConstant VIEW_S_FIRST
 syntax keyword cppWinConstant VIEW_S_LAST
-//
+
 syntax keyword cppWinConstant VIEW_E_DRAW
 
 syntax keyword cppWinConstant REGDB_E_FIRST
@@ -7629,7 +7629,7 @@ syntax keyword cppWinConstant COMADMIN_E_REGISTRY_ACCESSDENIED
 syntax keyword cppWinConstant COMADMIN_E_PARTITIONS_DISABLED
 
 syntax keyword cppWinConstant FILTER_HRESULT_FROM_FLT_NTSTATUS
-//
+
 syntax keyword cppWinConstant ERROR_FLT_IO_COMPLETE
 
 syntax keyword cppWinConstant ERROR_FLT_NO_HANDLER_DEFINED
