@@ -12,16 +12,14 @@ set tabstop=4 "tab长度
 set linebreak "独立单词不分行
 let mapleader = ","
 
-"pydiction
-filetype plugin on
-let g:pydiction_location='$VIM/plugins/pydiction/complete-dict'
-let g:pydiction_menu_height=3
-
 set autoindent "自动缩进
 set cindent "c语言缩进
 set smartindent
 set shiftwidth=4
 set softtabstop=4
+
+set laststatus=2 "窗口底下状态栏常在
+set hlsearch "高亮选中内容
 
 let g:iswindows = 0
 let g:islinux = 0
@@ -31,63 +29,18 @@ else
 	let g:islinux = 1
 endif
 
-if g:iswindows
-	"VimTweak
-	"透明
-	let g:vimtweakAlpha=220
-	function! VimTweak_SetAlpha(vAlpha)
-		:call libcallnr("VimTweak//vimtweak.dll", "SetAlpha", a:vAlpha)
-		redraw! "消除命令后的显示
-		let g:vimtweakAlpha=a:vAlpha
-	endfunction
-	function! VimTweak_AdjustAlpha(bIncress)
-		if a:bIncress
-			if g:vimtweakAlpha >= 255
-				:redraw | echohl WarningMsg | echo "Current Alpha is BIGGEST(255)!" | echohl none <cr>
-			else
-				let g:vimtweakAlpha+=1
-				:call VimTweak_SetAlpha(g:vimtweakAlpha)
-			endif
-		else
-			if g:vimtweakAlpha <= 0
-				:redraw | echohl WarningMsg | echo "Current Alpha is SMALLEAST(0)!" | echohl none <cr>
-			else
-				let g:vimtweakAlpha-=1
-				:call VimTweak_SetAlpha(g:vimtweakAlpha)
-			endif
-		endif
-	endfunction
-	map <leader>aw :call VimTweak_SetAlpha(200)<cr>
-	map <leader>aW :call VimTweak_SetAlpha(255)<cr>
-	nmap <F12> :call VimTweak_AdjustAlpha(1)<cr>
-	nmap <F11> :call VimTweak_AdjustAlpha(0)<cr>
-	autocmd GUIEnter * call VimTweak_SetAlpha(g:vimtweakAlpha)
-
-	"最大化
-	map <leader>mw :call libcallnr("VimTweak//vimtweak.dll", "EnableMaximize", 1)<cr>
-	map <leader>Mw :call libcallnr("VimTweak//vimtweak.dll", "EnableMaximize", 0)<cr>
-	"Top most
-	map <leader>et :call libcallnr("VimTweak//vimtweak.dll", "EnableTopMost", 1)<cr>
-	map <leader>eT :call libcallnr("VimTweak//vimtweak.dll", "EnableTopMost", 0)<cr>
-endif
-
 "默认值为"blank,buffers,curdir,folds,help,options,tabpages,winsize"
 "增加 folds折叠, resize行列数, winpos窗口位置
 set sessionoptions=blank,buffers,curdir,folds,help,options,tabpages,winsize,folds,resize,winpos
 if !exists("g:SessionSaveDir")
 	let g:SessionSaveDir='d:/vimsession/'
 endif
-source $VIM/plugins/toolscript/sessionmanager.vim
-
-set laststatus=2 "窗口底下状态栏常在
-set hlsearch "高亮选中内容
 
 colorscheme desert
 call togglebg#map("<F5>")
 
 set nrformats="octal,hex" "控制<C-A> <C-X>行为
 set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
-
 set fileencoding=utf-8 "新建文件默认编码
 set termencoding=utf-8
 set encoding=utf-8 "vim 内部编码
@@ -103,13 +56,18 @@ nmap <C-left> :let &columns=&columns-1 <CR> :echon "columns="&columns <CR>
 nmap <C-up> :let &lines=&lines-1 <CR> :echon "lines="&lines <CR>
 nmap <C-down> :let &lines=&lines+1 <CR> :echon "lines="&lines <CR>
 
-"octol/vim-cpp-enhanced-highlight
-let g:cpp_class_scope_highlight = 1
-let g:cpp_experimental_template_highlight = 1
-
+filetype plugin on
 filetype indent on "智能缩进
 
 set vb t_vb = "按esc no bells
 
+"folders 代码折叠 za:打开/关闭 zM:关闭所有 zR:打开所有
+set foldmethod=syntax "按语法折叠
+set nofoldenable "启动vim关闭折叠
+
+source $VIM/plugins/toolscript/sessionmanager.vim
 source $VIM/plugin_config/vim-indent-guides.vim
 source $VIM/plugin_config/airline.vim
+source $VIM/plugin_config/pydiction.vim
+source $VIM/plugin_config/vimtweak.vim
+source $VIM/plugin_config/cpp-enhanced-highlight.vim
