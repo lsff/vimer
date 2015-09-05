@@ -14,4 +14,3 @@ let g:indent_guides_exclude_filetypes = ['help', 'nerdtree'] "不使用indent pl
 
 let g:indent_guides_default_mapping = 1 "是否映射<leader>ig为插件的开关
 
-

@@ -112,3 +112,4 @@ filetype indent on "智能缩进
 set vb t_vb = "按esc no bells
 
 source $VIM/plugin_config/vim-indent-guides.vim
+source $VIM/plugin_config/airline.vim
