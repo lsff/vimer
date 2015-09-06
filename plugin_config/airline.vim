@@ -67,4 +67,29 @@ let g:airline#extensions#tabline#right_alt_sep = ''
 let g:airline#extensions#tabline#show_close_button = 0
 let g:airline#extensions#tabline#close_symbol = 'X'
 
+function! s:delete_tab(tab_index)
+	let buf_idx = get(airline#extensions#tabline#buflist#list(), a:tab_index, -1)
+	if buf_idx != -1
+		exec 'bdel' . buf_idx
+	endif
+endfunction
 
+noremap <unique> <Plug>AirlineDeleteTab1 :call <SID>delete_tab(0)<CR>
+noremap <unique> <Plug>AirlineDeleteTab2 :call <SID>delete_tab(1)<CR>
+noremap <unique> <Plug>AirlineDeleteTab3 :call <SID>delete_tab(2)<CR>
+noremap <unique> <Plug>AirlineDeleteTab4 :call <SID>delete_tab(3)<CR>
+noremap <unique> <Plug>AirlineDeleteTab5 :call <SID>delete_tab(4)<CR>
+noremap <unique> <Plug>AirlineDeleteTab6 :call <SID>delete_tab(5)<CR>
+noremap <unique> <Plug>AirlineDeleteTab7 :call <SID>delete_tab(6)<CR>
+noremap <unique> <Plug>AirlineDeleteTab8 :call <SID>delete_tab(7)<CR>
+noremap <unique> <Plug>AirlineDeleteTab9 :call <SID>delete_tab(8)<CR>
+
+nmap <leader>d1 <Plug>AirlineDeleteTab1
+nmap <leader>d2 <Plug>AirlineDeleteTab2
+nmap <leader>d3 <Plug>AirlineDeleteTab3
+nmap <leader>d4 <Plug>AirlineDeleteTab4
+nmap <leader>d5 <Plug>AirlineDeleteTab5
+nmap <leader>d6 <Plug>AirlineDeleteTab6
+nmap <leader>d7 <Plug>AirlineDeleteTab7
+nmap <leader>d8 <Plug>AirlineDeleteTab8
+nmap <leader>d9 <Plug>AirlineDeleteTab9

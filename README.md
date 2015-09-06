@@ -24,3 +24,4 @@ ps:[plugins目录]为新增目录,父目录通过运行vim,运行echo $VIM获得
 + 2015/9/04 增加wintype类型词法高亮
 + 2015/9/04 增加winerror类型词法高亮(winerror.h 4万多行的源文件，还好vim的宏强大)
 + 2015/9/04 增减[vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
++ 2015/9/06 结合airline增加buffer的关闭快捷映射
