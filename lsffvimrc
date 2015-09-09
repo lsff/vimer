@@ -59,6 +59,9 @@ set vb t_vb = "按esc no bells
 set foldmethod=syntax "按语法折叠
 set nofoldenable "启动vim关闭折叠
 
+let g:xml_syntax_folding = 1
+au FileType xml setlocal foldmethod=syntax
+
 source $VIM/plugins/toolscript/sessionmanager.vim
 source $VIM/plugin_config/vim-indent-guides.vim
 source $VIM/plugin_config/airline.vim
