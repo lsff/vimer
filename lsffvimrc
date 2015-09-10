@@ -70,4 +70,5 @@ source $VIM/plugin_config/vimtweak.vim
 source $VIM/plugin_config/cpp-enhanced-highlight.vim
 source $VIM/plugin_config/netrw.vim
 source $VIM/plugin_config/solarized.vim
+source $VIM/plugin_config/gist-vim.vim
 
