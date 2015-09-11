@@ -59,7 +59,7 @@ def InstallVimfiles(vimfilesSrc, vimfilesDest):
             continue
         for cFile in subFiles :
             #Todo: 提示覆盖
-            if cFile.endswith('.vim'):
+            if cFile.endswith('.vim') or cFile.endswith('.txt'):
                 shutil.copyfile(os.path.join(root, cFile), os.path.join(vimfilesDest, os.path.basename(root), cFile))
         for subDir in subDirs:
             InstallPlugin(os.path.join(root, subDir), os.path.join(vimfilesDest, os.path.basename(root), subDir))
