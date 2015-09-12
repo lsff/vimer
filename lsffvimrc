@@ -5,7 +5,6 @@ set guioptions-=T "gvim 减掉工具栏
 set guioptions-=r "gvim 减掉右滚动条
 set guioptions-=m "gvim 减掉菜单栏
 set guioptions-=L "gvim 减掉菜单栏
-colorscheme desert
 set guifont=InputMono:h10:cANSI "字体可以通过set guifont=* 选择适当的字体
 
 set cursorline "高亮当前行
@@ -65,6 +64,7 @@ au FileType xml setlocal foldmethod=syntax
 nmap <leader>nw :vertical resize 85 <cr>
 nmap <leader>nh :resize 25 <cr>
 
+
 source $VIM/plugins/toolscript/sessionmanager.vim
 source $VIM/plugin_config/vim-indent-guides.vim
 source $VIM/plugin_config/airline.vim
@@ -74,4 +74,5 @@ source $VIM/plugin_config/cpp-enhanced-highlight.vim
 source $VIM/plugin_config/netrw.vim
 source $VIM/plugin_config/solarized.vim
 source $VIM/plugin_config/gist-vim.vim
+source $VIM/plugin_config/colorschemes.vim
 
