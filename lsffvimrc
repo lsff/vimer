@@ -62,6 +62,9 @@ set nofoldenable "启动vim关闭折叠
 let g:xml_syntax_folding = 1
 au FileType xml setlocal foldmethod=syntax
 
+nmap <leader>nw :vertical resize 85 <cr>
+nmap <leader>nh :resize 25 <cr>
+
 source $VIM/plugins/toolscript/sessionmanager.vim
 source $VIM/plugin_config/vim-indent-guides.vim
 source $VIM/plugin_config/airline.vim
