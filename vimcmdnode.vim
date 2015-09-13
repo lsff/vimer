@@ -5,6 +5,7 @@ vat: 选中标签<>
 vit: 选中便签内部内容
 delete(): 删除文件
 :saveas 另存为
+executable(): 判断命令
 
 
 
