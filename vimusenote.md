@@ -48,3 +48,12 @@
 |--------------------|------------------|
 |str1 ==? str2|ignoreCase strcmp|
 |str1 ==# str2|noignoreCase strcmp|
+
+
+------------------------------------------------------------
+
+| Mark topic | Meaning |
+|--------------------|------------------|
+|` (backtick)|跳转到mark所在位置(row, col)|
+|' (single quote)|跳转到mark所在的行(row,0)|
+

@@ -1,4 +1,4 @@
-colorscheme Molokai"desert
+colorscheme phd" Molokai desert
 
 "Molokai Settings
 if g:colors_name ==? "Molokai"

@@ -64,6 +64,7 @@ au FileType xml setlocal foldmethod=syntax
 nmap <leader>nw :vertical resize 85 <cr>
 nmap <leader>nh :resize 25 <cr>
 
+autocmd BufNewFile,BufRead *.md set filetype=markdown
 
 source $VIM/plugins/toolscript/sessionmanager.vim
 source $VIM/plugin_config/vim-indent-guides.vim
