@@ -28,3 +28,4 @@ ps:[plugins目录]为新增目录,父目录通过运行vim,运行echo $VIM获得
 + 2015/9/11 增加[gist-vim](https://github.com/mattn/gist-vim) [https://github.com/mattn/webapi-vim] 
 + 2015/9/12 添加colorscheme[molokai](https://github.com/tomasr/molokai)
 + 2019/9/13 添加colorscheme[phd](http://www.vim.org/scripts/script.php?script_id=3139)
++ 2019/9/14 添加[signature](https://github.com/kshenoy/vim-signature)
