@@ -53,7 +53,7 @@ def RecurseCopyDir(srcDir, destDir):
             shutil.copyfile(os.path.join(root, cFile), os.path.join(destDir, relRootPath, cFile))
 
 def InstallVimfiles(vimfilesSrc, vimfilesDest):
-    vimfilesSub = ['colors', 'compiler', 'doc', 'ftdetect', 'ftplugin', 'indent', 'keymap', 'plugin', 'syntax']
+    vimfilesSub = ['colors', 'compiler', 'doc', 'ftdetect', 'ftplugin', 'indent', 'keymap', 'plugin', 'syntax', 'after']
     for root, subDirs, subFiles in os.walk(vimfilesSrc):
         if not os.path.basename(root) in vimfilesSub:
             continue

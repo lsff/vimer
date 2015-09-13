@@ -26,3 +26,5 @@ ps:[plugins目录]为新增目录,父目录通过运行vim,运行echo $VIM获得
 + 2015/9/04 增减[vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
 + 2015/9/06 结合airline增加buffer的关闭快捷映射
 + 2015/9/11 增加[gist-vim](https://github.com/mattn/gist-vim) [https://github.com/mattn/webapi-vim] 
++ 2015/9/12 添加colorscheme[molokai](https://github.com/tomasr/molokai)
++ 2019/9/13 添加colorscheme[phd](http://www.vim.org/scripts/script.php?script_id=3139)
