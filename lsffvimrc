@@ -22,6 +22,7 @@ set softtabstop=4
 
 set laststatus=2 "窗口底下状态栏常在
 set hlsearch "高亮选中内容
+set incsearch 
 
 let g:iswindows = (has('win32') || has('win64'))
 
@@ -65,6 +66,7 @@ nmap <leader>nw :vertical resize 85 <cr>
 nmap <leader>nh :resize 25 <cr>
 
 autocmd BufNewFile,BufRead *.md set filetype=markdown
+autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} map <Leader>p :!start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "%:p"<CR>
 
 source $VIM/plugins/toolscript/sessionmanager.vim
 source $VIM/plugin_config/vim-indent-guides.vim
