@@ -5,6 +5,6 @@ nnoremap <F5> :YcmForceCompileAndDiagnostics<CR> "recompile the fileh
 
 let g:ycm_open_loclist_on_ycm_diags = 1
 
-nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>' maps the '<leader>jd "跳转到定义
-nnoremap <leader>ji :YcmCompleter GoToImprecise<CR>' maps the '<leader>jd "跳转到定义
+nnoremap <leader>jd :YcmCompleter GoToDefinition<CR> "跳转到定义
+nnoremap <leader>ji :YcmCompleter GoToImprecise<CR> "跳转到定义
 
