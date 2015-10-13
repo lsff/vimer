@@ -27,3 +27,31 @@ let g:ycm_enable_diagnostic_signs = 1
 let g:ycm_enable_diagnostic_highlighting = 0 "消除错误提示取消
 let g:ycm_open_loclist_on_ycm_diags = 1
 let g:ycm_complete_in_comments = 0
+
+let g:ycm_seed_identifiers_with_syntax = 0 
+let g:ycm_extra_conf_vim_data = []
+let g:ycm_path_to_python_interpreter = '' "设置python版本
+
+let g:ycm_server_use_vim_stdout = 0
+
+let g:ycm_add_preview_to_completeopt = 1 "详细的补全信息窗口
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+let g:ycm_key_detailed_diagnostics = '<leader>d'
+
+let g:ycm_semantic_triggers =  {
+    \   'c' : ['->', '.'],
+    \   'objc' : ['->', '.', 're!\[[_a-zA-Z]+\w*\s', 're!^\s*[^\W\d]\w*\s',
+    \             're!\[.*\]\s'],
+    \   'ocaml' : ['.', '#'],
+    \   'cpp,objcpp' : ['->', '.', '::'],
+    \   'perl' : ['->'],
+    \   'php' : ['->', '::'],
+    \   'cs,java,javascript,typescript,d,python,perl6,scala,vb,elixir,go' : ['.'],
+    \   'ruby' : ['.', '::'],
+    \   'lua' : ['.', ':'],
+    \   'erlang' : [':'],
+    \ }
+
+let g:ycm_goto_buffer_command = 'same-buffer'
+let g:ycm_disable_for_files_larger_than_kb = 0
