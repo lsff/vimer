@@ -10,7 +10,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe', {'pinned' : 1}
 
 Plugin 'SirVer/ultisnips'
 
