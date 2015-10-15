@@ -56,4 +56,4 @@ let g:ycm_semantic_triggers =  {
 let g:ycm_goto_buffer_command = 'same-buffer'
 let g:ycm_disable_for_files_larger_than_kb = 0
 let g:ycm_server_keep_logfiles = 1
-
+let g:ycm_use_ultisnips_completer = 1

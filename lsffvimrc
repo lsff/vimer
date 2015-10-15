@@ -81,3 +81,4 @@ source $VIM/plugin_config/gist-vim.vim
 source $VIM/plugin_config/colorschemes.vim
 source $VIM/plugin_config/signature.vim
 source $VIM/plugin_config/youcomplteme.vim
+source $VIM/plugin_config/ultisnips.vim
