@@ -26,7 +26,8 @@ let g:ycm_show_diagnostics_ui = 1
 let g:ycm_enable_diagnostic_signs = 1
 let g:ycm_enable_diagnostic_highlighting = 0 "消除错误提示取消
 let g:ycm_open_loclist_on_ycm_diags = 1
-let g:ycm_complete_in_comments = 0
+let g:ycm_complete_in_comments = 1
+let g:ycm_complete_in_strings = 1
 
 let g:ycm_seed_identifiers_with_syntax = 0 
 let g:ycm_extra_conf_vim_data = []
