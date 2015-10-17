@@ -18,6 +18,8 @@ Plugin 'honza/vim-snippets'
 
 Plugin 'tpope/vim-fugitive'
 
+Plugin 'airblade/vim-gitgutter'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
