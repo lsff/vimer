@@ -84,3 +84,4 @@ source $VIM/plugin_config/signature.vim
 source $VIM/plugin_config/youcomplteme.vim
 source $VIM/plugin_config/ultisnips.vim
 source $VIM/plugin_config/gitgutter.vim
+source $VIM/plugin_config/NERDTree.vim
