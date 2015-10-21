@@ -68,8 +68,6 @@ nmap <leader>nh :resize 25 <cr>
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} map <Leader>p :!start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "%:p"<CR>
 
-let python_highlight_all = 1
-let python_space_error_highlight = 1
 
 source $VIM/plugin_config/vundle.vim
 source $VIM/plugins/toolscript/sessionmanager.vim
@@ -85,3 +83,4 @@ source $VIM/plugin_config/colorschemes.vim
 source $VIM/plugin_config/signature.vim
 source $VIM/plugin_config/youcomplteme.vim
 source $VIM/plugin_config/ultisnips.vim
+source $VIM/plugin_config/gitgutter.vim
