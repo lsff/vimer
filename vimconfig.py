@@ -113,7 +113,7 @@ if __name__ == '__main__':
         print(strErrorInfo, 'vimrc文件路径不存在', '\n')
         sys.exit()
     shutil.copy('lsffvimrc', szVIMDir)
-    lineAppend = 'source $VIM\lsffvimrc'
+    lineAppend = 'source $VIM/lsffvimrc'
     for line in open(argsDict['vimrc']):
         if line.rstrip('\n ') == lineAppend :
             break
