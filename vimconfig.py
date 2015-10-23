@@ -107,7 +107,7 @@ if __name__ == '__main__':
 
 
     #4, 复制lsffvimrc 并修改vimrc文件
-    szVIMDir = os.path.dirname(argsDict['vimruntime'][1:])  if argsDict['vimruntime'].endswith('\\') or argsDict['vimruntime'].endswith('/') else os.path.dirname(argsDict['vimruntime'])
+    szVIMDir = os.path.dirname(argsDict['vimruntime'][0:len(argsDict['vimruntime']) - 1])  if argsDict['vimruntime'].endswith('\\') or argsDict['vimruntime'].endswith('/') else os.path.dirname(argsDict['vimruntime'])
 
     if not os.path.exists(argsDict['vimrc']):
         print(strErrorInfo, 'vimrc文件路径不存在', '\n')
