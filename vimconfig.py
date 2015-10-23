@@ -105,13 +105,14 @@ if __name__ == '__main__':
     szVimbinSrc = 'runtime/'
     InstallVimbin(szVimbinSrc, argsDict['vimruntime'])
 
+
     #4, 复制lsffvimrc 并修改vimrc文件
+    szVIMDir = os.path.dirname(argsDict['vimruntime'][1:])  if argsDict['vimruntime'].endswith('\\') or argsDict['vimruntime'].endswith('/') else os.path.dirname(argsDict['vimruntime'])
+
     if not os.path.exists(argsDict['vimrc']):
         print(strErrorInfo, 'vimrc文件路径不存在', '\n')
         sys.exit()
-    dirVimrc = os.path.dirname(argsDict['vimrc'])
-    assert os.path.isdir(dirVimrc)
-    shutil.copy('lsffvimrc', dirVimrc)
+    shutil.copy('lsffvimrc', szVIMDir)
     lineAppend = 'source $VIM\lsffvimrc'
     for line in open(argsDict['vimrc']):
         if line.rstrip('\n ') == lineAppend :
@@ -122,6 +123,6 @@ if __name__ == '__main__':
 
     #5, 复制plugin_config目录
     szVimPluginConfig = 'plugin_config'
-    szVimPluginConfigDest = os.path.join(os.path.dirname(argsDict['vimrc']), szVimPluginConfig)
+    szVimPluginConfigDest = os.path.join(os.path.dirname(argsDict['vimruntime']), szVimPluginConfig)
     if os.path.exists(szVimPluginConfig):
         InstallPluginConfig(szVimPluginConfig, szVimPluginConfigDest)
