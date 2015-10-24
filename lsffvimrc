@@ -5,7 +5,6 @@ set guioptions-=T "gvim 减掉工具栏
 set guioptions-=r "gvim 减掉右滚动条
 set guioptions-=m "gvim 减掉菜单栏
 set guioptions-=L "gvim 减掉菜单栏
-set guifont=InputMono:h10:cANSI "字体可以通过set guifont=* 选择适当的字体
 
 set cursorline "高亮当前行
 set cursorcolumn "高亮当前列
@@ -25,6 +24,12 @@ set hlsearch "高亮选中内容
 set incsearch 
 
 let g:iswindows = (has('win32') || has('win64'))
+
+if g:iswindows
+	set guifont=InputMono:h10:cANSI "字体可以通过set guifont=* 选择适当的字体
+else
+	set guifont=Meslo LG L DZ for Powerline 10
+endif
 
 "默认值为"blank,buffers,curdir,folds,help,options,tabpages,winsize"
 "增加 folds折叠, resize行列数, winpos窗口位置
@@ -67,7 +72,6 @@ nmap <leader>nh :resize 25 <cr>
 
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} map <Leader>p :!start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "%:p"<CR>
-
 
 source $VIM/plugin_config/vundle.vim
 source $VIM/plugins/toolscript/sessionmanager.vim
