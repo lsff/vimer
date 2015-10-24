@@ -123,6 +123,6 @@ if __name__ == '__main__':
 
     #5, 复制plugin_config目录
     szVimPluginConfig = 'plugin_config'
-    szVimPluginConfigDest = os.path.join(os.path.dirname(argsDict['vimruntime']), szVimPluginConfig)
+    szVimPluginConfigDest = os.path.join(szVIMDir, szVimPluginConfig)
     if os.path.exists(szVimPluginConfig):
         InstallPluginConfig(szVimPluginConfig, szVimPluginConfigDest)

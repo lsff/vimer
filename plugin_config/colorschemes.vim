@@ -1,4 +1,8 @@
-colorscheme phd" Molokai desert
+if g:iswindows
+	colorscheme phd" Molokai desert
+else
+	colorscheme molokai
+endif
 
 "Molokai Settings
 if g:colors_name ==? "Molokai"
