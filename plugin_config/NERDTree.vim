@@ -6,3 +6,5 @@ let NERDTreeShowHidden = 1 "显示隐藏文件
 let NERDTreeChDirMode = 2 "vim CWD 随NERDTree Root变化
 
 let NERDTreeQuitOnOpen = 1
+
+let  NERDTreeIgnore = ['\~$', '\.swp$']
