@@ -126,3 +126,12 @@ if __name__ == '__main__':
     szVimPluginConfigDest = os.path.join(szVIMDir, szVimPluginConfig)
     if os.path.exists(szVimPluginConfig):
         InstallPluginConfig(szVimPluginConfig, szVimPluginConfigDest)
+
+            
+    #6, 复制ultisnips_snips目录
+    szVimUltisnips_Snips = 'ultisnips_snips'
+    szVimUltisnips_SnipsDest = os.path.join(szVIMDir, szVimUltisnips_Snips)
+    if os.path.exists(szVimUltisnips_Snips):
+        InstallPluginConfig(szVimUltisnips_Snips, szVimUltisnips_SnipsDest)
+
+            

@@ -9,4 +9,9 @@ let g:UltiSnipsListSnippets = "<c-tab>" "列出所有snips详细信息
 let g:UltiSnipsJumpForwardTrigger = "<c-j>" "插入模式往后跳坑
 let g:UltiSnipsJumpBackwardTrigger = "<c-k>" "插入模式往前跳坑
 
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "ultisnips_snips"]
+
+set rtp+=$VIM
+
+
 
