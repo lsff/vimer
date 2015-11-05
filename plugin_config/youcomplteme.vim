@@ -6,7 +6,7 @@ nnoremap <leader>ji :YcmCompleter GoToImprecise<CR> "跳转到定义
 let g:ycm_always_populate_location_list = 1 ":lopen查看diagnotic message
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 
-let g:ycm_min_num_of_chars_for_completion = 3 "开始补全的字符数
+let g:ycm_min_num_of_chars_for_completion = 2 "开始补全的字符数
 let g:ycm_auto_trigger = 1
 let g:ycm_filetype_whitelist = { '*': 1 }
 let g:ycm_filetype_blacklist = {
