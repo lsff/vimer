@@ -4,7 +4,6 @@ nnoremap <leader>jd :YcmCompleter GoToDefinition<CR> "跳转到定义
 nnoremap <leader>ji :YcmCompleter GoToImprecise<CR> "跳转到定义
 
 let g:ycm_always_populate_location_list = 1 ":lopen查看diagnotic message
-let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 
 let g:ycm_min_num_of_chars_for_completion = 2 "开始补全的字符数
 let g:ycm_auto_trigger = 1
@@ -31,12 +30,16 @@ let g:ycm_complete_in_strings = 1
 
 let g:ycm_seed_identifiers_with_syntax = 0 
 let g:ycm_extra_conf_vim_data = []
-let g:ycm_path_to_python_interpreter = '' "设置python版本
+if g:iswindows
+	let g:ycm_path_to_python_interpreter = "c:/Python27/python.exe" "设置python版本
+	let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+endif
 
 let g:ycm_server_use_vim_stdout = 0
 
 let g:ycm_add_preview_to_completeopt = 1 "详细的补全信息窗口
-let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_completion = 0
+let g:ycm_autoclose_preview_window_after_insertion = 1
 
 let g:ycm_key_detailed_diagnostics = '<leader>d'
 

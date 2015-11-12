@@ -78,7 +78,6 @@ source $VIM/plugin_config/vundle.vim
 source $VIM/plugins/toolscript/sessionmanager.vim
 source $VIM/plugin_config/vim-indent-guides.vim
 source $VIM/plugin_config/airline.vim
-source $VIM/plugin_config/pydiction.vim
 source $VIM/plugin_config/vimtweak.vim
 source $VIM/plugin_config/cpp-enhanced-highlight.vim
 source $VIM/plugin_config/netrw.vim
