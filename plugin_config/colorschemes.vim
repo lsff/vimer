@@ -1,7 +1,7 @@
 if g:iswindows
-	colorscheme phd" Molokai desert
+	colorscheme desert" Molokai desert
 else
-	colorscheme molokai
+	colorscheme desert"molokai
 endif
 
 "Molokai Settings

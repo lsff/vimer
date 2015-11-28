@@ -7,7 +7,7 @@ set guioptions-=m "gvim 减掉菜单栏
 set guioptions-=L "gvim 减掉菜单栏
 
 set cursorline "高亮当前行
-set cursorcolumn "高亮当前列
+"set cursorcolumn "高亮当前列
 set noerrorbells "输入错误的提示声
 set linebreak "独立单词不分行
 
@@ -18,6 +18,7 @@ set smartindent
 set tabstop=4 
 set shiftwidth=4
 set softtabstop=4
+set expandtab "普通Tab用space代替
 
 set laststatus=2 "窗口底下状态栏常在
 set hlsearch "高亮选中内容
@@ -89,3 +90,4 @@ source $VIM/plugin_config/youcomplteme.vim
 source $VIM/plugin_config/ultisnips.vim
 source $VIM/plugin_config/gitgutter.vim
 source $VIM/plugin_config/NERDTree.vim
+source $VIM/plugin_config/vim-pattern.vim
