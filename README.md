@@ -30,3 +30,4 @@ ps:[plugins目录]为新增目录,父目录通过运行vim,运行echo $VIM获得
 + 2015/9/13 添加colorscheme[phd](http://www.vim.org/scripts/script.php?script_id=3139)
 + 2015/9/14 添加[signature](https://github.com/kshenoy/vim-signature)
 + 2015/10/11 增加[vundle](https://github.com/VundleVim/Vundle.vim); [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
++ 2015/12/05 添加[deser-warm-256](https://github.com/rainux/vim-desert-warm-256)

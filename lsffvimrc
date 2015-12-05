@@ -24,12 +24,12 @@ set hlsearch "高亮选中内容
 set incsearch 
 
 let g:iswindows = (has('win32') || has('win64'))
+let g:isGUI = has('gui_running')
 
 if g:iswindows
 	set guifont=InputMono:h10:cANSI "字体可以通过set guifont=* 选择适当的字体
 else
 	set guifont=Meslo\ LG\ S\ for\ Powerline\ 10 "space character escape
-    set guifont=Monaco\ 10
 endif
 
 "默认值为"blank,buffers,curdir,folds,help,options,tabpages,winsize"
