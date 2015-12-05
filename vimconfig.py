@@ -7,6 +7,10 @@ import shutil
 strErrorInfo = '参数有误'
 strUsageMsg = 'Usage: vimconfig.py vimfiles=[vimfiles目录] plugins=[plugins目录] vimruntime=[vim中$VIMRUNTIME值] vimrc=[vimrc文件路劲] (ps:两边不能有空格; 路径有空格应该用""包起来)'
 
+def exitWithMsg(msg):
+    print(strErrorInfo, msg, sep='\n')
+    sys.exit()
+
 def CheckArgus(*args):
     if len(args) != 4:
         return False
@@ -81,27 +85,23 @@ if __name__ == '__main__':
 
     argsDict = CheckArgus(*sys.argv[1:])
     if not argsDict:
-        print(strErrorInfo, strUsageMsg, sep='\n')
-        sys.exit()
+        exitWithMsg(strUsageMsg)
     
     #1, 复制Vimfiles
     if not os.path.isdir(argsDict['vimfiles']):
-        print(strErrorInfo, 'vimfiles目录不存在', '\n')
-        sys.exit()
+        exitWithMsg('vimfiles目录不存在')
     szVimfilesSrc = 'vimfiles/'
     InstallVimfiles(szVimfilesSrc, argsDict['vimfiles'])
 
     #2, 复制plugins目录
     if not os.path.isdir(argsDict['plugins']):
-        print(strErrorInfo, 'plugins目录不存在', '\n')
-        sys.exit()
+        exitWithMsg('plugins目录不存在')
     szPluginsSrc = 'plugins/'
     InstallPlugin(szPluginsSrc, argsDict['plugins'])
 
     #3, 复制vimruntime目录 一些插件需要把可执行文件放在vim/gvim可执行文件所在目录
     if not os.path.isdir(argsDict['vimruntime']):
-        print(strErrorInfo, 'vimruntime目录不存在', '\n')
-        sys.exit()
+        exitWithMsg('vimruntime目录不存在')
     szVimbinSrc = 'runtime/'
     InstallVimbin(szVimbinSrc, argsDict['vimruntime'])
 
@@ -110,8 +110,7 @@ if __name__ == '__main__':
     szVIMDir = os.path.dirname(argsDict['vimruntime'][0:len(argsDict['vimruntime']) - 1])  if argsDict['vimruntime'].endswith('\\') or argsDict['vimruntime'].endswith('/') else os.path.dirname(argsDict['vimruntime'])
 
     if not os.path.exists(argsDict['vimrc']):
-        print(strErrorInfo, 'vimrc文件路径不存在', '\n')
-        sys.exit()
+        exitWithMsg('vimrc文件路径不存在')
     shutil.copy('lsffvimrc', szVIMDir)
     lineAppend = 'source $VIM/lsffvimrc'
     for line in open(argsDict['vimrc']):
