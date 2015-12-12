@@ -52,15 +52,10 @@ if g:iswindows
 endif
 language messages en_US.utf-8 "提示信息乱码,改成中文显示
 
-nmap <C-right> :let &columns=&columns+1 <CR> :echon "columns="&columns <CR>
-nmap <C-left> :let &columns=&columns-1 <CR> :echon "columns="&columns <CR>
-nmap <C-up> :let &lines=&lines-1 <CR> :echon "lines="&lines <CR>
-nmap <C-down> :let &lines=&lines+1 <CR> :echon "lines="&lines <CR>
-
 filetype plugin on
 filetype indent on "智能缩进
 
-set vb t_vb = "按esc no bells
+set vb t_vb="按esc no bells
 
 "folders 代码折叠 za:打开/关闭 zM:关闭所有 zR:打开所有
 set foldmethod=syntax "按语法折叠
@@ -69,11 +64,11 @@ set nofoldenable "启动vim关闭折叠
 let g:xml_syntax_folding = 1
 au FileType xml setlocal foldmethod=syntax
 
-nmap <leader>nw :vertical resize 85 <cr>
-nmap <leader>nh :resize 25 <cr>
-
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn} map <Leader>p :!start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "%:p"<CR>
+
+set scrolloff=5 "屏幕上下端自动滚动底线
+set scrolljump=1 "默认滚动行数
 
 source $VIM/plugin_config/vundle.vim
 source $VIM/plugins/toolscript/sessionmanager.vim
@@ -91,3 +86,4 @@ source $VIM/plugin_config/ultisnips.vim
 source $VIM/plugin_config/gitgutter.vim
 source $VIM/plugin_config/NERDTree.vim
 source $VIM/plugin_config/vim-pattern.vim
+source $VIM/plugins/toolscript/coolkeymap.vim
